@@ -5,10 +5,9 @@ from __future__ import annotations
 import csv
 import json
 from dataclasses import asdict
-from datetime import datetime, timezone
 from pathlib import Path
 
-from app.change_report import compare_snapshots
+from app.change_report import compare_snapshots, employer_from_snapshot
 from app.contacts import build_contact_targets
 from app.jobcenter import fetch_area
 from app.pipeline import build_employers
@@ -34,7 +33,6 @@ def _load_history() -> list[dict]:
 
 
 def _save_history(history: list[dict]) -> None:
-    # Keep the last 60 captures so momentum can evolve without making the repo grow forever.
     HISTORY_PATH.write_text(json.dumps({"snapshots": history[-60:]}, indent=2), encoding="utf-8")
 
 
@@ -44,6 +42,10 @@ def main() -> None:
     history = _load_history()
     employers = build_employers(observations, previous, history)
     prospects = build_prospect_list(employers)
+    previous_employers = {
+        item.get("slug", item.get("name", "")): employer_from_snapshot(item)
+        for item in (previous or {}).get("employers", [])
+    }
 
     with (DATA / "current_jobs.csv").open("w", newline="", encoding="utf-8") as handle:
         writer = csv.DictWriter(handle, fieldnames=[
@@ -60,10 +62,7 @@ def main() -> None:
     opportunity_rows = []
     for employer in employers:
         prospect = prospect_by_name[employer.name]
-        explanation = score_explanation(employer, None if not previous else next((
-            __import__("app.change_report", fromlist=["employer_from_snapshot"]).employer_from_snapshot(x)
-            for x in previous.get("employers", []) if x.get("slug") == employer.canonical_name
-        ), history)
+        explanation = score_explanation(employer, previous_employers.get(employer.canonical_name), history)
         opportunity_rows.append({
             "employer": employer.name,
             "slug": employer.canonical_name,
@@ -82,6 +81,7 @@ def main() -> None:
             "outreach_angle": prospect.outreach_angle,
             "evidence": list(prospect.evidence),
             "score_breakdown": explanation["items"],
+            "score_policy_version": explanation["policy_version"],
             "score_policy_capped": explanation["capped"],
             "jobs": [
                 {
@@ -94,19 +94,15 @@ def main() -> None:
             ],
         })
 
-    with (DATA / "employer_opportunities.json").open("w", encoding="utf-8") as handle:
-        json.dump(opportunity_rows, handle, indent=2)
+    (DATA / "employer_opportunities.json").write_text(json.dumps(opportunity_rows, indent=2), encoding="utf-8")
 
-    contact_research = []
-    for prospect in prospects:
-        contact_research.append({
-            "employer": prospect.employer,
-            "score": prospect.score,
-            "priority": prospect.priority,
-            "targets": [asdict(target) for target in build_contact_targets(prospect)],
-        })
-    with (DATA / "contact_research.json").open("w", encoding="utf-8") as handle:
-        json.dump(contact_research, handle, indent=2)
+    contact_research = [{
+        "employer": prospect.employer,
+        "score": prospect.score,
+        "priority": prospect.priority,
+        "targets": [asdict(target) for target in build_contact_targets(prospect)],
+    } for prospect in prospects]
+    (DATA / "contact_research.json").write_text(json.dumps(contact_research, indent=2), encoding="utf-8")
 
     current = snapshot_record(employers)
     if previous:
