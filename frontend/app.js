@@ -1,43 +1,5 @@
-const demo=[
- {employer:"Great Lakes Cheese",score:73,priority:"Pursue",openings:3,verified_openings:0,industries:["manufacturing","skilled trades"],locations:["West Salem, WI"],status:"NEW",next_action:"Research decision-maker"},
- {employer:"Trane Technologies",score:68,priority:"Monitor",openings:2,verified_openings:0,industries:["manufacturing","operations"],locations:["La Crosse, WI"],status:"NEW",next_action:"Research decision-maker"},
- {employer:"Wis-Pak",score:48,priority:"Monitor",openings:1,verified_openings:0,industries:["manufacturing"],locations:["La Crosse, WI"],status:"NEW",next_action:"Monitor hiring activity"}
-];
-
-const state={rows:demo};
-const esc=s=>String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[c]));
-function renderMetrics(rows){
- const pursue=rows.filter(r=>r.priority==="Pursue").length;
- const openings=rows.reduce((n,r)=>n+(r.openings||0),0);
- document.getElementById("metrics").innerHTML=[
-  ["Total prospects",rows.length,""],
-  ["Pursue now",pursue,"hot"],
-  ["Openings tracked",openings,""],
-  ["Verified openings",rows.reduce((n,r)=>n+(r.verified_openings||0),0),""]
- ].map(([l,v,c])=>`<div class="metric ${c}"><div class="label">${l}</div><div class="value">${v}</div></div>`).join("");
-}
-function render(){
- const q=document.getElementById("search").value.trim().toLowerCase();
- const f=document.getElementById("filter").value;
- const rows=state.rows.filter(r=>(f==="ALL"||r.priority===f)&&(!q||r.employer.toLowerCase().includes(q)));
- renderMetrics(state.rows);
- document.getElementById("prospects").innerHTML=rows.length?rows.map(r=>{
-   const cls=r.priority.toLowerCase();
-   return `<article class="card">
-    <div><div class="company">${esc(r.employer)}</div><div class="meta">${esc((r.locations||[]).join(" · "))}</div>
-    <div class="signals">${(r.industries||[]).map(x=>`<span class="pill">${esc(x)}</span>`).join("")}<span class="pill">${r.openings} opening${r.openings===1?"":"s"}</span><span class="pill">${esc(r.status||"NEW")}</span></div>
-    <div class="action"><strong>Next:</strong> ${esc(r.next_action||"Research decision-maker")}</div></div>
-    <div class="score"><div class="priority ${cls}">${esc(r.priority)}</div><strong>${r.score}</strong><div class="meta">/ 100</div></div>
-   </article>`;
- }).join(""):'<div class="empty">No prospects match this view.</div>';
-}
-async function load(){
- try{
-  const res=await fetch("../data/employer_opportunities.json",{cache:"no-store"});
-  if(res.ok){const data=await res.json();if(Array.isArray(data)&&data.length)state.rows=data;else if(Array.isArray(data.employers)&&data.employers.length)state.rows=data.employers;}
- }catch(_){/* Demo mode is intentional when live data is unavailable. */}
- render();
-}
-document.getElementById("search").addEventListener("input",render);
-document.getElementById("filter").addEventListener("change",render);
-load();
+const demo=[{employer:"Great Lakes Cheese",score:73,priority:"Pursue",openings:3,verified_openings:0,industries:["manufacturing","skilled trades"],locations:["West Salem, WI"],status:"NEW",next_action:"Research decision-maker"},{employer:"Trane Technologies",score:68,priority:"Monitor",openings:2,verified_openings:0,industries:["manufacturing","operations"],locations:["La Crosse, WI"],status:"NEW",next_action:"Research decision-maker"},{employer:"Wis-Pak",score:48,priority:"Monitor",openings:1,verified_openings:0,industries:["manufacturing"],locations:["La Crosse, WI"],status:"NEW",next_action:"Monitor hiring activity"}];
+const state={rows:demo};const esc=s=>String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#039;"}[c]));
+function renderMetrics(rows){const pursue=rows.filter(r=>r.priority==="Pursue").length;const openings=rows.reduce((n,r)=>n+(r.openings||0),0);document.getElementById("metrics").innerHTML=[["Total prospects",rows.length,""],["Pursue now",pursue,"hot"],["Openings tracked",openings,""],["Verified openings",rows.reduce((n,r)=>n+(r.verified_openings||0),0),""]].map(([l,v,c])=>`<div class="metric ${c}"><div class="label">${l}</div><div class="value">${v}</div></div>`).join("")}
+function render(){const q=document.getElementById("search").value.trim().toLowerCase(),f=document.getElementById("filter").value;const rows=state.rows.filter(r=>(f==="ALL"||r.priority===f)&&(!q||r.employer.toLowerCase().includes(q)));renderMetrics(state.rows);document.getElementById("prospects").innerHTML=rows.length?rows.map(r=>{const cls=r.priority.toLowerCase();const href=`prospect.html?employer=${encodeURIComponent(r.employer)}`;return `<article class="card"><div><a class="company" href="${href}">${esc(r.employer)}</a><div class="meta">${esc((r.locations||[]).join(" · "))}</div><div class="signals">${(r.industries||[]).map(x=>`<span class="pill">${esc(x)}</span>`).join("")}<span class="pill">${r.openings} opening${r.openings===1?"":"s"}</span><span class="pill">${esc(r.status||"NEW")}</span></div><div class="action"><strong>Next:</strong> ${esc(r.next_action||"Research decision-maker")}</div></div><div class="score"><div class="priority ${cls}">${esc(r.priority)}</div><strong>${r.score}</strong><div class="meta">/ 100</div></div></article>`}).join(""):'<div class="empty">No prospects match this view.</div>'}
+async function load(){try{const res=await fetch("../data/employer_opportunities.json",{cache:"no-store"});if(res.ok){const data=await res.json();if(Array.isArray(data)&&data.length)state.rows=data;else if(Array.isArray(data.employers)&&data.employers.length)state.rows=data.employers}}catch(_){}render()}document.getElementById("search").addEventListener("input",render);document.getElementById("filter").addEventListener("change",render);load();
