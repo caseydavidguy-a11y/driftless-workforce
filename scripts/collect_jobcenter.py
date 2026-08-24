@@ -7,6 +7,7 @@ import json
 from dataclasses import asdict
 from pathlib import Path
 
+from app.contacts import build_contact_targets
 from app.jobcenter import fetch_area
 from app.pipeline import build_employers
 from app.prospecting import build_prospect_list
@@ -64,11 +65,24 @@ def main() -> None:
             for employer in employers
         ], handle, indent=2)
 
+    contact_research = []
+    for prospect in prospects:
+        contact_research.append({
+            "employer": prospect.employer,
+            "score": prospect.score,
+            "priority": prospect.priority,
+            "targets": [asdict(target) for target in build_contact_targets(prospect)],
+        })
+
+    with (DATA / "contact_research.json").open("w", encoding="utf-8") as handle:
+        json.dump(contact_research, handle, indent=2)
+
     print(f"Collected {len(observations)} openings from {len(employers)} employers.")
     print("Top prospects:")
     for prospect in prospects[:10]:
+        targets = build_contact_targets(prospect)
         print(f"- {prospect.employer}: {prospect.score}/100 ({prospect.priority}) — {prospect.hiring_summary}")
-        print(f"  Contact: {', '.join(prospect.decision_maker_roles)}")
+        print(f"  Contact targets: {', '.join(t.role for t in targets[:3])}")
         print(f"  Angle: {prospect.outreach_angle}")
 
 
