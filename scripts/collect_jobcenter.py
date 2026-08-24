@@ -20,9 +20,17 @@ def _load_history():
     except (OSError,json.JSONDecodeError):return []
 def _save_history(history): HISTORY_PATH.write_text(json.dumps({"snapshots":history[-60:]},indent=2),encoding="utf-8")
 def main():
-    observations=fetch_area(); history=_load_history()
+    try:
+        observations=fetch_area()
+    except Exception as exc:
+        print(f"Job Center fetch failed: {exc}")
+        observations=[]
+    history=_load_history()
     previous=read_snapshot(SNAPSHOT_PATH) if SNAPSHOT_PATH.exists() else None
     if previous is not None and not previous.get("employers"): previous=None
+    if not observations:
+        print("No live observations collected; preserving the last successful intelligence snapshot.")
+        return
     employers=build_employers(observations,previous,history); prospects=build_prospect_list(employers)
     previous_employers={item.get("slug",item.get("name","")):employer_from_snapshot(item) for item in (previous or {}).get("employers",[])}
     with (DATA/"current_jobs.csv").open("w",newline="",encoding="utf-8") as handle:
