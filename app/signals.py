@@ -12,11 +12,11 @@ class HiringSignal:
 
 def compare_employer(current: Employer, previous: Employer | None) -> list[HiringSignal]:
     if previous is None:
-        return [HiringSignal("new_employer", "high", "New employer detected in the hiring feed", "new")]
+        return []
     signals=[]
     old=previous.opening_count; new=current.opening_count
     if old == 0 and new > 0:
-        signals.append(HiringSignal("hiring_started","high",f"Hiring activity started with {new} opening(s)",f"{new} openings"))
+        signals.append(HiringSignal("hiring_started", "high", f"Hiring activity started with {new} opening(s)", f"{new} openings"))
     elif new > old:
         pct=round(((new-old)/old)*100) if old else 100
         severity="high" if pct>=50 or new-old>=3 else "medium"
