@@ -1,6 +1,7 @@
 name: Deploy Driftless Workforce Command Center
 
 # Deployment smoke test: push-triggered Pages deployment.
+# Pages visibility is enabled; this run verifies the live deploy path.
 on:
   push:
     branches: [main]
