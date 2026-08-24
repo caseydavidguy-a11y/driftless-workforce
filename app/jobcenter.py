@@ -18,6 +18,7 @@ class _TableParser(HTMLParser):
             self.in_row=True; self.row=[]; self.row_first_href=""
         elif self.in_row and tag in {"td","th"}:
             self.in_cell=True; self.cell_text=[]; self.cell_href=""
+        # Preserve the actual JCW result URL from the row before falling back to a search URL.
         if self.in_row and not getattr(self,"row_first_href",""):
             for key in ("href","data-href","data-url"):
                 value=attrs.get(key,"")
@@ -64,6 +65,7 @@ def build_job_search_url(title, employer, city):
     keywords=f"{title} {employer}".strip()
     params={"Appr":"False","MOSCode":"","STCode":"","city":city,"dist":"","edu":"","kwords":keywords,"loc":city,"loctyp":"City","onet":"","shft":"","src":"JCW,PARTNERS","tbsel":"N","wd":"","ww":""}
     return f"{BASE_URL}?{urlencode(params)}"
+
 def _parse_date(text):
     try:return datetime.strptime(text.strip(),"%m/%d/%Y").replace(tzinfo=timezone.utc)
     except ValueError:return None
