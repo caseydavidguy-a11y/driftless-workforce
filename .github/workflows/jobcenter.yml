@@ -9,6 +9,10 @@ on:
       - "data/**"
   workflow_dispatch:
 
+concurrency:
+  group: driftless-intelligence-refresh
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
