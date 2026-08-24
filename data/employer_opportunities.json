@@ -48,10 +48,14 @@
       "days": 7,
       "change": 0,
       "pct": 0,
-      "direction": "baseline",
+      "direction": "flat",
       "points": [
         {
           "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 5
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
           "opening_count": 5
         }
       ]
@@ -60,10 +64,14 @@
       "days": 30,
       "change": 0,
       "pct": 0,
-      "direction": "baseline",
+      "direction": "flat",
       "points": [
         {
           "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 5
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
           "opening_count": 5
         }
       ]
@@ -151,10 +159,14 @@
       "days": 7,
       "change": 0,
       "pct": 0,
-      "direction": "baseline",
+      "direction": "flat",
       "points": [
         {
           "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
           "opening_count": 4
         }
       ]
@@ -163,10 +175,14 @@
       "days": 30,
       "change": 0,
       "pct": 0,
-      "direction": "baseline",
+      "direction": "flat",
       "points": [
         {
           "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
           "opening_count": 4
         }
       ]
@@ -255,10 +271,14 @@
       "days": 7,
       "change": 0,
       "pct": 0,
-      "direction": "baseline",
+      "direction": "flat",
       "points": [
         {
           "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
           "opening_count": 4
         }
       ]
@@ -267,10 +287,14 @@
       "days": 30,
       "change": 0,
       "pct": 0,
-      "direction": "baseline",
+      "direction": "flat",
       "points": [
         {
           "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
           "opening_count": 4
         }
       ]
@@ -352,10 +376,14 @@
       "days": 7,
       "change": 0,
       "pct": 0,
-      "direction": "baseline",
+      "direction": "flat",
       "points": [
         {
           "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
           "opening_count": 4
         }
       ]
@@ -364,10 +392,14 @@
       "days": 30,
       "change": 0,
       "pct": 0,
-      "direction": "baseline",
+      "direction": "flat",
       "points": [
         {
           "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
           "opening_count": 4
         }
       ]
@@ -459,10 +491,14 @@
       "days": 7,
       "change": 0,
       "pct": 0,
-      "direction": "baseline",
+      "direction": "flat",
       "points": [
         {
           "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
           "opening_count": 4
         }
       ]
@@ -471,10 +507,14 @@
       "days": 30,
       "change": 0,
       "pct": 0,
-      "direction": "baseline",
+      "direction": "flat",
       "points": [
         {
           "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
           "opening_count": 4
         }
       ]
@@ -564,10 +604,14 @@
       "days": 7,
       "change": 0,
       "pct": 0,
-      "direction": "baseline",
+      "direction": "flat",
       "points": [
         {
           "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
           "opening_count": 4
         }
       ]
@@ -576,10 +620,14 @@
       "days": 30,
       "change": 0,
       "pct": 0,
-      "direction": "baseline",
+      "direction": "flat",
       "points": [
         {
           "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
           "opening_count": 4
         }
       ]
@@ -660,10 +708,14 @@
       "days": 7,
       "change": 0,
       "pct": 0,
-      "direction": "baseline",
+      "direction": "flat",
       "points": [
         {
           "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 3
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
           "opening_count": 3
         }
       ]
@@ -672,10 +724,14 @@
       "days": 30,
       "change": 0,
       "pct": 0,
-      "direction": "baseline",
+      "direction": "flat",
       "points": [
         {
           "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 3
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
           "opening_count": 3
         }
       ]
@@ -755,10 +811,14 @@
       "days": 7,
       "change": 0,
       "pct": 0,
-      "direction": "baseline",
+      "direction": "flat",
       "points": [
         {
           "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 3
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
           "opening_count": 3
         }
       ]
@@ -767,10 +827,14 @@
       "days": 30,
       "change": 0,
       "pct": 0,
-      "direction": "baseline",
+      "direction": "flat",
       "points": [
         {
           "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 3
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
           "opening_count": 3
         }
       ]
@@ -850,10 +914,14 @@
       "days": 7,
       "change": 0,
       "pct": 0,
-      "direction": "baseline",
+      "direction": "flat",
       "points": [
         {
           "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 3
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
           "opening_count": 3
         }
       ]
@@ -862,10 +930,14 @@
       "days": 30,
       "change": 0,
       "pct": 0,
-      "direction": "baseline",
+      "direction": "flat",
       "points": [
         {
           "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 3
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
           "opening_count": 3
         }
       ]
@@ -939,10 +1011,14 @@
       "days": 7,
       "change": 0,
       "pct": 0,
-      "direction": "baseline",
+      "direction": "flat",
       "points": [
         {
           "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 2
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
           "opening_count": 2
         }
       ]
@@ -951,10 +1027,14 @@
       "days": 30,
       "change": 0,
       "pct": 0,
-      "direction": "baseline",
+      "direction": "flat",
       "points": [
         {
           "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 2
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
           "opening_count": 2
         }
       ]
@@ -1024,10 +1104,14 @@
       "days": 7,
       "change": 0,
       "pct": 0,
-      "direction": "baseline",
+      "direction": "flat",
       "points": [
         {
           "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 2
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
           "opening_count": 2
         }
       ]
@@ -1036,10 +1120,14 @@
       "days": 30,
       "change": 0,
       "pct": 0,
-      "direction": "baseline",
+      "direction": "flat",
       "points": [
         {
           "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 2
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
           "opening_count": 2
         }
       ]
@@ -1114,10 +1202,14 @@
       "days": 7,
       "change": 0,
       "pct": 0,
-      "direction": "baseline",
+      "direction": "flat",
       "points": [
         {
           "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 2
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
           "opening_count": 2
         }
       ]
@@ -1126,10 +1218,14 @@
       "days": 30,
       "change": 0,
       "pct": 0,
-      "direction": "baseline",
+      "direction": "flat",
       "points": [
         {
           "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 2
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
           "opening_count": 2
         }
       ]
@@ -1200,10 +1296,14 @@
       "days": 7,
       "change": 0,
       "pct": 0,
-      "direction": "baseline",
+      "direction": "flat",
       "points": [
         {
           "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 2
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
           "opening_count": 2
         }
       ]
@@ -1212,10 +1312,14 @@
       "days": 30,
       "change": 0,
       "pct": 0,
-      "direction": "baseline",
+      "direction": "flat",
       "points": [
         {
           "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 2
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
           "opening_count": 2
         }
       ]
@@ -1281,10 +1385,14 @@
       "days": 7,
       "change": 0,
       "pct": 0,
-      "direction": "baseline",
+      "direction": "flat",
       "points": [
         {
           "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
           "opening_count": 1
         }
       ]
@@ -1293,10 +1401,14 @@
       "days": 30,
       "change": 0,
       "pct": 0,
-      "direction": "baseline",
+      "direction": "flat",
       "points": [
         {
           "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
           "opening_count": 1
         }
       ]
@@ -1356,10 +1468,14 @@
       "days": 7,
       "change": 0,
       "pct": 0,
-      "direction": "baseline",
+      "direction": "flat",
       "points": [
         {
           "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
           "opening_count": 1
         }
       ]
@@ -1368,10 +1484,14 @@
       "days": 30,
       "change": 0,
       "pct": 0,
-      "direction": "baseline",
+      "direction": "flat",
       "points": [
         {
           "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
           "opening_count": 1
         }
       ]
@@ -1433,10 +1553,14 @@
       "days": 7,
       "change": 0,
       "pct": 0,
-      "direction": "baseline",
+      "direction": "flat",
       "points": [
         {
           "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
           "opening_count": 1
         }
       ]
@@ -1445,10 +1569,14 @@
       "days": 30,
       "change": 0,
       "pct": 0,
-      "direction": "baseline",
+      "direction": "flat",
       "points": [
         {
           "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
           "opening_count": 1
         }
       ]
@@ -1510,10 +1638,14 @@
       "days": 7,
       "change": 0,
       "pct": 0,
-      "direction": "baseline",
+      "direction": "flat",
       "points": [
         {
           "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
           "opening_count": 1
         }
       ]
@@ -1522,10 +1654,14 @@
       "days": 30,
       "change": 0,
       "pct": 0,
-      "direction": "baseline",
+      "direction": "flat",
       "points": [
         {
           "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
           "opening_count": 1
         }
       ]
@@ -1587,10 +1723,14 @@
       "days": 7,
       "change": 0,
       "pct": 0,
-      "direction": "baseline",
+      "direction": "flat",
       "points": [
         {
           "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
           "opening_count": 1
         }
       ]
@@ -1599,10 +1739,14 @@
       "days": 30,
       "change": 0,
       "pct": 0,
-      "direction": "baseline",
+      "direction": "flat",
       "points": [
         {
           "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
           "opening_count": 1
         }
       ]
@@ -1662,10 +1806,14 @@
       "days": 7,
       "change": 0,
       "pct": 0,
-      "direction": "baseline",
+      "direction": "flat",
       "points": [
         {
           "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
           "opening_count": 1
         }
       ]
@@ -1674,10 +1822,14 @@
       "days": 30,
       "change": 0,
       "pct": 0,
-      "direction": "baseline",
+      "direction": "flat",
       "points": [
         {
           "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
           "opening_count": 1
         }
       ]
@@ -1737,10 +1889,14 @@
       "days": 7,
       "change": 0,
       "pct": 0,
-      "direction": "baseline",
+      "direction": "flat",
       "points": [
         {
           "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
           "opening_count": 1
         }
       ]
@@ -1749,10 +1905,14 @@
       "days": 30,
       "change": 0,
       "pct": 0,
-      "direction": "baseline",
+      "direction": "flat",
       "points": [
         {
           "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
           "opening_count": 1
         }
       ]
@@ -1812,10 +1972,14 @@
       "days": 7,
       "change": 0,
       "pct": 0,
-      "direction": "baseline",
+      "direction": "flat",
       "points": [
         {
           "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
           "opening_count": 1
         }
       ]
@@ -1824,10 +1988,14 @@
       "days": 30,
       "change": 0,
       "pct": 0,
-      "direction": "baseline",
+      "direction": "flat",
       "points": [
         {
           "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
           "opening_count": 1
         }
       ]
@@ -1887,10 +2055,14 @@
       "days": 7,
       "change": 0,
       "pct": 0,
-      "direction": "baseline",
+      "direction": "flat",
       "points": [
         {
           "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
           "opening_count": 1
         }
       ]
@@ -1899,10 +2071,14 @@
       "days": 30,
       "change": 0,
       "pct": 0,
-      "direction": "baseline",
+      "direction": "flat",
       "points": [
         {
           "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
           "opening_count": 1
         }
       ]
@@ -1962,10 +2138,14 @@
       "days": 7,
       "change": 0,
       "pct": 0,
-      "direction": "baseline",
+      "direction": "flat",
       "points": [
         {
           "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
           "opening_count": 1
         }
       ]
@@ -1974,10 +2154,14 @@
       "days": 30,
       "change": 0,
       "pct": 0,
-      "direction": "baseline",
+      "direction": "flat",
       "points": [
         {
           "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
           "opening_count": 1
         }
       ]
@@ -2037,10 +2221,14 @@
       "days": 7,
       "change": 0,
       "pct": 0,
-      "direction": "baseline",
+      "direction": "flat",
       "points": [
         {
           "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
           "opening_count": 1
         }
       ]
@@ -2049,10 +2237,14 @@
       "days": 30,
       "change": 0,
       "pct": 0,
-      "direction": "baseline",
+      "direction": "flat",
       "points": [
         {
           "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
           "opening_count": 1
         }
       ]
@@ -2114,10 +2306,14 @@
       "days": 7,
       "change": 0,
       "pct": 0,
-      "direction": "baseline",
+      "direction": "flat",
       "points": [
         {
           "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
           "opening_count": 1
         }
       ]
@@ -2126,10 +2322,14 @@
       "days": 30,
       "change": 0,
       "pct": 0,
-      "direction": "baseline",
+      "direction": "flat",
       "points": [
         {
           "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
           "opening_count": 1
         }
       ]
@@ -2189,10 +2389,14 @@
       "days": 7,
       "change": 0,
       "pct": 0,
-      "direction": "baseline",
+      "direction": "flat",
       "points": [
         {
           "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
           "opening_count": 1
         }
       ]
@@ -2201,10 +2405,14 @@
       "days": 30,
       "change": 0,
       "pct": 0,
-      "direction": "baseline",
+      "direction": "flat",
       "points": [
         {
           "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
           "opening_count": 1
         }
       ]
@@ -2264,10 +2472,14 @@
       "days": 7,
       "change": 0,
       "pct": 0,
-      "direction": "baseline",
+      "direction": "flat",
       "points": [
         {
           "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
           "opening_count": 1
         }
       ]
@@ -2276,10 +2488,14 @@
       "days": 30,
       "change": 0,
       "pct": 0,
-      "direction": "baseline",
+      "direction": "flat",
       "points": [
         {
           "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
           "opening_count": 1
         }
       ]
@@ -2339,10 +2555,14 @@
       "days": 7,
       "change": 0,
       "pct": 0,
-      "direction": "baseline",
+      "direction": "flat",
       "points": [
         {
           "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
           "opening_count": 1
         }
       ]
@@ -2351,10 +2571,14 @@
       "days": 30,
       "change": 0,
       "pct": 0,
-      "direction": "baseline",
+      "direction": "flat",
       "points": [
         {
           "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
           "opening_count": 1
         }
       ]
