@@ -46,7 +46,11 @@ def main() -> None:
                 "hiring_summary": prospect_by_name[employer.name].hiring_summary,
                 "reasons": list(prospect_by_name[employer.name].reasons),
                 "target_roles": list(prospect_by_name[employer.name].target_roles),
+                "industries_detected": list(prospect_by_name[employer.name].industries),
+                "decision_maker_roles": list(prospect_by_name[employer.name].decision_maker_roles),
+                "contact_path": prospect_by_name[employer.name].contact_path,
                 "outreach_angle": prospect_by_name[employer.name].outreach_angle,
+                "evidence": list(prospect_by_name[employer.name].evidence),
                 "jobs": [
                     {
                         "title": job.title,
@@ -64,6 +68,8 @@ def main() -> None:
     print("Top prospects:")
     for prospect in prospects[:10]:
         print(f"- {prospect.employer}: {prospect.score}/100 ({prospect.priority}) — {prospect.hiring_summary}")
+        print(f"  Contact: {', '.join(prospect.decision_maker_roles)}")
+        print(f"  Angle: {prospect.outreach_angle}")
 
 
 if __name__ == "__main__":
