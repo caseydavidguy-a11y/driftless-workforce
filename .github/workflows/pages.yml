@@ -23,24 +23,38 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
       - name: Configure Pages
         uses: actions/configure-pages@v5
+
       - name: Build publishable site
+        shell: bash
         run: |
+          set -euo pipefail
           rm -rf site
           mkdir -p site/data
-          cp frontend/* site/
-          cp data/employer_opportunities.json site/data/
-          cp data/snapshot_history.json site/data/
-          cp data/change_report.json site/data/
-          cp data/signals.json site/data/
-          cp data/contact_research.json site/data/
-          cp data/current_jobs.csv site/data/
+          cp -R frontend/. site/
+          for file in \
+            employer_opportunities.json \
+            snapshot_history.json \
+            change_report.json \
+            signals.json \
+            contact_research.json \
+            current_jobs.csv; do
+            test -f "data/$file"
+            cp "data/$file" "site/data/$file"
+          done
+          test -f site/index.html
+          test -f site/styles.css
           touch site/.nojekyll
+          echo "Publish tree:"
+          find site -maxdepth 2 -type f | sort
+
       - name: Upload site
         uses: actions/upload-pages-artifact@v3
         with:
           path: site
+
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
