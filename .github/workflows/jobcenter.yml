@@ -28,6 +28,7 @@ jobs:
           python-version: "3.11"
       - name: Collect Job Center openings
         run: python scripts/collect_jobcenter.py
+        continue-on-error: false
       - name: Run tests
         run: python -m unittest discover -s tests -v
       - name: Validate generated intelligence
