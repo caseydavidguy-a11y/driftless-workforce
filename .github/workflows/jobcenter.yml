@@ -16,6 +16,9 @@ concurrency:
 permissions:
   contents: write
 
+env:
+  PYTHONPATH: .
+
 jobs:
   refresh:
     runs-on: ubuntu-latest
