@@ -5,6 +5,13 @@ from pathlib import Path
 from .models import Employer
 
 
+def _observation_dict(observation) -> dict:
+    row = asdict(observation)
+    if row.get("posted_at"):
+        row["posted_at"] = row["posted_at"].isoformat()
+    return row
+
+
 def snapshot_record(employers: list[Employer], captured_at: str | None = None) -> dict:
     return {
         "captured_at": captured_at or datetime.now(timezone.utc).isoformat(),
@@ -16,7 +23,7 @@ def snapshot_record(employers: list[Employer], captured_at: str | None = None) -
                 "verified_opening_count": e.verified_opening_count,
                 "industries": sorted(e.industries),
                 "locations": sorted(e.locations),
-                "observations": [asdict(o) for o in e.observations],
+                "observations": [_observation_dict(o) for o in e.observations],
             }
             for e in employers
         ],
@@ -26,7 +33,7 @@ def snapshot_record(employers: list[Employer], captured_at: str | None = None) -
 def write_snapshot(path: str | Path, employers: list[Employer], captured_at: str | None = None) -> None:
     target = Path(path)
     target.parent.mkdir(parents=True, exist_ok=True)
-    target.write_text(json.dumps(snapshot_record(employers, captured_at, default=str), indent=2), encoding="utf-8")
+    target.write_text(json.dumps(snapshot_record(employers, captured_at), indent=2), encoding="utf-8")
 
 
 def read_snapshot(path: str | Path) -> dict:
