@@ -8,7 +8,7 @@ from html.parser import HTMLParser
 from urllib.parse import urlencode,urljoin
 from urllib.request import Request,urlopen
 from .models import JobObservation
-BASE_URL="https://www.jobcenterofwisconsin.com/Presentation/JobSeekers/JobOrderList.aspx"
+BASE_URL="https://jobcenterofwisconsin.com/Presentation/JobSeekers/JobOrderList.aspx"
 class _TableParser(HTMLParser):
     def __init__(self):
         super().__init__(); self.in_row=False; self.in_cell=False; self.cell_text=[]; self.cell_href=""; self.row=[]; self.rows=[]; self.row_links=[]
@@ -30,8 +30,16 @@ class _TableParser(HTMLParser):
             if self.row:self.rows.append(self.row); self.row_links.append(self.row_first_href)
             self.in_row=False
 def _fetch(url,timeout=30):
-    request=Request(url,headers={"User-Agent":"DriftlessWorkforce/1.0 (+https://github.com/caseydavidguy-a11y/driftless-workforce)"})
-    with urlopen(request,timeout=timeout) as response:return response.read().decode("utf-8",errors="replace")
+    headers={"User-Agent":"Mozilla/5.0 (compatible; DriftlessWorkforce/1.0; +https://github.com/caseydavidguy-a11y/driftless-workforce)","Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8","Accept-Language":"en-US,en;q=0.9"}
+    last=None
+    for candidate in (url, url.replace("https://jobcenterofwisconsin.com/","https://www.jobcenterofwisconsin.com/")):
+        try:
+            request=Request(candidate,headers=headers)
+            with urlopen(request,timeout=timeout) as response:
+                return response.read().decode("utf-8",errors="replace")
+        except Exception as exc:
+            last=exc
+    raise RuntimeError(f"JCW request failed: {last}")
 def build_search_url(city):
     params={"Appr":"False","MOSCode":"","STCode":"","city":city,"dist":"","edu":"","kwords":"","loc":city,"loctyp":"City","onet":"","shft":"","src":"JCW,PARTNERS","tbsel":"N","wd":"","ww":""}; return f"{BASE_URL}?{urlencode(params)}"
 def _parse_date(text):
@@ -88,9 +96,16 @@ def fetch_rss():
     return []
 
 def fetch_area(cities=("La Crosse","Onalaska","Holmen","West Salem")):
-    observations=[]; seen=set()
+    observations=[]; seen=set(); failures=[]
     for city in cities:
-        for observation in fetch_city(city):
+        try:
+            city_observations=fetch_city(city)
+        except Exception as exc:
+            failures.append(f"{city}: {exc}")
+            continue
+        for observation in city_observations:
             if observation.external_id in seen:continue
             seen.add(observation.external_id); observations.append(observation)
+    if not observations and failures:
+        raise RuntimeError("All JCW area searches failed — " + " | ".join(failures))
     return observations
