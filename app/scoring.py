@@ -1,32 +1,61 @@
 from dataclasses import dataclass
 from .models import Employer
+from .signals import HiringSignal, compare_employer
+from .employer_momentum import employer_momentum_bonus
+from .opportunity_score import calculate_opportunity_score, priority_for_score
+from .score_explanation import explain_score
+
 
 @dataclass(frozen=True)
 class ScoreBreakdown:
     opening_volume: int
-    hiring_momentum: int
     target_industry: int
-    leadership_signal: int
     source_quality: int
+    signal_points: int
+    hiring_momentum: int
 
     @property
     def total(self) -> int:
-        return min(100, self.opening_volume + self.hiring_momentum + self.target_industry + self.leadership_signal + self.source_quality)
+        return min(100, self.opening_volume + self.target_industry + self.source_quality + self.signal_points + self.hiring_momentum)
 
 
-def score_employer(employer: Employer) -> ScoreBreakdown:
-    count = employer.opening_count
-    verified = employer.verified_opening_count
-    opening_volume = min(30, count * 5)
-    hiring_momentum = min(25, max(0, (count - 1) * 4))
-    target_industry = 20 if employer.industries else 0
-    leadership_signal = min(15, sum("manager" in o.title.lower() or "supervisor" in o.title.lower() or "director" in o.title.lower() for o in employer.observations) * 5)
-    source_quality = 10 if verified else 3
-    return ScoreBreakdown(opening_volume, hiring_momentum, target_industry, leadership_signal, source_quality)
+def _base_score(employer: Employer) -> tuple[int, int, int]:
+    opening_volume = min(30, employer.opening_count * 5)
+    target_industry = 15 if employer.industries else 0
+    source_quality = 10 if employer.verified_opening_count else 3
+    return opening_volume + target_industry + source_quality, opening_volume, target_industry + source_quality
 
 
-def apply_score(employer: Employer) -> Employer:
-    breakdown = score_employer(employer)
-    employer.score = breakdown.total
-    employer.priority = "Pursue" if employer.score >= 70 else "Monitor" if employer.score >= 40 else "Low"
+def score_employer(employer: Employer, previous: Employer | None = None, snapshots: list[dict] | None = None) -> ScoreBreakdown:
+    base, opening_volume, fit = _base_score(employer)
+    signals = compare_employer(employer, previous)
+    momentum = {"direction": "baseline", "pct": 0, "change": 0, "days": 7}
+    if snapshots is not None:
+        from .employer_momentum import employer_momentum
+        momentum = employer_momentum(snapshots, employer.canonical_name, 7)
+    score = calculate_opportunity_score(base, signals, momentum)
+    signal_points = max(0, score - base - employer_momentum_bonus(momentum))
+    momentum_points = employer_momentum_bonus(momentum)
+    return ScoreBreakdown(opening_volume, fit, 0, signal_points, momentum_points)
+
+
+def apply_score(employer: Employer, previous: Employer | None = None, snapshots: list[dict] | None = None) -> Employer:
+    base, _, _ = _base_score(employer)
+    signals = compare_employer(employer, previous)
+    momentum = {"direction": "baseline", "pct": 0, "change": 0, "days": 7}
+    if snapshots is not None:
+        from .employer_momentum import employer_momentum
+        momentum = employer_momentum(snapshots, employer.canonical_name, 7)
+    employer.score = calculate_opportunity_score(base, signals, momentum)
+    employer.priority = priority_for_score(employer.score)
     return employer
+
+
+def score_explanation(employer: Employer, previous: Employer | None = None, snapshots: list[dict] | None = None) -> dict:
+    base, _, _ = _base_score(employer)
+    signals = compare_employer(employer, previous)
+    momentum = {"direction": "baseline", "pct": 0, "change": 0, "days": 7}
+    if snapshots is not None:
+        from .employer_momentum import employer_momentum
+        momentum = employer_momentum(snapshots, employer.canonical_name, 7)
+    return explain_score(base, signals, momentum)
