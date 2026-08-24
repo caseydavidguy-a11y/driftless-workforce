@@ -1,6 +1,8 @@
 """Job Center of Wisconsin job-search connector."""
 from __future__ import annotations
 import re
+import xml.etree.ElementTree as ET
+from email.utils import parsedate_to_datetime
 from datetime import datetime, timezone
 from html.parser import HTMLParser
 from urllib.parse import urlencode,urljoin
@@ -60,6 +62,31 @@ def parse_results(html,source_url,requested_city):
     return observations
 def fetch_city(city):
     url=build_search_url(city); return parse_results(_fetch(url),url,city)
+def _rss_candidates():
+    return [
+        "https://jobcenterofwisconsin.com/rss.aspx",
+        "https://www.jobcenterofwisconsin.com/services/rss.aspx",
+    ]
+def parse_rss(xml_text):
+    root=ET.fromstring(xml_text); observations=[]
+    for item in root.findall(".//item"):
+        title=(item.findtext("title") or "").strip(); link=(item.findtext("link") or "").strip(); desc=(item.findtext("description") or "").strip()
+        if not title or not link: continue
+        posted=None
+        pub=item.findtext("pubDate")
+        if pub:
+            try: posted=parsedate_to_datetime(pub).astimezone(timezone.utc)
+            except (TypeError,ValueError): pass
+        observations.append((title,link,desc,posted))
+    return observations
+
+def fetch_rss():
+    for url in _rss_candidates():
+        try:
+            xml=_fetch(url); return parse_rss(xml)
+        except Exception: continue
+    return []
+
 def fetch_area(cities=("La Crosse","Onalaska","Holmen","West Salem")):
     observations=[]; seen=set()
     for city in cities:
