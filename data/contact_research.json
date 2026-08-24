@@ -1,1 +1,327 @@
-[]
+[
+  {
+    "employer": "GREAT LAKES CHEESE",
+    "score": 58,
+    "priority": "Monitor",
+    "targets": [
+      {
+        "name": "",
+        "role": "HR / Talent Acquisition",
+        "status": "Research target",
+        "path": "Employer careers page and LinkedIn company page",
+        "email": "",
+        "phone": "",
+        "linkedin": ""
+      },
+      {
+        "name": "",
+        "role": "Operations / Hiring Leader",
+        "status": "Research target",
+        "path": "Employer careers page and LinkedIn company page",
+        "email": "",
+        "phone": "",
+        "linkedin": ""
+      }
+    ]
+  },
+  {
+    "employer": "WIS PAK - LACROSSE INC",
+    "score": 46,
+    "priority": "Monitor",
+    "targets": [
+      {
+        "name": "",
+        "role": "HR / Talent Acquisition",
+        "status": "Research target",
+        "path": "Employer careers page and LinkedIn company page",
+        "email": "",
+        "phone": "",
+        "linkedin": ""
+      },
+      {
+        "name": "",
+        "role": "Operations / Hiring Leader",
+        "status": "Research target",
+        "path": "Employer careers page and LinkedIn company page",
+        "email": "",
+        "phone": "",
+        "linkedin": ""
+      }
+    ]
+  },
+  {
+    "employer": "WIS-PAK",
+    "score": 46,
+    "priority": "Monitor",
+    "targets": [
+      {
+        "name": "",
+        "role": "HR / Talent Acquisition",
+        "status": "Research target",
+        "path": "Employer careers page and LinkedIn company page",
+        "email": "",
+        "phone": "",
+        "linkedin": ""
+      },
+      {
+        "name": "",
+        "role": "Operations / Hiring Leader",
+        "status": "Research target",
+        "path": "Employer careers page and LinkedIn company page",
+        "email": "",
+        "phone": "",
+        "linkedin": ""
+      }
+    ]
+  },
+  {
+    "employer": "TRANE TECHNOLOGIES",
+    "score": 82,
+    "priority": "Pursue",
+    "targets": [
+      {
+        "name": "",
+        "role": "HR / Talent Acquisition",
+        "status": "Research target",
+        "path": "Employer careers page and LinkedIn company page",
+        "email": "",
+        "phone": "",
+        "linkedin": ""
+      },
+      {
+        "name": "",
+        "role": "Operations / Hiring Leader",
+        "status": "Research target",
+        "path": "Employer careers page and LinkedIn company page",
+        "email": "",
+        "phone": "",
+        "linkedin": ""
+      }
+    ]
+  },
+  {
+    "employer": "FDX",
+    "score": 54,
+    "priority": "Monitor",
+    "targets": [
+      {
+        "name": "",
+        "role": "HR / Talent Acquisition",
+        "status": "Research target",
+        "path": "Employer careers page and LinkedIn company page",
+        "email": "",
+        "phone": "",
+        "linkedin": ""
+      },
+      {
+        "name": "",
+        "role": "Operations / Hiring Leader",
+        "status": "Research target",
+        "path": "Employer careers page and LinkedIn company page",
+        "email": "",
+        "phone": "",
+        "linkedin": ""
+      }
+    ]
+  },
+  {
+    "employer": "KOHL'S",
+    "score": 46,
+    "priority": "Monitor",
+    "targets": [
+      {
+        "name": "",
+        "role": "HR / Talent Acquisition",
+        "status": "Research target",
+        "path": "Employer careers page and LinkedIn company page",
+        "email": "",
+        "phone": "",
+        "linkedin": ""
+      },
+      {
+        "name": "",
+        "role": "Operations / Hiring Leader",
+        "status": "Research target",
+        "path": "Employer careers page and LinkedIn company page",
+        "email": "",
+        "phone": "",
+        "linkedin": ""
+      }
+    ]
+  },
+  {
+    "employer": "COMPASS GROUP",
+    "score": 46,
+    "priority": "Monitor",
+    "targets": [
+      {
+        "name": "",
+        "role": "HR / Talent Acquisition",
+        "status": "Research target",
+        "path": "Employer careers page and LinkedIn company page",
+        "email": "",
+        "phone": "",
+        "linkedin": ""
+      },
+      {
+        "name": "",
+        "role": "Operations / Hiring Leader",
+        "status": "Research target",
+        "path": "Employer careers page and LinkedIn company page",
+        "email": "",
+        "phone": "",
+        "linkedin": ""
+      }
+    ]
+  },
+  {
+    "employer": "SONEPAR USA INC",
+    "score": 46,
+    "priority": "Monitor",
+    "targets": [
+      {
+        "name": "",
+        "role": "HR / Talent Acquisition",
+        "status": "Research target",
+        "path": "Employer careers page and LinkedIn company page",
+        "email": "",
+        "phone": "",
+        "linkedin": ""
+      },
+      {
+        "name": "",
+        "role": "Operations / Hiring Leader",
+        "status": "Research target",
+        "path": "Employer careers page and LinkedIn company page",
+        "email": "",
+        "phone": "",
+        "linkedin": ""
+      }
+    ]
+  },
+  {
+    "employer": "SONEPAR",
+    "score": 46,
+    "priority": "Monitor",
+    "targets": [
+      {
+        "name": "",
+        "role": "HR / Talent Acquisition",
+        "status": "Research target",
+        "path": "Employer careers page and LinkedIn company page",
+        "email": "",
+        "phone": "",
+        "linkedin": ""
+      },
+      {
+        "name": "",
+        "role": "Operations / Hiring Leader",
+        "status": "Research target",
+        "path": "Employer careers page and LinkedIn company page",
+        "email": "",
+        "phone": "",
+        "linkedin": ""
+      }
+    ]
+  },
+  {
+    "employer": "ROEHL TRANSPORT",
+    "score": 58,
+    "priority": "Monitor",
+    "targets": [
+      {
+        "name": "",
+        "role": "HR / Talent Acquisition",
+        "status": "Research target",
+        "path": "Employer careers page and LinkedIn company page",
+        "email": "",
+        "phone": "",
+        "linkedin": ""
+      },
+      {
+        "name": "",
+        "role": "Operations / Hiring Leader",
+        "status": "Research target",
+        "path": "Employer careers page and LinkedIn company page",
+        "email": "",
+        "phone": "",
+        "linkedin": ""
+      }
+    ]
+  },
+  {
+    "employer": "ALTRA FEDERAL CREDIT UNION",
+    "score": 46,
+    "priority": "Monitor",
+    "targets": [
+      {
+        "name": "",
+        "role": "HR / Talent Acquisition",
+        "status": "Research target",
+        "path": "Employer careers page and LinkedIn company page",
+        "email": "",
+        "phone": "",
+        "linkedin": ""
+      },
+      {
+        "name": "",
+        "role": "Operations / Hiring Leader",
+        "status": "Research target",
+        "path": "Employer careers page and LinkedIn company page",
+        "email": "",
+        "phone": "",
+        "linkedin": ""
+      }
+    ]
+  },
+  {
+    "employer": "ENGLISH LUTHERAN CHURCH",
+    "score": 46,
+    "priority": "Monitor",
+    "targets": [
+      {
+        "name": "",
+        "role": "HR / Talent Acquisition",
+        "status": "Research target",
+        "path": "Employer careers page and LinkedIn company page",
+        "email": "",
+        "phone": "",
+        "linkedin": ""
+      },
+      {
+        "name": "",
+        "role": "Operations / Hiring Leader",
+        "status": "Research target",
+        "path": "Employer careers page and LinkedIn company page",
+        "email": "",
+        "phone": "",
+        "linkedin": ""
+      }
+    ]
+  },
+  {
+    "employer": "WALMART",
+    "score": 54,
+    "priority": "Monitor",
+    "targets": [
+      {
+        "name": "",
+        "role": "HR / Talent Acquisition",
+        "status": "Research target",
+        "path": "Employer careers page and LinkedIn company page",
+        "email": "",
+        "phone": "",
+        "linkedin": ""
+      },
+      {
+        "name": "",
+        "role": "Operations / Hiring Leader",
+        "status": "Research target",
+        "path": "Employer careers page and LinkedIn company page",
+        "email": "",
+        "phone": "",
+        "linkedin": ""
+      }
+    ]
+  }
+]
