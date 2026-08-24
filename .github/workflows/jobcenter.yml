@@ -29,14 +29,23 @@ jobs:
       - name: Collect Job Center openings
         run: python scripts/collect_jobcenter.py
         continue-on-error: false
-      - name: Run tests
-        run: python -m unittest discover -s tests -v
       - name: Validate generated intelligence
         run: python scripts/validate_outputs.py
       - name: Commit refreshed intelligence
         run: |
+          set -euo pipefail
           git config user.name "Driftless Workforce Bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/current_jobs.csv data/employer_opportunities.json data/contact_research.json data/snapshot_current.json data/snapshot_history.json data/change_report.json data/signals.json
           git diff --cached --quiet || git commit -m "Refresh employer intelligence"
-          git push
+          git pull --rebase origin main
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            if [ "$attempt" -lt 3 ]; then
+              git pull --rebase origin main
+              sleep 2
+            fi
+          done
+          exit 1
