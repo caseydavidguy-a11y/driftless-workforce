@@ -1,4 +1,3 @@
-from dataclasses import asdict
 from .models import Employer
 
 STATUS_ORDER = ("NEW", "RESEARCHING", "CONTACT IDENTIFIED", "CONTACTED", "ENGAGED", "CLIENT")
@@ -7,6 +6,10 @@ STATUS_ORDER = ("NEW", "RESEARCHING", "CONTACT IDENTIFIED", "CONTACTED", "ENGAGE
 def dashboard_rows(employers: list[Employer]) -> list[dict]:
     rows = []
     for employer in sorted(employers, key=lambda e: (-e.score, e.name.lower())):
+        leadership = [
+            o.title for o in employer.observations
+            if any(word in o.title.lower() for word in ("manager", "supervisor", "director", "lead"))
+        ]
         rows.append({
             "employer": employer.name,
             "score": employer.score,
@@ -15,8 +18,9 @@ def dashboard_rows(employers: list[Employer]) -> list[dict]:
             "verified_openings": employer.verified_opening_count,
             "industries": sorted(employer.industries),
             "locations": sorted(employer.locations),
+            "leadership_openings": leadership,
             "status": "NEW",
-            "next_action": "Research decision-maker",
+            "next_action": "Research decision-maker" if employer.priority == "Pursue" else "Monitor hiring activity",
         })
     return rows
 
