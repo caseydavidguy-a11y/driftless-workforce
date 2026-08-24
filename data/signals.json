@@ -1,18 +1,1 @@
-{
-  "signals": [
-    {
-      "employer": "Great Lakes Cheese",
-      "kind": "volume_increase",
-      "severity": "high",
-      "message": "Openings increased from 3 to 8 (167% increase)",
-      "metric": "+5 / 167%"
-    },
-    {
-      "employer": "Trane Technologies",
-      "kind": "leadership_new",
-      "severity": "high",
-      "message": "New leadership opening detected",
-      "metric": "Leadership"
-    }
-  ]
-}
+[]
