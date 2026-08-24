@@ -30,16 +30,21 @@ class _TableParser(HTMLParser):
             if self.row:self.rows.append(self.row); self.row_links.append(self.row_first_href)
             self.in_row=False
 def _fetch(url,timeout=30):
-    headers={"User-Agent":"Mozilla/5.0 (compatible; DriftlessWorkforce/1.0; +https://github.com/caseydavidguy-a11y/driftless-workforce)","Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8","Accept-Language":"en-US,en;q=0.9"}
+    headers={"User-Agent":"Mozilla/5.0 (compatible; DriftlessWorkforce/1.1; +https://github.com/caseydavidguy-a11y/driftless-workforce)","Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8","Accept-Language":"en-US,en;q=0.9","Referer":"https://jobcenterofwisconsin.com/"}
+    candidates=(url, url.replace("https://jobcenterofwisconsin.com/","https://www.jobcenterofwisconsin.com/"))
     last=None
-    for candidate in (url, url.replace("https://jobcenterofwisconsin.com/","https://www.jobcenterofwisconsin.com/")):
-        try:
-            request=Request(candidate,headers=headers)
-            with urlopen(request,timeout=timeout) as response:
-                return response.read().decode("utf-8",errors="replace")
-        except Exception as exc:
-            last=exc
-    raise RuntimeError(f"JCW request failed: {last}")
+    for candidate in candidates:
+        for attempt in range(3):
+            try:
+                request=Request(candidate,headers=headers)
+                with urlopen(request,timeout=timeout) as response:
+                    body=response.read().decode("utf-8",errors="replace")
+                    if len(body)>500:
+                        return body
+                    last=RuntimeError(f"JCW returned an unexpectedly small response ({len(body)} bytes)")
+            except Exception as exc:
+                last=exc
+    raise RuntimeError(f"JCW request failed after retries: {last}")
 def build_search_url(city):
     params={"Appr":"False","MOSCode":"","STCode":"","city":city,"dist":"","edu":"","kwords":"","loc":city,"loctyp":"City","onet":"","shft":"","src":"JCW,PARTNERS","tbsel":"N","wd":"","ww":""}; return f"{BASE_URL}?{urlencode(params)}"
 def _parse_date(text):
