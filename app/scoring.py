@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 from .models import Employer
 from .signals import HiringSignal, compare_employer
-from .employer_momentum import employer_momentum_bonus
+from .employer_momentum import employer_momentum_bonus, employer_momentum
 from .opportunity_score import calculate_opportunity_score, priority_for_score
 from .score_explanation import explain_score
 
@@ -26,26 +26,24 @@ def _base_score(employer: Employer) -> tuple[int, int, int]:
     return opening_volume + target_industry + source_quality, opening_volume, target_industry + source_quality
 
 
+def _momentum(employer: Employer, snapshots: list[dict] | None, days: int = 7) -> dict:
+    return employer_momentum(snapshots or [], employer.canonical_name, days)
+
+
 def score_employer(employer: Employer, previous: Employer | None = None, snapshots: list[dict] | None = None) -> ScoreBreakdown:
     base, opening_volume, fit = _base_score(employer)
     signals = compare_employer(employer, previous)
-    momentum = {"direction": "baseline", "pct": 0, "change": 0, "days": 7}
-    if snapshots is not None:
-        from .employer_momentum import employer_momentum
-        momentum = employer_momentum(snapshots, employer.canonical_name, 7)
+    momentum = _momentum(employer, snapshots)
     score = calculate_opportunity_score(base, signals, momentum)
-    signal_points = max(0, score - base - employer_momentum_bonus(momentum))
     momentum_points = employer_momentum_bonus(momentum)
+    signal_points = max(0, score - base - momentum_points)
     return ScoreBreakdown(opening_volume, fit, 0, signal_points, momentum_points)
 
 
 def apply_score(employer: Employer, previous: Employer | None = None, snapshots: list[dict] | None = None) -> Employer:
     base, _, _ = _base_score(employer)
     signals = compare_employer(employer, previous)
-    momentum = {"direction": "baseline", "pct": 0, "change": 0, "days": 7}
-    if snapshots is not None:
-        from .employer_momentum import employer_momentum
-        momentum = employer_momentum(snapshots, employer.canonical_name, 7)
+    momentum = _momentum(employer, snapshots)
     employer.score = calculate_opportunity_score(base, signals, momentum)
     employer.priority = priority_for_score(employer.score)
     return employer
@@ -54,8 +52,5 @@ def apply_score(employer: Employer, previous: Employer | None = None, snapshots:
 def score_explanation(employer: Employer, previous: Employer | None = None, snapshots: list[dict] | None = None) -> dict:
     base, _, _ = _base_score(employer)
     signals = compare_employer(employer, previous)
-    momentum = {"direction": "baseline", "pct": 0, "change": 0, "days": 7}
-    if snapshots is not None:
-        from .employer_momentum import employer_momentum
-        momentum = employer_momentum(snapshots, employer.canonical_name, 7)
+    momentum = _momentum(employer, snapshots)
     return explain_score(base, signals, momentum)
