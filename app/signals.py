@@ -12,7 +12,8 @@ class HiringSignal:
 
 def compare_employer(current: Employer, previous: Employer | None) -> list[HiringSignal]:
     if previous is None:
-        return []
+        count = current.opening_count
+        return [HiringSignal("new_employer", "high", f"New employer observed with {count} opening(s)", f"{count} openings")]
     signals=[]
     old=previous.opening_count; new=current.opening_count
     if old == 0 and new > 0:
