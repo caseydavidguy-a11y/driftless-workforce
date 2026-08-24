@@ -1,127 +1,918 @@
 [
   {
-    "employer":"GUNDERSEN / EMPLIFY HEALTH","location":"La Crosse, WI","score":96,"priority":"Pursue","source":"Official careers site","verified":"2026-08-24","targets":[
-      {"name":"Recruitment Team","role":"HR / Talent Acquisition","status":"Verified public recruiting contact","email":"HR-Recruitment@emplifyhealth.org","phone":"608-775-0267","linkedin":"","source_url":"https://www.gundersenhealth.org/careers/about/faq"},
-      {"name":"Recruitment Team","role":"Recruiting","status":"Verified public recruiting contact","email":"HR-Recruitment@gundersenhealth.org","phone":"608-775-0267","linkedin":"","source_url":"https://www.gundersenhealth.org/careers/find-a-career/patient-services-specialist"}
+    "employer": "SEVITA",
+    "score": 50,
+    "priority": "Monitor",
+    "targets": [
+      {
+        "employer": "SEVITA",
+        "role": "HR / Talent Acquisition leader",
+        "priority": 100,
+        "reason": "Leadership hiring creates a direct recruiting signal.",
+        "search_queries": [
+          "\"SEVITA\" \"HR / Talent Acquisition leader\"",
+          "\"SEVITA\" HR recruiting",
+          "\"SEVITA\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: SEVITA"
+        ]
+      },
+      {
+        "employer": "SEVITA",
+        "role": "HR / Recruiting contact",
+        "priority": 80,
+        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
+        "search_queries": [
+          "\"SEVITA\" \"HR / Recruiting contact\"",
+          "\"SEVITA\" HR recruiting",
+          "\"SEVITA\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: SEVITA"
+        ]
+      }
     ]
   },
   {
-    "employer":"LA CROSSE COUNTY","location":"La Crosse, WI","score":92,"priority":"Pursue","source":"Official HR staff directory","verified":"2026-08-24","targets":[
-      {"name":"Kylee Breaker","role":"Talent Acquisition Lead","status":"Verified public contact","email":"","phone":"608-785-9640","linkedin":"","source_url":"https://lacrossecounty.org/humanresources/staff-directory"},
-      {"name":"Stephen Conrad","role":"Director of Human Resources","status":"Verified public contact","email":"sconrad@lacrossecounty.org","phone":"608-785-9640","linkedin":"","source_url":"https://lacrossecounty.org/humanresources/staff-directory"},
-      {"name":"Diana Cukla","role":"Human Resources Operations Supervisor","status":"Verified public contact","email":"","phone":"608-785-9640","linkedin":"","source_url":"https://lacrossecounty.org/humanresources/staff-directory"}
+    "employer": "[ 4 ]",
+    "score": 45,
+    "priority": "Monitor",
+    "targets": [
+      {
+        "employer": "[ 4 ]",
+        "role": "HR / Recruiting contact",
+        "priority": 80,
+        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
+        "search_queries": [
+          "\"[ 4 ]\" \"HR / Recruiting contact\"",
+          "\"[ 4 ]\" HR recruiting",
+          "\"[ 4 ]\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: %5B+4+%5D"
+        ]
+      }
     ]
   },
   {
-    "employer":"CITY OF LA CROSSE","location":"La Crosse, WI","score":90,"priority":"Pursue","source":"Official HR page","verified":"2026-08-24","targets":[
-      {"name":"Rebecca Franzen","role":"Director of Human Resources","status":"Verified public contact","email":"hr@cityoflacrosse.org","phone":"608-789-7595","linkedin":"","source_url":"https://www.cityoflacrosse.org/Your-Government/Departments/Human-Resources"}
+    "employer": "COUNTY MATERIALS CORPORATION",
+    "score": 45,
+    "priority": "Monitor",
+    "targets": [
+      {
+        "employer": "COUNTY MATERIALS CORPORATION",
+        "role": "HR / Talent Acquisition leader",
+        "priority": 100,
+        "reason": "Leadership hiring creates a direct recruiting signal.",
+        "search_queries": [
+          "\"COUNTY MATERIALS CORPORATION\" \"HR / Talent Acquisition leader\"",
+          "\"COUNTY MATERIALS CORPORATION\" HR recruiting",
+          "\"COUNTY MATERIALS CORPORATION\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: COUNTY+MATERIALS+CORPORATION"
+        ]
+      },
+      {
+        "employer": "COUNTY MATERIALS CORPORATION",
+        "role": "HR / Recruiting contact",
+        "priority": 80,
+        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
+        "search_queries": [
+          "\"COUNTY MATERIALS CORPORATION\" \"HR / Recruiting contact\"",
+          "\"COUNTY MATERIALS CORPORATION\" HR recruiting",
+          "\"COUNTY MATERIALS CORPORATION\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: COUNTY+MATERIALS+CORPORATION"
+        ]
+      }
     ]
   },
   {
-    "employer":"UW-LA CROSSE","location":"La Crosse, WI","score":88,"priority":"Pursue","source":"Official UW HR directory and recruitment page","verified":"2026-08-24","targets":[
-      {"name":"Emily Roraff","role":"Interim Chief Human Resources Officer","status":"Verified public contact","email":"hrinfo@uwlax.edu","phone":"608-785-6499","linkedin":"","source_url":"https://www.wisconsin.edu/ohrwd/hr/contact/"},
-      {"name":"Talent Acquisition Specialist","role":"Talent Acquisition","status":"Verified public office contact","email":"hrinfo@uwlax.edu","phone":"608-785-6499","linkedin":"","source_url":"https://www.uwlax.edu/human-resources/employees/supervisors/recruitment/"}
+    "employer": "SHERWIN WILLIAMS CO",
+    "score": 45,
+    "priority": "Monitor",
+    "targets": [
+      {
+        "employer": "SHERWIN WILLIAMS CO",
+        "role": "Maintenance / Engineering leader",
+        "priority": 86,
+        "reason": "Skilled-trades hiring often routes through maintenance or engineering leadership.",
+        "search_queries": [
+          "\"SHERWIN WILLIAMS CO\" \"Maintenance / Engineering leader\"",
+          "\"SHERWIN WILLIAMS CO\" HR recruiting",
+          "\"SHERWIN WILLIAMS CO\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: SHERWIN+WILLIAMS+CO"
+        ]
+      },
+      {
+        "employer": "SHERWIN WILLIAMS CO",
+        "role": "HR / Recruiting contact",
+        "priority": 80,
+        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
+        "search_queries": [
+          "\"SHERWIN WILLIAMS CO\" \"HR / Recruiting contact\"",
+          "\"SHERWIN WILLIAMS CO\" HR recruiting",
+          "\"SHERWIN WILLIAMS CO\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: SHERWIN+WILLIAMS+CO"
+        ]
+      }
     ]
   },
   {
-    "employer":"KWIK TRIP","location":"La Crosse, WI","score":98,"priority":"Pursue","source":"Official careers/contact site and public local hiring resources","verified":"2026-08-24","targets":[
-      {"name":"Sarah Brandtner","role":"Director of Employment","status":"Public local employer contact; verify current title before outreach","email":"sbrandtner@kwiktrip.com","phone":"608-793-6000","linkedin":"","source_url":"https://jobs.kwiktrip.com/us/en/corporate"},
-      {"name":"Chris McKinzie","role":"Director of Talent Wellbeing","status":"Publicly surfaced HR leadership contact; verify before outreach","email":"","phone":"608-781-8988","linkedin":"","source_url":"https://www.kwiktrip.com/Contact-Us"},
-      {"name":"Ann McKelvey","role":"Production Recruiter","status":"Publicly surfaced recruiter contact; verify before outreach","email":"","phone":"608-781-8988","linkedin":"","source_url":"https://www.kwiktrip.com/Contact-Us"},
-      {"name":"Alyssia Amador","role":"Corporate Recruiter II","status":"Publicly surfaced recruiter contact; verify before outreach","email":"","phone":"608-781-8988","linkedin":"","source_url":"https://www.kwiktrip.com/Contact-Us"},
-      {"name":"Korena Pabst","role":"Retail Management Recruiter","status":"Publicly surfaced recruiter contact; verify before outreach","email":"","phone":"608-781-8988","linkedin":"","source_url":"https://www.kwiktrip.com/Contact-Us"}
+    "employer": "TRANE TECHNOLOGIES",
+    "score": 45,
+    "priority": "Monitor",
+    "targets": [
+      {
+        "employer": "TRANE TECHNOLOGIES",
+        "role": "HR / Talent Acquisition leader",
+        "priority": 100,
+        "reason": "Leadership hiring creates a direct recruiting signal.",
+        "search_queries": [
+          "\"TRANE TECHNOLOGIES\" \"HR / Talent Acquisition leader\"",
+          "\"TRANE TECHNOLOGIES\" HR recruiting",
+          "\"TRANE TECHNOLOGIES\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: TRANE+TECHNOLOGIES"
+        ]
+      },
+      {
+        "employer": "TRANE TECHNOLOGIES",
+        "role": "Maintenance / Engineering leader",
+        "priority": 86,
+        "reason": "Skilled-trades hiring often routes through maintenance or engineering leadership.",
+        "search_queries": [
+          "\"TRANE TECHNOLOGIES\" \"Maintenance / Engineering leader\"",
+          "\"TRANE TECHNOLOGIES\" HR recruiting",
+          "\"TRANE TECHNOLOGIES\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: TRANE+TECHNOLOGIES"
+        ]
+      },
+      {
+        "employer": "TRANE TECHNOLOGIES",
+        "role": "HR / Recruiting contact",
+        "priority": 80,
+        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
+        "search_queries": [
+          "\"TRANE TECHNOLOGIES\" \"HR / Recruiting contact\"",
+          "\"TRANE TECHNOLOGIES\" HR recruiting",
+          "\"TRANE TECHNOLOGIES\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: TRANE+TECHNOLOGIES"
+        ]
+      }
     ]
   },
   {
-    "employer":"MAYO CLINIC HEALTH SYSTEM","location":"La Crosse, WI","score":97,"priority":"Pursue","source":"Official Mayo careers site","verified":"2026-08-24","targets":[
-      {"name":"Mayo Clinic Recruitment Team","role":"Talent Acquisition / Recruiting","status":"Recruiting channel verified; named La Crosse recruiter still to be verified","email":"","phone":"","linkedin":"","source_url":"https://sncs-prod-external.mayo.edu/locations/la-crosse/careers"}
+    "employer": "WALMART",
+    "score": 45,
+    "priority": "Monitor",
+    "targets": [
+      {
+        "employer": "WALMART",
+        "role": "HR / Talent Acquisition leader",
+        "priority": 100,
+        "reason": "Leadership hiring creates a direct recruiting signal.",
+        "search_queries": [
+          "\"WALMART\" \"HR / Talent Acquisition leader\"",
+          "\"WALMART\" HR recruiting",
+          "\"WALMART\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: WALMART"
+        ]
+      },
+      {
+        "employer": "WALMART",
+        "role": "Maintenance / Engineering leader",
+        "priority": 86,
+        "reason": "Skilled-trades hiring often routes through maintenance or engineering leadership.",
+        "search_queries": [
+          "\"WALMART\" \"Maintenance / Engineering leader\"",
+          "\"WALMART\" HR recruiting",
+          "\"WALMART\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: WALMART"
+        ]
+      },
+      {
+        "employer": "WALMART",
+        "role": "HR / Recruiting contact",
+        "priority": 80,
+        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
+        "search_queries": [
+          "\"WALMART\" \"HR / Recruiting contact\"",
+          "\"WALMART\" HR recruiting",
+          "\"WALMART\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: WALMART"
+        ]
+      }
     ]
   },
   {
-    "employer":"TRANE TECHNOLOGIES","location":"La Crosse, WI","score":94,"priority":"Pursue","source":"Official Trane careers site","verified":"2026-08-24","targets":[
-      {"name":"Trane La Crosse HR / Talent Acquisition","role":"HR / Talent Acquisition","status":"Verified local HR hiring channel; named decision-maker still to be verified","email":"","phone":"608-788-8430","linkedin":"","source_url":"https://www.trane.com/careers.aspx"}
+    "employer": "BRIGHT HORIZONS CHILDREN'S CENTERS",
+    "score": 40,
+    "priority": "Monitor",
+    "targets": [
+      {
+        "employer": "BRIGHT HORIZONS CHILDREN'S CENTERS",
+        "role": "HR / Recruiting contact",
+        "priority": 80,
+        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
+        "search_queries": [
+          "\"BRIGHT HORIZONS CHILDREN'S CENTERS\" \"HR / Recruiting contact\"",
+          "\"BRIGHT HORIZONS CHILDREN'S CENTERS\" HR recruiting",
+          "\"BRIGHT HORIZONS CHILDREN'S CENTERS\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: BRIGHT+HORIZONS+CHILDREN%27S+CENTERS"
+        ]
+      }
     ]
   },
   {
-    "employer":"ONALASKA SCHOOL DISTRICT","location":"Onalaska, WI","score":82,"priority":"Pursue","source":"Official district HR page","verified":"2026-08-24","targets":[
-      {"name":"Executive Director of Human Resources","role":"HR Leadership","status":"Official HR office target; named contact to be verified","email":"","phone":"","linkedin":"","source_url":"https://www.onalaskaschools.com/departments/human-resources"}
+    "employer": "KELLY SERVICES",
+    "score": 40,
+    "priority": "Monitor",
+    "targets": [
+      {
+        "employer": "KELLY SERVICES",
+        "role": "Maintenance / Engineering leader",
+        "priority": 86,
+        "reason": "Skilled-trades hiring often routes through maintenance or engineering leadership.",
+        "search_queries": [
+          "\"KELLY SERVICES\" \"Maintenance / Engineering leader\"",
+          "\"KELLY SERVICES\" HR recruiting",
+          "\"KELLY SERVICES\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: KELLY+SERVICES"
+        ]
+      },
+      {
+        "employer": "KELLY SERVICES",
+        "role": "HR / Recruiting contact",
+        "priority": 80,
+        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
+        "search_queries": [
+          "\"KELLY SERVICES\" \"HR / Recruiting contact\"",
+          "\"KELLY SERVICES\" HR recruiting",
+          "\"KELLY SERVICES\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: KELLY+SERVICES"
+        ]
+      }
     ]
   },
   {
-    "employer":"GREAT LAKES CHEESE","location":"La Crosse, WI","score":91,"priority":"Pursue","source":"Local employer hiring resource","verified":"2026-08-24","targets":[
-      {"name":"HR / Talent Acquisition","role":"HR / Talent Acquisition","status":"Research target","email":"","phone":"608-781-2800","linkedin":"","source_url":"https://www.greatlakescheese.com/"},
-      {"name":"Plant / Operations Leadership","role":"Operations / Hiring Leader","status":"Research target","email":"","phone":"608-781-2800","linkedin":"","source_url":"https://www.greatlakescheese.com/"}
+    "employer": "MICHAELS",
+    "score": 40,
+    "priority": "Monitor",
+    "targets": [
+      {
+        "employer": "MICHAELS",
+        "role": "HR / Talent Acquisition leader",
+        "priority": 100,
+        "reason": "Leadership hiring creates a direct recruiting signal.",
+        "search_queries": [
+          "\"MICHAELS\" \"HR / Talent Acquisition leader\"",
+          "\"MICHAELS\" HR recruiting",
+          "\"MICHAELS\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: MICHAELS"
+        ]
+      },
+      {
+        "employer": "MICHAELS",
+        "role": "HR / Recruiting contact",
+        "priority": 80,
+        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
+        "search_queries": [
+          "\"MICHAELS\" \"HR / Recruiting contact\"",
+          "\"MICHAELS\" HR recruiting",
+          "\"MICHAELS\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: MICHAELS"
+        ]
+      }
     ]
   },
   {
-    "employer":"WIS-PAK","location":"La Crosse, WI","score":84,"priority":"Pursue","source":"Local employer target","verified":"2026-08-24","targets":[
-      {"name":"HR / Talent Acquisition","role":"HR / Talent Acquisition","status":"Research target","email":"","phone":"","linkedin":"","source_url":"https://wispak.com/"}
+    "employer": "COMPASS GROUP, NORTH AMERICA",
+    "score": 35,
+    "priority": "Low",
+    "targets": [
+      {
+        "employer": "COMPASS GROUP, NORTH AMERICA",
+        "role": "HR / Recruiting contact",
+        "priority": 80,
+        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
+        "search_queries": [
+          "\"COMPASS GROUP, NORTH AMERICA\" \"HR / Recruiting contact\"",
+          "\"COMPASS GROUP, NORTH AMERICA\" HR recruiting",
+          "\"COMPASS GROUP, NORTH AMERICA\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: COMPASS+GROUP%2C+NORTH+AMERICA"
+        ]
+      }
     ]
   },
   {
-    "employer":"ALTRA FEDERAL CREDIT UNION","location":"Onalaska / La Crosse, WI","score":78,"priority":"Pursue","source":"Local employer target","verified":"2026-08-24","targets":[
-      {"name":"HR / Talent Acquisition","role":"HR / Talent Acquisition","status":"Research target","email":"","phone":"","linkedin":"","source_url":"https://www.altra.org/"}
+    "employer": "MAYO CLINIC",
+    "score": 35,
+    "priority": "Low",
+    "targets": [
+      {
+        "employer": "MAYO CLINIC",
+        "role": "HR / Recruiting contact",
+        "priority": 80,
+        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
+        "search_queries": [
+          "\"MAYO CLINIC\" \"HR / Recruiting contact\"",
+          "\"MAYO CLINIC\" HR recruiting",
+          "\"MAYO CLINIC\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: MAYO+CLINIC"
+        ]
+      }
     ]
   },
   {
-    "employer":"APTIV","location":"La Crosse, WI","score":86,"priority":"Pursue","source":"Official Aptiv leadership page; current-status conflict flagged","verified":"2026-08-24","targets":[
-      {"name":"Jennifer Bausch","role":"Human Resources Director","status":"Official Aptiv page lists her as HR Director, but a recent public profile indicates a possible role change; verify current status before outreach","email":"","phone":"608-784-9450","linkedin":"https://www.linkedin.com/in/jenniferbausch","source_url":"https://www.aptiv.org/about-us/mission-vision/leadership"}
+    "employer": "MONDELEZ INTERNATIONAL",
+    "score": 35,
+    "priority": "Low",
+    "targets": [
+      {
+        "employer": "MONDELEZ INTERNATIONAL",
+        "role": "HR / Talent Acquisition leader",
+        "priority": 100,
+        "reason": "Leadership hiring creates a direct recruiting signal.",
+        "search_queries": [
+          "\"MONDELEZ INTERNATIONAL\" \"HR / Talent Acquisition leader\"",
+          "\"MONDELEZ INTERNATIONAL\" HR recruiting",
+          "\"MONDELEZ INTERNATIONAL\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: MONDELEZ+INTERNATIONAL"
+        ]
+      },
+      {
+        "employer": "MONDELEZ INTERNATIONAL",
+        "role": "HR / Recruiting contact",
+        "priority": 80,
+        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
+        "search_queries": [
+          "\"MONDELEZ INTERNATIONAL\" \"HR / Recruiting contact\"",
+          "\"MONDELEZ INTERNATIONAL\" HR recruiting",
+          "\"MONDELEZ INTERNATIONAL\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: MONDELEZ+INTERNATIONAL"
+        ]
+      }
     ]
   },
   {
-    "employer":"INLAND PACKAGING","location":"La Crosse, WI","score":93,"priority":"Pursue","source":"La Crosse County local hiring resource","verified":"2026-08-24","targets":[
-      {"name":"Kim Williams","role":"Human Resources & Project Manager","status":"Verified public local employer contact","email":"kwilliams@inlandpackaging.com","phone":"608-788-5800","linkedin":"","source_url":"https://www.ladcolax.com/_files/ugd/64a68e_b5debda446144e67806c1518bd33f027.pdf"}
+    "employer": "PEOPLEREADY",
+    "score": 35,
+    "priority": "Low",
+    "targets": [
+      {
+        "employer": "PEOPLEREADY",
+        "role": "Plant / Operations leader",
+        "priority": 92,
+        "reason": "Manufacturing hiring is often owned or strongly influenced by operations leadership.",
+        "search_queries": [
+          "\"PEOPLEREADY\" \"Plant / Operations leader\"",
+          "\"PEOPLEREADY\" HR recruiting",
+          "\"PEOPLEREADY\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: PEOPLEREADY"
+        ]
+      },
+      {
+        "employer": "PEOPLEREADY",
+        "role": "HR / Recruiting contact",
+        "priority": 80,
+        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
+        "search_queries": [
+          "\"PEOPLEREADY\" \"HR / Recruiting contact\"",
+          "\"PEOPLEREADY\" HR recruiting",
+          "\"PEOPLEREADY\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: PEOPLEREADY"
+        ]
+      }
     ]
   },
   {
-    "employer":"ORC INDUSTRIES","location":"La Crosse, WI","score":89,"priority":"Pursue","source":"La Crosse County local hiring resource","verified":"2026-08-24","targets":[
-      {"name":"Ying Vang","role":"Human Resources Manager","status":"Verified public local employer contact","email":"yvang@orcind.com","phone":"608-781-7727","linkedin":"","source_url":"https://www.ladcolax.com/_files/ugd/64a68e_b5debda446144e67806c1518bd33f027.pdf"}
+    "employer": "AEROTEK",
+    "score": 30,
+    "priority": "Low",
+    "targets": [
+      {
+        "employer": "AEROTEK",
+        "role": "Plant / Operations leader",
+        "priority": 92,
+        "reason": "Manufacturing hiring is often owned or strongly influenced by operations leadership.",
+        "search_queries": [
+          "\"AEROTEK\" \"Plant / Operations leader\"",
+          "\"AEROTEK\" HR recruiting",
+          "\"AEROTEK\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: AEROTEK"
+        ]
+      },
+      {
+        "employer": "AEROTEK",
+        "role": "HR / Recruiting contact",
+        "priority": 80,
+        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
+        "search_queries": [
+          "\"AEROTEK\" \"HR / Recruiting contact\"",
+          "\"AEROTEK\" HR recruiting",
+          "\"AEROTEK\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: AEROTEK"
+        ]
+      }
     ]
   },
   {
-    "employer":"WESTERN TECHNICAL COLLEGE","location":"La Crosse, WI","score":88,"priority":"Pursue","source":"La Crosse County local hiring resource","verified":"2026-08-24","targets":[
-      {"name":"John Heath","role":"Human Resources Director","status":"Public HR contact; verify current title before outreach","email":"heathj@westerntc.edu","phone":"608-785-9464","linkedin":"","source_url":"https://www.ladcolax.com/_files/ugd/64a68e_b5debda446144e67806c1518bd33f027.pdf"}
+    "employer": "ALTRA FEDERAL CREDIT UNION",
+    "score": 30,
+    "priority": "Low",
+    "targets": [
+      {
+        "employer": "ALTRA FEDERAL CREDIT UNION",
+        "role": "HR / Recruiting contact",
+        "priority": 80,
+        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
+        "search_queries": [
+          "\"ALTRA FEDERAL CREDIT UNION\" \"HR / Recruiting contact\"",
+          "\"ALTRA FEDERAL CREDIT UNION\" HR recruiting",
+          "\"ALTRA FEDERAL CREDIT UNION\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: ALTRA+FEDERAL+CREDIT+UNION"
+        ]
+      }
     ]
   },
   {
-    "employer":"VITERBO UNIVERSITY","location":"La Crosse, WI","score":87,"priority":"Pursue","source":"Official Viterbo HR page","verified":"2026-08-24","targets":[
-      {"name":"Emily Weaver","role":"Vice President for Human Resources and University Counsel","status":"Verified public HR leadership contact","email":"","phone":"608-796-3930","linkedin":"","source_url":"https://www.viterbo.edu/human-resources/human-resources-and-payroll"},
-      {"name":"Nicole Haugen","role":"Human Resources Manager","status":"Verified public HR contact","email":"","phone":"608-796-3931","linkedin":"","source_url":"https://www.viterbo.edu/human-resources/human-resources-and-payroll"}
+    "employer": "ANYTIME FITNESS",
+    "score": 30,
+    "priority": "Low",
+    "targets": [
+      {
+        "employer": "ANYTIME FITNESS",
+        "role": "HR / Talent Acquisition leader",
+        "priority": 100,
+        "reason": "Leadership hiring creates a direct recruiting signal.",
+        "search_queries": [
+          "\"ANYTIME FITNESS\" \"HR / Talent Acquisition leader\"",
+          "\"ANYTIME FITNESS\" HR recruiting",
+          "\"ANYTIME FITNESS\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: ANYTIME+FITNESS"
+        ]
+      },
+      {
+        "employer": "ANYTIME FITNESS",
+        "role": "HR / Recruiting contact",
+        "priority": 80,
+        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
+        "search_queries": [
+          "\"ANYTIME FITNESS\" \"HR / Recruiting contact\"",
+          "\"ANYTIME FITNESS\" HR recruiting",
+          "\"ANYTIME FITNESS\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: ANYTIME+FITNESS"
+        ]
+      }
     ]
   },
   {
-    "employer":"PISCHKE MOTORS OF LA CROSSE","location":"La Crosse, WI","score":80,"priority":"Pursue","source":"Official company staff directory","verified":"2026-08-24","targets":[
-      {"name":"Dorothy Hanson","role":"Human Resources Manager","status":"Verified public company staff contact","email":"","phone":"608-791-3007","linkedin":"","source_url":"https://www.pischkemotorsoflacrosse.com/a-little-about-us.html"}
+    "employer": "BRIDGESTONE AMERICAS",
+    "score": 30,
+    "priority": "Low",
+    "targets": [
+      {
+        "employer": "BRIDGESTONE AMERICAS",
+        "role": "HR / Talent Acquisition leader",
+        "priority": 100,
+        "reason": "Leadership hiring creates a direct recruiting signal.",
+        "search_queries": [
+          "\"BRIDGESTONE AMERICAS\" \"HR / Talent Acquisition leader\"",
+          "\"BRIDGESTONE AMERICAS\" HR recruiting",
+          "\"BRIDGESTONE AMERICAS\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: BRIDGESTONE+AMERICAS"
+        ]
+      },
+      {
+        "employer": "BRIDGESTONE AMERICAS",
+        "role": "HR / Recruiting contact",
+        "priority": 80,
+        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
+        "search_queries": [
+          "\"BRIDGESTONE AMERICAS\" \"HR / Recruiting contact\"",
+          "\"BRIDGESTONE AMERICAS\" HR recruiting",
+          "\"BRIDGESTONE AMERICAS\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: BRIDGESTONE+AMERICAS"
+        ]
+      }
     ]
   },
   {
-    "employer":"COURTESY CORPORATION","location":"Onalaska, WI","score":79,"priority":"Pursue","source":"Public business contact listing; current status should be verified","verified":"2026-08-24","targets":[
-      {"name":"Shawn Senn","role":"Human Resources Manager","status":"Publicly listed professional contact; verify current status before outreach","email":"shawn.senn@courtesycorporation.com","phone":"608-781-8080","linkedin":"","source_url":"https://opendatausa.com/shawn-senn"}
+    "employer": "J F AHERN",
+    "score": 30,
+    "priority": "Low",
+    "targets": [
+      {
+        "employer": "J F AHERN",
+        "role": "HR / Talent Acquisition leader",
+        "priority": 100,
+        "reason": "Leadership hiring creates a direct recruiting signal.",
+        "search_queries": [
+          "\"J F AHERN\" \"HR / Talent Acquisition leader\"",
+          "\"J F AHERN\" HR recruiting",
+          "\"J F AHERN\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: J+F+AHERN"
+        ]
+      },
+      {
+        "employer": "J F AHERN",
+        "role": "HR / Recruiting contact",
+        "priority": 80,
+        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
+        "search_queries": [
+          "\"J F AHERN\" \"HR / Recruiting contact\"",
+          "\"J F AHERN\" HR recruiting",
+          "\"J F AHERN\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: J+F+AHERN"
+        ]
+      }
     ]
   },
   {
-    "employer":"BETHANY ST. JOSEPH CORPORATION","location":"La Crosse, WI","score":90,"priority":"Pursue","source":"Recent nonprofit personnel records and current HR hiring activity","verified":"2026-08-24","targets":[
-      {"name":"Jennie Sass","role":"Director of Human Resources","status":"Current public personnel listing; direct email should be verified before use","email":"","phone":"608-788-5700","linkedin":"https://www.linkedin.com/in/jennie-sass-46aaa412","source_url":"https://www.bsjcorp.com/wp-content/uploads/2025/11/2026-BSJ-Benefit-Guide.pdf"}
+    "employer": "KOHL'S",
+    "score": 30,
+    "priority": "Low",
+    "targets": [
+      {
+        "employer": "KOHL'S",
+        "role": "HR / Recruiting contact",
+        "priority": 80,
+        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
+        "search_queries": [
+          "\"KOHL'S\" \"HR / Recruiting contact\"",
+          "\"KOHL'S\" HR recruiting",
+          "\"KOHL'S\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: KOHL%27S"
+        ]
+      }
     ]
   },
   {
-    "employer":"COULEE BANK","location":"La Crosse, WI","score":84,"priority":"Pursue","source":"Recent Paylocity customer case study","verified":"2026-08-24","targets":[
-      {"name":"Amy Bauer","role":"Chief Human Resources Officer","status":"Publicly identified HR leader; direct contact should be verified","email":"","phone":"","linkedin":"","source_url":"https://www.paylocity.com/content/dam/paylocity/media/resources/resource-library/case-studies/pdf/paylocity-couleebank-mwi.pdf?sitead=dl-cta"}
+    "employer": "MA MAYO CLINIC",
+    "score": 30,
+    "priority": "Low",
+    "targets": [
+      {
+        "employer": "MA MAYO CLINIC",
+        "role": "HR / Recruiting contact",
+        "priority": 80,
+        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
+        "search_queries": [
+          "\"MA MAYO CLINIC\" \"HR / Recruiting contact\"",
+          "\"MA MAYO CLINIC\" HR recruiting",
+          "\"MA MAYO CLINIC\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: MA+MAYO+CLINIC"
+        ]
+      }
     ]
   },
   {
-    "employer":"CITY BREWING COMPANY","location":"La Crosse, WI","score":94,"priority":"Pursue","source":"Workforce Development Inc. hiring resource","verified":"2026-08-24","targets":[
-      {"name":"Amy Slaby","role":"Human Resources Generalist","status":"Public recruiting contact; verify current status before outreach","email":"aslaby@citybrewery.com","phone":"608-785-4449","linkedin":"","source_url":"https://workforcedevelopmentinc.org/wp-content/uploads/2025/05/Area-Hiring-Opportunities-05-07-25.pdf"}
+    "employer": "MAXIM HEALTHCARE",
+    "score": 30,
+    "priority": "Low",
+    "targets": [
+      {
+        "employer": "MAXIM HEALTHCARE",
+        "role": "HR / Recruiting contact",
+        "priority": 80,
+        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
+        "search_queries": [
+          "\"MAXIM HEALTHCARE\" \"HR / Recruiting contact\"",
+          "\"MAXIM HEALTHCARE\" HR recruiting",
+          "\"MAXIM HEALTHCARE\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: MAXIM+HEALTHCARE"
+        ]
+      }
     ]
   },
   {
-    "employer":"CROWN HOLDINGS / CROWN BEVERAGE PACKAGING","location":"La Crosse, WI","score":93,"priority":"Pursue","source":"Current Crown HR Manager job posting; historical local HR contact retained only as lead","verified":"2026-08-24","targets":[
-      {"name":"La Crosse Plant HR Manager","role":"Human Resources Manager","status":"Current opening confirms the role exists; named manager not publicly verified","email":"","phone":"","linkedin":"","source_url":"https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/WI---La-Crosse/Human-Resources-Manager_JR102812"}
+    "employer": "MENARDS, INC.",
+    "score": 30,
+    "priority": "Low",
+    "targets": [
+      {
+        "employer": "MENARDS, INC.",
+        "role": "HR / Recruiting contact",
+        "priority": 80,
+        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
+        "search_queries": [
+          "\"MENARDS, INC.\" \"HR / Recruiting contact\"",
+          "\"MENARDS, INC.\" HR recruiting",
+          "\"MENARDS, INC.\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: MENARDS%2C+INC."
+        ]
+      }
     ]
   },
   {
-    "employer":"BROOKDALE SENIOR LIVING","location":"La Crosse, WI","score":76,"priority":"Research","source":"Current La Crosse HR job posting","verified":"2026-08-24","targets":[
-      {"name":"Business Office / HR Manager","role":"Business Office/HR Manager","status":"Current La Crosse opening; named manager not publicly verified","email":"","phone":"","linkedin":"","source_url":"https://www.indeed.com/q-hr-l-la-crosse%2C-wi-jobs.html"}
+    "employer": "RAM LAKHAN LLC",
+    "score": 30,
+    "priority": "Low",
+    "targets": [
+      {
+        "employer": "RAM LAKHAN LLC",
+        "role": "HR / Recruiting contact",
+        "priority": 80,
+        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
+        "search_queries": [
+          "\"RAM LAKHAN LLC\" \"HR / Recruiting contact\"",
+          "\"RAM LAKHAN LLC\" HR recruiting",
+          "\"RAM LAKHAN LLC\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: RAM+LAKHAN+LLC"
+        ]
+      }
+    ]
+  },
+  {
+    "employer": "SCHNEIDER",
+    "score": 30,
+    "priority": "Low",
+    "targets": [
+      {
+        "employer": "SCHNEIDER",
+        "role": "HR / Recruiting contact",
+        "priority": 80,
+        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
+        "search_queries": [
+          "\"SCHNEIDER\" \"HR / Recruiting contact\"",
+          "\"SCHNEIDER\" HR recruiting",
+          "\"SCHNEIDER\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: SCHNEIDER"
+        ]
+      }
+    ]
+  },
+  {
+    "employer": "SPECTRUM",
+    "score": 30,
+    "priority": "Low",
+    "targets": [
+      {
+        "employer": "SPECTRUM",
+        "role": "HR / Talent Acquisition leader",
+        "priority": 100,
+        "reason": "Leadership hiring creates a direct recruiting signal.",
+        "search_queries": [
+          "\"SPECTRUM\" \"HR / Talent Acquisition leader\"",
+          "\"SPECTRUM\" HR recruiting",
+          "\"SPECTRUM\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: SPECTRUM"
+        ]
+      },
+      {
+        "employer": "SPECTRUM",
+        "role": "HR / Recruiting contact",
+        "priority": 80,
+        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
+        "search_queries": [
+          "\"SPECTRUM\" \"HR / Recruiting contact\"",
+          "\"SPECTRUM\" HR recruiting",
+          "\"SPECTRUM\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: SPECTRUM"
+        ]
+      }
+    ]
+  },
+  {
+    "employer": "VERVE A CREDIT UNION",
+    "score": 30,
+    "priority": "Low",
+    "targets": [
+      {
+        "employer": "VERVE A CREDIT UNION",
+        "role": "HR / Recruiting contact",
+        "priority": 80,
+        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
+        "search_queries": [
+          "\"VERVE A CREDIT UNION\" \"HR / Recruiting contact\"",
+          "\"VERVE A CREDIT UNION\" HR recruiting",
+          "\"VERVE A CREDIT UNION\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: VERVE+A+CREDIT+UNION"
+        ]
+      }
+    ]
+  },
+  {
+    "employer": "WI JOSTENS",
+    "score": 30,
+    "priority": "Low",
+    "targets": [
+      {
+        "employer": "WI JOSTENS",
+        "role": "HR / Recruiting contact",
+        "priority": 80,
+        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
+        "search_queries": [
+          "\"WI JOSTENS\" \"HR / Recruiting contact\"",
+          "\"WI JOSTENS\" HR recruiting",
+          "\"WI JOSTENS\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: WI+JOSTENS"
+        ]
+      }
+    ]
+  },
+  {
+    "employer": "WOLTER, INC.",
+    "score": 30,
+    "priority": "Low",
+    "targets": [
+      {
+        "employer": "WOLTER, INC.",
+        "role": "Maintenance / Engineering leader",
+        "priority": 86,
+        "reason": "Skilled-trades hiring often routes through maintenance or engineering leadership.",
+        "search_queries": [
+          "\"WOLTER, INC.\" \"Maintenance / Engineering leader\"",
+          "\"WOLTER, INC.\" HR recruiting",
+          "\"WOLTER, INC.\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: WOLTER%2C+INC."
+        ]
+      },
+      {
+        "employer": "WOLTER, INC.",
+        "role": "HR / Recruiting contact",
+        "priority": 80,
+        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
+        "search_queries": [
+          "\"WOLTER, INC.\" \"HR / Recruiting contact\"",
+          "\"WOLTER, INC.\" HR recruiting",
+          "\"WOLTER, INC.\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: WOLTER%2C+INC."
+        ]
+      }
     ]
   }
 ]
