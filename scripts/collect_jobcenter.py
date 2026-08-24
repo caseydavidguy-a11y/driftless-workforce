@@ -9,6 +9,7 @@ from pathlib import Path
 
 from app.jobcenter import fetch_area
 from app.pipeline import build_employers
+from app.prospecting import build_prospect_list
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
@@ -18,6 +19,7 @@ DATA.mkdir(exist_ok=True)
 def main() -> None:
     observations = fetch_area()
     employers = build_employers(observations)
+    prospects = build_prospect_list(employers)
 
     with (DATA / "current_jobs.csv").open("w", newline="", encoding="utf-8") as handle:
         writer = csv.DictWriter(handle, fieldnames=[
@@ -30,6 +32,7 @@ def main() -> None:
             row["posted_at"] = row["posted_at"].isoformat() if row["posted_at"] else ""
             writer.writerow(row)
 
+    prospect_by_name = {p.employer: p for p in prospects}
     with (DATA / "employer_opportunities.json").open("w", encoding="utf-8") as handle:
         json.dump([
             {
@@ -40,6 +43,10 @@ def main() -> None:
                 "verified_opening_count": employer.verified_opening_count,
                 "locations": sorted(employer.locations),
                 "industries": sorted(employer.industries),
+                "hiring_summary": prospect_by_name[employer.name].hiring_summary,
+                "reasons": list(prospect_by_name[employer.name].reasons),
+                "target_roles": list(prospect_by_name[employer.name].target_roles),
+                "outreach_angle": prospect_by_name[employer.name].outreach_angle,
                 "jobs": [
                     {
                         "title": job.title,
@@ -54,6 +61,9 @@ def main() -> None:
         ], handle, indent=2)
 
     print(f"Collected {len(observations)} openings from {len(employers)} employers.")
+    print("Top prospects:")
+    for prospect in prospects[:10]:
+        print(f"- {prospect.employer}: {prospect.score}/100 ({prospect.priority}) — {prospect.hiring_summary}")
 
 
 if __name__ == "__main__":
