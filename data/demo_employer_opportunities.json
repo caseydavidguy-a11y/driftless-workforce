@@ -1,0 +1,5 @@
+[
+  {"employer":"Great Lakes Cheese","slug":"great-lakes-cheese","score":73,"priority":"Pursue","opening_count":3,"verified_opening_count":0,"industries":["manufacturing","skilled trades"],"locations":["West Salem, WI"],"status":"DEMO","next_action":"Research HR/Talent Acquisition or plant leadership"},
+  {"employer":"Trane Technologies","slug":"trane-technologies","score":68,"priority":"Monitor","opening_count":2,"verified_opening_count":0,"industries":["manufacturing","operations"],"locations":["La Crosse, WI"],"status":"DEMO","next_action":"Research HR/Talent Acquisition or operations leadership"},
+  {"employer":"Wis-Pak","slug":"wis-pak","score":48,"priority":"Monitor","opening_count":1,"verified_opening_count":0,"industries":["manufacturing"],"locations":["La Crosse, WI"],"status":"DEMO","next_action":"Monitor hiring activity"}
+]
