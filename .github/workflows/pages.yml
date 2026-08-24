@@ -33,6 +33,7 @@ jobs:
           cp data/employer_opportunities.json site/data/
           cp data/snapshot_history.json site/data/
           cp data/change_report.json site/data/
+          cp data/signals.json site/data/
           cp data/contact_research.json site/data/
           cp data/current_jobs.csv site/data/
           touch site/.nojekyll
