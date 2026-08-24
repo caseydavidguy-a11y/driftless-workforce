@@ -9,6 +9,7 @@ from pathlib import Path
 
 from app.change_report import compare_snapshots, employer_from_snapshot
 from app.contacts import build_contact_targets
+from app.employer_momentum import employer_momentum
 from app.jobcenter import fetch_area
 from app.pipeline import build_employers
 from app.prospecting import build_prospect_list
@@ -63,6 +64,8 @@ def main() -> None:
     for employer in employers:
         prospect = prospect_by_name[employer.name]
         explanation = score_explanation(employer, previous_employers.get(employer.canonical_name), history)
+        momentum_7d = employer_momentum(history, employer.canonical_name, 7)
+        momentum_30d = employer_momentum(history, employer.canonical_name, 30)
         opportunity_rows.append({
             "employer": employer.name,
             "slug": employer.canonical_name,
@@ -80,6 +83,8 @@ def main() -> None:
             "contact_path": prospect.contact_path,
             "outreach_angle": prospect.outreach_angle,
             "evidence": list(prospect.evidence),
+            "momentum_7d": momentum_7d,
+            "momentum_30d": momentum_30d,
             "score_breakdown": explanation["items"],
             "score_policy_version": explanation["policy_version"],
             "score_policy_capped": explanation["capped"],
