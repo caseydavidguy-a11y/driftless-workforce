@@ -1,0 +1,35 @@
+name: Refresh employer intelligence
+
+on:
+  schedule:
+    - cron: "17 11 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Collect Job Center openings
+        run: python scripts/collect_jobcenter.py
+
+      - name: Run tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Commit refreshed intelligence
+        run: |
+          git config user.name "Driftless Workforce Bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/current_jobs.csv data/employer_opportunities.json
+          git diff --cached --quiet || git commit -m "Refresh employer intelligence"
+          git push
