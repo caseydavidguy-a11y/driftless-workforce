@@ -1,1 +1,132 @@
-[]
+[
+  {
+    "employer": "GREAT LAKES CHEESE",
+    "kind": "current hiring activity",
+    "severity": "high",
+    "message": "3 current openings detected in the local JCW feed.",
+    "metric": {
+      "openings": 3,
+      "latest_posted": "2026-08-18"
+    }
+  },
+  {
+    "employer": "WIS PAK - LACROSSE INC",
+    "kind": "current hiring activity",
+    "severity": "low",
+    "message": "1 current opening detected in the local JCW feed.",
+    "metric": {
+      "openings": 1,
+      "latest_posted": "2026-08-06"
+    }
+  },
+  {
+    "employer": "WIS-PAK",
+    "kind": "current hiring activity",
+    "severity": "low",
+    "message": "1 current opening detected in the local JCW feed.",
+    "metric": {
+      "openings": 1,
+      "latest_posted": "2026-08-04"
+    }
+  },
+  {
+    "employer": "TRANE TECHNOLOGIES",
+    "kind": "current hiring activity",
+    "severity": "high",
+    "message": "3 current openings detected in the local JCW feed.",
+    "metric": {
+      "openings": 3,
+      "latest_posted": "2026-07-31"
+    }
+  },
+  {
+    "employer": "FDX",
+    "kind": "current hiring activity",
+    "severity": "low",
+    "message": "1 current opening detected in the local JCW feed.",
+    "metric": {
+      "openings": 1,
+      "latest_posted": "2026-07-01"
+    }
+  },
+  {
+    "employer": "KOHL'S",
+    "kind": "current hiring activity",
+    "severity": "low",
+    "message": "1 current opening detected in the local JCW feed.",
+    "metric": {
+      "openings": 1,
+      "latest_posted": "2026-08-13"
+    }
+  },
+  {
+    "employer": "COMPASS GROUP",
+    "kind": "current hiring activity",
+    "severity": "low",
+    "message": "1 current opening detected in the local JCW feed.",
+    "metric": {
+      "openings": 1,
+      "latest_posted": "warehouse"
+    }
+  },
+  {
+    "employer": "SONEPAR USA INC",
+    "kind": "current hiring activity",
+    "severity": "low",
+    "message": "1 current opening detected in the local JCW feed.",
+    "metric": {
+      "openings": 1,
+      "latest_posted": "2026-08-18"
+    }
+  },
+  {
+    "employer": "SONEPAR",
+    "kind": "current hiring activity",
+    "severity": "low",
+    "message": "1 current opening detected in the local JCW feed.",
+    "metric": {
+      "openings": 1,
+      "latest_posted": "2026-08-18"
+    }
+  },
+  {
+    "employer": "ROEHL TRANSPORT",
+    "kind": "current hiring activity",
+    "severity": "high",
+    "message": "3 current openings detected in the local JCW feed.",
+    "metric": {
+      "openings": 3,
+      "latest_posted": "2026-08-19"
+    }
+  },
+  {
+    "employer": "ALTRA FEDERAL CREDIT UNION",
+    "kind": "current hiring activity",
+    "severity": "low",
+    "message": "1 current opening detected in the local JCW feed.",
+    "metric": {
+      "openings": 1,
+      "latest_posted": "2026-08-19"
+    }
+  },
+  {
+    "employer": "ENGLISH LUTHERAN CHURCH",
+    "kind": "current hiring activity",
+    "severity": "low",
+    "message": "1 current opening detected in the local JCW feed.",
+    "metric": {
+      "openings": 1,
+      "latest_posted": "2026-08-20"
+    }
+  },
+  {
+    "employer": "WALMART",
+    "kind": "current hiring activity",
+    "severity": "low",
+    "message": "1 current opening detected in the local JCW feed.",
+    "metric": {
+      "openings": 1,
+      "latest_posted": "2026-08-14"
+    }
+  }
+]
