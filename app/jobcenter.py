@@ -7,7 +7,6 @@ JobObservation model.
 
 from __future__ import annotations
 
-import re
 from datetime import datetime, timezone
 from html.parser import HTMLParser
 from urllib.parse import urlencode
@@ -55,33 +54,17 @@ class _TableParser(HTMLParser):
 
 
 def _fetch(url: str, timeout: int = 30) -> str:
-    request = Request(
-        url,
-        headers={
-            "User-Agent": "DriftlessWorkforce/1.0 (+https://github.com/caseydavidguy-a11y/driftless-workforce)"
-        },
-    )
+    request = Request(url, headers={"User-Agent": "DriftlessWorkforce/1.0 (+https://github.com/caseydavidguy-a11y/driftless-workforce)"})
     with urlopen(request, timeout=timeout) as response:
         return response.read().decode("utf-8", errors="replace")
 
 
 def build_search_url(city: str) -> str:
     params = {
-        "Appr": "False",
-        "MOSCode": "",
-        "STCode": "",
-        "city": city,
-        "dist": "",
-        "edu": "",
-        "kwords": "",
-        "loc": city,
-        "loctyp": "City",
-        "onet": "",
-        "shft": "",
-        "src": "JCW,PARTNERS",
-        "tbsel": "N",
-        "wd": "",
-        "ww": "",
+        "Appr": "False", "MOSCode": "", "STCode": "", "city": city,
+        "dist": "", "edu": "", "kwords": "", "loc": city,
+        "loctyp": "City", "onet": "", "shft": "", "src": "JCW,PARTNERS",
+        "tbsel": "N", "wd": "", "ww": "",
     }
     return f"{BASE_URL}?{urlencode(params)}"
 
@@ -94,38 +77,19 @@ def _parse_date(text: str) -> datetime | None:
 
 
 def infer_industry(title: str) -> str:
+    """Infer a target industry from the title when the source omits one."""
     value = title.lower()
-    if any(word in value for word in ("manufactur", "production", "assembler", "fabricat", "machine operator", "process technician")):
-        return "manufacturing"
-    if any(word in value for word in ("warehouse", "distribution", "logistics", "fulfillment", "material handler")):
-        return "warehouse"
-    if any(word in value for word in ("supervisor", "manager", "director", "team lead", "leader", "foreman")):
-        return "leadership"
-    if any(word in value for word in ("maintenance", "electrician", "welder", "mechanic", "technician", "hvac", "plumber")):
-        return "skilled trades"
-    if any(word in value for word in ("restaurant", "cook", "server", "barista", "food service", "hotel", "hospitality")):
+    if any(k in value for k in ("restaurant", "cook", "food", "barista", "crew member", "server")):
         return "hospitality"
-    if "operations" in value or "operational" in value:
-        return "operations"
-    return ""
-
-
-def _split_employer(first_cell: str) -> tuple[str, str]:
-    """Extract title/employer from JCW's combined first result cell.
-
-    Current rendered results place the employer after the title and before
-    metadata such as "Pay:" or "Source:". Employers are displayed in
-    uppercase, which gives us a stable parsing boundary without guessing from
-    the job title itself.
-    """
-    clean = " ".join(first_cell.split())
-    cutoff = re.split(r"\s+(?:Pay:|Source:|On Busline|On-Site|Remote)\b", clean, maxsplit=1, flags=re.I)[0]
-    match = re.search(r"(?P<employer>[A-Z][A-Z0-9&.,'()\-/ ]{2,})$", cutoff)
-    if not match:
-        return clean, ""
-    employer = re.sub(r"\s+", " ", match.group("employer")).strip(" ,.-")
-    title = clean[: match.start("employer")].strip(" -–—")
-    return title, employer
+    if any(k in value for k in ("warehouse", "shipping", "receiving", "material", "inventory", "stock", "freight")):
+        return "warehouse"
+    if any(k in value for k in ("maintenance", "technician", "mechanic", "lineworker", "electrician", "hvac", "trades")):
+        return "skilled trades"
+    if any(k in value for k in ("production", "operator", "manufacturing", "fabrication", "quality")):
+        return "manufacturing"
+    if any(k in value for k in ("manager", "supervisor", "director", "lead", "chief")):
+        return "leadership"
+    return "operations"
 
 
 def parse_results(html: str, source_url: str, requested_city: str) -> list[JobObservation]:
@@ -136,12 +100,14 @@ def parse_results(html: str, source_url: str, requested_city: str) -> list[JobOb
     for row in parser.rows:
         if len(row) < 3 or row[0].lower() == "title":
             continue
-        first_cell, location, date_posted = row[:3]
-        if not first_cell or not location or not date_posted:
+        title, location, date_posted = row[:3]
+        if not title or not location or not date_posted:
             continue
 
-        title, employer = _split_employer(first_cell)
-        if not employer or not title or not _parse_date(date_posted):
+        employer = ""
+        if len(row) >= 4:
+            employer = row[3].split("Source:", 1)[0].strip()
+        if not employer:
             continue
 
         external_id = f"jcw:{requested_city.lower()}:{title.lower()}:{date_posted}:{employer.lower()}"
