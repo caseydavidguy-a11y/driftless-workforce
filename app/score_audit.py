@@ -6,7 +6,7 @@ from .scoring_policy import load_policy
 def audit_score(base_score, signals, momentum, policy=None):
     policy = policy or load_policy()
     score = calculate_opportunity_score(base_score, signals, momentum, policy)
-    explanation = explain_score(base_score, signals, momentum)
+    explanation = explain_score(base_score, signals, momentum, policy)
     return {
         "policy_version": policy.get("version", 1),
         "score": score,
