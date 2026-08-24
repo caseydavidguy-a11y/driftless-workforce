@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "weights": {
+    "signal_high": 10,
+    "leadership_new": 12,
+    "signal_medium": 6,
+    "signal_low": 2,
+    "momentum_max_bonus": 15,
+    "momentum_max_penalty": 8
+  },
+  "thresholds": {
+    "pursue": 70,
+    "monitor": 40
+  },
+  "caps": {
+    "minimum": 0,
+    "maximum": 100
+  }
+}
