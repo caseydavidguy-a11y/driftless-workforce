@@ -13,11 +13,22 @@ class _TableParser(HTMLParser):
     def __init__(self):
         super().__init__(); self.in_row=False; self.in_cell=False; self.cell_text=[]; self.cell_href=""; self.row=[]; self.rows=[]; self.row_links=[]
     def handle_starttag(self,tag,attrs):
-        tag=tag.lower()
-        if tag=="tr": self.in_row=True; self.row=[]; self.row_first_href=""
-        elif self.in_row and tag in {"td","th"}: self.in_cell=True; self.cell_text=[]; self.cell_href=""
-        elif self.in_cell and tag=="a" and not self.cell_href:
-            self.cell_href=dict(attrs).get("href","")
+        tag=tag.lower(); attrs=dict(attrs)
+        if tag=="tr":
+            self.in_row=True; self.row=[]; self.row_first_href=""
+        elif self.in_row and tag in {"td","th"}:
+            self.in_cell=True; self.cell_text=[]; self.cell_href=""
+        if self.in_row and not getattr(self,"row_first_href",""):
+            for key in ("href","data-href","data-url"):
+                value=attrs.get(key,"")
+                if value and ("JobOrder" in value or "job" in value.lower()):
+                    self.row_first_href=value; break
+            if not self.row_first_href:
+                onclick=attrs.get("onclick","")
+                match=re.search(r"""['"]((?:https?:)?//[^'"]+|[^'"]*JobOrder[^'"]*)['"]""",onclick,re.I)
+                if match:self.row_first_href=match.group(1)
+        if self.in_cell and tag=="a" and not self.cell_href:
+            self.cell_href=attrs.get("href","")
     def handle_data(self,data):
         if self.in_cell:self.cell_text.append(data)
     def handle_endtag(self,tag):
