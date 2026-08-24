@@ -1,6 +1,6 @@
 import unittest
 
-from app.jobcenter import build_search_url, infer_industry, parse_results
+from app.jobcenter import build_search_url, build_job_search_url, infer_industry, parse_results
 
 
 FIXTURE = """
@@ -19,6 +19,11 @@ class JobCenterTests(unittest.TestCase):
         self.assertIn("city=La+Crosse", url)
         self.assertIn("loctyp=City", url)
 
+    def test_job_search_url_contains_title_and_employer(self):
+        url = build_job_search_url("Production Supervisor", "TRANE TECHNOLOGIES", "La Crosse")
+        self.assertIn("kwords=Production+Supervisor+TRANE+TECHNOLOGIES", url)
+        self.assertIn("city=La+Crosse", url)
+
     def test_industry_inference(self):
         self.assertEqual(infer_industry("Production Supervisor"), "manufacturing")
         self.assertEqual(infer_industry("Maintenance Supervisor"), "leadership")
@@ -32,6 +37,7 @@ class JobCenterTests(unittest.TestCase):
         self.assertEqual(observations[0].industry, "manufacturing")
         self.assertTrue(observations[0].verified)
         self.assertEqual(observations[2].employer, "CITY OF LA CROSSE")
+        self.assertIn("kwords=Production+Supervisor+TRANE+TECHNOLOGIES", observations[0].source_url)
 
 
 if __name__ == "__main__":
