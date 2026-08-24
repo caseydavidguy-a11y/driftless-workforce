@@ -47,6 +47,12 @@ def _fetch(url,timeout=30):
     raise RuntimeError(f"JCW request failed after retries: {last}")
 def build_search_url(city):
     params={"Appr":"False","MOSCode":"","STCode":"","city":city,"dist":"","edu":"","kwords":"","loc":city,"loctyp":"City","onet":"","shft":"","src":"JCW,PARTNERS","tbsel":"N","wd":"","ww":""}; return f"{BASE_URL}?{urlencode(params)}"
+
+def build_job_search_url(title, employer, city):
+    """Build a job-specific JCW search when the result row has no direct href."""
+    keywords=f"{title} {employer}".strip()
+    params={"Appr":"False","MOSCode":"","STCode":"","city":city,"dist":"","edu":"","kwords":keywords,"loc":city,"loctyp":"City","onet":"","shft":"","src":"JCW,PARTNERS","tbsel":"N","wd":"","ww":""}
+    return f"{BASE_URL}?{urlencode(params)}"
 def _parse_date(text):
     try:return datetime.strptime(text.strip(),"%m/%d/%Y").replace(tzinfo=timezone.utc)
     except ValueError:return None
@@ -69,7 +75,10 @@ def parse_results(html,source_url,requested_city):
         if len(row)>=4:title,location,date_posted,employer=row[:4]; employer=employer.split("Source:",1)[0].strip()
         else:title,employer=_split_combined_first_cell(row[0]); location,date_posted=row[1:3]
         if not title or not location or not date_posted or not employer or title.lower()=="title":continue
-        detail_url=urljoin(source_url,parser.row_links[index]) if index<len(parser.row_links) and parser.row_links[index] else source_url
+        row_href=parser.row_links[index] if index<len(parser.row_links) else ""
+        detail_url=urljoin(source_url,row_href) if row_href else build_job_search_url(title,employer,requested_city)
+        if detail_url.rstrip("/") == source_url.rstrip("/"):
+            detail_url=build_job_search_url(title,employer,requested_city)
         external_id=f"jcw:{requested_city.lower()}:{title.lower()}:{date_posted}:{employer.lower()}"
         observations.append(JobObservation(employer=employer,title=title,location=location,industry=infer_industry(title),posted_at=_parse_date(date_posted),source="Job Center of Wisconsin",source_url=detail_url,external_id=external_id,verified=True))
     return observations
