@@ -1,0 +1,11 @@
+const demoSnapshots=[
+ {captured_at:'2026-08-20T10:00:00Z',employers:[{name:'Great Lakes Cheese',slug:'great-lakes-cheese',opening_count:2}]},
+ {captured_at:'2026-08-21T10:00:00Z',employers:[{name:'Great Lakes Cheese',slug:'great-lakes-cheese',opening_count:3}]},
+ {captured_at:'2026-08-22T10:00:00Z',employers:[{name:'Great Lakes Cheese',slug:'great-lakes-cheese',opening_count:3}]},
+ {captured_at:'2026-08-23T10:00:00Z',employers:[{name:'Great Lakes Cheese',slug:'great-lakes-cheese',opening_count:3}]},
+ {captured_at:'2026-08-24T10:00:00Z',employers:[{name:'Great Lakes Cheese',slug:'great-lakes-cheese',opening_count:8}]}
+];
+function esc(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]))}
+function renderTrend(snapshots,name){const slug=name.toLowerCase();const points=snapshots.map(s=>{const e=(s.employers||[]).find(x=>(x.slug||x.name.toLowerCase())===slug||x.name.toLowerCase()===slug);return e?{date:s.captured_at,count:e.opening_count}:null}).filter(Boolean);if(!points.length)return '<div class="empty">No historical hiring snapshots are available yet.</div>';const max=Math.max(...points.map(p=>p.count),1);return `<div class="trend-summary"><strong>${points[points.length-1].count}</strong><span>current openings</span><span class="trend-change">${points.length>1?((points[points.length-1].count-points[0].count)>=0?'+':'')+(points[points.length-1].count-points[0].count)+' since first snapshot':'Baseline captured'}</span></div><div class="trend-chart" role="img" aria-label="Hiring openings over time">${points.map(p=>`<div class="trend-point"><div class="bar" style="height:${Math.max(8,Math.round((p.count/max)*100))}%"><span>${p.count}</span></div><small>${new Date(p.date).toLocaleDateString(undefined,{month:'short',day:'numeric'})}</small></div>`).join('')}</div>`}
+async function loadTrend(){const name=new URLSearchParams(location.search).get('employer')||'Great Lakes Cheese';let snapshots=demoSnapshots;try{const r=await fetch('../data/snapshots.json',{cache:'no-store'});if(r.ok){const d=await r.json();if(Array.isArray(d))snapshots=d;else if(Array.isArray(d.snapshots))snapshots=d.snapshots}}catch(_){}document.getElementById('trend').innerHTML=renderTrend(snapshots,name)}
+loadTrend();
