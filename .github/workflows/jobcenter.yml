@@ -26,6 +26,9 @@ jobs:
       - name: Run tests
         run: python -m unittest discover -s tests -v
 
+      - name: Validate generated intelligence
+        run: python scripts/validate_outputs.py
+
       - name: Commit refreshed intelligence
         run: |
           git config user.name "Driftless Workforce Bot"
