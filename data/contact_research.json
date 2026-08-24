@@ -1,326 +1,300 @@
 [
   {
-    "employer": "GREAT LAKES CHEESE",
-    "score": 58,
-    "priority": "Monitor",
+    "employer": "GUNDERSEN / EMPLIFY HEALTH",
+    "location": "La Crosse, WI",
+    "score": 96,
+    "priority": "Pursue",
+    "source": "Official careers site",
+    "verified": "2026-08-24",
     "targets": [
       {
-        "name": "",
+        "name": "Recruitment Team",
         "role": "HR / Talent Acquisition",
-        "status": "Research target",
-        "path": "Employer careers page and LinkedIn company page",
-        "email": "",
-        "phone": "",
-        "linkedin": ""
+        "status": "Verified public recruiting contact",
+        "email": "HR-Recruitment@emplifyhealth.org",
+        "phone": "608-775-0267",
+        "linkedin": "",
+        "source_url": "https://www.gundersenhealth.org/careers/about/faq"
       },
       {
-        "name": "",
-        "role": "Operations / Hiring Leader",
-        "status": "Research target",
-        "path": "Employer careers page and LinkedIn company page",
-        "email": "",
-        "phone": "",
-        "linkedin": ""
+        "name": "Recruitment Team",
+        "role": "Recruiting",
+        "status": "Verified public recruiting contact",
+        "email": "HR-Recruitment@gundersenhealth.org",
+        "phone": "608-775-0267",
+        "linkedin": "",
+        "source_url": "https://www.gundersenhealth.org/careers/find-a-career/patient-services-specialist"
       }
     ]
   },
   {
-    "employer": "WIS PAK - LACROSSE INC",
-    "score": 46,
-    "priority": "Monitor",
+    "employer": "LA CROSSE COUNTY",
+    "location": "La Crosse, WI",
+    "score": 92,
+    "priority": "Pursue",
+    "source": "Official HR staff directory",
+    "verified": "2026-08-24",
     "targets": [
       {
-        "name": "",
-        "role": "HR / Talent Acquisition",
-        "status": "Research target",
-        "path": "Employer careers page and LinkedIn company page",
+        "name": "Kylee Breaker",
+        "role": "Talent Acquisition Lead",
+        "status": "Verified public contact",
         "email": "",
-        "phone": "",
-        "linkedin": ""
+        "phone": "608-785-9640",
+        "linkedin": "",
+        "source_url": "https://lacrossecounty.org/humanresources/staff-directory"
       },
       {
-        "name": "",
-        "role": "Operations / Hiring Leader",
-        "status": "Research target",
-        "path": "Employer careers page and LinkedIn company page",
+        "name": "Stephen Conrad",
+        "role": "Director of Human Resources",
+        "status": "Verified public contact",
         "email": "",
-        "phone": "",
-        "linkedin": ""
+        "phone": "608-785-9640",
+        "linkedin": "",
+        "source_url": "https://lacrossecounty.org/humanresources/staff-directory"
+      },
+      {
+        "name": "Diana Cukla",
+        "role": "Human Resources Operations Supervisor",
+        "status": "Verified public contact",
+        "email": "",
+        "phone": "608-785-9640",
+        "linkedin": "",
+        "source_url": "https://lacrossecounty.org/humanresources/staff-directory"
       }
     ]
   },
   {
-    "employer": "WIS-PAK",
-    "score": 46,
-    "priority": "Monitor",
+    "employer": "CITY OF LA CROSSE",
+    "location": "La Crosse, WI",
+    "score": 90,
+    "priority": "Pursue",
+    "source": "Official HR page",
+    "verified": "2026-08-24",
     "targets": [
       {
-        "name": "",
-        "role": "HR / Talent Acquisition",
-        "status": "Research target",
-        "path": "Employer careers page and LinkedIn company page",
-        "email": "",
-        "phone": "",
-        "linkedin": ""
+        "name": "Rebecca Franzen",
+        "role": "Director of Human Resources",
+        "status": "Verified public contact",
+        "email": "hr@cityoflacrosse.org",
+        "phone": "608-789-7595",
+        "linkedin": "",
+        "source_url": "https://www.cityoflacrosse.org/Your-Government/Departments/Human-Resources"
+      }
+    ]
+  },
+  {
+    "employer": "UW-LA CROSSE",
+    "location": "La Crosse, WI",
+    "score": 88,
+    "priority": "Pursue",
+    "source": "Official UW HR directory and recruitment page",
+    "verified": "2026-08-24",
+    "targets": [
+      {
+        "name": "Emily Roraff",
+        "role": "Interim Chief Human Resources Officer",
+        "status": "Verified public contact",
+        "email": "hrinfo@uwlax.edu",
+        "phone": "608-785-6499",
+        "linkedin": "",
+        "source_url": "https://www.wisconsin.edu/ohrwd/hr/contact/"
       },
       {
-        "name": "",
-        "role": "Operations / Hiring Leader",
-        "status": "Research target",
-        "path": "Employer careers page and LinkedIn company page",
+        "name": "Talent Acquisition Specialist",
+        "role": "Talent Acquisition",
+        "status": "Verified public office contact",
+        "email": "hrinfo@uwlax.edu",
+        "phone": "608-785-6499",
+        "linkedin": "",
+        "source_url": "https://www.uwlax.edu/human-resources/employees/supervisors/recruitment/"
+      }
+    ]
+  },
+  {
+    "employer": "KWIK TRIP",
+    "location": "La Crosse, WI",
+    "score": 98,
+    "priority": "Pursue",
+    "source": "Official careers/contact site; recruiter roles cross-checked against public recruiter directory",
+    "verified": "2026-08-24",
+    "targets": [
+      {
+        "name": "Chris McKinzie",
+        "role": "Director of Talent Wellbeing",
+        "status": "Publicly surfaced recruiter contact; verify before outreach",
+        "email": "",
+        "phone": "608-781-8988",
+        "linkedin": "",
+        "source_url": "https://www.kwiktrip.com/Contact-Us"
+      },
+      {
+        "name": "Ann McKelvey",
+        "role": "Production Recruiter",
+        "status": "Publicly surfaced recruiter contact; verify before outreach",
+        "email": "",
+        "phone": "608-781-8988",
+        "linkedin": "",
+        "source_url": "https://www.kwiktrip.com/Contact-Us"
+      },
+      {
+        "name": "Alyssia Amador",
+        "role": "Corporate Recruiter II",
+        "status": "Publicly surfaced recruiter contact; verify before outreach",
+        "email": "",
+        "phone": "608-781-8988",
+        "linkedin": "",
+        "source_url": "https://www.kwiktrip.com/Contact-Us"
+      },
+      {
+        "name": "Korena Pabst",
+        "role": "Retail Management Recruiter",
+        "status": "Publicly surfaced recruiter contact; verify before outreach",
+        "email": "",
+        "phone": "608-781-8988",
+        "linkedin": "",
+        "source_url": "https://www.kwiktrip.com/Contact-Us"
+      }
+    ]
+  },
+  {
+    "employer": "MAYO CLINIC HEALTH SYSTEM",
+    "location": "La Crosse, WI",
+    "score": 97,
+    "priority": "Pursue",
+    "source": "Official Mayo careers site",
+    "verified": "2026-08-24",
+    "targets": [
+      {
+        "name": "Mayo Clinic Recruitment Team",
+        "role": "Talent Acquisition / Recruiting",
+        "status": "Recruiting channel verified; named La Crosse recruiter to be researched next",
         "email": "",
         "phone": "",
-        "linkedin": ""
+        "linkedin": "",
+        "source_url": "https://sncs-prod-external.mayo.edu/locations/la-crosse/careers"
       }
     ]
   },
   {
     "employer": "TRANE TECHNOLOGIES",
+    "location": "La Crosse, WI",
+    "score": 94,
+    "priority": "Pursue",
+    "source": "Official Trane careers site; local recruiter role cross-checked against public recruiter directory",
+    "verified": "2026-08-24",
+    "targets": [
+      {
+        "name": "Mike Malone",
+        "role": "Director, Recruiting",
+        "status": "Publicly surfaced recruiter contact; verify before outreach",
+        "email": "",
+        "phone": "608-788-8430",
+        "linkedin": "",
+        "source_url": "https://www.trane.com/careers.aspx"
+      },
+      {
+        "name": "Trane La Crosse HR / Talent Acquisition",
+        "role": "HR / Talent Acquisition",
+        "status": "Verified company recruiting channel",
+        "email": "",
+        "phone": "608-788-8430",
+        "linkedin": "",
+        "source_url": "https://www.trane.com/careers.aspx"
+      }
+    ]
+  },
+  {
+    "employer": "ONALASKA SCHOOL DISTRICT",
+    "location": "Onalaska, WI",
     "score": 82,
     "priority": "Pursue",
+    "source": "Official district HR page",
+    "verified": "2026-08-24",
     "targets": [
       {
-        "name": "",
-        "role": "HR / Talent Acquisition",
-        "status": "Research target",
-        "path": "Employer careers page and LinkedIn company page",
+        "name": "Executive Director of Human Resources",
+        "role": "HR Leadership",
+        "status": "Official HR office target; named contact to be verified in next pass",
         "email": "",
         "phone": "",
-        "linkedin": ""
-      },
-      {
-        "name": "",
-        "role": "Operations / Hiring Leader",
-        "status": "Research target",
-        "path": "Employer careers page and LinkedIn company page",
-        "email": "",
-        "phone": "",
-        "linkedin": ""
+        "linkedin": "",
+        "source_url": "https://www.onalaskaschools.com/departments/human-resources"
       }
     ]
   },
   {
-    "employer": "FDX",
-    "score": 54,
-    "priority": "Monitor",
+    "employer": "GREAT LAKES CHEESE",
+    "location": "La Crosse, WI",
+    "score": 91,
+    "priority": "Pursue",
+    "source": "Local employer target; HR contact pending direct verification",
+    "verified": "2026-08-24",
     "targets": [
       {
-        "name": "",
+        "name": "HR / Talent Acquisition",
         "role": "HR / Talent Acquisition",
         "status": "Research target",
-        "path": "Employer careers page and LinkedIn company page",
         "email": "",
-        "phone": "",
-        "linkedin": ""
+        "phone": "608-781-2800",
+        "linkedin": "",
+        "source_url": "https://www.greatlakescheese.com/"
       },
       {
-        "name": "",
+        "name": "Plant / Operations Leadership",
         "role": "Operations / Hiring Leader",
         "status": "Research target",
-        "path": "Employer careers page and LinkedIn company page",
         "email": "",
-        "phone": "",
-        "linkedin": ""
+        "phone": "608-781-2800",
+        "linkedin": "",
+        "source_url": "https://www.greatlakescheese.com/"
       }
     ]
   },
   {
-    "employer": "KOHL'S",
-    "score": 46,
-    "priority": "Monitor",
+    "employer": "WIS-PAK",
+    "location": "La Crosse, WI",
+    "score": 84,
+    "priority": "Pursue",
+    "source": "Local employer target; direct HR contact pending verification",
+    "verified": "2026-08-24",
     "targets": [
       {
-        "name": "",
+        "name": "HR / Talent Acquisition",
         "role": "HR / Talent Acquisition",
         "status": "Research target",
-        "path": "Employer careers page and LinkedIn company page",
         "email": "",
         "phone": "",
-        "linkedin": ""
+        "linkedin": "",
+        "source_url": "https://wispak.com/"
       },
       {
-        "name": "",
+        "name": "Plant / Operations Leadership",
         "role": "Operations / Hiring Leader",
         "status": "Research target",
-        "path": "Employer careers page and LinkedIn company page",
         "email": "",
         "phone": "",
-        "linkedin": ""
-      }
-    ]
-  },
-  {
-    "employer": "COMPASS GROUP",
-    "score": 46,
-    "priority": "Monitor",
-    "targets": [
-      {
-        "name": "",
-        "role": "HR / Talent Acquisition",
-        "status": "Research target",
-        "path": "Employer careers page and LinkedIn company page",
-        "email": "",
-        "phone": "",
-        "linkedin": ""
-      },
-      {
-        "name": "",
-        "role": "Operations / Hiring Leader",
-        "status": "Research target",
-        "path": "Employer careers page and LinkedIn company page",
-        "email": "",
-        "phone": "",
-        "linkedin": ""
-      }
-    ]
-  },
-  {
-    "employer": "SONEPAR USA INC",
-    "score": 46,
-    "priority": "Monitor",
-    "targets": [
-      {
-        "name": "",
-        "role": "HR / Talent Acquisition",
-        "status": "Research target",
-        "path": "Employer careers page and LinkedIn company page",
-        "email": "",
-        "phone": "",
-        "linkedin": ""
-      },
-      {
-        "name": "",
-        "role": "Operations / Hiring Leader",
-        "status": "Research target",
-        "path": "Employer careers page and LinkedIn company page",
-        "email": "",
-        "phone": "",
-        "linkedin": ""
-      }
-    ]
-  },
-  {
-    "employer": "SONEPAR",
-    "score": 46,
-    "priority": "Monitor",
-    "targets": [
-      {
-        "name": "",
-        "role": "HR / Talent Acquisition",
-        "status": "Research target",
-        "path": "Employer careers page and LinkedIn company page",
-        "email": "",
-        "phone": "",
-        "linkedin": ""
-      },
-      {
-        "name": "",
-        "role": "Operations / Hiring Leader",
-        "status": "Research target",
-        "path": "Employer careers page and LinkedIn company page",
-        "email": "",
-        "phone": "",
-        "linkedin": ""
-      }
-    ]
-  },
-  {
-    "employer": "ROEHL TRANSPORT",
-    "score": 58,
-    "priority": "Monitor",
-    "targets": [
-      {
-        "name": "",
-        "role": "HR / Talent Acquisition",
-        "status": "Research target",
-        "path": "Employer careers page and LinkedIn company page",
-        "email": "",
-        "phone": "",
-        "linkedin": ""
-      },
-      {
-        "name": "",
-        "role": "Operations / Hiring Leader",
-        "status": "Research target",
-        "path": "Employer careers page and LinkedIn company page",
-        "email": "",
-        "phone": "",
-        "linkedin": ""
+        "linkedin": "",
+        "source_url": "https://wispak.com/"
       }
     ]
   },
   {
     "employer": "ALTRA FEDERAL CREDIT UNION",
-    "score": 46,
-    "priority": "Monitor",
+    "location": "Onalaska / La Crosse, WI",
+    "score": 78,
+    "priority": "Pursue",
+    "source": "Local employer target; direct HR contact pending verification",
+    "verified": "2026-08-24",
     "targets": [
       {
-        "name": "",
+        "name": "HR / Talent Acquisition",
         "role": "HR / Talent Acquisition",
         "status": "Research target",
-        "path": "Employer careers page and LinkedIn company page",
         "email": "",
         "phone": "",
-        "linkedin": ""
-      },
-      {
-        "name": "",
-        "role": "Operations / Hiring Leader",
-        "status": "Research target",
-        "path": "Employer careers page and LinkedIn company page",
-        "email": "",
-        "phone": "",
-        "linkedin": ""
-      }
-    ]
-  },
-  {
-    "employer": "ENGLISH LUTHERAN CHURCH",
-    "score": 46,
-    "priority": "Monitor",
-    "targets": [
-      {
-        "name": "",
-        "role": "HR / Talent Acquisition",
-        "status": "Research target",
-        "path": "Employer careers page and LinkedIn company page",
-        "email": "",
-        "phone": "",
-        "linkedin": ""
-      },
-      {
-        "name": "",
-        "role": "Operations / Hiring Leader",
-        "status": "Research target",
-        "path": "Employer careers page and LinkedIn company page",
-        "email": "",
-        "phone": "",
-        "linkedin": ""
-      }
-    ]
-  },
-  {
-    "employer": "WALMART",
-    "score": 54,
-    "priority": "Monitor",
-    "targets": [
-      {
-        "name": "",
-        "role": "HR / Talent Acquisition",
-        "status": "Research target",
-        "path": "Employer careers page and LinkedIn company page",
-        "email": "",
-        "phone": "",
-        "linkedin": ""
-      },
-      {
-        "name": "",
-        "role": "Operations / Hiring Leader",
-        "status": "Research target",
-        "path": "Employer careers page and LinkedIn company page",
-        "email": "",
-        "phone": "",
-        "linkedin": ""
+        "linkedin": "",
+        "source_url": "https://www.altra.org/"
       }
     ]
   }
