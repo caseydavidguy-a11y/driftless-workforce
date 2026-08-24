@@ -25,7 +25,9 @@ def employer_momentum(snapshots, slug, days=7):
 
 def employer_momentum_bonus(momentum):
     if momentum['direction'] == 'up':
-        return min(15, max(3, momentum['pct'] // 20 + (5 if momentum['change'] >= 3 else 0)))
+        # A 100% increase with a meaningful absolute increase is the full
+        # positive momentum signal; keep the configured 15-point ceiling.
+        return min(15, max(3, momentum['pct'] // 10 + (5 if momentum['change'] >= 3 else 0)))
     if momentum['direction'] == 'down':
         return -min(8, abs(momentum['pct']) // 10)
     return 0
