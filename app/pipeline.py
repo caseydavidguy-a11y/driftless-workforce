@@ -3,9 +3,11 @@ from .models import Employer, JobObservation
 from .normalize import canonicalize_employer, normalize_industry
 from .scoring import apply_score
 from .change_report import employer_from_snapshot
+from .job_scope import filter_in_scope
 
 
 def build_employers(observations: list[JobObservation], previous_snapshot: dict | None = None, snapshots: list[dict] | None = None) -> list[Employer]:
+    observations = filter_in_scope(observations)
     grouped: dict[str, list[JobObservation]] = defaultdict(list)
     for observation in observations:
         grouped[canonicalize_employer(observation.employer)].append(observation)
