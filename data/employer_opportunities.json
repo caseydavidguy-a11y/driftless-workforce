@@ -65,6 +65,10 @@
         {
           "captured_at": "2026-08-25T04:33:57.863405+00:00",
           "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-25T04:36:51.609952+00:00",
+          "opening_count": 4
         }
       ]
     },
@@ -96,6 +100,10 @@
         },
         {
           "captured_at": "2026-08-25T04:33:57.863405+00:00",
+          "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-25T04:36:51.609952+00:00",
           "opening_count": 4
         }
       ]
@@ -139,8 +147,8 @@
   {
     "employer": "TRANE TECHNOLOGIES",
     "slug": "trane technologies",
-    "score": 42,
-    "priority": "Monitor",
+    "score": 38,
+    "priority": "Low",
     "opening_count": 3,
     "verified_opening_count": 3,
     "locations": [
@@ -181,9 +189,9 @@
     ],
     "momentum_7d": {
       "days": 7,
-      "change": 0,
-      "pct": 0,
-      "direction": "flat",
+      "change": -1,
+      "pct": -25,
+      "direction": "down",
       "points": [
         {
           "captured_at": "2026-08-24T22:18:07.204524+00:00",
@@ -208,14 +216,18 @@
         {
           "captured_at": "2026-08-25T04:33:57.863405+00:00",
           "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-25T04:36:51.609952+00:00",
+          "opening_count": 3
         }
       ]
     },
     "momentum_30d": {
       "days": 30,
-      "change": 0,
-      "pct": 0,
-      "direction": "flat",
+      "change": -1,
+      "pct": -25,
+      "direction": "down",
       "points": [
         {
           "captured_at": "2026-08-24T22:18:07.204524+00:00",
@@ -240,6 +252,10 @@
         {
           "captured_at": "2026-08-25T04:33:57.863405+00:00",
           "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-25T04:36:51.609952+00:00",
+          "opening_count": 3
         }
       ]
     },
@@ -250,9 +266,9 @@
         "reason": "Underlying employer/opportunity fit"
       },
       {
-        "label": "Volume Decrease",
-        "points": 2,
-        "reason": "Openings decreased from 4 to 3"
+        "label": "Hiring momentum",
+        "points": -2,
+        "reason": "Down -25% over 7 days"
       }
     ],
     "score_policy_version": 1,
@@ -275,629 +291,6 @@
         "location": "La Crosse",
         "posted_at": "2026-08-22T00:00:00+00:00",
         "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dLa%2bCrosse%26dist%3d%26edu%3d%26kwords%3d%26loc%3dLa%2bCrosse%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d"
-      }
-    ]
-  },
-  {
-    "employer": "COUNTY MATERIALS CORPORATION",
-    "slug": "county materials",
-    "score": 37,
-    "priority": "Low",
-    "opening_count": 2,
-    "verified_opening_count": 2,
-    "locations": [
-      "Holmen"
-    ],
-    "industries": [
-      "leadership",
-      "manufacturing"
-    ],
-    "hiring_summary": "COUNTY MATERIALS CORPORATION has 2 observed opening(s) across 1 local location(s).",
-    "reasons": [
-      "2 observed openings indicate active hiring",
-      "2 opening(s) are source-verified",
-      "Hiring overlaps Driftless Workforce target industries",
-      "Leadership hiring signal: Production Supervisor, Operations Plant Operations Manager"
-    ],
-    "target_roles": [
-      "leadership"
-    ],
-    "industries_detected": [
-      "leadership",
-      "manufacturing"
-    ],
-    "decision_maker_roles": [
-      "HR / Talent Acquisition",
-      "Hiring Manager",
-      "Operations Leader"
-    ],
-    "contact_path": "Find HR/Talent Acquisition or the hiring manager through the employer's official site or public professional profile. Do not guess an email address.",
-    "outreach_angle": "Lead with capacity: ask whether current hiring volume is creating bottlenecks and offer targeted recruiting support for roles already being advertised.",
-    "evidence": [
-      "Production Supervisor \u2014 Holmen [Job Center of Wisconsin]",
-      "Operations Plant Operations Manager \u2014 Holmen [Job Center of Wisconsin]"
-    ],
-    "momentum_7d": {
-      "days": 7,
-      "change": 0,
-      "pct": 0,
-      "direction": "flat",
-      "points": [
-        {
-          "captured_at": "2026-08-24T22:18:07.204524+00:00",
-          "opening_count": 4
-        },
-        {
-          "captured_at": "2026-08-24T22:19:41.611533+00:00",
-          "opening_count": 4
-        },
-        {
-          "captured_at": "2026-08-24T23:03:06.494647+00:00",
-          "opening_count": 4
-        },
-        {
-          "captured_at": "2026-08-24T23:57:39.200612+00:00",
-          "opening_count": 4
-        },
-        {
-          "captured_at": "2026-08-25T03:28:06.458548+00:00",
-          "opening_count": 4
-        },
-        {
-          "captured_at": "2026-08-25T04:33:57.863405+00:00",
-          "opening_count": 4
-        }
-      ]
-    },
-    "momentum_30d": {
-      "days": 30,
-      "change": 0,
-      "pct": 0,
-      "direction": "flat",
-      "points": [
-        {
-          "captured_at": "2026-08-24T22:18:07.204524+00:00",
-          "opening_count": 4
-        },
-        {
-          "captured_at": "2026-08-24T22:19:41.611533+00:00",
-          "opening_count": 4
-        },
-        {
-          "captured_at": "2026-08-24T23:03:06.494647+00:00",
-          "opening_count": 4
-        },
-        {
-          "captured_at": "2026-08-24T23:57:39.200612+00:00",
-          "opening_count": 4
-        },
-        {
-          "captured_at": "2026-08-25T03:28:06.458548+00:00",
-          "opening_count": 4
-        },
-        {
-          "captured_at": "2026-08-25T04:33:57.863405+00:00",
-          "opening_count": 4
-        }
-      ]
-    },
-    "score_breakdown": [
-      {
-        "label": "Base opportunity",
-        "points": 35,
-        "reason": "Underlying employer/opportunity fit"
-      },
-      {
-        "label": "Volume Decrease",
-        "points": 2,
-        "reason": "Openings decreased from 4 to 2"
-      }
-    ],
-    "score_policy_version": 1,
-    "score_policy_capped": false,
-    "jobs": [
-      {
-        "title": "Production Supervisor",
-        "location": "Holmen",
-        "posted_at": "2026-08-19T00:00:00+00:00",
-        "source_url": "https://jobcenterofwisconsin.com/Presentation/JobSeekers/EnhancedJobs-det.aspx?OrderNumber=004043866"
-      },
-      {
-        "title": "Operations Plant Operations Manager",
-        "location": "Holmen",
-        "posted_at": "2026-08-16T00:00:00+00:00",
-        "source_url": "https://jobcenterofwisconsin.com/Presentation/JobSeekers/EnhancedJobs-det.aspx?OrderNumber=004041994"
-      }
-    ]
-  },
-  {
-    "employer": "SEVITA",
-    "slug": "sevita",
-    "score": 35,
-    "priority": "Low",
-    "opening_count": 1,
-    "verified_opening_count": 1,
-    "locations": [
-      "West Salem"
-    ],
-    "industries": [
-      "leadership"
-    ],
-    "hiring_summary": "SEVITA has 1 observed opening(s) across 1 local location(s).",
-    "reasons": [
-      "1 opening(s) are source-verified",
-      "Hiring overlaps Driftless Workforce target industries",
-      "Leadership hiring signal: Program Supervisor"
-    ],
-    "target_roles": [
-      "leadership"
-    ],
-    "industries_detected": [
-      "leadership"
-    ],
-    "decision_maker_roles": [
-      "HR / Talent Acquisition",
-      "Hiring Manager",
-      "Operations Leader"
-    ],
-    "contact_path": "Find HR/Talent Acquisition or the hiring manager through the employer's official site or public professional profile. Do not guess an email address.",
-    "outreach_angle": "Lead with leadership recruiting: reference the visible management hiring signal and offer help building a qualified local leadership pipeline.",
-    "evidence": [
-      "Program Supervisor \u2014 West Salem [Job Center of Wisconsin]"
-    ],
-    "momentum_7d": {
-      "days": 7,
-      "change": 1,
-      "pct": 20,
-      "direction": "up",
-      "points": [
-        {
-          "captured_at": "2026-08-24T22:18:07.204524+00:00",
-          "opening_count": 5
-        },
-        {
-          "captured_at": "2026-08-24T22:19:41.611533+00:00",
-          "opening_count": 5
-        },
-        {
-          "captured_at": "2026-08-24T23:03:06.494647+00:00",
-          "opening_count": 5
-        },
-        {
-          "captured_at": "2026-08-24T23:57:39.200612+00:00",
-          "opening_count": 5
-        },
-        {
-          "captured_at": "2026-08-25T03:28:06.458548+00:00",
-          "opening_count": 6
-        },
-        {
-          "captured_at": "2026-08-25T04:33:57.863405+00:00",
-          "opening_count": 6
-        }
-      ]
-    },
-    "momentum_30d": {
-      "days": 30,
-      "change": 1,
-      "pct": 20,
-      "direction": "up",
-      "points": [
-        {
-          "captured_at": "2026-08-24T22:18:07.204524+00:00",
-          "opening_count": 5
-        },
-        {
-          "captured_at": "2026-08-24T22:19:41.611533+00:00",
-          "opening_count": 5
-        },
-        {
-          "captured_at": "2026-08-24T23:03:06.494647+00:00",
-          "opening_count": 5
-        },
-        {
-          "captured_at": "2026-08-24T23:57:39.200612+00:00",
-          "opening_count": 5
-        },
-        {
-          "captured_at": "2026-08-25T03:28:06.458548+00:00",
-          "opening_count": 6
-        },
-        {
-          "captured_at": "2026-08-25T04:33:57.863405+00:00",
-          "opening_count": 6
-        }
-      ]
-    },
-    "score_breakdown": [
-      {
-        "label": "Base opportunity",
-        "points": 30,
-        "reason": "Underlying employer/opportunity fit"
-      },
-      {
-        "label": "Volume Decrease",
-        "points": 2,
-        "reason": "Openings decreased from 6 to 1"
-      },
-      {
-        "label": "Hiring momentum",
-        "points": 3,
-        "reason": "Up +20% over 7 days"
-      }
-    ],
-    "score_policy_version": 1,
-    "score_policy_capped": false,
-    "jobs": [
-      {
-        "title": "Program Supervisor",
-        "location": "West Salem",
-        "posted_at": "2026-07-01T00:00:00+00:00",
-        "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dWest%2bSalem%26dist%3d%26edu%3d%26kwords%3d%26loc%3dWest%2bSalem%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d"
-      }
-    ]
-  },
-  {
-    "employer": "MICHAELS",
-    "slug": "michaels",
-    "score": 32,
-    "priority": "Low",
-    "opening_count": 1,
-    "verified_opening_count": 1,
-    "locations": [
-      "La Crosse"
-    ],
-    "industries": [
-      "leadership"
-    ],
-    "hiring_summary": "MICHAELS has 1 observed opening(s) across 1 local location(s).",
-    "reasons": [
-      "1 opening(s) are source-verified",
-      "Hiring overlaps Driftless Workforce target industries",
-      "Leadership hiring signal: Retail Manager - Sales Full Time"
-    ],
-    "target_roles": [
-      "leadership"
-    ],
-    "industries_detected": [
-      "leadership"
-    ],
-    "decision_maker_roles": [
-      "HR / Talent Acquisition",
-      "Hiring Manager",
-      "Operations Leader"
-    ],
-    "contact_path": "Find HR/Talent Acquisition or the hiring manager through the employer's official site or public professional profile. Do not guess an email address.",
-    "outreach_angle": "Lead with leadership recruiting: reference the visible management hiring signal and offer help building a qualified local leadership pipeline.",
-    "evidence": [
-      "Retail Manager - Sales Full Time \u2014 La Crosse [Job Center of Wisconsin]"
-    ],
-    "momentum_7d": {
-      "days": 7,
-      "change": 0,
-      "pct": 0,
-      "direction": "flat",
-      "points": [
-        {
-          "captured_at": "2026-08-24T22:18:07.204524+00:00",
-          "opening_count": 3
-        },
-        {
-          "captured_at": "2026-08-24T22:19:41.611533+00:00",
-          "opening_count": 3
-        },
-        {
-          "captured_at": "2026-08-24T23:03:06.494647+00:00",
-          "opening_count": 3
-        },
-        {
-          "captured_at": "2026-08-24T23:57:39.200612+00:00",
-          "opening_count": 3
-        },
-        {
-          "captured_at": "2026-08-25T03:28:06.458548+00:00",
-          "opening_count": 3
-        },
-        {
-          "captured_at": "2026-08-25T04:33:57.863405+00:00",
-          "opening_count": 3
-        }
-      ]
-    },
-    "momentum_30d": {
-      "days": 30,
-      "change": 0,
-      "pct": 0,
-      "direction": "flat",
-      "points": [
-        {
-          "captured_at": "2026-08-24T22:18:07.204524+00:00",
-          "opening_count": 3
-        },
-        {
-          "captured_at": "2026-08-24T22:19:41.611533+00:00",
-          "opening_count": 3
-        },
-        {
-          "captured_at": "2026-08-24T23:03:06.494647+00:00",
-          "opening_count": 3
-        },
-        {
-          "captured_at": "2026-08-24T23:57:39.200612+00:00",
-          "opening_count": 3
-        },
-        {
-          "captured_at": "2026-08-25T03:28:06.458548+00:00",
-          "opening_count": 3
-        },
-        {
-          "captured_at": "2026-08-25T04:33:57.863405+00:00",
-          "opening_count": 3
-        }
-      ]
-    },
-    "score_breakdown": [
-      {
-        "label": "Base opportunity",
-        "points": 30,
-        "reason": "Underlying employer/opportunity fit"
-      },
-      {
-        "label": "Volume Decrease",
-        "points": 2,
-        "reason": "Openings decreased from 3 to 1"
-      }
-    ],
-    "score_policy_version": 1,
-    "score_policy_capped": false,
-    "jobs": [
-      {
-        "title": "Retail Manager - Sales Full Time",
-        "location": "La Crosse",
-        "posted_at": "2026-08-23T00:00:00+00:00",
-        "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dLa%2bCrosse%26dist%3d%26edu%3d%26kwords%3d%26loc%3dLa%2bCrosse%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d"
-      }
-    ]
-  },
-  {
-    "employer": "MONDELEZ INTERNATIONAL",
-    "slug": "mondelez international",
-    "score": 32,
-    "priority": "Low",
-    "opening_count": 1,
-    "verified_opening_count": 1,
-    "locations": [
-      "Holmen"
-    ],
-    "industries": [
-      "leadership"
-    ],
-    "hiring_summary": "MONDELEZ INTERNATIONAL has 1 observed opening(s) across 1 local location(s).",
-    "reasons": [
-      "1 opening(s) are source-verified",
-      "Hiring overlaps Driftless Workforce target industries",
-      "Leadership hiring signal: Retail Territory Manager Why is this a Hot Job?"
-    ],
-    "target_roles": [
-      "leadership"
-    ],
-    "industries_detected": [
-      "leadership"
-    ],
-    "decision_maker_roles": [
-      "HR / Talent Acquisition",
-      "Hiring Manager",
-      "Operations Leader"
-    ],
-    "contact_path": "Find HR/Talent Acquisition or the hiring manager through the employer's official site or public professional profile. Do not guess an email address.",
-    "outreach_angle": "Lead with leadership recruiting: reference the visible management hiring signal and offer help building a qualified local leadership pipeline.",
-    "evidence": [
-      "Retail Territory Manager Why is this a Hot Job? \u2014 Holmen [Job Center of Wisconsin]"
-    ],
-    "momentum_7d": {
-      "days": 7,
-      "change": 0,
-      "pct": 0,
-      "direction": "flat",
-      "points": [
-        {
-          "captured_at": "2026-08-24T22:18:07.204524+00:00",
-          "opening_count": 2
-        },
-        {
-          "captured_at": "2026-08-24T22:19:41.611533+00:00",
-          "opening_count": 2
-        },
-        {
-          "captured_at": "2026-08-24T23:03:06.494647+00:00",
-          "opening_count": 2
-        },
-        {
-          "captured_at": "2026-08-24T23:57:39.200612+00:00",
-          "opening_count": 2
-        },
-        {
-          "captured_at": "2026-08-25T03:28:06.458548+00:00",
-          "opening_count": 2
-        },
-        {
-          "captured_at": "2026-08-25T04:33:57.863405+00:00",
-          "opening_count": 2
-        }
-      ]
-    },
-    "momentum_30d": {
-      "days": 30,
-      "change": 0,
-      "pct": 0,
-      "direction": "flat",
-      "points": [
-        {
-          "captured_at": "2026-08-24T22:18:07.204524+00:00",
-          "opening_count": 2
-        },
-        {
-          "captured_at": "2026-08-24T22:19:41.611533+00:00",
-          "opening_count": 2
-        },
-        {
-          "captured_at": "2026-08-24T23:03:06.494647+00:00",
-          "opening_count": 2
-        },
-        {
-          "captured_at": "2026-08-24T23:57:39.200612+00:00",
-          "opening_count": 2
-        },
-        {
-          "captured_at": "2026-08-25T03:28:06.458548+00:00",
-          "opening_count": 2
-        },
-        {
-          "captured_at": "2026-08-25T04:33:57.863405+00:00",
-          "opening_count": 2
-        }
-      ]
-    },
-    "score_breakdown": [
-      {
-        "label": "Base opportunity",
-        "points": 30,
-        "reason": "Underlying employer/opportunity fit"
-      },
-      {
-        "label": "Volume Decrease",
-        "points": 2,
-        "reason": "Openings decreased from 2 to 1"
-      }
-    ],
-    "score_policy_version": 1,
-    "score_policy_capped": false,
-    "jobs": [
-      {
-        "title": "Retail Territory Manager Why is this a Hot Job?",
-        "location": "Holmen",
-        "posted_at": "2026-07-04T00:00:00+00:00",
-        "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dHolmen%26dist%3d%26edu%3d%26kwords%3d%26loc%3dHolmen%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d"
-      }
-    ]
-  },
-  {
-    "employer": "PEOPLEREADY",
-    "slug": "peopleready",
-    "score": 32,
-    "priority": "Low",
-    "opening_count": 1,
-    "verified_opening_count": 1,
-    "locations": [
-      "West Salem"
-    ],
-    "industries": [
-      "manufacturing"
-    ],
-    "hiring_summary": "PEOPLEREADY has 1 observed opening(s) across 1 local location(s).",
-    "reasons": [
-      "1 opening(s) are source-verified",
-      "Hiring overlaps Driftless Workforce target industries"
-    ],
-    "target_roles": [
-      "manufacturing / production"
-    ],
-    "industries_detected": [
-      "manufacturing"
-    ],
-    "decision_maker_roles": [
-      "HR / Talent Acquisition",
-      "Department Manager"
-    ],
-    "contact_path": "Find HR/Talent Acquisition or the hiring manager through the employer's official site or public professional profile. Do not guess an email address.",
-    "outreach_angle": "Lead with the specific hard-to-fill role and offer a focused candidate-sourcing conversation rather than a generic staffing pitch.",
-    "evidence": [
-      "Quality Inspector \u2014 West Salem [Job Center of Wisconsin]"
-    ],
-    "momentum_7d": {
-      "days": 7,
-      "change": 0,
-      "pct": 0,
-      "direction": "flat",
-      "points": [
-        {
-          "captured_at": "2026-08-24T22:18:07.204524+00:00",
-          "opening_count": 2
-        },
-        {
-          "captured_at": "2026-08-24T22:19:41.611533+00:00",
-          "opening_count": 2
-        },
-        {
-          "captured_at": "2026-08-24T23:03:06.494647+00:00",
-          "opening_count": 2
-        },
-        {
-          "captured_at": "2026-08-24T23:57:39.200612+00:00",
-          "opening_count": 2
-        },
-        {
-          "captured_at": "2026-08-25T03:28:06.458548+00:00",
-          "opening_count": 2
-        },
-        {
-          "captured_at": "2026-08-25T04:33:57.863405+00:00",
-          "opening_count": 2
-        }
-      ]
-    },
-    "momentum_30d": {
-      "days": 30,
-      "change": 0,
-      "pct": 0,
-      "direction": "flat",
-      "points": [
-        {
-          "captured_at": "2026-08-24T22:18:07.204524+00:00",
-          "opening_count": 2
-        },
-        {
-          "captured_at": "2026-08-24T22:19:41.611533+00:00",
-          "opening_count": 2
-        },
-        {
-          "captured_at": "2026-08-24T23:03:06.494647+00:00",
-          "opening_count": 2
-        },
-        {
-          "captured_at": "2026-08-24T23:57:39.200612+00:00",
-          "opening_count": 2
-        },
-        {
-          "captured_at": "2026-08-25T03:28:06.458548+00:00",
-          "opening_count": 2
-        },
-        {
-          "captured_at": "2026-08-25T04:33:57.863405+00:00",
-          "opening_count": 2
-        }
-      ]
-    },
-    "score_breakdown": [
-      {
-        "label": "Base opportunity",
-        "points": 30,
-        "reason": "Underlying employer/opportunity fit"
-      },
-      {
-        "label": "Volume Decrease",
-        "points": 2,
-        "reason": "Openings decreased from 2 to 1"
-      }
-    ],
-    "score_policy_version": 1,
-    "score_policy_capped": false,
-    "jobs": [
-      {
-        "title": "Quality Inspector",
-        "location": "West Salem",
-        "posted_at": "2026-08-14T00:00:00+00:00",
-        "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dWest%2bSalem%26dist%3d%26edu%3d%26kwords%3d%26loc%3dWest%2bSalem%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d"
       }
     ]
   },
@@ -963,6 +356,10 @@
         {
           "captured_at": "2026-08-25T04:33:57.863405+00:00",
           "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T04:36:51.609952+00:00",
+          "opening_count": 1
         }
       ]
     },
@@ -994,6 +391,10 @@
         },
         {
           "captured_at": "2026-08-25T04:33:57.863405+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T04:36:51.609952+00:00",
           "opening_count": 1
         }
       ]
@@ -1080,6 +481,10 @@
         {
           "captured_at": "2026-08-25T04:33:57.863405+00:00",
           "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T04:36:51.609952+00:00",
+          "opening_count": 1
         }
       ]
     },
@@ -1111,6 +516,10 @@
         },
         {
           "captured_at": "2026-08-25T04:33:57.863405+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T04:36:51.609952+00:00",
           "opening_count": 1
         }
       ]
@@ -1197,6 +606,10 @@
         {
           "captured_at": "2026-08-25T04:33:57.863405+00:00",
           "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T04:36:51.609952+00:00",
+          "opening_count": 1
         }
       ]
     },
@@ -1229,6 +642,10 @@
         {
           "captured_at": "2026-08-25T04:33:57.863405+00:00",
           "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T04:36:51.609952+00:00",
+          "opening_count": 1
         }
       ]
     },
@@ -1247,6 +664,146 @@
         "location": "Onalaska",
         "posted_at": "2026-08-22T00:00:00+00:00",
         "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dOnalaska%26dist%3d%26edu%3d%26kwords%3d%26loc%3dOnalaska%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d"
+      }
+    ]
+  },
+  {
+    "employer": "COUNTY MATERIALS CORPORATION",
+    "slug": "county materials",
+    "score": 30,
+    "priority": "Low",
+    "opening_count": 2,
+    "verified_opening_count": 2,
+    "locations": [
+      "Holmen"
+    ],
+    "industries": [
+      "leadership",
+      "manufacturing"
+    ],
+    "hiring_summary": "COUNTY MATERIALS CORPORATION has 2 observed opening(s) across 1 local location(s).",
+    "reasons": [
+      "2 observed openings indicate active hiring",
+      "2 opening(s) are source-verified",
+      "Hiring overlaps Driftless Workforce target industries",
+      "Leadership hiring signal: Production Supervisor, Operations Plant Operations Manager"
+    ],
+    "target_roles": [
+      "leadership"
+    ],
+    "industries_detected": [
+      "leadership",
+      "manufacturing"
+    ],
+    "decision_maker_roles": [
+      "HR / Talent Acquisition",
+      "Hiring Manager",
+      "Operations Leader"
+    ],
+    "contact_path": "Find HR/Talent Acquisition or the hiring manager through the employer's official site or public professional profile. Do not guess an email address.",
+    "outreach_angle": "Lead with capacity: ask whether current hiring volume is creating bottlenecks and offer targeted recruiting support for roles already being advertised.",
+    "evidence": [
+      "Production Supervisor \u2014 Holmen [Job Center of Wisconsin]",
+      "Operations Plant Operations Manager \u2014 Holmen [Job Center of Wisconsin]"
+    ],
+    "momentum_7d": {
+      "days": 7,
+      "change": -2,
+      "pct": -50,
+      "direction": "down",
+      "points": [
+        {
+          "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
+          "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-24T23:03:06.494647+00:00",
+          "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
+          "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-25T04:33:57.863405+00:00",
+          "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-25T04:36:51.609952+00:00",
+          "opening_count": 2
+        }
+      ]
+    },
+    "momentum_30d": {
+      "days": 30,
+      "change": -2,
+      "pct": -50,
+      "direction": "down",
+      "points": [
+        {
+          "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
+          "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-24T23:03:06.494647+00:00",
+          "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
+          "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-25T04:33:57.863405+00:00",
+          "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-25T04:36:51.609952+00:00",
+          "opening_count": 2
+        }
+      ]
+    },
+    "score_breakdown": [
+      {
+        "label": "Base opportunity",
+        "points": 35,
+        "reason": "Underlying employer/opportunity fit"
+      },
+      {
+        "label": "Hiring momentum",
+        "points": -5,
+        "reason": "Down -50% over 7 days"
+      }
+    ],
+    "score_policy_version": 1,
+    "score_policy_capped": false,
+    "jobs": [
+      {
+        "title": "Production Supervisor",
+        "location": "Holmen",
+        "posted_at": "2026-08-19T00:00:00+00:00",
+        "source_url": "https://jobcenterofwisconsin.com/Presentation/JobSeekers/EnhancedJobs-det.aspx?OrderNumber=004043866"
+      },
+      {
+        "title": "Operations Plant Operations Manager",
+        "location": "Holmen",
+        "posted_at": "2026-08-16T00:00:00+00:00",
+        "source_url": "https://jobcenterofwisconsin.com/Presentation/JobSeekers/EnhancedJobs-det.aspx?OrderNumber=004041994"
       }
     ]
   },
@@ -1314,6 +871,10 @@
         {
           "captured_at": "2026-08-25T04:33:57.863405+00:00",
           "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T04:36:51.609952+00:00",
+          "opening_count": 1
         }
       ]
     },
@@ -1345,6 +906,10 @@
         },
         {
           "captured_at": "2026-08-25T04:33:57.863405+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T04:36:51.609952+00:00",
           "opening_count": 1
         }
       ]
@@ -1429,6 +994,10 @@
         {
           "captured_at": "2026-08-25T04:33:57.863405+00:00",
           "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T04:36:51.609952+00:00",
+          "opening_count": 1
         }
       ]
     },
@@ -1461,6 +1030,10 @@
         {
           "captured_at": "2026-08-25T04:33:57.863405+00:00",
           "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T04:36:51.609952+00:00",
+          "opening_count": 1
         }
       ]
     },
@@ -1483,99 +1056,109 @@
     ]
   },
   {
-    "employer": "WALMART",
-    "slug": "walmart",
-    "score": 27,
+    "employer": "MONDELEZ INTERNATIONAL",
+    "slug": "mondelez international",
+    "score": 25,
     "priority": "Low",
     "opening_count": 1,
     "verified_opening_count": 1,
     "locations": [
-      "Onalaska"
+      "Holmen"
     ],
     "industries": [
-      "skilled trades"
+      "leadership"
     ],
-    "hiring_summary": "WALMART has 1 observed opening(s) across 1 local location(s).",
+    "hiring_summary": "MONDELEZ INTERNATIONAL has 1 observed opening(s) across 1 local location(s).",
     "reasons": [
       "1 opening(s) are source-verified",
-      "Hiring overlaps Driftless Workforce target industries"
+      "Hiring overlaps Driftless Workforce target industries",
+      "Leadership hiring signal: Retail Territory Manager Why is this a Hot Job?"
     ],
     "target_roles": [
-      "skilled trades / maintenance"
+      "leadership"
     ],
     "industries_detected": [
-      "skilled trades"
+      "leadership"
     ],
     "decision_maker_roles": [
       "HR / Talent Acquisition",
-      "Department Manager"
+      "Hiring Manager",
+      "Operations Leader"
     ],
     "contact_path": "Find HR/Talent Acquisition or the hiring manager through the employer's official site or public professional profile. Do not guess an email address.",
-    "outreach_angle": "Lead with the specific hard-to-fill role and offer a focused candidate-sourcing conversation rather than a generic staffing pitch.",
+    "outreach_angle": "Lead with leadership recruiting: reference the visible management hiring signal and offer help building a qualified local leadership pipeline.",
     "evidence": [
-      "(USA) Tire & Battery Technician - Automotive \u2014 Onalaska [Job Center of Wisconsin]"
+      "Retail Territory Manager Why is this a Hot Job? \u2014 Holmen [Job Center of Wisconsin]"
     ],
     "momentum_7d": {
       "days": 7,
-      "change": -2,
+      "change": -1,
       "pct": -50,
       "direction": "down",
       "points": [
         {
           "captured_at": "2026-08-24T22:18:07.204524+00:00",
-          "opening_count": 4
+          "opening_count": 2
         },
         {
           "captured_at": "2026-08-24T22:19:41.611533+00:00",
-          "opening_count": 4
+          "opening_count": 2
         },
         {
           "captured_at": "2026-08-24T23:03:06.494647+00:00",
-          "opening_count": 4
+          "opening_count": 2
         },
         {
           "captured_at": "2026-08-24T23:57:39.200612+00:00",
-          "opening_count": 4
+          "opening_count": 2
         },
         {
           "captured_at": "2026-08-25T03:28:06.458548+00:00",
-          "opening_count": 3
+          "opening_count": 2
         },
         {
           "captured_at": "2026-08-25T04:33:57.863405+00:00",
           "opening_count": 2
+        },
+        {
+          "captured_at": "2026-08-25T04:36:51.609952+00:00",
+          "opening_count": 1
         }
       ]
     },
     "momentum_30d": {
       "days": 30,
-      "change": -2,
+      "change": -1,
       "pct": -50,
       "direction": "down",
       "points": [
         {
           "captured_at": "2026-08-24T22:18:07.204524+00:00",
-          "opening_count": 4
+          "opening_count": 2
         },
         {
           "captured_at": "2026-08-24T22:19:41.611533+00:00",
-          "opening_count": 4
+          "opening_count": 2
         },
         {
           "captured_at": "2026-08-24T23:03:06.494647+00:00",
-          "opening_count": 4
+          "opening_count": 2
         },
         {
           "captured_at": "2026-08-24T23:57:39.200612+00:00",
-          "opening_count": 4
+          "opening_count": 2
         },
         {
           "captured_at": "2026-08-25T03:28:06.458548+00:00",
-          "opening_count": 3
+          "opening_count": 2
         },
         {
           "captured_at": "2026-08-25T04:33:57.863405+00:00",
           "opening_count": 2
+        },
+        {
+          "captured_at": "2026-08-25T04:36:51.609952+00:00",
+          "opening_count": 1
         }
       ]
     },
@@ -1584,11 +1167,6 @@
         "label": "Base opportunity",
         "points": 30,
         "reason": "Underlying employer/opportunity fit"
-      },
-      {
-        "label": "Volume Decrease",
-        "points": 2,
-        "reason": "Openings decreased from 2 to 1"
       },
       {
         "label": "Hiring momentum",
@@ -1600,10 +1178,138 @@
     "score_policy_capped": false,
     "jobs": [
       {
-        "title": "(USA) Tire & Battery Technician - Automotive",
-        "location": "Onalaska",
-        "posted_at": "2026-08-18T00:00:00+00:00",
-        "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dOnalaska%26dist%3d%26edu%3d%26kwords%3d%26loc%3dOnalaska%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d"
+        "title": "Retail Territory Manager Why is this a Hot Job?",
+        "location": "Holmen",
+        "posted_at": "2026-07-04T00:00:00+00:00",
+        "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dHolmen%26dist%3d%26edu%3d%26kwords%3d%26loc%3dHolmen%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d"
+      }
+    ]
+  },
+  {
+    "employer": "PEOPLEREADY",
+    "slug": "peopleready",
+    "score": 25,
+    "priority": "Low",
+    "opening_count": 1,
+    "verified_opening_count": 1,
+    "locations": [
+      "West Salem"
+    ],
+    "industries": [
+      "manufacturing"
+    ],
+    "hiring_summary": "PEOPLEREADY has 1 observed opening(s) across 1 local location(s).",
+    "reasons": [
+      "1 opening(s) are source-verified",
+      "Hiring overlaps Driftless Workforce target industries"
+    ],
+    "target_roles": [
+      "manufacturing / production"
+    ],
+    "industries_detected": [
+      "manufacturing"
+    ],
+    "decision_maker_roles": [
+      "HR / Talent Acquisition",
+      "Department Manager"
+    ],
+    "contact_path": "Find HR/Talent Acquisition or the hiring manager through the employer's official site or public professional profile. Do not guess an email address.",
+    "outreach_angle": "Lead with the specific hard-to-fill role and offer a focused candidate-sourcing conversation rather than a generic staffing pitch.",
+    "evidence": [
+      "Quality Inspector \u2014 West Salem [Job Center of Wisconsin]"
+    ],
+    "momentum_7d": {
+      "days": 7,
+      "change": -1,
+      "pct": -50,
+      "direction": "down",
+      "points": [
+        {
+          "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 2
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
+          "opening_count": 2
+        },
+        {
+          "captured_at": "2026-08-24T23:03:06.494647+00:00",
+          "opening_count": 2
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 2
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
+          "opening_count": 2
+        },
+        {
+          "captured_at": "2026-08-25T04:33:57.863405+00:00",
+          "opening_count": 2
+        },
+        {
+          "captured_at": "2026-08-25T04:36:51.609952+00:00",
+          "opening_count": 1
+        }
+      ]
+    },
+    "momentum_30d": {
+      "days": 30,
+      "change": -1,
+      "pct": -50,
+      "direction": "down",
+      "points": [
+        {
+          "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 2
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
+          "opening_count": 2
+        },
+        {
+          "captured_at": "2026-08-24T23:03:06.494647+00:00",
+          "opening_count": 2
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 2
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
+          "opening_count": 2
+        },
+        {
+          "captured_at": "2026-08-25T04:33:57.863405+00:00",
+          "opening_count": 2
+        },
+        {
+          "captured_at": "2026-08-25T04:36:51.609952+00:00",
+          "opening_count": 1
+        }
+      ]
+    },
+    "score_breakdown": [
+      {
+        "label": "Base opportunity",
+        "points": 30,
+        "reason": "Underlying employer/opportunity fit"
+      },
+      {
+        "label": "Hiring momentum",
+        "points": -5,
+        "reason": "Down -50% over 7 days"
+      }
+    ],
+    "score_policy_version": 1,
+    "score_policy_capped": false,
+    "jobs": [
+      {
+        "title": "Quality Inspector",
+        "location": "West Salem",
+        "posted_at": "2026-08-14T00:00:00+00:00",
+        "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dWest%2bSalem%26dist%3d%26edu%3d%26kwords%3d%26loc%3dWest%2bSalem%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d"
       }
     ]
   },
@@ -1669,6 +1375,10 @@
         {
           "captured_at": "2026-08-25T04:33:57.863405+00:00",
           "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T04:36:51.609952+00:00",
+          "opening_count": 1
         }
       ]
     },
@@ -1701,6 +1411,10 @@
         {
           "captured_at": "2026-08-25T04:33:57.863405+00:00",
           "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T04:36:51.609952+00:00",
+          "opening_count": 1
         }
       ]
     },
@@ -1723,6 +1437,394 @@
         "title": "Field Service Technician/Mechanic Why is this a Hot Job?",
         "location": "West Salem",
         "posted_at": "2026-08-17T00:00:00+00:00",
+        "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dWest%2bSalem%26dist%3d%26edu%3d%26kwords%3d%26loc%3dWest%2bSalem%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d"
+      }
+    ]
+  },
+  {
+    "employer": "MICHAELS",
+    "slug": "michaels",
+    "score": 24,
+    "priority": "Low",
+    "opening_count": 1,
+    "verified_opening_count": 1,
+    "locations": [
+      "La Crosse"
+    ],
+    "industries": [
+      "leadership"
+    ],
+    "hiring_summary": "MICHAELS has 1 observed opening(s) across 1 local location(s).",
+    "reasons": [
+      "1 opening(s) are source-verified",
+      "Hiring overlaps Driftless Workforce target industries",
+      "Leadership hiring signal: Retail Manager - Sales Full Time"
+    ],
+    "target_roles": [
+      "leadership"
+    ],
+    "industries_detected": [
+      "leadership"
+    ],
+    "decision_maker_roles": [
+      "HR / Talent Acquisition",
+      "Hiring Manager",
+      "Operations Leader"
+    ],
+    "contact_path": "Find HR/Talent Acquisition or the hiring manager through the employer's official site or public professional profile. Do not guess an email address.",
+    "outreach_angle": "Lead with leadership recruiting: reference the visible management hiring signal and offer help building a qualified local leadership pipeline.",
+    "evidence": [
+      "Retail Manager - Sales Full Time \u2014 La Crosse [Job Center of Wisconsin]"
+    ],
+    "momentum_7d": {
+      "days": 7,
+      "change": -2,
+      "pct": -67,
+      "direction": "down",
+      "points": [
+        {
+          "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 3
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
+          "opening_count": 3
+        },
+        {
+          "captured_at": "2026-08-24T23:03:06.494647+00:00",
+          "opening_count": 3
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 3
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
+          "opening_count": 3
+        },
+        {
+          "captured_at": "2026-08-25T04:33:57.863405+00:00",
+          "opening_count": 3
+        },
+        {
+          "captured_at": "2026-08-25T04:36:51.609952+00:00",
+          "opening_count": 1
+        }
+      ]
+    },
+    "momentum_30d": {
+      "days": 30,
+      "change": -2,
+      "pct": -67,
+      "direction": "down",
+      "points": [
+        {
+          "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 3
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
+          "opening_count": 3
+        },
+        {
+          "captured_at": "2026-08-24T23:03:06.494647+00:00",
+          "opening_count": 3
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 3
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
+          "opening_count": 3
+        },
+        {
+          "captured_at": "2026-08-25T04:33:57.863405+00:00",
+          "opening_count": 3
+        },
+        {
+          "captured_at": "2026-08-25T04:36:51.609952+00:00",
+          "opening_count": 1
+        }
+      ]
+    },
+    "score_breakdown": [
+      {
+        "label": "Base opportunity",
+        "points": 30,
+        "reason": "Underlying employer/opportunity fit"
+      },
+      {
+        "label": "Hiring momentum",
+        "points": -6,
+        "reason": "Down -67% over 7 days"
+      }
+    ],
+    "score_policy_version": 1,
+    "score_policy_capped": false,
+    "jobs": [
+      {
+        "title": "Retail Manager - Sales Full Time",
+        "location": "La Crosse",
+        "posted_at": "2026-08-23T00:00:00+00:00",
+        "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dLa%2bCrosse%26dist%3d%26edu%3d%26kwords%3d%26loc%3dLa%2bCrosse%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d"
+      }
+    ]
+  },
+  {
+    "employer": "WALMART",
+    "slug": "walmart",
+    "score": 23,
+    "priority": "Low",
+    "opening_count": 1,
+    "verified_opening_count": 1,
+    "locations": [
+      "Onalaska"
+    ],
+    "industries": [
+      "skilled trades"
+    ],
+    "hiring_summary": "WALMART has 1 observed opening(s) across 1 local location(s).",
+    "reasons": [
+      "1 opening(s) are source-verified",
+      "Hiring overlaps Driftless Workforce target industries"
+    ],
+    "target_roles": [
+      "skilled trades / maintenance"
+    ],
+    "industries_detected": [
+      "skilled trades"
+    ],
+    "decision_maker_roles": [
+      "HR / Talent Acquisition",
+      "Department Manager"
+    ],
+    "contact_path": "Find HR/Talent Acquisition or the hiring manager through the employer's official site or public professional profile. Do not guess an email address.",
+    "outreach_angle": "Lead with the specific hard-to-fill role and offer a focused candidate-sourcing conversation rather than a generic staffing pitch.",
+    "evidence": [
+      "(USA) Tire & Battery Technician - Automotive \u2014 Onalaska [Job Center of Wisconsin]"
+    ],
+    "momentum_7d": {
+      "days": 7,
+      "change": -3,
+      "pct": -75,
+      "direction": "down",
+      "points": [
+        {
+          "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
+          "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-24T23:03:06.494647+00:00",
+          "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
+          "opening_count": 3
+        },
+        {
+          "captured_at": "2026-08-25T04:33:57.863405+00:00",
+          "opening_count": 2
+        },
+        {
+          "captured_at": "2026-08-25T04:36:51.609952+00:00",
+          "opening_count": 1
+        }
+      ]
+    },
+    "momentum_30d": {
+      "days": 30,
+      "change": -3,
+      "pct": -75,
+      "direction": "down",
+      "points": [
+        {
+          "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
+          "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-24T23:03:06.494647+00:00",
+          "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
+          "opening_count": 3
+        },
+        {
+          "captured_at": "2026-08-25T04:33:57.863405+00:00",
+          "opening_count": 2
+        },
+        {
+          "captured_at": "2026-08-25T04:36:51.609952+00:00",
+          "opening_count": 1
+        }
+      ]
+    },
+    "score_breakdown": [
+      {
+        "label": "Base opportunity",
+        "points": 30,
+        "reason": "Underlying employer/opportunity fit"
+      },
+      {
+        "label": "Hiring momentum",
+        "points": -7,
+        "reason": "Down -75% over 7 days"
+      }
+    ],
+    "score_policy_version": 1,
+    "score_policy_capped": false,
+    "jobs": [
+      {
+        "title": "(USA) Tire & Battery Technician - Automotive",
+        "location": "Onalaska",
+        "posted_at": "2026-08-18T00:00:00+00:00",
+        "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dOnalaska%26dist%3d%26edu%3d%26kwords%3d%26loc%3dOnalaska%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d"
+      }
+    ]
+  },
+  {
+    "employer": "SEVITA",
+    "slug": "sevita",
+    "score": 22,
+    "priority": "Low",
+    "opening_count": 1,
+    "verified_opening_count": 1,
+    "locations": [
+      "West Salem"
+    ],
+    "industries": [
+      "leadership"
+    ],
+    "hiring_summary": "SEVITA has 1 observed opening(s) across 1 local location(s).",
+    "reasons": [
+      "1 opening(s) are source-verified",
+      "Hiring overlaps Driftless Workforce target industries",
+      "Leadership hiring signal: Program Supervisor"
+    ],
+    "target_roles": [
+      "leadership"
+    ],
+    "industries_detected": [
+      "leadership"
+    ],
+    "decision_maker_roles": [
+      "HR / Talent Acquisition",
+      "Hiring Manager",
+      "Operations Leader"
+    ],
+    "contact_path": "Find HR/Talent Acquisition or the hiring manager through the employer's official site or public professional profile. Do not guess an email address.",
+    "outreach_angle": "Lead with leadership recruiting: reference the visible management hiring signal and offer help building a qualified local leadership pipeline.",
+    "evidence": [
+      "Program Supervisor \u2014 West Salem [Job Center of Wisconsin]"
+    ],
+    "momentum_7d": {
+      "days": 7,
+      "change": -4,
+      "pct": -80,
+      "direction": "down",
+      "points": [
+        {
+          "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 5
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
+          "opening_count": 5
+        },
+        {
+          "captured_at": "2026-08-24T23:03:06.494647+00:00",
+          "opening_count": 5
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 5
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
+          "opening_count": 6
+        },
+        {
+          "captured_at": "2026-08-25T04:33:57.863405+00:00",
+          "opening_count": 6
+        },
+        {
+          "captured_at": "2026-08-25T04:36:51.609952+00:00",
+          "opening_count": 1
+        }
+      ]
+    },
+    "momentum_30d": {
+      "days": 30,
+      "change": -4,
+      "pct": -80,
+      "direction": "down",
+      "points": [
+        {
+          "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 5
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
+          "opening_count": 5
+        },
+        {
+          "captured_at": "2026-08-24T23:03:06.494647+00:00",
+          "opening_count": 5
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 5
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
+          "opening_count": 6
+        },
+        {
+          "captured_at": "2026-08-25T04:33:57.863405+00:00",
+          "opening_count": 6
+        },
+        {
+          "captured_at": "2026-08-25T04:36:51.609952+00:00",
+          "opening_count": 1
+        }
+      ]
+    },
+    "score_breakdown": [
+      {
+        "label": "Base opportunity",
+        "points": 30,
+        "reason": "Underlying employer/opportunity fit"
+      },
+      {
+        "label": "Hiring momentum",
+        "points": -8,
+        "reason": "Down -80% over 7 days"
+      }
+    ],
+    "score_policy_version": 1,
+    "score_policy_capped": false,
+    "jobs": [
+      {
+        "title": "Program Supervisor",
+        "location": "West Salem",
+        "posted_at": "2026-07-01T00:00:00+00:00",
         "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dWest%2bSalem%26dist%3d%26edu%3d%26kwords%3d%26loc%3dWest%2bSalem%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d"
       }
     ]

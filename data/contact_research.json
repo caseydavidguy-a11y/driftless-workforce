@@ -40,8 +40,8 @@
   },
   {
     "employer": "TRANE TECHNOLOGIES",
-    "score": 42,
-    "priority": "Monitor",
+    "score": 38,
+    "priority": "Low",
     "targets": [
       {
         "employer": "TRANE TECHNOLOGIES",
@@ -89,201 +89,6 @@
           "Employer website / careers page",
           "Employer LinkedIn company page",
           "Search engine query: TRANE+TECHNOLOGIES"
-        ]
-      }
-    ]
-  },
-  {
-    "employer": "COUNTY MATERIALS CORPORATION",
-    "score": 37,
-    "priority": "Low",
-    "targets": [
-      {
-        "employer": "COUNTY MATERIALS CORPORATION",
-        "role": "HR / Talent Acquisition leader",
-        "priority": 100,
-        "reason": "Leadership hiring creates a direct recruiting signal.",
-        "search_queries": [
-          "\"COUNTY MATERIALS CORPORATION\" \"HR / Talent Acquisition leader\"",
-          "\"COUNTY MATERIALS CORPORATION\" HR recruiting",
-          "\"COUNTY MATERIALS CORPORATION\" careers contact"
-        ],
-        "public_contact_paths": [
-          "Employer website / careers page",
-          "Employer LinkedIn company page",
-          "Search engine query: COUNTY+MATERIALS+CORPORATION"
-        ]
-      },
-      {
-        "employer": "COUNTY MATERIALS CORPORATION",
-        "role": "HR / Recruiting contact",
-        "priority": 80,
-        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
-        "search_queries": [
-          "\"COUNTY MATERIALS CORPORATION\" \"HR / Recruiting contact\"",
-          "\"COUNTY MATERIALS CORPORATION\" HR recruiting",
-          "\"COUNTY MATERIALS CORPORATION\" careers contact"
-        ],
-        "public_contact_paths": [
-          "Employer website / careers page",
-          "Employer LinkedIn company page",
-          "Search engine query: COUNTY+MATERIALS+CORPORATION"
-        ]
-      }
-    ]
-  },
-  {
-    "employer": "SEVITA",
-    "score": 35,
-    "priority": "Low",
-    "targets": [
-      {
-        "employer": "SEVITA",
-        "role": "HR / Talent Acquisition leader",
-        "priority": 100,
-        "reason": "Leadership hiring creates a direct recruiting signal.",
-        "search_queries": [
-          "\"SEVITA\" \"HR / Talent Acquisition leader\"",
-          "\"SEVITA\" HR recruiting",
-          "\"SEVITA\" careers contact"
-        ],
-        "public_contact_paths": [
-          "Employer website / careers page",
-          "Employer LinkedIn company page",
-          "Search engine query: SEVITA"
-        ]
-      },
-      {
-        "employer": "SEVITA",
-        "role": "HR / Recruiting contact",
-        "priority": 80,
-        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
-        "search_queries": [
-          "\"SEVITA\" \"HR / Recruiting contact\"",
-          "\"SEVITA\" HR recruiting",
-          "\"SEVITA\" careers contact"
-        ],
-        "public_contact_paths": [
-          "Employer website / careers page",
-          "Employer LinkedIn company page",
-          "Search engine query: SEVITA"
-        ]
-      }
-    ]
-  },
-  {
-    "employer": "MICHAELS",
-    "score": 32,
-    "priority": "Low",
-    "targets": [
-      {
-        "employer": "MICHAELS",
-        "role": "HR / Talent Acquisition leader",
-        "priority": 100,
-        "reason": "Leadership hiring creates a direct recruiting signal.",
-        "search_queries": [
-          "\"MICHAELS\" \"HR / Talent Acquisition leader\"",
-          "\"MICHAELS\" HR recruiting",
-          "\"MICHAELS\" careers contact"
-        ],
-        "public_contact_paths": [
-          "Employer website / careers page",
-          "Employer LinkedIn company page",
-          "Search engine query: MICHAELS"
-        ]
-      },
-      {
-        "employer": "MICHAELS",
-        "role": "HR / Recruiting contact",
-        "priority": 80,
-        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
-        "search_queries": [
-          "\"MICHAELS\" \"HR / Recruiting contact\"",
-          "\"MICHAELS\" HR recruiting",
-          "\"MICHAELS\" careers contact"
-        ],
-        "public_contact_paths": [
-          "Employer website / careers page",
-          "Employer LinkedIn company page",
-          "Search engine query: MICHAELS"
-        ]
-      }
-    ]
-  },
-  {
-    "employer": "MONDELEZ INTERNATIONAL",
-    "score": 32,
-    "priority": "Low",
-    "targets": [
-      {
-        "employer": "MONDELEZ INTERNATIONAL",
-        "role": "HR / Talent Acquisition leader",
-        "priority": 100,
-        "reason": "Leadership hiring creates a direct recruiting signal.",
-        "search_queries": [
-          "\"MONDELEZ INTERNATIONAL\" \"HR / Talent Acquisition leader\"",
-          "\"MONDELEZ INTERNATIONAL\" HR recruiting",
-          "\"MONDELEZ INTERNATIONAL\" careers contact"
-        ],
-        "public_contact_paths": [
-          "Employer website / careers page",
-          "Employer LinkedIn company page",
-          "Search engine query: MONDELEZ+INTERNATIONAL"
-        ]
-      },
-      {
-        "employer": "MONDELEZ INTERNATIONAL",
-        "role": "HR / Recruiting contact",
-        "priority": 80,
-        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
-        "search_queries": [
-          "\"MONDELEZ INTERNATIONAL\" \"HR / Recruiting contact\"",
-          "\"MONDELEZ INTERNATIONAL\" HR recruiting",
-          "\"MONDELEZ INTERNATIONAL\" careers contact"
-        ],
-        "public_contact_paths": [
-          "Employer website / careers page",
-          "Employer LinkedIn company page",
-          "Search engine query: MONDELEZ+INTERNATIONAL"
-        ]
-      }
-    ]
-  },
-  {
-    "employer": "PEOPLEREADY",
-    "score": 32,
-    "priority": "Low",
-    "targets": [
-      {
-        "employer": "PEOPLEREADY",
-        "role": "Plant / Operations leader",
-        "priority": 92,
-        "reason": "Manufacturing hiring is often owned or strongly influenced by operations leadership.",
-        "search_queries": [
-          "\"PEOPLEREADY\" \"Plant / Operations leader\"",
-          "\"PEOPLEREADY\" HR recruiting",
-          "\"PEOPLEREADY\" careers contact"
-        ],
-        "public_contact_paths": [
-          "Employer website / careers page",
-          "Employer LinkedIn company page",
-          "Search engine query: PEOPLEREADY"
-        ]
-      },
-      {
-        "employer": "PEOPLEREADY",
-        "role": "HR / Recruiting contact",
-        "priority": 80,
-        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
-        "search_queries": [
-          "\"PEOPLEREADY\" \"HR / Recruiting contact\"",
-          "\"PEOPLEREADY\" HR recruiting",
-          "\"PEOPLEREADY\" careers contact"
-        ],
-        "public_contact_paths": [
-          "Employer website / careers page",
-          "Employer LinkedIn company page",
-          "Search engine query: PEOPLEREADY"
         ]
       }
     ]
@@ -406,6 +211,45 @@
     ]
   },
   {
+    "employer": "COUNTY MATERIALS CORPORATION",
+    "score": 30,
+    "priority": "Low",
+    "targets": [
+      {
+        "employer": "COUNTY MATERIALS CORPORATION",
+        "role": "HR / Talent Acquisition leader",
+        "priority": 100,
+        "reason": "Leadership hiring creates a direct recruiting signal.",
+        "search_queries": [
+          "\"COUNTY MATERIALS CORPORATION\" \"HR / Talent Acquisition leader\"",
+          "\"COUNTY MATERIALS CORPORATION\" HR recruiting",
+          "\"COUNTY MATERIALS CORPORATION\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: COUNTY+MATERIALS+CORPORATION"
+        ]
+      },
+      {
+        "employer": "COUNTY MATERIALS CORPORATION",
+        "role": "HR / Recruiting contact",
+        "priority": 80,
+        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
+        "search_queries": [
+          "\"COUNTY MATERIALS CORPORATION\" \"HR / Recruiting contact\"",
+          "\"COUNTY MATERIALS CORPORATION\" HR recruiting",
+          "\"COUNTY MATERIALS CORPORATION\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: COUNTY+MATERIALS+CORPORATION"
+        ]
+      }
+    ]
+  },
+  {
     "employer": "J F AHERN",
     "score": 30,
     "priority": "Low",
@@ -484,40 +328,79 @@
     ]
   },
   {
-    "employer": "WALMART",
-    "score": 27,
+    "employer": "MONDELEZ INTERNATIONAL",
+    "score": 25,
     "priority": "Low",
     "targets": [
       {
-        "employer": "WALMART",
-        "role": "Maintenance / Engineering leader",
-        "priority": 86,
-        "reason": "Skilled-trades hiring often routes through maintenance or engineering leadership.",
+        "employer": "MONDELEZ INTERNATIONAL",
+        "role": "HR / Talent Acquisition leader",
+        "priority": 100,
+        "reason": "Leadership hiring creates a direct recruiting signal.",
         "search_queries": [
-          "\"WALMART\" \"Maintenance / Engineering leader\"",
-          "\"WALMART\" HR recruiting",
-          "\"WALMART\" careers contact"
+          "\"MONDELEZ INTERNATIONAL\" \"HR / Talent Acquisition leader\"",
+          "\"MONDELEZ INTERNATIONAL\" HR recruiting",
+          "\"MONDELEZ INTERNATIONAL\" careers contact"
         ],
         "public_contact_paths": [
           "Employer website / careers page",
           "Employer LinkedIn company page",
-          "Search engine query: WALMART"
+          "Search engine query: MONDELEZ+INTERNATIONAL"
         ]
       },
       {
-        "employer": "WALMART",
+        "employer": "MONDELEZ INTERNATIONAL",
         "role": "HR / Recruiting contact",
         "priority": 80,
         "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
         "search_queries": [
-          "\"WALMART\" \"HR / Recruiting contact\"",
-          "\"WALMART\" HR recruiting",
-          "\"WALMART\" careers contact"
+          "\"MONDELEZ INTERNATIONAL\" \"HR / Recruiting contact\"",
+          "\"MONDELEZ INTERNATIONAL\" HR recruiting",
+          "\"MONDELEZ INTERNATIONAL\" careers contact"
         ],
         "public_contact_paths": [
           "Employer website / careers page",
           "Employer LinkedIn company page",
-          "Search engine query: WALMART"
+          "Search engine query: MONDELEZ+INTERNATIONAL"
+        ]
+      }
+    ]
+  },
+  {
+    "employer": "PEOPLEREADY",
+    "score": 25,
+    "priority": "Low",
+    "targets": [
+      {
+        "employer": "PEOPLEREADY",
+        "role": "Plant / Operations leader",
+        "priority": 92,
+        "reason": "Manufacturing hiring is often owned or strongly influenced by operations leadership.",
+        "search_queries": [
+          "\"PEOPLEREADY\" \"Plant / Operations leader\"",
+          "\"PEOPLEREADY\" HR recruiting",
+          "\"PEOPLEREADY\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: PEOPLEREADY"
+        ]
+      },
+      {
+        "employer": "PEOPLEREADY",
+        "role": "HR / Recruiting contact",
+        "priority": 80,
+        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
+        "search_queries": [
+          "\"PEOPLEREADY\" \"HR / Recruiting contact\"",
+          "\"PEOPLEREADY\" HR recruiting",
+          "\"PEOPLEREADY\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: PEOPLEREADY"
         ]
       }
     ]
@@ -557,6 +440,123 @@
           "Employer website / careers page",
           "Employer LinkedIn company page",
           "Search engine query: KELLY+SERVICES"
+        ]
+      }
+    ]
+  },
+  {
+    "employer": "MICHAELS",
+    "score": 24,
+    "priority": "Low",
+    "targets": [
+      {
+        "employer": "MICHAELS",
+        "role": "HR / Talent Acquisition leader",
+        "priority": 100,
+        "reason": "Leadership hiring creates a direct recruiting signal.",
+        "search_queries": [
+          "\"MICHAELS\" \"HR / Talent Acquisition leader\"",
+          "\"MICHAELS\" HR recruiting",
+          "\"MICHAELS\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: MICHAELS"
+        ]
+      },
+      {
+        "employer": "MICHAELS",
+        "role": "HR / Recruiting contact",
+        "priority": 80,
+        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
+        "search_queries": [
+          "\"MICHAELS\" \"HR / Recruiting contact\"",
+          "\"MICHAELS\" HR recruiting",
+          "\"MICHAELS\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: MICHAELS"
+        ]
+      }
+    ]
+  },
+  {
+    "employer": "WALMART",
+    "score": 23,
+    "priority": "Low",
+    "targets": [
+      {
+        "employer": "WALMART",
+        "role": "Maintenance / Engineering leader",
+        "priority": 86,
+        "reason": "Skilled-trades hiring often routes through maintenance or engineering leadership.",
+        "search_queries": [
+          "\"WALMART\" \"Maintenance / Engineering leader\"",
+          "\"WALMART\" HR recruiting",
+          "\"WALMART\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: WALMART"
+        ]
+      },
+      {
+        "employer": "WALMART",
+        "role": "HR / Recruiting contact",
+        "priority": 80,
+        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
+        "search_queries": [
+          "\"WALMART\" \"HR / Recruiting contact\"",
+          "\"WALMART\" HR recruiting",
+          "\"WALMART\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: WALMART"
+        ]
+      }
+    ]
+  },
+  {
+    "employer": "SEVITA",
+    "score": 22,
+    "priority": "Low",
+    "targets": [
+      {
+        "employer": "SEVITA",
+        "role": "HR / Talent Acquisition leader",
+        "priority": 100,
+        "reason": "Leadership hiring creates a direct recruiting signal.",
+        "search_queries": [
+          "\"SEVITA\" \"HR / Talent Acquisition leader\"",
+          "\"SEVITA\" HR recruiting",
+          "\"SEVITA\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: SEVITA"
+        ]
+      },
+      {
+        "employer": "SEVITA",
+        "role": "HR / Recruiting contact",
+        "priority": 80,
+        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
+        "search_queries": [
+          "\"SEVITA\" \"HR / Recruiting contact\"",
+          "\"SEVITA\" HR recruiting",
+          "\"SEVITA\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: SEVITA"
         ]
       }
     ]
