@@ -468,45 +468,6 @@
     ]
   },
   {
-    "employer": "TRANE TECHNOLOGIES",
-    "score": 23,
-    "priority": "Low",
-    "targets": [
-      {
-        "employer": "TRANE TECHNOLOGIES",
-        "role": "Maintenance / Engineering leader",
-        "priority": 86,
-        "reason": "Skilled-trades hiring often routes through maintenance or engineering leadership.",
-        "search_queries": [
-          "\"TRANE TECHNOLOGIES\" \"Maintenance / Engineering leader\"",
-          "\"TRANE TECHNOLOGIES\" HR recruiting",
-          "\"TRANE TECHNOLOGIES\" careers contact"
-        ],
-        "public_contact_paths": [
-          "Employer website / careers page",
-          "Employer LinkedIn company page",
-          "Search engine query: TRANE+TECHNOLOGIES"
-        ]
-      },
-      {
-        "employer": "TRANE TECHNOLOGIES",
-        "role": "HR / Recruiting contact",
-        "priority": 80,
-        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
-        "search_queries": [
-          "\"TRANE TECHNOLOGIES\" \"HR / Recruiting contact\"",
-          "\"TRANE TECHNOLOGIES\" HR recruiting",
-          "\"TRANE TECHNOLOGIES\" careers contact"
-        ],
-        "public_contact_paths": [
-          "Employer website / careers page",
-          "Employer LinkedIn company page",
-          "Search engine query: TRANE+TECHNOLOGIES"
-        ]
-      }
-    ]
-  },
-  {
     "employer": "WALMART",
     "score": 23,
     "priority": "Low",

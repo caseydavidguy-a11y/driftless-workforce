@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-08-25T16:18:55.045942+00:00",
+  "captured_at": "2026-08-25T19:17:13.210197+00:00",
   "employers": [
     {
       "name": "AEROTEK",
@@ -354,31 +354,6 @@
           "source": "Job Center of Wisconsin",
           "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dLa%2bCrosse%26dist%3d%26edu%3d%26kwords%3d%26loc%3dLa%2bCrosse%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d",
           "external_id": "jcw:la crosse:retail manager - sales full time:08/23/2026:michaels",
-          "verified": true
-        }
-      ]
-    },
-    {
-      "name": "TRANE TECHNOLOGIES",
-      "slug": "trane technologies",
-      "opening_count": 1,
-      "verified_opening_count": 1,
-      "industries": [
-        "skilled trades"
-      ],
-      "locations": [
-        "La Crosse"
-      ],
-      "observations": [
-        {
-          "employer": "TRANE TECHNOLOGIES",
-          "title": "Controls Mechanical Designer Why is this a Hot Job?",
-          "location": "La Crosse",
-          "industry": "skilled trades",
-          "posted_at": "2026-08-22T00:00:00+00:00",
-          "source": "Job Center of Wisconsin",
-          "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dLa%2bCrosse%26dist%3d%26edu%3d%26kwords%3d%26loc%3dLa%2bCrosse%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d",
-          "external_id": "jcw:la crosse:controls mechanical designer why is this a hot job?:08/22/2026:trane technologies",
           "verified": true
         }
       ]
