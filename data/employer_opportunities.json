@@ -1,426 +1,5 @@
 [
   {
-    "employer": "SEVITA",
-    "slug": "sevita",
-    "score": 58,
-    "priority": "Monitor",
-    "opening_count": 6,
-    "verified_opening_count": 6,
-    "locations": [
-      "Holmen",
-      "Onalaska",
-      "West Salem"
-    ],
-    "industries": [
-      "leadership",
-      "operations"
-    ],
-    "hiring_summary": "SEVITA has 6 observed opening(s) across 3 local location(s).",
-    "reasons": [
-      "6 observed openings indicate meaningful hiring volume",
-      "Hiring activity spans multiple local locations",
-      "6 opening(s) are source-verified",
-      "Hiring overlaps Driftless Workforce target industries",
-      "Leadership hiring signal: Program Supervisor"
-    ],
-    "target_roles": [
-      "general operations",
-      "leadership"
-    ],
-    "industries_detected": [
-      "leadership",
-      "operations"
-    ],
-    "decision_maker_roles": [
-      "HR / Talent Acquisition",
-      "Hiring Manager",
-      "Operations Leader"
-    ],
-    "contact_path": "Find HR/Talent Acquisition or the hiring manager through the employer's official site or public professional profile. Do not guess an email address.",
-    "outreach_angle": "Lead with capacity: ask whether current hiring volume is creating bottlenecks and offer targeted recruiting support for roles already being advertised.",
-    "evidence": [
-      "Caregiver \u2014 Onalaska [Job Center of Wisconsin]",
-      "Caregiver \u2014 Holmen [Job Center of Wisconsin]",
-      "Direct Care Staff \u2014 Holmen [Job Center of Wisconsin]",
-      "Direct Support Caregiver \u2014 Holmen [Job Center of Wisconsin]",
-      "Direct Support Professional \u2014 West Salem [Job Center of Wisconsin]",
-      "Program Supervisor \u2014 West Salem [Job Center of Wisconsin]"
-    ],
-    "momentum_7d": {
-      "days": 7,
-      "change": 1,
-      "pct": 20,
-      "direction": "up",
-      "points": [
-        {
-          "captured_at": "2026-08-24T22:18:07.204524+00:00",
-          "opening_count": 5
-        },
-        {
-          "captured_at": "2026-08-24T22:19:41.611533+00:00",
-          "opening_count": 5
-        },
-        {
-          "captured_at": "2026-08-24T23:03:06.494647+00:00",
-          "opening_count": 5
-        },
-        {
-          "captured_at": "2026-08-24T23:57:39.200612+00:00",
-          "opening_count": 5
-        },
-        {
-          "captured_at": "2026-08-25T03:28:06.458548+00:00",
-          "opening_count": 6
-        }
-      ]
-    },
-    "momentum_30d": {
-      "days": 30,
-      "change": 1,
-      "pct": 20,
-      "direction": "up",
-      "points": [
-        {
-          "captured_at": "2026-08-24T22:18:07.204524+00:00",
-          "opening_count": 5
-        },
-        {
-          "captured_at": "2026-08-24T22:19:41.611533+00:00",
-          "opening_count": 5
-        },
-        {
-          "captured_at": "2026-08-24T23:03:06.494647+00:00",
-          "opening_count": 5
-        },
-        {
-          "captured_at": "2026-08-24T23:57:39.200612+00:00",
-          "opening_count": 5
-        },
-        {
-          "captured_at": "2026-08-25T03:28:06.458548+00:00",
-          "opening_count": 6
-        }
-      ]
-    },
-    "score_breakdown": [
-      {
-        "label": "Base opportunity",
-        "points": 55,
-        "reason": "Underlying employer/opportunity fit"
-      },
-      {
-        "label": "Hiring momentum",
-        "points": 3,
-        "reason": "Up +20% over 7 days"
-      }
-    ],
-    "score_policy_version": 1,
-    "score_policy_capped": false,
-    "jobs": [
-      {
-        "title": "Caregiver",
-        "location": "Onalaska",
-        "posted_at": "2026-08-18T00:00:00+00:00",
-        "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dOnalaska%26dist%3d%26edu%3d%26kwords%3d%26loc%3dOnalaska%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d"
-      },
-      {
-        "title": "Caregiver",
-        "location": "Holmen",
-        "posted_at": "2026-08-14T00:00:00+00:00",
-        "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dHolmen%26dist%3d%26edu%3d%26kwords%3d%26loc%3dHolmen%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d"
-      },
-      {
-        "title": "Direct Care Staff",
-        "location": "Holmen",
-        "posted_at": "2026-08-14T00:00:00+00:00",
-        "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dHolmen%26dist%3d%26edu%3d%26kwords%3d%26loc%3dHolmen%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d"
-      },
-      {
-        "title": "Direct Support Caregiver",
-        "location": "Holmen",
-        "posted_at": "2026-08-01T00:00:00+00:00",
-        "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dHolmen%26dist%3d%26edu%3d%26kwords%3d%26loc%3dHolmen%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d"
-      },
-      {
-        "title": "Direct Support Professional",
-        "location": "West Salem",
-        "posted_at": "2026-08-15T00:00:00+00:00",
-        "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dWest%2bSalem%26dist%3d%26edu%3d%26kwords%3d%26loc%3dWest%2bSalem%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d"
-      },
-      {
-        "title": "Program Supervisor",
-        "location": "West Salem",
-        "posted_at": "2026-07-01T00:00:00+00:00",
-        "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dWest%2bSalem%26dist%3d%26edu%3d%26kwords%3d%26loc%3dWest%2bSalem%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d"
-      }
-    ]
-  },
-  {
-    "employer": "[ 4 ]",
-    "slug": "4",
-    "score": 45,
-    "priority": "Monitor",
-    "opening_count": 4,
-    "verified_opening_count": 4,
-    "locations": [
-      "[ 2 ]"
-    ],
-    "industries": [
-      "operations"
-    ],
-    "hiring_summary": "[ 4 ] has 4 observed opening(s) across 1 local location(s).",
-    "reasons": [
-      "4 observed openings indicate active hiring",
-      "4 opening(s) are source-verified",
-      "Hiring overlaps Driftless Workforce target industries"
-    ],
-    "target_roles": [
-      "general operations"
-    ],
-    "industries_detected": [
-      "operations"
-    ],
-    "decision_maker_roles": [
-      "HR / Talent Acquisition",
-      "Department Manager"
-    ],
-    "contact_path": "Find HR/Talent Acquisition or the hiring manager through the employer's official site or public professional profile. Do not guess an email address.",
-    "outreach_angle": "Lead with the specific hard-to-fill role and offer a focused candidate-sourcing conversation rather than a generic staffing pitch.",
-    "evidence": [
-      "Page 1 \u2014 [ 2 ] [Job Center of Wisconsin]",
-      "Page 1 \u2014 [ 2 ] [Job Center of Wisconsin]",
-      "Page 1 \u2014 [ 2 ] [Job Center of Wisconsin]",
-      "Page 1 \u2014 [ 2 ] [Job Center of Wisconsin]"
-    ],
-    "momentum_7d": {
-      "days": 7,
-      "change": 0,
-      "pct": 0,
-      "direction": "flat",
-      "points": [
-        {
-          "captured_at": "2026-08-24T22:18:07.204524+00:00",
-          "opening_count": 4
-        },
-        {
-          "captured_at": "2026-08-24T22:19:41.611533+00:00",
-          "opening_count": 4
-        },
-        {
-          "captured_at": "2026-08-24T23:03:06.494647+00:00",
-          "opening_count": 4
-        },
-        {
-          "captured_at": "2026-08-24T23:57:39.200612+00:00",
-          "opening_count": 4
-        },
-        {
-          "captured_at": "2026-08-25T03:28:06.458548+00:00",
-          "opening_count": 4
-        }
-      ]
-    },
-    "momentum_30d": {
-      "days": 30,
-      "change": 0,
-      "pct": 0,
-      "direction": "flat",
-      "points": [
-        {
-          "captured_at": "2026-08-24T22:18:07.204524+00:00",
-          "opening_count": 4
-        },
-        {
-          "captured_at": "2026-08-24T22:19:41.611533+00:00",
-          "opening_count": 4
-        },
-        {
-          "captured_at": "2026-08-24T23:03:06.494647+00:00",
-          "opening_count": 4
-        },
-        {
-          "captured_at": "2026-08-24T23:57:39.200612+00:00",
-          "opening_count": 4
-        },
-        {
-          "captured_at": "2026-08-25T03:28:06.458548+00:00",
-          "opening_count": 4
-        }
-      ]
-    },
-    "score_breakdown": [
-      {
-        "label": "Base opportunity",
-        "points": 45,
-        "reason": "Underlying employer/opportunity fit"
-      }
-    ],
-    "score_policy_version": 1,
-    "score_policy_capped": false,
-    "jobs": [
-      {
-        "title": "Page 1",
-        "location": "[ 2 ]",
-        "posted_at": null,
-        "source_url": "javascript:__doPostBack('ctl00$ContentPlaceHolder_MainBase$GridViewJobs','Page$2')"
-      },
-      {
-        "title": "Page 1",
-        "location": "[ 2 ]",
-        "posted_at": null,
-        "source_url": "javascript:__doPostBack('ctl00$ContentPlaceHolder_MainBase$GridViewJobs','Page$2')"
-      },
-      {
-        "title": "Page 1",
-        "location": "[ 2 ]",
-        "posted_at": null,
-        "source_url": "javascript:__doPostBack('ctl00$ContentPlaceHolder_MainBase$GridViewJobs','Page$2')"
-      },
-      {
-        "title": "Page 1",
-        "location": "[ 2 ]",
-        "posted_at": null,
-        "source_url": "javascript:__doPostBack('ctl00$ContentPlaceHolder_MainBase$GridViewJobs','Page$2')"
-      }
-    ]
-  },
-  {
-    "employer": "COUNTY MATERIALS CORPORATION",
-    "slug": "county materials",
-    "score": 45,
-    "priority": "Monitor",
-    "opening_count": 4,
-    "verified_opening_count": 4,
-    "locations": [
-      "Holmen"
-    ],
-    "industries": [
-      "leadership",
-      "manufacturing",
-      "operations"
-    ],
-    "hiring_summary": "COUNTY MATERIALS CORPORATION has 4 observed opening(s) across 1 local location(s).",
-    "reasons": [
-      "4 observed openings indicate active hiring",
-      "4 opening(s) are source-verified",
-      "Hiring overlaps Driftless Workforce target industries",
-      "Leadership hiring signal: Production Supervisor, Operations Plant Operations Manager"
-    ],
-    "target_roles": [
-      "general operations",
-      "leadership"
-    ],
-    "industries_detected": [
-      "leadership",
-      "manufacturing",
-      "operations"
-    ],
-    "decision_maker_roles": [
-      "HR / Talent Acquisition",
-      "Hiring Manager",
-      "Operations Leader"
-    ],
-    "contact_path": "Find HR/Talent Acquisition or the hiring manager through the employer's official site or public professional profile. Do not guess an email address.",
-    "outreach_angle": "Lead with capacity: ask whether current hiring volume is creating bottlenecks and offer targeted recruiting support for roles already being advertised.",
-    "evidence": [
-      "Production Supervisor \u2014 Holmen [Job Center of Wisconsin]",
-      "Operations Plant Operations Manager \u2014 Holmen [Job Center of Wisconsin]",
-      "General Labor Pipe Yard Why is this a Hot Job? \u2014 Holmen [Job Center of Wisconsin]",
-      "CDL Flat Bed Driver Why is this a Hot Job? \u2014 Holmen [Job Center of Wisconsin]"
-    ],
-    "momentum_7d": {
-      "days": 7,
-      "change": 0,
-      "pct": 0,
-      "direction": "flat",
-      "points": [
-        {
-          "captured_at": "2026-08-24T22:18:07.204524+00:00",
-          "opening_count": 4
-        },
-        {
-          "captured_at": "2026-08-24T22:19:41.611533+00:00",
-          "opening_count": 4
-        },
-        {
-          "captured_at": "2026-08-24T23:03:06.494647+00:00",
-          "opening_count": 4
-        },
-        {
-          "captured_at": "2026-08-24T23:57:39.200612+00:00",
-          "opening_count": 4
-        },
-        {
-          "captured_at": "2026-08-25T03:28:06.458548+00:00",
-          "opening_count": 4
-        }
-      ]
-    },
-    "momentum_30d": {
-      "days": 30,
-      "change": 0,
-      "pct": 0,
-      "direction": "flat",
-      "points": [
-        {
-          "captured_at": "2026-08-24T22:18:07.204524+00:00",
-          "opening_count": 4
-        },
-        {
-          "captured_at": "2026-08-24T22:19:41.611533+00:00",
-          "opening_count": 4
-        },
-        {
-          "captured_at": "2026-08-24T23:03:06.494647+00:00",
-          "opening_count": 4
-        },
-        {
-          "captured_at": "2026-08-24T23:57:39.200612+00:00",
-          "opening_count": 4
-        },
-        {
-          "captured_at": "2026-08-25T03:28:06.458548+00:00",
-          "opening_count": 4
-        }
-      ]
-    },
-    "score_breakdown": [
-      {
-        "label": "Base opportunity",
-        "points": 45,
-        "reason": "Underlying employer/opportunity fit"
-      }
-    ],
-    "score_policy_version": 1,
-    "score_policy_capped": false,
-    "jobs": [
-      {
-        "title": "Production Supervisor",
-        "location": "Holmen",
-        "posted_at": "2026-08-19T00:00:00+00:00",
-        "source_url": "https://jobcenterofwisconsin.com/Presentation/JobSeekers/EnhancedJobs-det.aspx?OrderNumber=004043866"
-      },
-      {
-        "title": "Operations Plant Operations Manager",
-        "location": "Holmen",
-        "posted_at": "2026-08-16T00:00:00+00:00",
-        "source_url": "https://jobcenterofwisconsin.com/Presentation/JobSeekers/EnhancedJobs-det.aspx?OrderNumber=004041994"
-      },
-      {
-        "title": "General Labor Pipe Yard Why is this a Hot Job?",
-        "location": "Holmen",
-        "posted_at": "2026-08-10T00:00:00+00:00",
-        "source_url": "https://jobcenterofwisconsin.com/Presentation/JobSeekers/EnhancedJobs-det.aspx?OrderNumber=004039256"
-      },
-      {
-        "title": "CDL Flat Bed Driver Why is this a Hot Job?",
-        "location": "Holmen",
-        "posted_at": "2026-07-02T00:00:00+00:00",
-        "source_url": "https://jobcenterofwisconsin.com/Presentation/JobSeekers/EnhancedJobs-det.aspx?OrderNumber=004021188"
-      }
-    ]
-  },
-  {
     "employer": "SHERWIN WILLIAMS CO",
     "slug": "sherwin williams",
     "score": 45,
@@ -482,6 +61,10 @@
         {
           "captured_at": "2026-08-25T03:28:06.458548+00:00",
           "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-25T04:33:57.863405+00:00",
+          "opening_count": 4
         }
       ]
     },
@@ -509,6 +92,10 @@
         },
         {
           "captured_at": "2026-08-25T03:28:06.458548+00:00",
+          "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-25T04:33:57.863405+00:00",
           "opening_count": 4
         }
       ]
@@ -552,35 +139,32 @@
   {
     "employer": "TRANE TECHNOLOGIES",
     "slug": "trane technologies",
-    "score": 45,
+    "score": 42,
     "priority": "Monitor",
-    "opening_count": 4,
-    "verified_opening_count": 4,
+    "opening_count": 3,
+    "verified_opening_count": 3,
     "locations": [
       "La Crosse"
     ],
     "industries": [
       "leadership",
       "manufacturing",
-      "operations",
       "skilled trades"
     ],
-    "hiring_summary": "TRANE TECHNOLOGIES has 4 observed opening(s) across 1 local location(s).",
+    "hiring_summary": "TRANE TECHNOLOGIES has 3 observed opening(s) across 1 local location(s).",
     "reasons": [
-      "4 observed openings indicate active hiring",
-      "4 opening(s) are source-verified",
+      "3 observed openings indicate active hiring",
+      "3 opening(s) are source-verified",
       "Hiring overlaps Driftless Workforce target industries",
       "Leadership hiring signal: Plant Production Supervisor-2nd shift, Director of Strategy"
     ],
     "target_roles": [
-      "general operations",
       "leadership",
       "skilled trades / maintenance"
     ],
     "industries_detected": [
       "leadership",
       "manufacturing",
-      "operations",
       "skilled trades"
     ],
     "decision_maker_roles": [
@@ -593,8 +177,7 @@
     "evidence": [
       "Controls Mechanical Designer Why is this a Hot Job? \u2014 La Crosse [Job Center of Wisconsin]",
       "Plant Production Supervisor-2nd shift \u2014 La Crosse [Job Center of Wisconsin]",
-      "Director of Strategy \u2014 La Crosse [Job Center of Wisconsin]",
-      "Senior Mgr - Vertical Markets - Industrial \u2014 La Crosse [Job Center of Wisconsin]"
+      "Director of Strategy \u2014 La Crosse [Job Center of Wisconsin]"
     ],
     "momentum_7d": {
       "days": 7,
@@ -620,6 +203,10 @@
         },
         {
           "captured_at": "2026-08-25T03:28:06.458548+00:00",
+          "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-25T04:33:57.863405+00:00",
           "opening_count": 4
         }
       ]
@@ -649,14 +236,23 @@
         {
           "captured_at": "2026-08-25T03:28:06.458548+00:00",
           "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-25T04:33:57.863405+00:00",
+          "opening_count": 4
         }
       ]
     },
     "score_breakdown": [
       {
         "label": "Base opportunity",
-        "points": 45,
+        "points": 40,
         "reason": "Underlying employer/opportunity fit"
+      },
+      {
+        "label": "Volume Decrease",
+        "points": 2,
+        "reason": "Openings decreased from 4 to 3"
       }
     ],
     "score_policy_version": 1,
@@ -679,146 +275,13 @@
         "location": "La Crosse",
         "posted_at": "2026-08-22T00:00:00+00:00",
         "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dLa%2bCrosse%26dist%3d%26edu%3d%26kwords%3d%26loc%3dLa%2bCrosse%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d"
-      },
-      {
-        "title": "Senior Mgr - Vertical Markets - Industrial",
-        "location": "La Crosse",
-        "posted_at": "2026-08-22T00:00:00+00:00",
-        "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dLa%2bCrosse%26dist%3d%26edu%3d%26kwords%3d%26loc%3dLa%2bCrosse%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d"
       }
     ]
   },
   {
-    "employer": "MICHAELS",
-    "slug": "michaels",
-    "score": 40,
-    "priority": "Monitor",
-    "opening_count": 3,
-    "verified_opening_count": 3,
-    "locations": [
-      "La Crosse"
-    ],
-    "industries": [
-      "leadership",
-      "operations"
-    ],
-    "hiring_summary": "MICHAELS has 3 observed opening(s) across 1 local location(s).",
-    "reasons": [
-      "3 observed openings indicate active hiring",
-      "3 opening(s) are source-verified",
-      "Hiring overlaps Driftless Workforce target industries",
-      "Leadership hiring signal: Retail Manager - Sales Full Time"
-    ],
-    "target_roles": [
-      "general operations",
-      "leadership"
-    ],
-    "industries_detected": [
-      "leadership",
-      "operations"
-    ],
-    "decision_maker_roles": [
-      "HR / Talent Acquisition",
-      "Hiring Manager",
-      "Operations Leader"
-    ],
-    "contact_path": "Find HR/Talent Acquisition or the hiring manager through the employer's official site or public professional profile. Do not guess an email address.",
-    "outreach_angle": "Lead with leadership recruiting: reference the visible management hiring signal and offer help building a qualified local leadership pipeline.",
-    "evidence": [
-      "Retail Party and Event Host \u2014 La Crosse [Job Center of Wisconsin]",
-      "Retail Manager - Sales Full Time \u2014 La Crosse [Job Center of Wisconsin]",
-      "Retail Custom Art Framer \u2014 La Crosse [Job Center of Wisconsin]"
-    ],
-    "momentum_7d": {
-      "days": 7,
-      "change": 0,
-      "pct": 0,
-      "direction": "flat",
-      "points": [
-        {
-          "captured_at": "2026-08-24T22:18:07.204524+00:00",
-          "opening_count": 3
-        },
-        {
-          "captured_at": "2026-08-24T22:19:41.611533+00:00",
-          "opening_count": 3
-        },
-        {
-          "captured_at": "2026-08-24T23:03:06.494647+00:00",
-          "opening_count": 3
-        },
-        {
-          "captured_at": "2026-08-24T23:57:39.200612+00:00",
-          "opening_count": 3
-        },
-        {
-          "captured_at": "2026-08-25T03:28:06.458548+00:00",
-          "opening_count": 3
-        }
-      ]
-    },
-    "momentum_30d": {
-      "days": 30,
-      "change": 0,
-      "pct": 0,
-      "direction": "flat",
-      "points": [
-        {
-          "captured_at": "2026-08-24T22:18:07.204524+00:00",
-          "opening_count": 3
-        },
-        {
-          "captured_at": "2026-08-24T22:19:41.611533+00:00",
-          "opening_count": 3
-        },
-        {
-          "captured_at": "2026-08-24T23:03:06.494647+00:00",
-          "opening_count": 3
-        },
-        {
-          "captured_at": "2026-08-24T23:57:39.200612+00:00",
-          "opening_count": 3
-        },
-        {
-          "captured_at": "2026-08-25T03:28:06.458548+00:00",
-          "opening_count": 3
-        }
-      ]
-    },
-    "score_breakdown": [
-      {
-        "label": "Base opportunity",
-        "points": 40,
-        "reason": "Underlying employer/opportunity fit"
-      }
-    ],
-    "score_policy_version": 1,
-    "score_policy_capped": false,
-    "jobs": [
-      {
-        "title": "Retail Party and Event Host",
-        "location": "La Crosse",
-        "posted_at": "2026-08-23T00:00:00+00:00",
-        "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dLa%2bCrosse%26dist%3d%26edu%3d%26kwords%3d%26loc%3dLa%2bCrosse%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d"
-      },
-      {
-        "title": "Retail Manager - Sales Full Time",
-        "location": "La Crosse",
-        "posted_at": "2026-08-23T00:00:00+00:00",
-        "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dLa%2bCrosse%26dist%3d%26edu%3d%26kwords%3d%26loc%3dLa%2bCrosse%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d"
-      },
-      {
-        "title": "Retail Custom Art Framer",
-        "location": "La Crosse",
-        "posted_at": "2026-08-23T00:00:00+00:00",
-        "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dLa%2bCrosse%26dist%3d%26edu%3d%26kwords%3d%26loc%3dLa%2bCrosse%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d"
-      }
-    ]
-  },
-  {
-    "employer": "COMPASS GROUP, NORTH AMERICA",
-    "slug": "compass group north america",
-    "score": 35,
+    "employer": "COUNTY MATERIALS CORPORATION",
+    "slug": "county materials",
+    "score": 37,
     "priority": "Low",
     "opening_count": 2,
     "verified_opening_count": 2,
@@ -826,257 +289,151 @@
       "Holmen"
     ],
     "industries": [
-      "hospitality"
-    ],
-    "hiring_summary": "COMPASS GROUP, NORTH AMERICA has 2 observed opening(s) across 1 local location(s).",
-    "reasons": [
-      "2 observed openings indicate active hiring",
-      "2 opening(s) are source-verified",
-      "Hiring overlaps Driftless Workforce target industries"
-    ],
-    "target_roles": [
-      "hospitality / food service"
-    ],
-    "industries_detected": [
-      "hospitality"
-    ],
-    "decision_maker_roles": [
-      "HR / Talent Acquisition",
-      "Department Manager"
-    ],
-    "contact_path": "Find HR/Talent Acquisition or the hiring manager through the employer's official site or public professional profile. Do not guess an email address.",
-    "outreach_angle": "Lead with the specific hard-to-fill role and offer a focused candidate-sourcing conversation rather than a generic staffing pitch.",
-    "evidence": [
-      "COOK (FULL TIME) \u2014 Holmen [Job Center of Wisconsin]",
-      "FOOD SERVICE WORKER (FULL TIME AND PART TIME) \u2014 Holmen [Job Center of Wisconsin]"
-    ],
-    "momentum_7d": {
-      "days": 7,
-      "change": 0,
-      "pct": 0,
-      "direction": "flat",
-      "points": [
-        {
-          "captured_at": "2026-08-24T22:18:07.204524+00:00",
-          "opening_count": 2
-        },
-        {
-          "captured_at": "2026-08-24T22:19:41.611533+00:00",
-          "opening_count": 2
-        },
-        {
-          "captured_at": "2026-08-24T23:03:06.494647+00:00",
-          "opening_count": 2
-        },
-        {
-          "captured_at": "2026-08-24T23:57:39.200612+00:00",
-          "opening_count": 2
-        },
-        {
-          "captured_at": "2026-08-25T03:28:06.458548+00:00",
-          "opening_count": 2
-        }
-      ]
-    },
-    "momentum_30d": {
-      "days": 30,
-      "change": 0,
-      "pct": 0,
-      "direction": "flat",
-      "points": [
-        {
-          "captured_at": "2026-08-24T22:18:07.204524+00:00",
-          "opening_count": 2
-        },
-        {
-          "captured_at": "2026-08-24T22:19:41.611533+00:00",
-          "opening_count": 2
-        },
-        {
-          "captured_at": "2026-08-24T23:03:06.494647+00:00",
-          "opening_count": 2
-        },
-        {
-          "captured_at": "2026-08-24T23:57:39.200612+00:00",
-          "opening_count": 2
-        },
-        {
-          "captured_at": "2026-08-25T03:28:06.458548+00:00",
-          "opening_count": 2
-        }
-      ]
-    },
-    "score_breakdown": [
-      {
-        "label": "Base opportunity",
-        "points": 35,
-        "reason": "Underlying employer/opportunity fit"
-      }
-    ],
-    "score_policy_version": 1,
-    "score_policy_capped": false,
-    "jobs": [
-      {
-        "title": "COOK (FULL TIME)",
-        "location": "Holmen",
-        "posted_at": "2026-08-13T00:00:00+00:00",
-        "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dHolmen%26dist%3d%26edu%3d%26kwords%3d%26loc%3dHolmen%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d"
-      },
-      {
-        "title": "FOOD SERVICE WORKER (FULL TIME AND PART TIME)",
-        "location": "Holmen",
-        "posted_at": "2026-08-05T00:00:00+00:00",
-        "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dHolmen%26dist%3d%26edu%3d%26kwords%3d%26loc%3dHolmen%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d"
-      }
-    ]
-  },
-  {
-    "employer": "MAYO CLINIC",
-    "slug": "mayo clinic",
-    "score": 35,
-    "priority": "Low",
-    "opening_count": 2,
-    "verified_opening_count": 2,
-    "locations": [
-      "Holmen",
-      "Onalaska"
-    ],
-    "industries": [
-      "operations"
-    ],
-    "hiring_summary": "MAYO CLINIC has 2 observed opening(s) across 2 local location(s).",
-    "reasons": [
-      "2 observed openings indicate active hiring",
-      "Hiring activity spans multiple local locations",
-      "2 opening(s) are source-verified",
-      "Hiring overlaps Driftless Workforce target industries"
-    ],
-    "target_roles": [
-      "general operations"
-    ],
-    "industries_detected": [
-      "operations"
-    ],
-    "decision_maker_roles": [
-      "HR / Talent Acquisition",
-      "Department Manager"
-    ],
-    "contact_path": "Find HR/Talent Acquisition or the hiring manager through the employer's official site or public professional profile. Do not guess an email address.",
-    "outreach_angle": "Lead with the specific hard-to-fill role and offer a focused candidate-sourcing conversation rather than a generic staffing pitch.",
-    "evidence": [
-      "Patient Care Specialist - Family Medicine - PCS Why is this a Hot Job? \u2014 Onalaska [Job Center of Wisconsin]",
-      "Case Worker - Psychiatry Psychology \u2014 Holmen [Job Center of Wisconsin]"
-    ],
-    "momentum_7d": {
-      "days": 7,
-      "change": 0,
-      "pct": 0,
-      "direction": "flat",
-      "points": [
-        {
-          "captured_at": "2026-08-24T22:18:07.204524+00:00",
-          "opening_count": 2
-        },
-        {
-          "captured_at": "2026-08-24T22:19:41.611533+00:00",
-          "opening_count": 2
-        },
-        {
-          "captured_at": "2026-08-24T23:03:06.494647+00:00",
-          "opening_count": 2
-        },
-        {
-          "captured_at": "2026-08-24T23:57:39.200612+00:00",
-          "opening_count": 2
-        },
-        {
-          "captured_at": "2026-08-25T03:28:06.458548+00:00",
-          "opening_count": 2
-        }
-      ]
-    },
-    "momentum_30d": {
-      "days": 30,
-      "change": 0,
-      "pct": 0,
-      "direction": "flat",
-      "points": [
-        {
-          "captured_at": "2026-08-24T22:18:07.204524+00:00",
-          "opening_count": 2
-        },
-        {
-          "captured_at": "2026-08-24T22:19:41.611533+00:00",
-          "opening_count": 2
-        },
-        {
-          "captured_at": "2026-08-24T23:03:06.494647+00:00",
-          "opening_count": 2
-        },
-        {
-          "captured_at": "2026-08-24T23:57:39.200612+00:00",
-          "opening_count": 2
-        },
-        {
-          "captured_at": "2026-08-25T03:28:06.458548+00:00",
-          "opening_count": 2
-        }
-      ]
-    },
-    "score_breakdown": [
-      {
-        "label": "Base opportunity",
-        "points": 35,
-        "reason": "Underlying employer/opportunity fit"
-      }
-    ],
-    "score_policy_version": 1,
-    "score_policy_capped": false,
-    "jobs": [
-      {
-        "title": "Patient Care Specialist - Family Medicine - PCS Why is this a Hot Job?",
-        "location": "Onalaska",
-        "posted_at": "2026-08-23T00:00:00+00:00",
-        "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dOnalaska%26dist%3d%26edu%3d%26kwords%3d%26loc%3dOnalaska%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d"
-      },
-      {
-        "title": "Case Worker - Psychiatry Psychology",
-        "location": "Holmen",
-        "posted_at": "2026-08-14T00:00:00+00:00",
-        "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dHolmen%26dist%3d%26edu%3d%26kwords%3d%26loc%3dHolmen%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d"
-      }
-    ]
-  },
-  {
-    "employer": "MONDELEZ INTERNATIONAL",
-    "slug": "mondelez international",
-    "score": 35,
-    "priority": "Low",
-    "opening_count": 2,
-    "verified_opening_count": 2,
-    "locations": [
-      "Holmen",
-      "Onalaska"
-    ],
-    "industries": [
       "leadership",
-      "operations"
+      "manufacturing"
     ],
-    "hiring_summary": "MONDELEZ INTERNATIONAL has 2 observed opening(s) across 2 local location(s).",
+    "hiring_summary": "COUNTY MATERIALS CORPORATION has 2 observed opening(s) across 1 local location(s).",
     "reasons": [
       "2 observed openings indicate active hiring",
-      "Hiring activity spans multiple local locations",
       "2 opening(s) are source-verified",
       "Hiring overlaps Driftless Workforce target industries",
-      "Leadership hiring signal: Retail Territory Manager Why is this a Hot Job?"
+      "Leadership hiring signal: Production Supervisor, Operations Plant Operations Manager"
     ],
     "target_roles": [
-      "general operations",
       "leadership"
     ],
     "industries_detected": [
       "leadership",
-      "operations"
+      "manufacturing"
+    ],
+    "decision_maker_roles": [
+      "HR / Talent Acquisition",
+      "Hiring Manager",
+      "Operations Leader"
+    ],
+    "contact_path": "Find HR/Talent Acquisition or the hiring manager through the employer's official site or public professional profile. Do not guess an email address.",
+    "outreach_angle": "Lead with capacity: ask whether current hiring volume is creating bottlenecks and offer targeted recruiting support for roles already being advertised.",
+    "evidence": [
+      "Production Supervisor \u2014 Holmen [Job Center of Wisconsin]",
+      "Operations Plant Operations Manager \u2014 Holmen [Job Center of Wisconsin]"
+    ],
+    "momentum_7d": {
+      "days": 7,
+      "change": 0,
+      "pct": 0,
+      "direction": "flat",
+      "points": [
+        {
+          "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
+          "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-24T23:03:06.494647+00:00",
+          "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
+          "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-25T04:33:57.863405+00:00",
+          "opening_count": 4
+        }
+      ]
+    },
+    "momentum_30d": {
+      "days": 30,
+      "change": 0,
+      "pct": 0,
+      "direction": "flat",
+      "points": [
+        {
+          "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
+          "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-24T23:03:06.494647+00:00",
+          "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
+          "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-25T04:33:57.863405+00:00",
+          "opening_count": 4
+        }
+      ]
+    },
+    "score_breakdown": [
+      {
+        "label": "Base opportunity",
+        "points": 35,
+        "reason": "Underlying employer/opportunity fit"
+      },
+      {
+        "label": "Volume Decrease",
+        "points": 2,
+        "reason": "Openings decreased from 4 to 2"
+      }
+    ],
+    "score_policy_version": 1,
+    "score_policy_capped": false,
+    "jobs": [
+      {
+        "title": "Production Supervisor",
+        "location": "Holmen",
+        "posted_at": "2026-08-19T00:00:00+00:00",
+        "source_url": "https://jobcenterofwisconsin.com/Presentation/JobSeekers/EnhancedJobs-det.aspx?OrderNumber=004043866"
+      },
+      {
+        "title": "Operations Plant Operations Manager",
+        "location": "Holmen",
+        "posted_at": "2026-08-16T00:00:00+00:00",
+        "source_url": "https://jobcenterofwisconsin.com/Presentation/JobSeekers/EnhancedJobs-det.aspx?OrderNumber=004041994"
+      }
+    ]
+  },
+  {
+    "employer": "SEVITA",
+    "slug": "sevita",
+    "score": 35,
+    "priority": "Low",
+    "opening_count": 1,
+    "verified_opening_count": 1,
+    "locations": [
+      "West Salem"
+    ],
+    "industries": [
+      "leadership"
+    ],
+    "hiring_summary": "SEVITA has 1 observed opening(s) across 1 local location(s).",
+    "reasons": [
+      "1 opening(s) are source-verified",
+      "Hiring overlaps Driftless Workforce target industries",
+      "Leadership hiring signal: Program Supervisor"
+    ],
+    "target_roles": [
+      "leadership"
+    ],
+    "industries_detected": [
+      "leadership"
     ],
     "decision_maker_roles": [
       "HR / Talent Acquisition",
@@ -1086,7 +443,255 @@
     "contact_path": "Find HR/Talent Acquisition or the hiring manager through the employer's official site or public professional profile. Do not guess an email address.",
     "outreach_angle": "Lead with leadership recruiting: reference the visible management hiring signal and offer help building a qualified local leadership pipeline.",
     "evidence": [
-      "Part-time Nabisco Merchandiser \u2014 Onalaska [Job Center of Wisconsin]",
+      "Program Supervisor \u2014 West Salem [Job Center of Wisconsin]"
+    ],
+    "momentum_7d": {
+      "days": 7,
+      "change": 1,
+      "pct": 20,
+      "direction": "up",
+      "points": [
+        {
+          "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 5
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
+          "opening_count": 5
+        },
+        {
+          "captured_at": "2026-08-24T23:03:06.494647+00:00",
+          "opening_count": 5
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 5
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
+          "opening_count": 6
+        },
+        {
+          "captured_at": "2026-08-25T04:33:57.863405+00:00",
+          "opening_count": 6
+        }
+      ]
+    },
+    "momentum_30d": {
+      "days": 30,
+      "change": 1,
+      "pct": 20,
+      "direction": "up",
+      "points": [
+        {
+          "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 5
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
+          "opening_count": 5
+        },
+        {
+          "captured_at": "2026-08-24T23:03:06.494647+00:00",
+          "opening_count": 5
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 5
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
+          "opening_count": 6
+        },
+        {
+          "captured_at": "2026-08-25T04:33:57.863405+00:00",
+          "opening_count": 6
+        }
+      ]
+    },
+    "score_breakdown": [
+      {
+        "label": "Base opportunity",
+        "points": 30,
+        "reason": "Underlying employer/opportunity fit"
+      },
+      {
+        "label": "Volume Decrease",
+        "points": 2,
+        "reason": "Openings decreased from 6 to 1"
+      },
+      {
+        "label": "Hiring momentum",
+        "points": 3,
+        "reason": "Up +20% over 7 days"
+      }
+    ],
+    "score_policy_version": 1,
+    "score_policy_capped": false,
+    "jobs": [
+      {
+        "title": "Program Supervisor",
+        "location": "West Salem",
+        "posted_at": "2026-07-01T00:00:00+00:00",
+        "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dWest%2bSalem%26dist%3d%26edu%3d%26kwords%3d%26loc%3dWest%2bSalem%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d"
+      }
+    ]
+  },
+  {
+    "employer": "MICHAELS",
+    "slug": "michaels",
+    "score": 32,
+    "priority": "Low",
+    "opening_count": 1,
+    "verified_opening_count": 1,
+    "locations": [
+      "La Crosse"
+    ],
+    "industries": [
+      "leadership"
+    ],
+    "hiring_summary": "MICHAELS has 1 observed opening(s) across 1 local location(s).",
+    "reasons": [
+      "1 opening(s) are source-verified",
+      "Hiring overlaps Driftless Workforce target industries",
+      "Leadership hiring signal: Retail Manager - Sales Full Time"
+    ],
+    "target_roles": [
+      "leadership"
+    ],
+    "industries_detected": [
+      "leadership"
+    ],
+    "decision_maker_roles": [
+      "HR / Talent Acquisition",
+      "Hiring Manager",
+      "Operations Leader"
+    ],
+    "contact_path": "Find HR/Talent Acquisition or the hiring manager through the employer's official site or public professional profile. Do not guess an email address.",
+    "outreach_angle": "Lead with leadership recruiting: reference the visible management hiring signal and offer help building a qualified local leadership pipeline.",
+    "evidence": [
+      "Retail Manager - Sales Full Time \u2014 La Crosse [Job Center of Wisconsin]"
+    ],
+    "momentum_7d": {
+      "days": 7,
+      "change": 0,
+      "pct": 0,
+      "direction": "flat",
+      "points": [
+        {
+          "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 3
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
+          "opening_count": 3
+        },
+        {
+          "captured_at": "2026-08-24T23:03:06.494647+00:00",
+          "opening_count": 3
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 3
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
+          "opening_count": 3
+        },
+        {
+          "captured_at": "2026-08-25T04:33:57.863405+00:00",
+          "opening_count": 3
+        }
+      ]
+    },
+    "momentum_30d": {
+      "days": 30,
+      "change": 0,
+      "pct": 0,
+      "direction": "flat",
+      "points": [
+        {
+          "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 3
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
+          "opening_count": 3
+        },
+        {
+          "captured_at": "2026-08-24T23:03:06.494647+00:00",
+          "opening_count": 3
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 3
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
+          "opening_count": 3
+        },
+        {
+          "captured_at": "2026-08-25T04:33:57.863405+00:00",
+          "opening_count": 3
+        }
+      ]
+    },
+    "score_breakdown": [
+      {
+        "label": "Base opportunity",
+        "points": 30,
+        "reason": "Underlying employer/opportunity fit"
+      },
+      {
+        "label": "Volume Decrease",
+        "points": 2,
+        "reason": "Openings decreased from 3 to 1"
+      }
+    ],
+    "score_policy_version": 1,
+    "score_policy_capped": false,
+    "jobs": [
+      {
+        "title": "Retail Manager - Sales Full Time",
+        "location": "La Crosse",
+        "posted_at": "2026-08-23T00:00:00+00:00",
+        "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dLa%2bCrosse%26dist%3d%26edu%3d%26kwords%3d%26loc%3dLa%2bCrosse%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d"
+      }
+    ]
+  },
+  {
+    "employer": "MONDELEZ INTERNATIONAL",
+    "slug": "mondelez international",
+    "score": 32,
+    "priority": "Low",
+    "opening_count": 1,
+    "verified_opening_count": 1,
+    "locations": [
+      "Holmen"
+    ],
+    "industries": [
+      "leadership"
+    ],
+    "hiring_summary": "MONDELEZ INTERNATIONAL has 1 observed opening(s) across 1 local location(s).",
+    "reasons": [
+      "1 opening(s) are source-verified",
+      "Hiring overlaps Driftless Workforce target industries",
+      "Leadership hiring signal: Retail Territory Manager Why is this a Hot Job?"
+    ],
+    "target_roles": [
+      "leadership"
+    ],
+    "industries_detected": [
+      "leadership"
+    ],
+    "decision_maker_roles": [
+      "HR / Talent Acquisition",
+      "Hiring Manager",
+      "Operations Leader"
+    ],
+    "contact_path": "Find HR/Talent Acquisition or the hiring manager through the employer's official site or public professional profile. Do not guess an email address.",
+    "outreach_angle": "Lead with leadership recruiting: reference the visible management hiring signal and offer help building a qualified local leadership pipeline.",
+    "evidence": [
       "Retail Territory Manager Why is this a Hot Job? \u2014 Holmen [Job Center of Wisconsin]"
     ],
     "momentum_7d": {
@@ -1114,123 +719,9 @@
         {
           "captured_at": "2026-08-25T03:28:06.458548+00:00",
           "opening_count": 2
-        }
-      ]
-    },
-    "momentum_30d": {
-      "days": 30,
-      "change": 0,
-      "pct": 0,
-      "direction": "flat",
-      "points": [
-        {
-          "captured_at": "2026-08-24T22:18:07.204524+00:00",
-          "opening_count": 2
         },
         {
-          "captured_at": "2026-08-24T22:19:41.611533+00:00",
-          "opening_count": 2
-        },
-        {
-          "captured_at": "2026-08-24T23:03:06.494647+00:00",
-          "opening_count": 2
-        },
-        {
-          "captured_at": "2026-08-24T23:57:39.200612+00:00",
-          "opening_count": 2
-        },
-        {
-          "captured_at": "2026-08-25T03:28:06.458548+00:00",
-          "opening_count": 2
-        }
-      ]
-    },
-    "score_breakdown": [
-      {
-        "label": "Base opportunity",
-        "points": 35,
-        "reason": "Underlying employer/opportunity fit"
-      }
-    ],
-    "score_policy_version": 1,
-    "score_policy_capped": false,
-    "jobs": [
-      {
-        "title": "Part-time Nabisco Merchandiser",
-        "location": "Onalaska",
-        "posted_at": "2026-08-18T00:00:00+00:00",
-        "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dOnalaska%26dist%3d%26edu%3d%26kwords%3d%26loc%3dOnalaska%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d"
-      },
-      {
-        "title": "Retail Territory Manager Why is this a Hot Job?",
-        "location": "Holmen",
-        "posted_at": "2026-07-04T00:00:00+00:00",
-        "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dHolmen%26dist%3d%26edu%3d%26kwords%3d%26loc%3dHolmen%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d"
-      }
-    ]
-  },
-  {
-    "employer": "PEOPLEREADY",
-    "slug": "peopleready",
-    "score": 35,
-    "priority": "Low",
-    "opening_count": 2,
-    "verified_opening_count": 2,
-    "locations": [
-      "West Salem"
-    ],
-    "industries": [
-      "manufacturing",
-      "operations"
-    ],
-    "hiring_summary": "PEOPLEREADY has 2 observed opening(s) across 1 local location(s).",
-    "reasons": [
-      "2 observed openings indicate active hiring",
-      "2 opening(s) are source-verified",
-      "Hiring overlaps Driftless Workforce target industries"
-    ],
-    "target_roles": [
-      "general operations",
-      "manufacturing / production"
-    ],
-    "industries_detected": [
-      "manufacturing",
-      "operations"
-    ],
-    "decision_maker_roles": [
-      "HR / Talent Acquisition",
-      "Department Manager"
-    ],
-    "contact_path": "Find HR/Talent Acquisition or the hiring manager through the employer's official site or public professional profile. Do not guess an email address.",
-    "outreach_angle": "Lead with the specific hard-to-fill role and offer a focused candidate-sourcing conversation rather than a generic staffing pitch.",
-    "evidence": [
-      "Quality Inspector \u2014 West Salem [Job Center of Wisconsin]",
-      "Parts Inspector \u2014 West Salem [Job Center of Wisconsin]"
-    ],
-    "momentum_7d": {
-      "days": 7,
-      "change": 0,
-      "pct": 0,
-      "direction": "flat",
-      "points": [
-        {
-          "captured_at": "2026-08-24T22:18:07.204524+00:00",
-          "opening_count": 2
-        },
-        {
-          "captured_at": "2026-08-24T22:19:41.611533+00:00",
-          "opening_count": 2
-        },
-        {
-          "captured_at": "2026-08-24T23:03:06.494647+00:00",
-          "opening_count": 2
-        },
-        {
-          "captured_at": "2026-08-24T23:57:39.200612+00:00",
-          "opening_count": 2
-        },
-        {
-          "captured_at": "2026-08-25T03:28:06.458548+00:00",
+          "captured_at": "2026-08-25T04:33:57.863405+00:00",
           "opening_count": 2
         }
       ]
@@ -1260,249 +751,10 @@
         {
           "captured_at": "2026-08-25T03:28:06.458548+00:00",
           "opening_count": 2
-        }
-      ]
-    },
-    "score_breakdown": [
-      {
-        "label": "Base opportunity",
-        "points": 35,
-        "reason": "Underlying employer/opportunity fit"
-      }
-    ],
-    "score_policy_version": 1,
-    "score_policy_capped": false,
-    "jobs": [
-      {
-        "title": "Quality Inspector",
-        "location": "West Salem",
-        "posted_at": "2026-08-14T00:00:00+00:00",
-        "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dWest%2bSalem%26dist%3d%26edu%3d%26kwords%3d%26loc%3dWest%2bSalem%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d"
-      },
-      {
-        "title": "Parts Inspector",
-        "location": "West Salem",
-        "posted_at": "2026-08-04T00:00:00+00:00",
-        "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dWest%2bSalem%26dist%3d%26edu%3d%26kwords%3d%26loc%3dWest%2bSalem%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d"
-      }
-    ]
-  },
-  {
-    "employer": "WALMART",
-    "slug": "walmart",
-    "score": 35,
-    "priority": "Low",
-    "opening_count": 2,
-    "verified_opening_count": 2,
-    "locations": [
-      "Onalaska"
-    ],
-    "industries": [
-      "leadership",
-      "skilled trades"
-    ],
-    "hiring_summary": "WALMART has 2 observed opening(s) across 1 local location(s).",
-    "reasons": [
-      "2 observed openings indicate active hiring",
-      "2 opening(s) are source-verified",
-      "Hiring overlaps Driftless Workforce target industries",
-      "Leadership hiring signal: (USA) Merchandising Lead"
-    ],
-    "target_roles": [
-      "leadership",
-      "skilled trades / maintenance"
-    ],
-    "industries_detected": [
-      "leadership",
-      "skilled trades"
-    ],
-    "decision_maker_roles": [
-      "HR / Talent Acquisition",
-      "Hiring Manager",
-      "Operations Leader"
-    ],
-    "contact_path": "Find HR/Talent Acquisition or the hiring manager through the employer's official site or public professional profile. Do not guess an email address.",
-    "outreach_angle": "Lead with leadership recruiting: reference the visible management hiring signal and offer help building a qualified local leadership pipeline.",
-    "evidence": [
-      "(USA) Merchandising Lead \u2014 Onalaska [Job Center of Wisconsin]",
-      "(USA) Tire & Battery Technician - Automotive \u2014 Onalaska [Job Center of Wisconsin]"
-    ],
-    "momentum_7d": {
-      "days": 7,
-      "change": -1,
-      "pct": -25,
-      "direction": "down",
-      "points": [
-        {
-          "captured_at": "2026-08-24T22:18:07.204524+00:00",
-          "opening_count": 4
         },
         {
-          "captured_at": "2026-08-24T22:19:41.611533+00:00",
-          "opening_count": 4
-        },
-        {
-          "captured_at": "2026-08-24T23:03:06.494647+00:00",
-          "opening_count": 4
-        },
-        {
-          "captured_at": "2026-08-24T23:57:39.200612+00:00",
-          "opening_count": 4
-        },
-        {
-          "captured_at": "2026-08-25T03:28:06.458548+00:00",
-          "opening_count": 3
-        }
-      ]
-    },
-    "momentum_30d": {
-      "days": 30,
-      "change": -1,
-      "pct": -25,
-      "direction": "down",
-      "points": [
-        {
-          "captured_at": "2026-08-24T22:18:07.204524+00:00",
-          "opening_count": 4
-        },
-        {
-          "captured_at": "2026-08-24T22:19:41.611533+00:00",
-          "opening_count": 4
-        },
-        {
-          "captured_at": "2026-08-24T23:03:06.494647+00:00",
-          "opening_count": 4
-        },
-        {
-          "captured_at": "2026-08-24T23:57:39.200612+00:00",
-          "opening_count": 4
-        },
-        {
-          "captured_at": "2026-08-25T03:28:06.458548+00:00",
-          "opening_count": 3
-        }
-      ]
-    },
-    "score_breakdown": [
-      {
-        "label": "Base opportunity",
-        "points": 35,
-        "reason": "Underlying employer/opportunity fit"
-      },
-      {
-        "label": "Volume Decrease",
-        "points": 2,
-        "reason": "Openings decreased from 3 to 2"
-      },
-      {
-        "label": "Hiring momentum",
-        "points": -2,
-        "reason": "Down -25% over 7 days"
-      }
-    ],
-    "score_policy_version": 1,
-    "score_policy_capped": false,
-    "jobs": [
-      {
-        "title": "(USA) Merchandising Lead",
-        "location": "Onalaska",
-        "posted_at": "2026-08-22T00:00:00+00:00",
-        "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dOnalaska%26dist%3d%26edu%3d%26kwords%3d%26loc%3dOnalaska%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d"
-      },
-      {
-        "title": "(USA) Tire & Battery Technician - Automotive",
-        "location": "Onalaska",
-        "posted_at": "2026-08-18T00:00:00+00:00",
-        "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dOnalaska%26dist%3d%26edu%3d%26kwords%3d%26loc%3dOnalaska%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d"
-      }
-    ]
-  },
-  {
-    "employer": "KELLY SERVICES",
-    "slug": "kelly services",
-    "score": 32,
-    "priority": "Low",
-    "opening_count": 1,
-    "verified_opening_count": 1,
-    "locations": [
-      "West Salem"
-    ],
-    "industries": [
-      "skilled trades"
-    ],
-    "hiring_summary": "KELLY SERVICES has 1 observed opening(s) across 1 local location(s).",
-    "reasons": [
-      "1 opening(s) are source-verified",
-      "Hiring overlaps Driftless Workforce target industries"
-    ],
-    "target_roles": [
-      "skilled trades / maintenance"
-    ],
-    "industries_detected": [
-      "skilled trades"
-    ],
-    "decision_maker_roles": [
-      "HR / Talent Acquisition",
-      "Department Manager"
-    ],
-    "contact_path": "Find HR/Talent Acquisition or the hiring manager through the employer's official site or public professional profile. Do not guess an email address.",
-    "outreach_angle": "Lead with the specific hard-to-fill role and offer a focused candidate-sourcing conversation rather than a generic staffing pitch.",
-    "evidence": [
-      "Field Service Technician/Mechanic Why is this a Hot Job? \u2014 West Salem [Job Center of Wisconsin]"
-    ],
-    "momentum_7d": {
-      "days": 7,
-      "change": 0,
-      "pct": 0,
-      "direction": "flat",
-      "points": [
-        {
-          "captured_at": "2026-08-24T22:18:07.204524+00:00",
-          "opening_count": 3
-        },
-        {
-          "captured_at": "2026-08-24T22:19:41.611533+00:00",
-          "opening_count": 3
-        },
-        {
-          "captured_at": "2026-08-24T23:03:06.494647+00:00",
-          "opening_count": 3
-        },
-        {
-          "captured_at": "2026-08-24T23:57:39.200612+00:00",
-          "opening_count": 3
-        },
-        {
-          "captured_at": "2026-08-25T03:28:06.458548+00:00",
-          "opening_count": 3
-        }
-      ]
-    },
-    "momentum_30d": {
-      "days": 30,
-      "change": 0,
-      "pct": 0,
-      "direction": "flat",
-      "points": [
-        {
-          "captured_at": "2026-08-24T22:18:07.204524+00:00",
-          "opening_count": 3
-        },
-        {
-          "captured_at": "2026-08-24T22:19:41.611533+00:00",
-          "opening_count": 3
-        },
-        {
-          "captured_at": "2026-08-24T23:03:06.494647+00:00",
-          "opening_count": 3
-        },
-        {
-          "captured_at": "2026-08-24T23:57:39.200612+00:00",
-          "opening_count": 3
-        },
-        {
-          "captured_at": "2026-08-25T03:28:06.458548+00:00",
-          "opening_count": 3
+          "captured_at": "2026-08-25T04:33:57.863405+00:00",
+          "opening_count": 2
         }
       ]
     },
@@ -1515,16 +767,136 @@
       {
         "label": "Volume Decrease",
         "points": 2,
-        "reason": "Openings decreased from 3 to 1"
+        "reason": "Openings decreased from 2 to 1"
       }
     ],
     "score_policy_version": 1,
     "score_policy_capped": false,
     "jobs": [
       {
-        "title": "Field Service Technician/Mechanic Why is this a Hot Job?",
+        "title": "Retail Territory Manager Why is this a Hot Job?",
+        "location": "Holmen",
+        "posted_at": "2026-07-04T00:00:00+00:00",
+        "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dHolmen%26dist%3d%26edu%3d%26kwords%3d%26loc%3dHolmen%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d"
+      }
+    ]
+  },
+  {
+    "employer": "PEOPLEREADY",
+    "slug": "peopleready",
+    "score": 32,
+    "priority": "Low",
+    "opening_count": 1,
+    "verified_opening_count": 1,
+    "locations": [
+      "West Salem"
+    ],
+    "industries": [
+      "manufacturing"
+    ],
+    "hiring_summary": "PEOPLEREADY has 1 observed opening(s) across 1 local location(s).",
+    "reasons": [
+      "1 opening(s) are source-verified",
+      "Hiring overlaps Driftless Workforce target industries"
+    ],
+    "target_roles": [
+      "manufacturing / production"
+    ],
+    "industries_detected": [
+      "manufacturing"
+    ],
+    "decision_maker_roles": [
+      "HR / Talent Acquisition",
+      "Department Manager"
+    ],
+    "contact_path": "Find HR/Talent Acquisition or the hiring manager through the employer's official site or public professional profile. Do not guess an email address.",
+    "outreach_angle": "Lead with the specific hard-to-fill role and offer a focused candidate-sourcing conversation rather than a generic staffing pitch.",
+    "evidence": [
+      "Quality Inspector \u2014 West Salem [Job Center of Wisconsin]"
+    ],
+    "momentum_7d": {
+      "days": 7,
+      "change": 0,
+      "pct": 0,
+      "direction": "flat",
+      "points": [
+        {
+          "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 2
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
+          "opening_count": 2
+        },
+        {
+          "captured_at": "2026-08-24T23:03:06.494647+00:00",
+          "opening_count": 2
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 2
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
+          "opening_count": 2
+        },
+        {
+          "captured_at": "2026-08-25T04:33:57.863405+00:00",
+          "opening_count": 2
+        }
+      ]
+    },
+    "momentum_30d": {
+      "days": 30,
+      "change": 0,
+      "pct": 0,
+      "direction": "flat",
+      "points": [
+        {
+          "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 2
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
+          "opening_count": 2
+        },
+        {
+          "captured_at": "2026-08-24T23:03:06.494647+00:00",
+          "opening_count": 2
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 2
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
+          "opening_count": 2
+        },
+        {
+          "captured_at": "2026-08-25T04:33:57.863405+00:00",
+          "opening_count": 2
+        }
+      ]
+    },
+    "score_breakdown": [
+      {
+        "label": "Base opportunity",
+        "points": 30,
+        "reason": "Underlying employer/opportunity fit"
+      },
+      {
+        "label": "Volume Decrease",
+        "points": 2,
+        "reason": "Openings decreased from 2 to 1"
+      }
+    ],
+    "score_policy_version": 1,
+    "score_policy_capped": false,
+    "jobs": [
+      {
+        "title": "Quality Inspector",
         "location": "West Salem",
-        "posted_at": "2026-08-17T00:00:00+00:00",
+        "posted_at": "2026-08-14T00:00:00+00:00",
         "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dWest%2bSalem%26dist%3d%26edu%3d%26kwords%3d%26loc%3dWest%2bSalem%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d"
       }
     ]
@@ -1587,6 +959,10 @@
         {
           "captured_at": "2026-08-25T03:28:06.458548+00:00",
           "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T04:33:57.863405+00:00",
+          "opening_count": 1
         }
       ]
     },
@@ -1614,6 +990,10 @@
         },
         {
           "captured_at": "2026-08-25T03:28:06.458548+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T04:33:57.863405+00:00",
           "opening_count": 1
         }
       ]
@@ -1633,113 +1013,6 @@
         "location": "La Crosse",
         "posted_at": "2026-08-22T00:00:00+00:00",
         "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dLa%2bCrosse%26dist%3d%26edu%3d%26kwords%3d%26loc%3dLa%2bCrosse%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d"
-      }
-    ]
-  },
-  {
-    "employer": "ALTRA FEDERAL CREDIT UNION",
-    "slug": "altra federal credit union",
-    "score": 30,
-    "priority": "Low",
-    "opening_count": 1,
-    "verified_opening_count": 1,
-    "locations": [
-      "West Salem"
-    ],
-    "industries": [
-      "operations"
-    ],
-    "hiring_summary": "ALTRA FEDERAL CREDIT UNION has 1 observed opening(s) across 1 local location(s).",
-    "reasons": [
-      "1 opening(s) are source-verified",
-      "Hiring overlaps Driftless Workforce target industries"
-    ],
-    "target_roles": [
-      "general operations"
-    ],
-    "industries_detected": [
-      "operations"
-    ],
-    "decision_maker_roles": [
-      "HR / Talent Acquisition",
-      "Department Manager"
-    ],
-    "contact_path": "Find HR/Talent Acquisition or the hiring manager through the employer's official site or public professional profile. Do not guess an email address.",
-    "outreach_angle": "Lead with the specific hard-to-fill role and offer a focused candidate-sourcing conversation rather than a generic staffing pitch.",
-    "evidence": [
-      "Part-Time Member Service Rep, West Salem \u2014 West Salem [Job Center of Wisconsin]"
-    ],
-    "momentum_7d": {
-      "days": 7,
-      "change": 0,
-      "pct": 0,
-      "direction": "flat",
-      "points": [
-        {
-          "captured_at": "2026-08-24T22:18:07.204524+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-24T22:19:41.611533+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-24T23:03:06.494647+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-24T23:57:39.200612+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-25T03:28:06.458548+00:00",
-          "opening_count": 1
-        }
-      ]
-    },
-    "momentum_30d": {
-      "days": 30,
-      "change": 0,
-      "pct": 0,
-      "direction": "flat",
-      "points": [
-        {
-          "captured_at": "2026-08-24T22:18:07.204524+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-24T22:19:41.611533+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-24T23:03:06.494647+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-24T23:57:39.200612+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-25T03:28:06.458548+00:00",
-          "opening_count": 1
-        }
-      ]
-    },
-    "score_breakdown": [
-      {
-        "label": "Base opportunity",
-        "points": 30,
-        "reason": "Underlying employer/opportunity fit"
-      }
-    ],
-    "score_policy_version": 1,
-    "score_policy_capped": false,
-    "jobs": [
-      {
-        "title": "Part-Time Member Service Rep, West Salem",
-        "location": "West Salem",
-        "posted_at": "2026-08-19T00:00:00+00:00",
-        "source_url": "https://jobcenterofwisconsin.com/Presentation/JobSeekers/EnhancedJobs-det.aspx?OrderNumber=004043722"
       }
     ]
   },
@@ -1803,6 +1076,10 @@
         {
           "captured_at": "2026-08-25T03:28:06.458548+00:00",
           "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T04:33:57.863405+00:00",
+          "opening_count": 1
         }
       ]
     },
@@ -1830,6 +1107,10 @@
         },
         {
           "captured_at": "2026-08-25T03:28:06.458548+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T04:33:57.863405+00:00",
           "opening_count": 1
         }
       ]
@@ -1912,6 +1193,10 @@
         {
           "captured_at": "2026-08-25T03:28:06.458548+00:00",
           "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T04:33:57.863405+00:00",
+          "opening_count": 1
         }
       ]
     },
@@ -1939,6 +1224,10 @@
         },
         {
           "captured_at": "2026-08-25T03:28:06.458548+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T04:33:57.863405+00:00",
           "opening_count": 1
         }
       ]
@@ -2021,6 +1310,10 @@
         {
           "captured_at": "2026-08-25T03:28:06.458548+00:00",
           "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T04:33:57.863405+00:00",
+          "opening_count": 1
         }
       ]
     },
@@ -2048,6 +1341,10 @@
         },
         {
           "captured_at": "2026-08-25T03:28:06.458548+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T04:33:57.863405+00:00",
           "opening_count": 1
         }
       ]
@@ -2067,971 +1364,6 @@
         "location": "La Crosse",
         "posted_at": "2026-06-30T00:00:00+00:00",
         "source_url": "https://jobcenterofwisconsin.com/Presentation/JobSeekers/EnhancedJobs-det.aspx?OrderNumber=004015382"
-      }
-    ]
-  },
-  {
-    "employer": "KOHL'S",
-    "slug": "kohl s",
-    "score": 30,
-    "priority": "Low",
-    "opening_count": 1,
-    "verified_opening_count": 1,
-    "locations": [
-      "Onalaska"
-    ],
-    "industries": [
-      "operations"
-    ],
-    "hiring_summary": "KOHL'S has 1 observed opening(s) across 1 local location(s).",
-    "reasons": [
-      "1 opening(s) are source-verified",
-      "Hiring overlaps Driftless Workforce target industries"
-    ],
-    "target_roles": [
-      "general operations"
-    ],
-    "industries_detected": [
-      "operations"
-    ],
-    "decision_maker_roles": [
-      "HR / Talent Acquisition",
-      "Department Manager"
-    ],
-    "contact_path": "Find HR/Talent Acquisition or the hiring manager through the employer's official site or public professional profile. Do not guess an email address.",
-    "outreach_angle": "Lead with the specific hard-to-fill role and offer a focused candidate-sourcing conversation rather than a generic staffing pitch.",
-    "evidence": [
-      "Part-Time Beauty Advisor - Sephora \u2014 Onalaska [Job Center of Wisconsin]"
-    ],
-    "momentum_7d": {
-      "days": 7,
-      "change": 0,
-      "pct": 0,
-      "direction": "flat",
-      "points": [
-        {
-          "captured_at": "2026-08-24T22:18:07.204524+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-24T22:19:41.611533+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-24T23:03:06.494647+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-24T23:57:39.200612+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-25T03:28:06.458548+00:00",
-          "opening_count": 1
-        }
-      ]
-    },
-    "momentum_30d": {
-      "days": 30,
-      "change": 0,
-      "pct": 0,
-      "direction": "flat",
-      "points": [
-        {
-          "captured_at": "2026-08-24T22:18:07.204524+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-24T22:19:41.611533+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-24T23:03:06.494647+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-24T23:57:39.200612+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-25T03:28:06.458548+00:00",
-          "opening_count": 1
-        }
-      ]
-    },
-    "score_breakdown": [
-      {
-        "label": "Base opportunity",
-        "points": 30,
-        "reason": "Underlying employer/opportunity fit"
-      }
-    ],
-    "score_policy_version": 1,
-    "score_policy_capped": false,
-    "jobs": [
-      {
-        "title": "Part-Time Beauty Advisor - Sephora",
-        "location": "Onalaska",
-        "posted_at": "2026-08-21T00:00:00+00:00",
-        "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dOnalaska%26dist%3d%26edu%3d%26kwords%3d%26loc%3dOnalaska%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d"
-      }
-    ]
-  },
-  {
-    "employer": "MA MAYO CLINIC",
-    "slug": "ma mayo clinic",
-    "score": 30,
-    "priority": "Low",
-    "opening_count": 1,
-    "verified_opening_count": 1,
-    "locations": [
-      "Onalaska"
-    ],
-    "industries": [
-      "operations"
-    ],
-    "hiring_summary": "MA MAYO CLINIC has 1 observed opening(s) across 1 local location(s).",
-    "reasons": [
-      "1 opening(s) are source-verified",
-      "Hiring overlaps Driftless Workforce target industries"
-    ],
-    "target_roles": [
-      "general operations"
-    ],
-    "industries_detected": [
-      "operations"
-    ],
-    "decision_maker_roles": [
-      "HR / Talent Acquisition",
-      "Department Manager"
-    ],
-    "contact_path": "Find HR/Talent Acquisition or the hiring manager through the employer's official site or public professional profile. Do not guess an email address.",
-    "outreach_angle": "Lead with the specific hard-to-fill role and offer a focused candidate-sourcing conversation rather than a generic staffing pitch.",
-    "evidence": [
-      "Medical Assistant - Family Medicine - \u2014 Onalaska [Job Center of Wisconsin]"
-    ],
-    "momentum_7d": {
-      "days": 7,
-      "change": 0,
-      "pct": 0,
-      "direction": "flat",
-      "points": [
-        {
-          "captured_at": "2026-08-24T22:18:07.204524+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-24T22:19:41.611533+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-24T23:03:06.494647+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-24T23:57:39.200612+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-25T03:28:06.458548+00:00",
-          "opening_count": 1
-        }
-      ]
-    },
-    "momentum_30d": {
-      "days": 30,
-      "change": 0,
-      "pct": 0,
-      "direction": "flat",
-      "points": [
-        {
-          "captured_at": "2026-08-24T22:18:07.204524+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-24T22:19:41.611533+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-24T23:03:06.494647+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-24T23:57:39.200612+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-25T03:28:06.458548+00:00",
-          "opening_count": 1
-        }
-      ]
-    },
-    "score_breakdown": [
-      {
-        "label": "Base opportunity",
-        "points": 30,
-        "reason": "Underlying employer/opportunity fit"
-      }
-    ],
-    "score_policy_version": 1,
-    "score_policy_capped": false,
-    "jobs": [
-      {
-        "title": "Medical Assistant - Family Medicine -",
-        "location": "Onalaska",
-        "posted_at": "2026-08-23T00:00:00+00:00",
-        "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dOnalaska%26dist%3d%26edu%3d%26kwords%3d%26loc%3dOnalaska%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d"
-      }
-    ]
-  },
-  {
-    "employer": "MAXIM HEALTHCARE",
-    "slug": "maxim healthcare",
-    "score": 30,
-    "priority": "Low",
-    "opening_count": 1,
-    "verified_opening_count": 1,
-    "locations": [
-      "Onalaska"
-    ],
-    "industries": [
-      "operations"
-    ],
-    "hiring_summary": "MAXIM HEALTHCARE has 1 observed opening(s) across 1 local location(s).",
-    "reasons": [
-      "1 opening(s) are source-verified",
-      "Hiring overlaps Driftless Workforce target industries"
-    ],
-    "target_roles": [
-      "general operations"
-    ],
-    "industries_detected": [
-      "operations"
-    ],
-    "decision_maker_roles": [
-      "HR / Talent Acquisition",
-      "Department Manager"
-    ],
-    "contact_path": "Find HR/Talent Acquisition or the hiring manager through the employer's official site or public professional profile. Do not guess an email address.",
-    "outreach_angle": "Lead with the specific hard-to-fill role and offer a focused candidate-sourcing conversation rather than a generic staffing pitch.",
-    "evidence": [
-      "LPN - Homecare \u2014 Onalaska [Job Center of Wisconsin]"
-    ],
-    "momentum_7d": {
-      "days": 7,
-      "change": 0,
-      "pct": 0,
-      "direction": "flat",
-      "points": [
-        {
-          "captured_at": "2026-08-24T22:18:07.204524+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-24T22:19:41.611533+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-24T23:03:06.494647+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-24T23:57:39.200612+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-25T03:28:06.458548+00:00",
-          "opening_count": 1
-        }
-      ]
-    },
-    "momentum_30d": {
-      "days": 30,
-      "change": 0,
-      "pct": 0,
-      "direction": "flat",
-      "points": [
-        {
-          "captured_at": "2026-08-24T22:18:07.204524+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-24T22:19:41.611533+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-24T23:03:06.494647+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-24T23:57:39.200612+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-25T03:28:06.458548+00:00",
-          "opening_count": 1
-        }
-      ]
-    },
-    "score_breakdown": [
-      {
-        "label": "Base opportunity",
-        "points": 30,
-        "reason": "Underlying employer/opportunity fit"
-      }
-    ],
-    "score_policy_version": 1,
-    "score_policy_capped": false,
-    "jobs": [
-      {
-        "title": "LPN - Homecare",
-        "location": "Onalaska",
-        "posted_at": "2026-08-19T00:00:00+00:00",
-        "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dOnalaska%26dist%3d%26edu%3d%26kwords%3d%26loc%3dOnalaska%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d"
-      }
-    ]
-  },
-  {
-    "employer": "MENARDS, INC.",
-    "slug": "menards",
-    "score": 30,
-    "priority": "Low",
-    "opening_count": 1,
-    "verified_opening_count": 1,
-    "locations": [
-      "Onalaska"
-    ],
-    "industries": [
-      "operations"
-    ],
-    "hiring_summary": "MENARDS, INC. has 1 observed opening(s) across 1 local location(s).",
-    "reasons": [
-      "1 opening(s) are source-verified",
-      "Hiring overlaps Driftless Workforce target industries"
-    ],
-    "target_roles": [
-      "general operations"
-    ],
-    "industries_detected": [
-      "operations"
-    ],
-    "decision_maker_roles": [
-      "HR / Talent Acquisition",
-      "Department Manager"
-    ],
-    "contact_path": "Find HR/Talent Acquisition or the hiring manager through the employer's official site or public professional profile. Do not guess an email address.",
-    "outreach_angle": "Lead with the specific hard-to-fill role and offer a focused candidate-sourcing conversation rather than a generic staffing pitch.",
-    "evidence": [
-      "Full-Time Sales \u2014 Onalaska [Job Center of Wisconsin]"
-    ],
-    "momentum_7d": {
-      "days": 7,
-      "change": 0,
-      "pct": 0,
-      "direction": "flat",
-      "points": [
-        {
-          "captured_at": "2026-08-24T22:18:07.204524+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-24T22:19:41.611533+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-24T23:03:06.494647+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-24T23:57:39.200612+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-25T03:28:06.458548+00:00",
-          "opening_count": 1
-        }
-      ]
-    },
-    "momentum_30d": {
-      "days": 30,
-      "change": 0,
-      "pct": 0,
-      "direction": "flat",
-      "points": [
-        {
-          "captured_at": "2026-08-24T22:18:07.204524+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-24T22:19:41.611533+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-24T23:03:06.494647+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-24T23:57:39.200612+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-25T03:28:06.458548+00:00",
-          "opening_count": 1
-        }
-      ]
-    },
-    "score_breakdown": [
-      {
-        "label": "Base opportunity",
-        "points": 30,
-        "reason": "Underlying employer/opportunity fit"
-      }
-    ],
-    "score_policy_version": 1,
-    "score_policy_capped": false,
-    "jobs": [
-      {
-        "title": "Full-Time Sales",
-        "location": "Onalaska",
-        "posted_at": "2026-08-19T00:00:00+00:00",
-        "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dOnalaska%26dist%3d%26edu%3d%26kwords%3d%26loc%3dOnalaska%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d"
-      }
-    ]
-  },
-  {
-    "employer": "RAM LAKHAN LLC",
-    "slug": "ram lakhan",
-    "score": 30,
-    "priority": "Low",
-    "opening_count": 1,
-    "verified_opening_count": 1,
-    "locations": [
-      "Onalaska"
-    ],
-    "industries": [
-      "operations"
-    ],
-    "hiring_summary": "RAM LAKHAN LLC has 1 observed opening(s) across 1 local location(s).",
-    "reasons": [
-      "1 opening(s) are source-verified",
-      "Hiring overlaps Driftless Workforce target industries"
-    ],
-    "target_roles": [
-      "general operations"
-    ],
-    "industries_detected": [
-      "operations"
-    ],
-    "decision_maker_roles": [
-      "HR / Talent Acquisition",
-      "Department Manager"
-    ],
-    "contact_path": "Find HR/Talent Acquisition or the hiring manager through the employer's official site or public professional profile. Do not guess an email address.",
-    "outreach_angle": "Lead with the specific hard-to-fill role and offer a focused candidate-sourcing conversation rather than a generic staffing pitch.",
-    "evidence": [
-      "Business Intelligence Analyst \u2014 Onalaska [Job Center of Wisconsin]"
-    ],
-    "momentum_7d": {
-      "days": 7,
-      "change": 0,
-      "pct": 0,
-      "direction": "flat",
-      "points": [
-        {
-          "captured_at": "2026-08-24T22:18:07.204524+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-24T22:19:41.611533+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-24T23:03:06.494647+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-24T23:57:39.200612+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-25T03:28:06.458548+00:00",
-          "opening_count": 1
-        }
-      ]
-    },
-    "momentum_30d": {
-      "days": 30,
-      "change": 0,
-      "pct": 0,
-      "direction": "flat",
-      "points": [
-        {
-          "captured_at": "2026-08-24T22:18:07.204524+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-24T22:19:41.611533+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-24T23:03:06.494647+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-24T23:57:39.200612+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-25T03:28:06.458548+00:00",
-          "opening_count": 1
-        }
-      ]
-    },
-    "score_breakdown": [
-      {
-        "label": "Base opportunity",
-        "points": 30,
-        "reason": "Underlying employer/opportunity fit"
-      }
-    ],
-    "score_policy_version": 1,
-    "score_policy_capped": false,
-    "jobs": [
-      {
-        "title": "Business Intelligence Analyst",
-        "location": "Onalaska",
-        "posted_at": "2026-08-19T00:00:00+00:00",
-        "source_url": "https://jobcenterofwisconsin.com/Presentation/JobSeekers/EnhancedJobs-det.aspx?OrderNumber=004043673"
-      }
-    ]
-  },
-  {
-    "employer": "SCHNEIDER",
-    "slug": "schneider",
-    "score": 30,
-    "priority": "Low",
-    "opening_count": 1,
-    "verified_opening_count": 1,
-    "locations": [
-      "West Salem"
-    ],
-    "industries": [
-      "operations"
-    ],
-    "hiring_summary": "SCHNEIDER has 1 observed opening(s) across 1 local location(s).",
-    "reasons": [
-      "1 opening(s) are source-verified",
-      "Hiring overlaps Driftless Workforce target industries"
-    ],
-    "target_roles": [
-      "general operations"
-    ],
-    "industries_detected": [
-      "operations"
-    ],
-    "decision_maker_roles": [
-      "HR / Talent Acquisition",
-      "Department Manager"
-    ],
-    "contact_path": "Find HR/Talent Acquisition or the hiring manager through the employer's official site or public professional profile. Do not guess an email address.",
-    "outreach_angle": "Lead with the specific hard-to-fill role and offer a focused candidate-sourcing conversation rather than a generic staffing pitch.",
-    "evidence": [
-      "CDL-A - New pay increase - Dedicated nighttime truck driver - First Supply Why is this a Hot Job? \u2014 West Salem [Job Center of Wisconsin]"
-    ],
-    "momentum_7d": {
-      "days": 7,
-      "change": 0,
-      "pct": 0,
-      "direction": "flat",
-      "points": [
-        {
-          "captured_at": "2026-08-24T22:18:07.204524+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-24T22:19:41.611533+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-24T23:03:06.494647+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-24T23:57:39.200612+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-25T03:28:06.458548+00:00",
-          "opening_count": 1
-        }
-      ]
-    },
-    "momentum_30d": {
-      "days": 30,
-      "change": 0,
-      "pct": 0,
-      "direction": "flat",
-      "points": [
-        {
-          "captured_at": "2026-08-24T22:18:07.204524+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-24T22:19:41.611533+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-24T23:03:06.494647+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-24T23:57:39.200612+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-25T03:28:06.458548+00:00",
-          "opening_count": 1
-        }
-      ]
-    },
-    "score_breakdown": [
-      {
-        "label": "Base opportunity",
-        "points": 30,
-        "reason": "Underlying employer/opportunity fit"
-      }
-    ],
-    "score_policy_version": 1,
-    "score_policy_capped": false,
-    "jobs": [
-      {
-        "title": "CDL-A - New pay increase - Dedicated nighttime truck driver - First Supply Why is this a Hot Job?",
-        "location": "West Salem",
-        "posted_at": "2026-08-12T00:00:00+00:00",
-        "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dWest%2bSalem%26dist%3d%26edu%3d%26kwords%3d%26loc%3dWest%2bSalem%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d"
-      }
-    ]
-  },
-  {
-    "employer": "SPECTRUM",
-    "slug": "spectrum",
-    "score": 30,
-    "priority": "Low",
-    "opening_count": 1,
-    "verified_opening_count": 1,
-    "locations": [
-      "Onalaska"
-    ],
-    "industries": [
-      "leadership"
-    ],
-    "hiring_summary": "SPECTRUM has 1 observed opening(s) across 1 local location(s).",
-    "reasons": [
-      "1 opening(s) are source-verified",
-      "Hiring overlaps Driftless Workforce target industries",
-      "Leadership hiring signal: Store Lead"
-    ],
-    "target_roles": [
-      "leadership"
-    ],
-    "industries_detected": [
-      "leadership"
-    ],
-    "decision_maker_roles": [
-      "HR / Talent Acquisition",
-      "Hiring Manager",
-      "Operations Leader"
-    ],
-    "contact_path": "Find HR/Talent Acquisition or the hiring manager through the employer's official site or public professional profile. Do not guess an email address.",
-    "outreach_angle": "Lead with leadership recruiting: reference the visible management hiring signal and offer help building a qualified local leadership pipeline.",
-    "evidence": [
-      "Store Lead \u2014 Onalaska [Job Center of Wisconsin]"
-    ],
-    "momentum_7d": {
-      "days": 7,
-      "change": 0,
-      "pct": 0,
-      "direction": "flat",
-      "points": [
-        {
-          "captured_at": "2026-08-24T22:18:07.204524+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-24T22:19:41.611533+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-24T23:03:06.494647+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-24T23:57:39.200612+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-25T03:28:06.458548+00:00",
-          "opening_count": 1
-        }
-      ]
-    },
-    "momentum_30d": {
-      "days": 30,
-      "change": 0,
-      "pct": 0,
-      "direction": "flat",
-      "points": [
-        {
-          "captured_at": "2026-08-24T22:18:07.204524+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-24T22:19:41.611533+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-24T23:03:06.494647+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-24T23:57:39.200612+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-25T03:28:06.458548+00:00",
-          "opening_count": 1
-        }
-      ]
-    },
-    "score_breakdown": [
-      {
-        "label": "Base opportunity",
-        "points": 30,
-        "reason": "Underlying employer/opportunity fit"
-      }
-    ],
-    "score_policy_version": 1,
-    "score_policy_capped": false,
-    "jobs": [
-      {
-        "title": "Store Lead",
-        "location": "Onalaska",
-        "posted_at": "2026-08-19T00:00:00+00:00",
-        "source_url": "https://jobcenterofwisconsin.com/Presentation/JobSeekers/EnhancedJobs-det.aspx?OrderNumber=004043597"
-      }
-    ]
-  },
-  {
-    "employer": "VERVE A CREDIT UNION",
-    "slug": "verve a credit union",
-    "score": 30,
-    "priority": "Low",
-    "opening_count": 1,
-    "verified_opening_count": 1,
-    "locations": [
-      "Holmen"
-    ],
-    "industries": [
-      "operations"
-    ],
-    "hiring_summary": "VERVE A CREDIT UNION has 1 observed opening(s) across 1 local location(s).",
-    "reasons": [
-      "1 opening(s) are source-verified",
-      "Hiring overlaps Driftless Workforce target industries"
-    ],
-    "target_roles": [
-      "general operations"
-    ],
-    "industries_detected": [
-      "operations"
-    ],
-    "decision_maker_roles": [
-      "HR / Talent Acquisition",
-      "Department Manager"
-    ],
-    "contact_path": "Find HR/Talent Acquisition or the hiring manager through the employer's official site or public professional profile. Do not guess an email address.",
-    "outreach_angle": "Lead with the specific hard-to-fill role and offer a focused candidate-sourcing conversation rather than a generic staffing pitch.",
-    "evidence": [
-      "Personal Relationship Banker \u2014 Holmen [Job Center of Wisconsin]"
-    ],
-    "momentum_7d": {
-      "days": 7,
-      "change": 0,
-      "pct": 0,
-      "direction": "flat",
-      "points": [
-        {
-          "captured_at": "2026-08-24T22:18:07.204524+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-24T22:19:41.611533+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-24T23:03:06.494647+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-24T23:57:39.200612+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-25T03:28:06.458548+00:00",
-          "opening_count": 1
-        }
-      ]
-    },
-    "momentum_30d": {
-      "days": 30,
-      "change": 0,
-      "pct": 0,
-      "direction": "flat",
-      "points": [
-        {
-          "captured_at": "2026-08-24T22:18:07.204524+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-24T22:19:41.611533+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-24T23:03:06.494647+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-24T23:57:39.200612+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-25T03:28:06.458548+00:00",
-          "opening_count": 1
-        }
-      ]
-    },
-    "score_breakdown": [
-      {
-        "label": "Base opportunity",
-        "points": 30,
-        "reason": "Underlying employer/opportunity fit"
-      }
-    ],
-    "score_policy_version": 1,
-    "score_policy_capped": false,
-    "jobs": [
-      {
-        "title": "Personal Relationship Banker",
-        "location": "Holmen",
-        "posted_at": "2026-08-11T00:00:00+00:00",
-        "source_url": "https://jobcenterofwisconsin.com/Presentation/JobSeekers/EnhancedJobs-det.aspx?OrderNumber=004039772"
-      }
-    ]
-  },
-  {
-    "employer": "WI JOSTENS",
-    "slug": "wi jostens",
-    "score": 30,
-    "priority": "Low",
-    "opening_count": 1,
-    "verified_opening_count": 1,
-    "locations": [
-      "West Salem"
-    ],
-    "industries": [
-      "operations"
-    ],
-    "hiring_summary": "WI JOSTENS has 1 observed opening(s) across 1 local location(s).",
-    "reasons": [
-      "1 opening(s) are source-verified",
-      "Hiring overlaps Driftless Workforce target industries"
-    ],
-    "target_roles": [
-      "general operations"
-    ],
-    "industries_detected": [
-      "operations"
-    ],
-    "decision_maker_roles": [
-      "HR / Talent Acquisition",
-      "Department Manager"
-    ],
-    "contact_path": "Find HR/Talent Acquisition or the hiring manager through the employer's official site or public professional profile. Do not guess an email address.",
-    "outreach_angle": "Lead with the specific hard-to-fill role and offer a focused candidate-sourcing conversation rather than a generic staffing pitch.",
-    "evidence": [
-      "School Photographer - West Salem, \u2014 West Salem [Job Center of Wisconsin]"
-    ],
-    "momentum_7d": {
-      "days": 7,
-      "change": 0,
-      "pct": 0,
-      "direction": "flat",
-      "points": [
-        {
-          "captured_at": "2026-08-24T22:18:07.204524+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-24T22:19:41.611533+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-24T23:03:06.494647+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-24T23:57:39.200612+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-25T03:28:06.458548+00:00",
-          "opening_count": 1
-        }
-      ]
-    },
-    "momentum_30d": {
-      "days": 30,
-      "change": 0,
-      "pct": 0,
-      "direction": "flat",
-      "points": [
-        {
-          "captured_at": "2026-08-24T22:18:07.204524+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-24T22:19:41.611533+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-24T23:03:06.494647+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-24T23:57:39.200612+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-25T03:28:06.458548+00:00",
-          "opening_count": 1
-        }
-      ]
-    },
-    "score_breakdown": [
-      {
-        "label": "Base opportunity",
-        "points": 30,
-        "reason": "Underlying employer/opportunity fit"
-      }
-    ],
-    "score_policy_version": 1,
-    "score_policy_capped": false,
-    "jobs": [
-      {
-        "title": "School Photographer - West Salem,",
-        "location": "West Salem",
-        "posted_at": "2026-06-25T00:00:00+00:00",
-        "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dWest%2bSalem%26dist%3d%26edu%3d%26kwords%3d%26loc%3dWest%2bSalem%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d"
       }
     ]
   },
@@ -3093,6 +1425,10 @@
         {
           "captured_at": "2026-08-25T03:28:06.458548+00:00",
           "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T04:33:57.863405+00:00",
+          "opening_count": 1
         }
       ]
     },
@@ -3121,6 +1457,10 @@
         {
           "captured_at": "2026-08-25T03:28:06.458548+00:00",
           "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T04:33:57.863405+00:00",
+          "opening_count": 1
         }
       ]
     },
@@ -3139,6 +1479,251 @@
         "location": "Location Not Specified",
         "posted_at": "2026-08-03T00:00:00+00:00",
         "source_url": "https://jobcenterofwisconsin.com/Presentation/JobSeekers/EnhancedJobs-det.aspx?OrderNumber=004035812"
+      }
+    ]
+  },
+  {
+    "employer": "WALMART",
+    "slug": "walmart",
+    "score": 27,
+    "priority": "Low",
+    "opening_count": 1,
+    "verified_opening_count": 1,
+    "locations": [
+      "Onalaska"
+    ],
+    "industries": [
+      "skilled trades"
+    ],
+    "hiring_summary": "WALMART has 1 observed opening(s) across 1 local location(s).",
+    "reasons": [
+      "1 opening(s) are source-verified",
+      "Hiring overlaps Driftless Workforce target industries"
+    ],
+    "target_roles": [
+      "skilled trades / maintenance"
+    ],
+    "industries_detected": [
+      "skilled trades"
+    ],
+    "decision_maker_roles": [
+      "HR / Talent Acquisition",
+      "Department Manager"
+    ],
+    "contact_path": "Find HR/Talent Acquisition or the hiring manager through the employer's official site or public professional profile. Do not guess an email address.",
+    "outreach_angle": "Lead with the specific hard-to-fill role and offer a focused candidate-sourcing conversation rather than a generic staffing pitch.",
+    "evidence": [
+      "(USA) Tire & Battery Technician - Automotive \u2014 Onalaska [Job Center of Wisconsin]"
+    ],
+    "momentum_7d": {
+      "days": 7,
+      "change": -2,
+      "pct": -50,
+      "direction": "down",
+      "points": [
+        {
+          "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
+          "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-24T23:03:06.494647+00:00",
+          "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
+          "opening_count": 3
+        },
+        {
+          "captured_at": "2026-08-25T04:33:57.863405+00:00",
+          "opening_count": 2
+        }
+      ]
+    },
+    "momentum_30d": {
+      "days": 30,
+      "change": -2,
+      "pct": -50,
+      "direction": "down",
+      "points": [
+        {
+          "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
+          "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-24T23:03:06.494647+00:00",
+          "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
+          "opening_count": 3
+        },
+        {
+          "captured_at": "2026-08-25T04:33:57.863405+00:00",
+          "opening_count": 2
+        }
+      ]
+    },
+    "score_breakdown": [
+      {
+        "label": "Base opportunity",
+        "points": 30,
+        "reason": "Underlying employer/opportunity fit"
+      },
+      {
+        "label": "Volume Decrease",
+        "points": 2,
+        "reason": "Openings decreased from 2 to 1"
+      },
+      {
+        "label": "Hiring momentum",
+        "points": -5,
+        "reason": "Down -50% over 7 days"
+      }
+    ],
+    "score_policy_version": 1,
+    "score_policy_capped": false,
+    "jobs": [
+      {
+        "title": "(USA) Tire & Battery Technician - Automotive",
+        "location": "Onalaska",
+        "posted_at": "2026-08-18T00:00:00+00:00",
+        "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dOnalaska%26dist%3d%26edu%3d%26kwords%3d%26loc%3dOnalaska%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d"
+      }
+    ]
+  },
+  {
+    "employer": "KELLY SERVICES",
+    "slug": "kelly services",
+    "score": 24,
+    "priority": "Low",
+    "opening_count": 1,
+    "verified_opening_count": 1,
+    "locations": [
+      "West Salem"
+    ],
+    "industries": [
+      "skilled trades"
+    ],
+    "hiring_summary": "KELLY SERVICES has 1 observed opening(s) across 1 local location(s).",
+    "reasons": [
+      "1 opening(s) are source-verified",
+      "Hiring overlaps Driftless Workforce target industries"
+    ],
+    "target_roles": [
+      "skilled trades / maintenance"
+    ],
+    "industries_detected": [
+      "skilled trades"
+    ],
+    "decision_maker_roles": [
+      "HR / Talent Acquisition",
+      "Department Manager"
+    ],
+    "contact_path": "Find HR/Talent Acquisition or the hiring manager through the employer's official site or public professional profile. Do not guess an email address.",
+    "outreach_angle": "Lead with the specific hard-to-fill role and offer a focused candidate-sourcing conversation rather than a generic staffing pitch.",
+    "evidence": [
+      "Field Service Technician/Mechanic Why is this a Hot Job? \u2014 West Salem [Job Center of Wisconsin]"
+    ],
+    "momentum_7d": {
+      "days": 7,
+      "change": -2,
+      "pct": -67,
+      "direction": "down",
+      "points": [
+        {
+          "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 3
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
+          "opening_count": 3
+        },
+        {
+          "captured_at": "2026-08-24T23:03:06.494647+00:00",
+          "opening_count": 3
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 3
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
+          "opening_count": 3
+        },
+        {
+          "captured_at": "2026-08-25T04:33:57.863405+00:00",
+          "opening_count": 1
+        }
+      ]
+    },
+    "momentum_30d": {
+      "days": 30,
+      "change": -2,
+      "pct": -67,
+      "direction": "down",
+      "points": [
+        {
+          "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 3
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
+          "opening_count": 3
+        },
+        {
+          "captured_at": "2026-08-24T23:03:06.494647+00:00",
+          "opening_count": 3
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 3
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
+          "opening_count": 3
+        },
+        {
+          "captured_at": "2026-08-25T04:33:57.863405+00:00",
+          "opening_count": 1
+        }
+      ]
+    },
+    "score_breakdown": [
+      {
+        "label": "Base opportunity",
+        "points": 30,
+        "reason": "Underlying employer/opportunity fit"
+      },
+      {
+        "label": "Hiring momentum",
+        "points": -6,
+        "reason": "Down -67% over 7 days"
+      }
+    ],
+    "score_policy_version": 1,
+    "score_policy_capped": false,
+    "jobs": [
+      {
+        "title": "Field Service Technician/Mechanic Why is this a Hot Job?",
+        "location": "West Salem",
+        "posted_at": "2026-08-17T00:00:00+00:00",
+        "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dWest%2bSalem%26dist%3d%26edu%3d%26kwords%3d%26loc%3dWest%2bSalem%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d"
       }
     ]
   }

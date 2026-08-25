@@ -1,106 +1,5 @@
 [
   {
-    "employer": "SEVITA",
-    "score": 58,
-    "priority": "Monitor",
-    "targets": [
-      {
-        "employer": "SEVITA",
-        "role": "HR / Talent Acquisition leader",
-        "priority": 100,
-        "reason": "Leadership hiring creates a direct recruiting signal.",
-        "search_queries": [
-          "\"SEVITA\" \"HR / Talent Acquisition leader\"",
-          "\"SEVITA\" HR recruiting",
-          "\"SEVITA\" careers contact"
-        ],
-        "public_contact_paths": [
-          "Employer website / careers page",
-          "Employer LinkedIn company page",
-          "Search engine query: SEVITA"
-        ]
-      },
-      {
-        "employer": "SEVITA",
-        "role": "HR / Recruiting contact",
-        "priority": 80,
-        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
-        "search_queries": [
-          "\"SEVITA\" \"HR / Recruiting contact\"",
-          "\"SEVITA\" HR recruiting",
-          "\"SEVITA\" careers contact"
-        ],
-        "public_contact_paths": [
-          "Employer website / careers page",
-          "Employer LinkedIn company page",
-          "Search engine query: SEVITA"
-        ]
-      }
-    ]
-  },
-  {
-    "employer": "[ 4 ]",
-    "score": 45,
-    "priority": "Monitor",
-    "targets": [
-      {
-        "employer": "[ 4 ]",
-        "role": "HR / Recruiting contact",
-        "priority": 80,
-        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
-        "search_queries": [
-          "\"[ 4 ]\" \"HR / Recruiting contact\"",
-          "\"[ 4 ]\" HR recruiting",
-          "\"[ 4 ]\" careers contact"
-        ],
-        "public_contact_paths": [
-          "Employer website / careers page",
-          "Employer LinkedIn company page",
-          "Search engine query: %5B+4+%5D"
-        ]
-      }
-    ]
-  },
-  {
-    "employer": "COUNTY MATERIALS CORPORATION",
-    "score": 45,
-    "priority": "Monitor",
-    "targets": [
-      {
-        "employer": "COUNTY MATERIALS CORPORATION",
-        "role": "HR / Talent Acquisition leader",
-        "priority": 100,
-        "reason": "Leadership hiring creates a direct recruiting signal.",
-        "search_queries": [
-          "\"COUNTY MATERIALS CORPORATION\" \"HR / Talent Acquisition leader\"",
-          "\"COUNTY MATERIALS CORPORATION\" HR recruiting",
-          "\"COUNTY MATERIALS CORPORATION\" careers contact"
-        ],
-        "public_contact_paths": [
-          "Employer website / careers page",
-          "Employer LinkedIn company page",
-          "Search engine query: COUNTY+MATERIALS+CORPORATION"
-        ]
-      },
-      {
-        "employer": "COUNTY MATERIALS CORPORATION",
-        "role": "HR / Recruiting contact",
-        "priority": 80,
-        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
-        "search_queries": [
-          "\"COUNTY MATERIALS CORPORATION\" \"HR / Recruiting contact\"",
-          "\"COUNTY MATERIALS CORPORATION\" HR recruiting",
-          "\"COUNTY MATERIALS CORPORATION\" careers contact"
-        ],
-        "public_contact_paths": [
-          "Employer website / careers page",
-          "Employer LinkedIn company page",
-          "Search engine query: COUNTY+MATERIALS+CORPORATION"
-        ]
-      }
-    ]
-  },
-  {
     "employer": "SHERWIN WILLIAMS CO",
     "score": 45,
     "priority": "Monitor",
@@ -141,7 +40,7 @@
   },
   {
     "employer": "TRANE TECHNOLOGIES",
-    "score": 45,
+    "score": 42,
     "priority": "Monitor",
     "targets": [
       {
@@ -195,9 +94,87 @@
     ]
   },
   {
+    "employer": "COUNTY MATERIALS CORPORATION",
+    "score": 37,
+    "priority": "Low",
+    "targets": [
+      {
+        "employer": "COUNTY MATERIALS CORPORATION",
+        "role": "HR / Talent Acquisition leader",
+        "priority": 100,
+        "reason": "Leadership hiring creates a direct recruiting signal.",
+        "search_queries": [
+          "\"COUNTY MATERIALS CORPORATION\" \"HR / Talent Acquisition leader\"",
+          "\"COUNTY MATERIALS CORPORATION\" HR recruiting",
+          "\"COUNTY MATERIALS CORPORATION\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: COUNTY+MATERIALS+CORPORATION"
+        ]
+      },
+      {
+        "employer": "COUNTY MATERIALS CORPORATION",
+        "role": "HR / Recruiting contact",
+        "priority": 80,
+        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
+        "search_queries": [
+          "\"COUNTY MATERIALS CORPORATION\" \"HR / Recruiting contact\"",
+          "\"COUNTY MATERIALS CORPORATION\" HR recruiting",
+          "\"COUNTY MATERIALS CORPORATION\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: COUNTY+MATERIALS+CORPORATION"
+        ]
+      }
+    ]
+  },
+  {
+    "employer": "SEVITA",
+    "score": 35,
+    "priority": "Low",
+    "targets": [
+      {
+        "employer": "SEVITA",
+        "role": "HR / Talent Acquisition leader",
+        "priority": 100,
+        "reason": "Leadership hiring creates a direct recruiting signal.",
+        "search_queries": [
+          "\"SEVITA\" \"HR / Talent Acquisition leader\"",
+          "\"SEVITA\" HR recruiting",
+          "\"SEVITA\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: SEVITA"
+        ]
+      },
+      {
+        "employer": "SEVITA",
+        "role": "HR / Recruiting contact",
+        "priority": 80,
+        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
+        "search_queries": [
+          "\"SEVITA\" \"HR / Recruiting contact\"",
+          "\"SEVITA\" HR recruiting",
+          "\"SEVITA\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: SEVITA"
+        ]
+      }
+    ]
+  },
+  {
     "employer": "MICHAELS",
-    "score": 40,
-    "priority": "Monitor",
+    "score": 32,
+    "priority": "Low",
     "targets": [
       {
         "employer": "MICHAELS",
@@ -234,54 +211,8 @@
     ]
   },
   {
-    "employer": "COMPASS GROUP, NORTH AMERICA",
-    "score": 35,
-    "priority": "Low",
-    "targets": [
-      {
-        "employer": "COMPASS GROUP, NORTH AMERICA",
-        "role": "HR / Recruiting contact",
-        "priority": 80,
-        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
-        "search_queries": [
-          "\"COMPASS GROUP, NORTH AMERICA\" \"HR / Recruiting contact\"",
-          "\"COMPASS GROUP, NORTH AMERICA\" HR recruiting",
-          "\"COMPASS GROUP, NORTH AMERICA\" careers contact"
-        ],
-        "public_contact_paths": [
-          "Employer website / careers page",
-          "Employer LinkedIn company page",
-          "Search engine query: COMPASS+GROUP%2C+NORTH+AMERICA"
-        ]
-      }
-    ]
-  },
-  {
-    "employer": "MAYO CLINIC",
-    "score": 35,
-    "priority": "Low",
-    "targets": [
-      {
-        "employer": "MAYO CLINIC",
-        "role": "HR / Recruiting contact",
-        "priority": 80,
-        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
-        "search_queries": [
-          "\"MAYO CLINIC\" \"HR / Recruiting contact\"",
-          "\"MAYO CLINIC\" HR recruiting",
-          "\"MAYO CLINIC\" careers contact"
-        ],
-        "public_contact_paths": [
-          "Employer website / careers page",
-          "Employer LinkedIn company page",
-          "Search engine query: MAYO+CLINIC"
-        ]
-      }
-    ]
-  },
-  {
     "employer": "MONDELEZ INTERNATIONAL",
-    "score": 35,
+    "score": 32,
     "priority": "Low",
     "targets": [
       {
@@ -320,7 +251,7 @@
   },
   {
     "employer": "PEOPLEREADY",
-    "score": 35,
+    "score": 32,
     "priority": "Low",
     "targets": [
       {
@@ -353,100 +284,6 @@
           "Employer website / careers page",
           "Employer LinkedIn company page",
           "Search engine query: PEOPLEREADY"
-        ]
-      }
-    ]
-  },
-  {
-    "employer": "WALMART",
-    "score": 35,
-    "priority": "Low",
-    "targets": [
-      {
-        "employer": "WALMART",
-        "role": "HR / Talent Acquisition leader",
-        "priority": 100,
-        "reason": "Leadership hiring creates a direct recruiting signal.",
-        "search_queries": [
-          "\"WALMART\" \"HR / Talent Acquisition leader\"",
-          "\"WALMART\" HR recruiting",
-          "\"WALMART\" careers contact"
-        ],
-        "public_contact_paths": [
-          "Employer website / careers page",
-          "Employer LinkedIn company page",
-          "Search engine query: WALMART"
-        ]
-      },
-      {
-        "employer": "WALMART",
-        "role": "Maintenance / Engineering leader",
-        "priority": 86,
-        "reason": "Skilled-trades hiring often routes through maintenance or engineering leadership.",
-        "search_queries": [
-          "\"WALMART\" \"Maintenance / Engineering leader\"",
-          "\"WALMART\" HR recruiting",
-          "\"WALMART\" careers contact"
-        ],
-        "public_contact_paths": [
-          "Employer website / careers page",
-          "Employer LinkedIn company page",
-          "Search engine query: WALMART"
-        ]
-      },
-      {
-        "employer": "WALMART",
-        "role": "HR / Recruiting contact",
-        "priority": 80,
-        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
-        "search_queries": [
-          "\"WALMART\" \"HR / Recruiting contact\"",
-          "\"WALMART\" HR recruiting",
-          "\"WALMART\" careers contact"
-        ],
-        "public_contact_paths": [
-          "Employer website / careers page",
-          "Employer LinkedIn company page",
-          "Search engine query: WALMART"
-        ]
-      }
-    ]
-  },
-  {
-    "employer": "KELLY SERVICES",
-    "score": 32,
-    "priority": "Low",
-    "targets": [
-      {
-        "employer": "KELLY SERVICES",
-        "role": "Maintenance / Engineering leader",
-        "priority": 86,
-        "reason": "Skilled-trades hiring often routes through maintenance or engineering leadership.",
-        "search_queries": [
-          "\"KELLY SERVICES\" \"Maintenance / Engineering leader\"",
-          "\"KELLY SERVICES\" HR recruiting",
-          "\"KELLY SERVICES\" careers contact"
-        ],
-        "public_contact_paths": [
-          "Employer website / careers page",
-          "Employer LinkedIn company page",
-          "Search engine query: KELLY+SERVICES"
-        ]
-      },
-      {
-        "employer": "KELLY SERVICES",
-        "role": "HR / Recruiting contact",
-        "priority": 80,
-        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
-        "search_queries": [
-          "\"KELLY SERVICES\" \"HR / Recruiting contact\"",
-          "\"KELLY SERVICES\" HR recruiting",
-          "\"KELLY SERVICES\" careers contact"
-        ],
-        "public_contact_paths": [
-          "Employer website / careers page",
-          "Employer LinkedIn company page",
-          "Search engine query: KELLY+SERVICES"
         ]
       }
     ]
@@ -486,29 +323,6 @@
           "Employer website / careers page",
           "Employer LinkedIn company page",
           "Search engine query: AEROTEK"
-        ]
-      }
-    ]
-  },
-  {
-    "employer": "ALTRA FEDERAL CREDIT UNION",
-    "score": 30,
-    "priority": "Low",
-    "targets": [
-      {
-        "employer": "ALTRA FEDERAL CREDIT UNION",
-        "role": "HR / Recruiting contact",
-        "priority": 80,
-        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
-        "search_queries": [
-          "\"ALTRA FEDERAL CREDIT UNION\" \"HR / Recruiting contact\"",
-          "\"ALTRA FEDERAL CREDIT UNION\" HR recruiting",
-          "\"ALTRA FEDERAL CREDIT UNION\" careers contact"
-        ],
-        "public_contact_paths": [
-          "Employer website / careers page",
-          "Employer LinkedIn company page",
-          "Search engine query: ALTRA+FEDERAL+CREDIT+UNION"
         ]
       }
     ]
@@ -631,229 +445,6 @@
     ]
   },
   {
-    "employer": "KOHL'S",
-    "score": 30,
-    "priority": "Low",
-    "targets": [
-      {
-        "employer": "KOHL'S",
-        "role": "HR / Recruiting contact",
-        "priority": 80,
-        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
-        "search_queries": [
-          "\"KOHL'S\" \"HR / Recruiting contact\"",
-          "\"KOHL'S\" HR recruiting",
-          "\"KOHL'S\" careers contact"
-        ],
-        "public_contact_paths": [
-          "Employer website / careers page",
-          "Employer LinkedIn company page",
-          "Search engine query: KOHL%27S"
-        ]
-      }
-    ]
-  },
-  {
-    "employer": "MA MAYO CLINIC",
-    "score": 30,
-    "priority": "Low",
-    "targets": [
-      {
-        "employer": "MA MAYO CLINIC",
-        "role": "HR / Recruiting contact",
-        "priority": 80,
-        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
-        "search_queries": [
-          "\"MA MAYO CLINIC\" \"HR / Recruiting contact\"",
-          "\"MA MAYO CLINIC\" HR recruiting",
-          "\"MA MAYO CLINIC\" careers contact"
-        ],
-        "public_contact_paths": [
-          "Employer website / careers page",
-          "Employer LinkedIn company page",
-          "Search engine query: MA+MAYO+CLINIC"
-        ]
-      }
-    ]
-  },
-  {
-    "employer": "MAXIM HEALTHCARE",
-    "score": 30,
-    "priority": "Low",
-    "targets": [
-      {
-        "employer": "MAXIM HEALTHCARE",
-        "role": "HR / Recruiting contact",
-        "priority": 80,
-        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
-        "search_queries": [
-          "\"MAXIM HEALTHCARE\" \"HR / Recruiting contact\"",
-          "\"MAXIM HEALTHCARE\" HR recruiting",
-          "\"MAXIM HEALTHCARE\" careers contact"
-        ],
-        "public_contact_paths": [
-          "Employer website / careers page",
-          "Employer LinkedIn company page",
-          "Search engine query: MAXIM+HEALTHCARE"
-        ]
-      }
-    ]
-  },
-  {
-    "employer": "MENARDS, INC.",
-    "score": 30,
-    "priority": "Low",
-    "targets": [
-      {
-        "employer": "MENARDS, INC.",
-        "role": "HR / Recruiting contact",
-        "priority": 80,
-        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
-        "search_queries": [
-          "\"MENARDS, INC.\" \"HR / Recruiting contact\"",
-          "\"MENARDS, INC.\" HR recruiting",
-          "\"MENARDS, INC.\" careers contact"
-        ],
-        "public_contact_paths": [
-          "Employer website / careers page",
-          "Employer LinkedIn company page",
-          "Search engine query: MENARDS%2C+INC."
-        ]
-      }
-    ]
-  },
-  {
-    "employer": "RAM LAKHAN LLC",
-    "score": 30,
-    "priority": "Low",
-    "targets": [
-      {
-        "employer": "RAM LAKHAN LLC",
-        "role": "HR / Recruiting contact",
-        "priority": 80,
-        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
-        "search_queries": [
-          "\"RAM LAKHAN LLC\" \"HR / Recruiting contact\"",
-          "\"RAM LAKHAN LLC\" HR recruiting",
-          "\"RAM LAKHAN LLC\" careers contact"
-        ],
-        "public_contact_paths": [
-          "Employer website / careers page",
-          "Employer LinkedIn company page",
-          "Search engine query: RAM+LAKHAN+LLC"
-        ]
-      }
-    ]
-  },
-  {
-    "employer": "SCHNEIDER",
-    "score": 30,
-    "priority": "Low",
-    "targets": [
-      {
-        "employer": "SCHNEIDER",
-        "role": "HR / Recruiting contact",
-        "priority": 80,
-        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
-        "search_queries": [
-          "\"SCHNEIDER\" \"HR / Recruiting contact\"",
-          "\"SCHNEIDER\" HR recruiting",
-          "\"SCHNEIDER\" careers contact"
-        ],
-        "public_contact_paths": [
-          "Employer website / careers page",
-          "Employer LinkedIn company page",
-          "Search engine query: SCHNEIDER"
-        ]
-      }
-    ]
-  },
-  {
-    "employer": "SPECTRUM",
-    "score": 30,
-    "priority": "Low",
-    "targets": [
-      {
-        "employer": "SPECTRUM",
-        "role": "HR / Talent Acquisition leader",
-        "priority": 100,
-        "reason": "Leadership hiring creates a direct recruiting signal.",
-        "search_queries": [
-          "\"SPECTRUM\" \"HR / Talent Acquisition leader\"",
-          "\"SPECTRUM\" HR recruiting",
-          "\"SPECTRUM\" careers contact"
-        ],
-        "public_contact_paths": [
-          "Employer website / careers page",
-          "Employer LinkedIn company page",
-          "Search engine query: SPECTRUM"
-        ]
-      },
-      {
-        "employer": "SPECTRUM",
-        "role": "HR / Recruiting contact",
-        "priority": 80,
-        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
-        "search_queries": [
-          "\"SPECTRUM\" \"HR / Recruiting contact\"",
-          "\"SPECTRUM\" HR recruiting",
-          "\"SPECTRUM\" careers contact"
-        ],
-        "public_contact_paths": [
-          "Employer website / careers page",
-          "Employer LinkedIn company page",
-          "Search engine query: SPECTRUM"
-        ]
-      }
-    ]
-  },
-  {
-    "employer": "VERVE A CREDIT UNION",
-    "score": 30,
-    "priority": "Low",
-    "targets": [
-      {
-        "employer": "VERVE A CREDIT UNION",
-        "role": "HR / Recruiting contact",
-        "priority": 80,
-        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
-        "search_queries": [
-          "\"VERVE A CREDIT UNION\" \"HR / Recruiting contact\"",
-          "\"VERVE A CREDIT UNION\" HR recruiting",
-          "\"VERVE A CREDIT UNION\" careers contact"
-        ],
-        "public_contact_paths": [
-          "Employer website / careers page",
-          "Employer LinkedIn company page",
-          "Search engine query: VERVE+A+CREDIT+UNION"
-        ]
-      }
-    ]
-  },
-  {
-    "employer": "WI JOSTENS",
-    "score": 30,
-    "priority": "Low",
-    "targets": [
-      {
-        "employer": "WI JOSTENS",
-        "role": "HR / Recruiting contact",
-        "priority": 80,
-        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
-        "search_queries": [
-          "\"WI JOSTENS\" \"HR / Recruiting contact\"",
-          "\"WI JOSTENS\" HR recruiting",
-          "\"WI JOSTENS\" careers contact"
-        ],
-        "public_contact_paths": [
-          "Employer website / careers page",
-          "Employer LinkedIn company page",
-          "Search engine query: WI+JOSTENS"
-        ]
-      }
-    ]
-  },
-  {
     "employer": "WOLTER, INC.",
     "score": 30,
     "priority": "Low",
@@ -888,6 +479,84 @@
           "Employer website / careers page",
           "Employer LinkedIn company page",
           "Search engine query: WOLTER%2C+INC."
+        ]
+      }
+    ]
+  },
+  {
+    "employer": "WALMART",
+    "score": 27,
+    "priority": "Low",
+    "targets": [
+      {
+        "employer": "WALMART",
+        "role": "Maintenance / Engineering leader",
+        "priority": 86,
+        "reason": "Skilled-trades hiring often routes through maintenance or engineering leadership.",
+        "search_queries": [
+          "\"WALMART\" \"Maintenance / Engineering leader\"",
+          "\"WALMART\" HR recruiting",
+          "\"WALMART\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: WALMART"
+        ]
+      },
+      {
+        "employer": "WALMART",
+        "role": "HR / Recruiting contact",
+        "priority": 80,
+        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
+        "search_queries": [
+          "\"WALMART\" \"HR / Recruiting contact\"",
+          "\"WALMART\" HR recruiting",
+          "\"WALMART\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: WALMART"
+        ]
+      }
+    ]
+  },
+  {
+    "employer": "KELLY SERVICES",
+    "score": 24,
+    "priority": "Low",
+    "targets": [
+      {
+        "employer": "KELLY SERVICES",
+        "role": "Maintenance / Engineering leader",
+        "priority": 86,
+        "reason": "Skilled-trades hiring often routes through maintenance or engineering leadership.",
+        "search_queries": [
+          "\"KELLY SERVICES\" \"Maintenance / Engineering leader\"",
+          "\"KELLY SERVICES\" HR recruiting",
+          "\"KELLY SERVICES\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: KELLY+SERVICES"
+        ]
+      },
+      {
+        "employer": "KELLY SERVICES",
+        "role": "HR / Recruiting contact",
+        "priority": 80,
+        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
+        "search_queries": [
+          "\"KELLY SERVICES\" \"HR / Recruiting contact\"",
+          "\"KELLY SERVICES\" HR recruiting",
+          "\"KELLY SERVICES\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: KELLY+SERVICES"
         ]
       }
     ]

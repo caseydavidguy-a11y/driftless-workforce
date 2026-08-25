@@ -1,207 +1,6 @@
 {
-  "captured_at": "2026-08-25T04:33:57.863405+00:00",
+  "captured_at": "2026-08-25T04:36:51.609952+00:00",
   "employers": [
-    {
-      "name": "SEVITA",
-      "slug": "sevita",
-      "opening_count": 6,
-      "verified_opening_count": 6,
-      "industries": [
-        "leadership",
-        "operations"
-      ],
-      "locations": [
-        "Holmen",
-        "Onalaska",
-        "West Salem"
-      ],
-      "observations": [
-        {
-          "employer": "SEVITA",
-          "title": "Caregiver",
-          "location": "Onalaska",
-          "industry": "operations",
-          "posted_at": "2026-08-18T00:00:00+00:00",
-          "source": "Job Center of Wisconsin",
-          "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dOnalaska%26dist%3d%26edu%3d%26kwords%3d%26loc%3dOnalaska%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d",
-          "external_id": "jcw:onalaska:caregiver:08/18/2026:sevita",
-          "verified": true
-        },
-        {
-          "employer": "SEVITA",
-          "title": "Caregiver",
-          "location": "Holmen",
-          "industry": "operations",
-          "posted_at": "2026-08-14T00:00:00+00:00",
-          "source": "Job Center of Wisconsin",
-          "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dHolmen%26dist%3d%26edu%3d%26kwords%3d%26loc%3dHolmen%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d",
-          "external_id": "jcw:holmen:caregiver:08/14/2026:sevita",
-          "verified": true
-        },
-        {
-          "employer": "SEVITA",
-          "title": "Direct Care Staff",
-          "location": "Holmen",
-          "industry": "operations",
-          "posted_at": "2026-08-14T00:00:00+00:00",
-          "source": "Job Center of Wisconsin",
-          "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dHolmen%26dist%3d%26edu%3d%26kwords%3d%26loc%3dHolmen%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d",
-          "external_id": "jcw:holmen:direct care staff:08/14/2026:sevita",
-          "verified": true
-        },
-        {
-          "employer": "SEVITA",
-          "title": "Direct Support Caregiver",
-          "location": "Holmen",
-          "industry": "operations",
-          "posted_at": "2026-08-01T00:00:00+00:00",
-          "source": "Job Center of Wisconsin",
-          "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dHolmen%26dist%3d%26edu%3d%26kwords%3d%26loc%3dHolmen%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d",
-          "external_id": "jcw:holmen:direct support caregiver:08/01/2026:sevita",
-          "verified": true
-        },
-        {
-          "employer": "SEVITA",
-          "title": "Direct Support Professional",
-          "location": "West Salem",
-          "industry": "operations",
-          "posted_at": "2026-08-15T00:00:00+00:00",
-          "source": "Job Center of Wisconsin",
-          "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dWest%2bSalem%26dist%3d%26edu%3d%26kwords%3d%26loc%3dWest%2bSalem%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d",
-          "external_id": "jcw:west salem:direct support professional:08/15/2026:sevita",
-          "verified": true
-        },
-        {
-          "employer": "SEVITA",
-          "title": "Program Supervisor",
-          "location": "West Salem",
-          "industry": "leadership",
-          "posted_at": "2026-07-01T00:00:00+00:00",
-          "source": "Job Center of Wisconsin",
-          "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dWest%2bSalem%26dist%3d%26edu%3d%26kwords%3d%26loc%3dWest%2bSalem%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d",
-          "external_id": "jcw:west salem:program supervisor:07/01/2026:sevita",
-          "verified": true
-        }
-      ]
-    },
-    {
-      "name": "[ 4 ]",
-      "slug": "4",
-      "opening_count": 4,
-      "verified_opening_count": 4,
-      "industries": [
-        "operations"
-      ],
-      "locations": [
-        "[ 2 ]"
-      ],
-      "observations": [
-        {
-          "employer": "[ 4 ]",
-          "title": "Page 1",
-          "location": "[ 2 ]",
-          "industry": "operations",
-          "posted_at": null,
-          "source": "Job Center of Wisconsin",
-          "source_url": "javascript:__doPostBack('ctl00$ContentPlaceHolder_MainBase$GridViewJobs','Page$2')",
-          "external_id": "jcw:la crosse:page 1:[ 3 ]:[ 4 ]",
-          "verified": true
-        },
-        {
-          "employer": "[ 4 ]",
-          "title": "Page 1",
-          "location": "[ 2 ]",
-          "industry": "operations",
-          "posted_at": null,
-          "source": "Job Center of Wisconsin",
-          "source_url": "javascript:__doPostBack('ctl00$ContentPlaceHolder_MainBase$GridViewJobs','Page$2')",
-          "external_id": "jcw:onalaska:page 1:[ 3 ]:[ 4 ]",
-          "verified": true
-        },
-        {
-          "employer": "[ 4 ]",
-          "title": "Page 1",
-          "location": "[ 2 ]",
-          "industry": "operations",
-          "posted_at": null,
-          "source": "Job Center of Wisconsin",
-          "source_url": "javascript:__doPostBack('ctl00$ContentPlaceHolder_MainBase$GridViewJobs','Page$2')",
-          "external_id": "jcw:holmen:page 1:[ 3 ]:[ 4 ]",
-          "verified": true
-        },
-        {
-          "employer": "[ 4 ]",
-          "title": "Page 1",
-          "location": "[ 2 ]",
-          "industry": "operations",
-          "posted_at": null,
-          "source": "Job Center of Wisconsin",
-          "source_url": "javascript:__doPostBack('ctl00$ContentPlaceHolder_MainBase$GridViewJobs','Page$2')",
-          "external_id": "jcw:west salem:page 1:[ 3 ]:[ 4 ]",
-          "verified": true
-        }
-      ]
-    },
-    {
-      "name": "COUNTY MATERIALS CORPORATION",
-      "slug": "county materials",
-      "opening_count": 4,
-      "verified_opening_count": 4,
-      "industries": [
-        "leadership",
-        "manufacturing",
-        "operations"
-      ],
-      "locations": [
-        "Holmen"
-      ],
-      "observations": [
-        {
-          "employer": "COUNTY MATERIALS CORPORATION",
-          "title": "Production Supervisor",
-          "location": "Holmen",
-          "industry": "manufacturing",
-          "posted_at": "2026-08-19T00:00:00+00:00",
-          "source": "Job Center of Wisconsin",
-          "source_url": "https://jobcenterofwisconsin.com/Presentation/JobSeekers/EnhancedJobs-det.aspx?OrderNumber=004043866",
-          "external_id": "jcw:holmen:production supervisor:08/19/2026:county materials corporation",
-          "verified": true
-        },
-        {
-          "employer": "COUNTY MATERIALS CORPORATION",
-          "title": "Operations Plant Operations Manager",
-          "location": "Holmen",
-          "industry": "leadership",
-          "posted_at": "2026-08-16T00:00:00+00:00",
-          "source": "Job Center of Wisconsin",
-          "source_url": "https://jobcenterofwisconsin.com/Presentation/JobSeekers/EnhancedJobs-det.aspx?OrderNumber=004041994",
-          "external_id": "jcw:holmen:operations plant operations manager:08/16/2026:county materials corporation",
-          "verified": true
-        },
-        {
-          "employer": "COUNTY MATERIALS CORPORATION",
-          "title": "General Labor Pipe Yard Why is this a Hot Job?",
-          "location": "Holmen",
-          "industry": "operations",
-          "posted_at": "2026-08-10T00:00:00+00:00",
-          "source": "Job Center of Wisconsin",
-          "source_url": "https://jobcenterofwisconsin.com/Presentation/JobSeekers/EnhancedJobs-det.aspx?OrderNumber=004039256",
-          "external_id": "jcw:holmen:general labor pipe yard why is this a hot job?:08/10/2026:county materials corporation",
-          "verified": true
-        },
-        {
-          "employer": "COUNTY MATERIALS CORPORATION",
-          "title": "CDL Flat Bed Driver Why is this a Hot Job?",
-          "location": "Holmen",
-          "industry": "operations",
-          "posted_at": "2026-07-02T00:00:00+00:00",
-          "source": "Job Center of Wisconsin",
-          "source_url": "https://jobcenterofwisconsin.com/Presentation/JobSeekers/EnhancedJobs-det.aspx?OrderNumber=004021188",
-          "external_id": "jcw:holmen:cdl flat bed driver why is this a hot job?:07/02/2026:county materials corporation",
-          "verified": true
-        }
-      ]
-    },
     {
       "name": "SHERWIN WILLIAMS CO",
       "slug": "sherwin williams",
@@ -263,12 +62,11 @@
     {
       "name": "TRANE TECHNOLOGIES",
       "slug": "trane technologies",
-      "opening_count": 4,
-      "verified_opening_count": 4,
+      "opening_count": 3,
+      "verified_opening_count": 3,
       "industries": [
         "leadership",
         "manufacturing",
-        "operations",
         "skilled trades"
       ],
       "locations": [
@@ -307,16 +105,67 @@
           "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dLa%2bCrosse%26dist%3d%26edu%3d%26kwords%3d%26loc%3dLa%2bCrosse%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d",
           "external_id": "jcw:la crosse:director of strategy:08/22/2026:trane technologies",
           "verified": true
+        }
+      ]
+    },
+    {
+      "name": "COUNTY MATERIALS CORPORATION",
+      "slug": "county materials",
+      "opening_count": 2,
+      "verified_opening_count": 2,
+      "industries": [
+        "leadership",
+        "manufacturing"
+      ],
+      "locations": [
+        "Holmen"
+      ],
+      "observations": [
+        {
+          "employer": "COUNTY MATERIALS CORPORATION",
+          "title": "Production Supervisor",
+          "location": "Holmen",
+          "industry": "manufacturing",
+          "posted_at": "2026-08-19T00:00:00+00:00",
+          "source": "Job Center of Wisconsin",
+          "source_url": "https://jobcenterofwisconsin.com/Presentation/JobSeekers/EnhancedJobs-det.aspx?OrderNumber=004043866",
+          "external_id": "jcw:holmen:production supervisor:08/19/2026:county materials corporation",
+          "verified": true
         },
         {
-          "employer": "TRANE TECHNOLOGIES",
-          "title": "Senior Mgr - Vertical Markets - Industrial",
-          "location": "La Crosse",
-          "industry": "operations",
-          "posted_at": "2026-08-22T00:00:00+00:00",
+          "employer": "COUNTY MATERIALS CORPORATION",
+          "title": "Operations Plant Operations Manager",
+          "location": "Holmen",
+          "industry": "leadership",
+          "posted_at": "2026-08-16T00:00:00+00:00",
           "source": "Job Center of Wisconsin",
-          "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dLa%2bCrosse%26dist%3d%26edu%3d%26kwords%3d%26loc%3dLa%2bCrosse%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d",
-          "external_id": "jcw:la crosse:senior mgr - vertical markets - industrial:08/22/2026:trane technologies",
+          "source_url": "https://jobcenterofwisconsin.com/Presentation/JobSeekers/EnhancedJobs-det.aspx?OrderNumber=004041994",
+          "external_id": "jcw:holmen:operations plant operations manager:08/16/2026:county materials corporation",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "name": "SEVITA",
+      "slug": "sevita",
+      "opening_count": 1,
+      "verified_opening_count": 1,
+      "industries": [
+        "leadership"
+      ],
+      "locations": [
+        "West Salem"
+      ],
+      "observations": [
+        {
+          "employer": "SEVITA",
+          "title": "Program Supervisor",
+          "location": "West Salem",
+          "industry": "leadership",
+          "posted_at": "2026-07-01T00:00:00+00:00",
+          "source": "Job Center of Wisconsin",
+          "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dWest%2bSalem%26dist%3d%26edu%3d%26kwords%3d%26loc%3dWest%2bSalem%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d",
+          "external_id": "jcw:west salem:program supervisor:07/01/2026:sevita",
           "verified": true
         }
       ]
@@ -324,27 +173,15 @@
     {
       "name": "MICHAELS",
       "slug": "michaels",
-      "opening_count": 3,
-      "verified_opening_count": 3,
+      "opening_count": 1,
+      "verified_opening_count": 1,
       "industries": [
-        "leadership",
-        "operations"
+        "leadership"
       ],
       "locations": [
         "La Crosse"
       ],
       "observations": [
-        {
-          "employer": "MICHAELS",
-          "title": "Retail Party and Event Host",
-          "location": "La Crosse",
-          "industry": "operations",
-          "posted_at": "2026-08-23T00:00:00+00:00",
-          "source": "Job Center of Wisconsin",
-          "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dLa%2bCrosse%26dist%3d%26edu%3d%26kwords%3d%26loc%3dLa%2bCrosse%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d",
-          "external_id": "jcw:la crosse:retail party and event host:08/23/2026:michaels",
-          "verified": true
-        },
         {
           "employer": "MICHAELS",
           "title": "Retail Manager - Sales Full Time",
@@ -355,118 +192,21 @@
           "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dLa%2bCrosse%26dist%3d%26edu%3d%26kwords%3d%26loc%3dLa%2bCrosse%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d",
           "external_id": "jcw:la crosse:retail manager - sales full time:08/23/2026:michaels",
           "verified": true
-        },
-        {
-          "employer": "MICHAELS",
-          "title": "Retail Custom Art Framer",
-          "location": "La Crosse",
-          "industry": "operations",
-          "posted_at": "2026-08-23T00:00:00+00:00",
-          "source": "Job Center of Wisconsin",
-          "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dLa%2bCrosse%26dist%3d%26edu%3d%26kwords%3d%26loc%3dLa%2bCrosse%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d",
-          "external_id": "jcw:la crosse:retail custom art framer:08/23/2026:michaels",
-          "verified": true
-        }
-      ]
-    },
-    {
-      "name": "COMPASS GROUP, NORTH AMERICA",
-      "slug": "compass group north america",
-      "opening_count": 2,
-      "verified_opening_count": 2,
-      "industries": [
-        "hospitality"
-      ],
-      "locations": [
-        "Holmen"
-      ],
-      "observations": [
-        {
-          "employer": "COMPASS GROUP, NORTH AMERICA",
-          "title": "COOK (FULL TIME)",
-          "location": "Holmen",
-          "industry": "hospitality",
-          "posted_at": "2026-08-13T00:00:00+00:00",
-          "source": "Job Center of Wisconsin",
-          "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dHolmen%26dist%3d%26edu%3d%26kwords%3d%26loc%3dHolmen%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d",
-          "external_id": "jcw:holmen:cook (full time):08/13/2026:compass group, north america",
-          "verified": true
-        },
-        {
-          "employer": "COMPASS GROUP, NORTH AMERICA",
-          "title": "FOOD SERVICE WORKER (FULL TIME AND PART TIME)",
-          "location": "Holmen",
-          "industry": "hospitality",
-          "posted_at": "2026-08-05T00:00:00+00:00",
-          "source": "Job Center of Wisconsin",
-          "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dHolmen%26dist%3d%26edu%3d%26kwords%3d%26loc%3dHolmen%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d",
-          "external_id": "jcw:holmen:food service worker (full time and part time):08/05/2026:compass group, north america",
-          "verified": true
-        }
-      ]
-    },
-    {
-      "name": "MAYO CLINIC",
-      "slug": "mayo clinic",
-      "opening_count": 2,
-      "verified_opening_count": 2,
-      "industries": [
-        "operations"
-      ],
-      "locations": [
-        "Holmen",
-        "Onalaska"
-      ],
-      "observations": [
-        {
-          "employer": "MAYO CLINIC",
-          "title": "Patient Care Specialist - Family Medicine - PCS Why is this a Hot Job?",
-          "location": "Onalaska",
-          "industry": "operations",
-          "posted_at": "2026-08-23T00:00:00+00:00",
-          "source": "Job Center of Wisconsin",
-          "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dOnalaska%26dist%3d%26edu%3d%26kwords%3d%26loc%3dOnalaska%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d",
-          "external_id": "jcw:onalaska:patient care specialist - family medicine - pcs why is this a hot job?:08/23/2026:mayo clinic",
-          "verified": true
-        },
-        {
-          "employer": "MAYO CLINIC",
-          "title": "Case Worker - Psychiatry Psychology",
-          "location": "Holmen",
-          "industry": "operations",
-          "posted_at": "2026-08-14T00:00:00+00:00",
-          "source": "Job Center of Wisconsin",
-          "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dHolmen%26dist%3d%26edu%3d%26kwords%3d%26loc%3dHolmen%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d",
-          "external_id": "jcw:holmen:case worker - psychiatry psychology:08/14/2026:mayo clinic",
-          "verified": true
         }
       ]
     },
     {
       "name": "MONDELEZ INTERNATIONAL",
       "slug": "mondelez international",
-      "opening_count": 2,
-      "verified_opening_count": 2,
+      "opening_count": 1,
+      "verified_opening_count": 1,
       "industries": [
-        "leadership",
-        "operations"
+        "leadership"
       ],
       "locations": [
-        "Holmen",
-        "Onalaska"
+        "Holmen"
       ],
       "observations": [
-        {
-          "employer": "MONDELEZ INTERNATIONAL",
-          "title": "Part-time Nabisco Merchandiser",
-          "location": "Onalaska",
-          "industry": "operations",
-          "posted_at": "2026-08-18T00:00:00+00:00",
-          "source": "Job Center of Wisconsin",
-          "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dOnalaska%26dist%3d%26edu%3d%26kwords%3d%26loc%3dOnalaska%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d",
-          "external_id": "jcw:onalaska:part-time nabisco merchandiser:08/18/2026:mondelez international",
-          "verified": true
-        },
         {
           "employer": "MONDELEZ INTERNATIONAL",
           "title": "Retail Territory Manager Why is this a Hot Job?",
@@ -483,11 +223,10 @@
     {
       "name": "PEOPLEREADY",
       "slug": "peopleready",
-      "opening_count": 2,
-      "verified_opening_count": 2,
+      "opening_count": 1,
+      "verified_opening_count": 1,
       "industries": [
-        "manufacturing",
-        "operations"
+        "manufacturing"
       ],
       "locations": [
         "West Salem"
@@ -502,79 +241,6 @@
           "source": "Job Center of Wisconsin",
           "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dWest%2bSalem%26dist%3d%26edu%3d%26kwords%3d%26loc%3dWest%2bSalem%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d",
           "external_id": "jcw:west salem:quality inspector:08/14/2026:peopleready",
-          "verified": true
-        },
-        {
-          "employer": "PEOPLEREADY",
-          "title": "Parts Inspector",
-          "location": "West Salem",
-          "industry": "operations",
-          "posted_at": "2026-08-04T00:00:00+00:00",
-          "source": "Job Center of Wisconsin",
-          "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dWest%2bSalem%26dist%3d%26edu%3d%26kwords%3d%26loc%3dWest%2bSalem%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d",
-          "external_id": "jcw:west salem:parts inspector:08/04/2026:peopleready",
-          "verified": true
-        }
-      ]
-    },
-    {
-      "name": "WALMART",
-      "slug": "walmart",
-      "opening_count": 2,
-      "verified_opening_count": 2,
-      "industries": [
-        "leadership",
-        "skilled trades"
-      ],
-      "locations": [
-        "Onalaska"
-      ],
-      "observations": [
-        {
-          "employer": "WALMART",
-          "title": "(USA) Merchandising Lead",
-          "location": "Onalaska",
-          "industry": "leadership",
-          "posted_at": "2026-08-22T00:00:00+00:00",
-          "source": "Job Center of Wisconsin",
-          "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dOnalaska%26dist%3d%26edu%3d%26kwords%3d%26loc%3dOnalaska%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d",
-          "external_id": "jcw:onalaska:(usa) merchandising lead:08/22/2026:walmart",
-          "verified": true
-        },
-        {
-          "employer": "WALMART",
-          "title": "(USA) Tire & Battery Technician - Automotive",
-          "location": "Onalaska",
-          "industry": "skilled trades",
-          "posted_at": "2026-08-18T00:00:00+00:00",
-          "source": "Job Center of Wisconsin",
-          "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dOnalaska%26dist%3d%26edu%3d%26kwords%3d%26loc%3dOnalaska%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d",
-          "external_id": "jcw:onalaska:(usa) tire & battery technician - automotive:08/18/2026:walmart",
-          "verified": true
-        }
-      ]
-    },
-    {
-      "name": "KELLY SERVICES",
-      "slug": "kelly services",
-      "opening_count": 1,
-      "verified_opening_count": 1,
-      "industries": [
-        "skilled trades"
-      ],
-      "locations": [
-        "West Salem"
-      ],
-      "observations": [
-        {
-          "employer": "KELLY SERVICES",
-          "title": "Field Service Technician/Mechanic Why is this a Hot Job?",
-          "location": "West Salem",
-          "industry": "skilled trades",
-          "posted_at": "2026-08-17T00:00:00+00:00",
-          "source": "Job Center of Wisconsin",
-          "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dWest%2bSalem%26dist%3d%26edu%3d%26kwords%3d%26loc%3dWest%2bSalem%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d",
-          "external_id": "jcw:west salem:field service technician/mechanic why is this a hot job?:08/17/2026:kelly services",
           "verified": true
         }
       ]
@@ -600,31 +266,6 @@
           "source": "Job Center of Wisconsin",
           "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dLa%2bCrosse%26dist%3d%26edu%3d%26kwords%3d%26loc%3dLa%2bCrosse%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d",
           "external_id": "jcw:la crosse:machine operator - assembler:08/22/2026:aerotek",
-          "verified": true
-        }
-      ]
-    },
-    {
-      "name": "ALTRA FEDERAL CREDIT UNION",
-      "slug": "altra federal credit union",
-      "opening_count": 1,
-      "verified_opening_count": 1,
-      "industries": [
-        "operations"
-      ],
-      "locations": [
-        "West Salem"
-      ],
-      "observations": [
-        {
-          "employer": "ALTRA FEDERAL CREDIT UNION",
-          "title": "Part-Time Member Service Rep, West Salem",
-          "location": "West Salem",
-          "industry": "operations",
-          "posted_at": "2026-08-19T00:00:00+00:00",
-          "source": "Job Center of Wisconsin",
-          "source_url": "https://jobcenterofwisconsin.com/Presentation/JobSeekers/EnhancedJobs-det.aspx?OrderNumber=004043722",
-          "external_id": "jcw:west salem:part-time member service rep, west salem:08/19/2026:altra federal credit union",
           "verified": true
         }
       ]
@@ -705,231 +346,6 @@
       ]
     },
     {
-      "name": "KOHL'S",
-      "slug": "kohl s",
-      "opening_count": 1,
-      "verified_opening_count": 1,
-      "industries": [
-        "operations"
-      ],
-      "locations": [
-        "Onalaska"
-      ],
-      "observations": [
-        {
-          "employer": "KOHL'S",
-          "title": "Part-Time Beauty Advisor - Sephora",
-          "location": "Onalaska",
-          "industry": "operations",
-          "posted_at": "2026-08-21T00:00:00+00:00",
-          "source": "Job Center of Wisconsin",
-          "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dOnalaska%26dist%3d%26edu%3d%26kwords%3d%26loc%3dOnalaska%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d",
-          "external_id": "jcw:onalaska:part-time beauty advisor - sephora:08/21/2026:kohl's",
-          "verified": true
-        }
-      ]
-    },
-    {
-      "name": "MA MAYO CLINIC",
-      "slug": "ma mayo clinic",
-      "opening_count": 1,
-      "verified_opening_count": 1,
-      "industries": [
-        "operations"
-      ],
-      "locations": [
-        "Onalaska"
-      ],
-      "observations": [
-        {
-          "employer": "MA MAYO CLINIC",
-          "title": "Medical Assistant - Family Medicine -",
-          "location": "Onalaska",
-          "industry": "operations",
-          "posted_at": "2026-08-23T00:00:00+00:00",
-          "source": "Job Center of Wisconsin",
-          "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dOnalaska%26dist%3d%26edu%3d%26kwords%3d%26loc%3dOnalaska%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d",
-          "external_id": "jcw:onalaska:medical assistant - family medicine -:08/23/2026:ma mayo clinic",
-          "verified": true
-        }
-      ]
-    },
-    {
-      "name": "MAXIM HEALTHCARE",
-      "slug": "maxim healthcare",
-      "opening_count": 1,
-      "verified_opening_count": 1,
-      "industries": [
-        "operations"
-      ],
-      "locations": [
-        "Onalaska"
-      ],
-      "observations": [
-        {
-          "employer": "MAXIM HEALTHCARE",
-          "title": "LPN - Homecare",
-          "location": "Onalaska",
-          "industry": "operations",
-          "posted_at": "2026-08-19T00:00:00+00:00",
-          "source": "Job Center of Wisconsin",
-          "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dOnalaska%26dist%3d%26edu%3d%26kwords%3d%26loc%3dOnalaska%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d",
-          "external_id": "jcw:onalaska:lpn - homecare:08/19/2026:maxim healthcare",
-          "verified": true
-        }
-      ]
-    },
-    {
-      "name": "MENARDS, INC.",
-      "slug": "menards",
-      "opening_count": 1,
-      "verified_opening_count": 1,
-      "industries": [
-        "operations"
-      ],
-      "locations": [
-        "Onalaska"
-      ],
-      "observations": [
-        {
-          "employer": "MENARDS, INC.",
-          "title": "Full-Time Sales",
-          "location": "Onalaska",
-          "industry": "operations",
-          "posted_at": "2026-08-19T00:00:00+00:00",
-          "source": "Job Center of Wisconsin",
-          "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dOnalaska%26dist%3d%26edu%3d%26kwords%3d%26loc%3dOnalaska%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d",
-          "external_id": "jcw:onalaska:full-time sales:08/19/2026:menards, inc.",
-          "verified": true
-        }
-      ]
-    },
-    {
-      "name": "RAM LAKHAN LLC",
-      "slug": "ram lakhan",
-      "opening_count": 1,
-      "verified_opening_count": 1,
-      "industries": [
-        "operations"
-      ],
-      "locations": [
-        "Onalaska"
-      ],
-      "observations": [
-        {
-          "employer": "RAM LAKHAN LLC",
-          "title": "Business Intelligence Analyst",
-          "location": "Onalaska",
-          "industry": "operations",
-          "posted_at": "2026-08-19T00:00:00+00:00",
-          "source": "Job Center of Wisconsin",
-          "source_url": "https://jobcenterofwisconsin.com/Presentation/JobSeekers/EnhancedJobs-det.aspx?OrderNumber=004043673",
-          "external_id": "jcw:onalaska:business intelligence analyst:08/19/2026:ram lakhan llc",
-          "verified": true
-        }
-      ]
-    },
-    {
-      "name": "SCHNEIDER",
-      "slug": "schneider",
-      "opening_count": 1,
-      "verified_opening_count": 1,
-      "industries": [
-        "operations"
-      ],
-      "locations": [
-        "West Salem"
-      ],
-      "observations": [
-        {
-          "employer": "SCHNEIDER",
-          "title": "CDL-A - New pay increase - Dedicated nighttime truck driver - First Supply Why is this a Hot Job?",
-          "location": "West Salem",
-          "industry": "operations",
-          "posted_at": "2026-08-12T00:00:00+00:00",
-          "source": "Job Center of Wisconsin",
-          "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dWest%2bSalem%26dist%3d%26edu%3d%26kwords%3d%26loc%3dWest%2bSalem%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d",
-          "external_id": "jcw:west salem:cdl-a - new pay increase - dedicated nighttime truck driver - first supply why is this a hot job?:08/12/2026:schneider",
-          "verified": true
-        }
-      ]
-    },
-    {
-      "name": "SPECTRUM",
-      "slug": "spectrum",
-      "opening_count": 1,
-      "verified_opening_count": 1,
-      "industries": [
-        "leadership"
-      ],
-      "locations": [
-        "Onalaska"
-      ],
-      "observations": [
-        {
-          "employer": "SPECTRUM",
-          "title": "Store Lead",
-          "location": "Onalaska",
-          "industry": "leadership",
-          "posted_at": "2026-08-19T00:00:00+00:00",
-          "source": "Job Center of Wisconsin",
-          "source_url": "https://jobcenterofwisconsin.com/Presentation/JobSeekers/EnhancedJobs-det.aspx?OrderNumber=004043597",
-          "external_id": "jcw:onalaska:store lead:08/19/2026:spectrum",
-          "verified": true
-        }
-      ]
-    },
-    {
-      "name": "VERVE A CREDIT UNION",
-      "slug": "verve a credit union",
-      "opening_count": 1,
-      "verified_opening_count": 1,
-      "industries": [
-        "operations"
-      ],
-      "locations": [
-        "Holmen"
-      ],
-      "observations": [
-        {
-          "employer": "VERVE A CREDIT UNION",
-          "title": "Personal Relationship Banker",
-          "location": "Holmen",
-          "industry": "operations",
-          "posted_at": "2026-08-11T00:00:00+00:00",
-          "source": "Job Center of Wisconsin",
-          "source_url": "https://jobcenterofwisconsin.com/Presentation/JobSeekers/EnhancedJobs-det.aspx?OrderNumber=004039772",
-          "external_id": "jcw:holmen:personal relationship banker:08/11/2026:verve a credit union",
-          "verified": true
-        }
-      ]
-    },
-    {
-      "name": "WI JOSTENS",
-      "slug": "wi jostens",
-      "opening_count": 1,
-      "verified_opening_count": 1,
-      "industries": [
-        "operations"
-      ],
-      "locations": [
-        "West Salem"
-      ],
-      "observations": [
-        {
-          "employer": "WI JOSTENS",
-          "title": "School Photographer - West Salem,",
-          "location": "West Salem",
-          "industry": "operations",
-          "posted_at": "2026-06-25T00:00:00+00:00",
-          "source": "Job Center of Wisconsin",
-          "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dWest%2bSalem%26dist%3d%26edu%3d%26kwords%3d%26loc%3dWest%2bSalem%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d",
-          "external_id": "jcw:west salem:school photographer - west salem,:06/25/2026:wi jostens",
-          "verified": true
-        }
-      ]
-    },
-    {
       "name": "WOLTER, INC.",
       "slug": "wolter",
       "opening_count": 1,
@@ -950,6 +366,56 @@
           "source": "Job Center of Wisconsin",
           "source_url": "https://jobcenterofwisconsin.com/Presentation/JobSeekers/EnhancedJobs-det.aspx?OrderNumber=004035812",
           "external_id": "jcw:west salem:field service mechanic why is this a hot job?:08/03/2026:wolter, inc.",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "name": "WALMART",
+      "slug": "walmart",
+      "opening_count": 1,
+      "verified_opening_count": 1,
+      "industries": [
+        "skilled trades"
+      ],
+      "locations": [
+        "Onalaska"
+      ],
+      "observations": [
+        {
+          "employer": "WALMART",
+          "title": "(USA) Tire & Battery Technician - Automotive",
+          "location": "Onalaska",
+          "industry": "skilled trades",
+          "posted_at": "2026-08-18T00:00:00+00:00",
+          "source": "Job Center of Wisconsin",
+          "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dOnalaska%26dist%3d%26edu%3d%26kwords%3d%26loc%3dOnalaska%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d",
+          "external_id": "jcw:onalaska:(usa) tire & battery technician - automotive:08/18/2026:walmart",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "name": "KELLY SERVICES",
+      "slug": "kelly services",
+      "opening_count": 1,
+      "verified_opening_count": 1,
+      "industries": [
+        "skilled trades"
+      ],
+      "locations": [
+        "West Salem"
+      ],
+      "observations": [
+        {
+          "employer": "KELLY SERVICES",
+          "title": "Field Service Technician/Mechanic Why is this a Hot Job?",
+          "location": "West Salem",
+          "industry": "skilled trades",
+          "posted_at": "2026-08-17T00:00:00+00:00",
+          "source": "Job Center of Wisconsin",
+          "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dWest%2bSalem%26dist%3d%26edu%3d%26kwords%3d%26loc%3dWest%2bSalem%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d",
+          "external_id": "jcw:west salem:field service technician/mechanic why is this a hot job?:08/17/2026:kelly services",
           "verified": true
         }
       ]
