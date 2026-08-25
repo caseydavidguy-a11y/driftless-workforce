@@ -1,6 +1,31 @@
 {
-  "previous": "2026-08-25T08:23:56.367180+00:00",
-  "current": "2026-08-25T10:59:17.700709+00:00",
-  "changes": [],
+  "previous": "2026-08-25T10:59:17.700709+00:00",
+  "current": "2026-08-25T14:09:58.220261+00:00",
+  "changes": [
+    {
+      "employer": "CONSOLIDATED ENERGY COMPANY",
+      "slug": "consolidated energy",
+      "signals": [
+        {
+          "kind": "new_employer",
+          "severity": "high",
+          "message": "New employer detected in the hiring feed",
+          "metric": "new"
+        }
+      ]
+    },
+    {
+      "employer": "TRANE TECHNOLOGIES",
+      "slug": "trane technologies",
+      "signals": [
+        {
+          "kind": "volume_decrease",
+          "severity": "low",
+          "message": "Openings decreased from 3 to 1",
+          "metric": "-2"
+        }
+      ]
+    }
+  ],
   "removed_employers": []
 }
