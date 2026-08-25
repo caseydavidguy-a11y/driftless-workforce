@@ -1,19 +1,7 @@
 {
-  "previous": "2026-08-24T23:57:39.200612+00:00",
-  "current": "2026-08-25T03:28:06.458548+00:00",
+  "previous": "2026-08-25T03:28:06.458548+00:00",
+  "current": "2026-08-25T04:33:57.863405+00:00",
   "changes": [
-    {
-      "employer": "SEVITA",
-      "slug": "sevita",
-      "signals": [
-        {
-          "kind": "volume_increase",
-          "severity": "medium",
-          "message": "Openings increased from 5 to 6 (20% increase)",
-          "metric": "+1 / 20%"
-        }
-      ]
-    },
     {
       "employer": "WALMART",
       "slug": "walmart",
@@ -21,11 +9,25 @@
         {
           "kind": "volume_decrease",
           "severity": "low",
-          "message": "Openings decreased from 4 to 3",
+          "message": "Openings decreased from 3 to 2",
           "metric": "-1"
+        }
+      ]
+    },
+    {
+      "employer": "KELLY SERVICES",
+      "slug": "kelly services",
+      "signals": [
+        {
+          "kind": "volume_decrease",
+          "severity": "low",
+          "message": "Openings decreased from 3 to 1",
+          "metric": "-2"
         }
       ]
     }
   ],
-  "removed_employers": []
+  "removed_employers": [
+    "bright horizons children s centers"
+  ]
 }

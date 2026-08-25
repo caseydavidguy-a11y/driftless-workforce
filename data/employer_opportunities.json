@@ -2,7 +2,7 @@
   {
     "employer": "SEVITA",
     "slug": "sevita",
-    "score": 61,
+    "score": 58,
     "priority": "Monitor",
     "opening_count": 6,
     "verified_opening_count": 6,
@@ -48,9 +48,9 @@
     ],
     "momentum_7d": {
       "days": 7,
-      "change": 0,
-      "pct": 0,
-      "direction": "flat",
+      "change": 1,
+      "pct": 20,
+      "direction": "up",
       "points": [
         {
           "captured_at": "2026-08-24T22:18:07.204524+00:00",
@@ -67,14 +67,18 @@
         {
           "captured_at": "2026-08-24T23:57:39.200612+00:00",
           "opening_count": 5
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
+          "opening_count": 6
         }
       ]
     },
     "momentum_30d": {
       "days": 30,
-      "change": 0,
-      "pct": 0,
-      "direction": "flat",
+      "change": 1,
+      "pct": 20,
+      "direction": "up",
       "points": [
         {
           "captured_at": "2026-08-24T22:18:07.204524+00:00",
@@ -91,6 +95,10 @@
         {
           "captured_at": "2026-08-24T23:57:39.200612+00:00",
           "opening_count": 5
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
+          "opening_count": 6
         }
       ]
     },
@@ -101,9 +109,9 @@
         "reason": "Underlying employer/opportunity fit"
       },
       {
-        "label": "Volume Increase",
-        "points": 6,
-        "reason": "Openings increased from 5 to 6 (20% increase)"
+        "label": "Hiring momentum",
+        "points": 3,
+        "reason": "Up +20% over 7 days"
       }
     ],
     "score_policy_version": 1,
@@ -205,6 +213,10 @@
         {
           "captured_at": "2026-08-24T23:57:39.200612+00:00",
           "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
+          "opening_count": 4
         }
       ]
     },
@@ -228,6 +240,10 @@
         },
         {
           "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
           "opening_count": 4
         }
       ]
@@ -333,6 +349,10 @@
         {
           "captured_at": "2026-08-24T23:57:39.200612+00:00",
           "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
+          "opening_count": 4
         }
       ]
     },
@@ -356,6 +376,10 @@
         },
         {
           "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
           "opening_count": 4
         }
       ]
@@ -454,6 +478,10 @@
         {
           "captured_at": "2026-08-24T23:57:39.200612+00:00",
           "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
+          "opening_count": 4
         }
       ]
     },
@@ -477,6 +505,10 @@
         },
         {
           "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
           "opening_count": 4
         }
       ]
@@ -585,6 +617,10 @@
         {
           "captured_at": "2026-08-24T23:57:39.200612+00:00",
           "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
+          "opening_count": 4
         }
       ]
     },
@@ -608,6 +644,10 @@
         },
         {
           "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
           "opening_count": 4
         }
       ]
@@ -645,366 +685,6 @@
         "location": "La Crosse",
         "posted_at": "2026-08-22T00:00:00+00:00",
         "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dLa%2bCrosse%26dist%3d%26edu%3d%26kwords%3d%26loc%3dLa%2bCrosse%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d"
-      }
-    ]
-  },
-  {
-    "employer": "WALMART",
-    "slug": "walmart",
-    "score": 42,
-    "priority": "Monitor",
-    "opening_count": 3,
-    "verified_opening_count": 3,
-    "locations": [
-      "Onalaska"
-    ],
-    "industries": [
-      "leadership",
-      "operations",
-      "skilled trades"
-    ],
-    "hiring_summary": "WALMART has 3 observed opening(s) across 1 local location(s).",
-    "reasons": [
-      "3 observed openings indicate active hiring",
-      "3 opening(s) are source-verified",
-      "Hiring overlaps Driftless Workforce target industries",
-      "Leadership hiring signal: (USA) Merchandising Lead"
-    ],
-    "target_roles": [
-      "general operations",
-      "leadership",
-      "skilled trades / maintenance"
-    ],
-    "industries_detected": [
-      "leadership",
-      "operations",
-      "skilled trades"
-    ],
-    "decision_maker_roles": [
-      "HR / Talent Acquisition",
-      "Hiring Manager",
-      "Operations Leader"
-    ],
-    "contact_path": "Find HR/Talent Acquisition or the hiring manager through the employer's official site or public professional profile. Do not guess an email address.",
-    "outreach_angle": "Lead with leadership recruiting: reference the visible management hiring signal and offer help building a qualified local leadership pipeline.",
-    "evidence": [
-      "(USA) Merchandising Lead \u2014 Onalaska [Job Center of Wisconsin]",
-      "Pharmacy Sales Associate \u2014 Onalaska [Job Center of Wisconsin]",
-      "(USA) Tire & Battery Technician - Automotive \u2014 Onalaska [Job Center of Wisconsin]"
-    ],
-    "momentum_7d": {
-      "days": 7,
-      "change": 0,
-      "pct": 0,
-      "direction": "flat",
-      "points": [
-        {
-          "captured_at": "2026-08-24T22:18:07.204524+00:00",
-          "opening_count": 4
-        },
-        {
-          "captured_at": "2026-08-24T22:19:41.611533+00:00",
-          "opening_count": 4
-        },
-        {
-          "captured_at": "2026-08-24T23:03:06.494647+00:00",
-          "opening_count": 4
-        },
-        {
-          "captured_at": "2026-08-24T23:57:39.200612+00:00",
-          "opening_count": 4
-        }
-      ]
-    },
-    "momentum_30d": {
-      "days": 30,
-      "change": 0,
-      "pct": 0,
-      "direction": "flat",
-      "points": [
-        {
-          "captured_at": "2026-08-24T22:18:07.204524+00:00",
-          "opening_count": 4
-        },
-        {
-          "captured_at": "2026-08-24T22:19:41.611533+00:00",
-          "opening_count": 4
-        },
-        {
-          "captured_at": "2026-08-24T23:03:06.494647+00:00",
-          "opening_count": 4
-        },
-        {
-          "captured_at": "2026-08-24T23:57:39.200612+00:00",
-          "opening_count": 4
-        }
-      ]
-    },
-    "score_breakdown": [
-      {
-        "label": "Base opportunity",
-        "points": 40,
-        "reason": "Underlying employer/opportunity fit"
-      },
-      {
-        "label": "Volume Decrease",
-        "points": 2,
-        "reason": "Openings decreased from 4 to 3"
-      }
-    ],
-    "score_policy_version": 1,
-    "score_policy_capped": false,
-    "jobs": [
-      {
-        "title": "(USA) Merchandising Lead",
-        "location": "Onalaska",
-        "posted_at": "2026-08-22T00:00:00+00:00",
-        "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dOnalaska%26dist%3d%26edu%3d%26kwords%3d%26loc%3dOnalaska%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d"
-      },
-      {
-        "title": "Pharmacy Sales Associate",
-        "location": "Onalaska",
-        "posted_at": "2026-08-22T00:00:00+00:00",
-        "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dOnalaska%26dist%3d%26edu%3d%26kwords%3d%26loc%3dOnalaska%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d"
-      },
-      {
-        "title": "(USA) Tire & Battery Technician - Automotive",
-        "location": "Onalaska",
-        "posted_at": "2026-08-18T00:00:00+00:00",
-        "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dOnalaska%26dist%3d%26edu%3d%26kwords%3d%26loc%3dOnalaska%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d"
-      }
-    ]
-  },
-  {
-    "employer": "BRIGHT HORIZONS CHILDREN'S CENTERS",
-    "slug": "bright horizons children s centers",
-    "score": 40,
-    "priority": "Monitor",
-    "opening_count": 3,
-    "verified_opening_count": 3,
-    "locations": [
-      "La Crosse"
-    ],
-    "industries": [
-      "operations"
-    ],
-    "hiring_summary": "BRIGHT HORIZONS CHILDREN'S CENTERS has 3 observed opening(s) across 1 local location(s).",
-    "reasons": [
-      "3 observed openings indicate active hiring",
-      "3 opening(s) are source-verified",
-      "Hiring overlaps Driftless Workforce target industries"
-    ],
-    "target_roles": [
-      "general operations"
-    ],
-    "industries_detected": [
-      "operations"
-    ],
-    "decision_maker_roles": [
-      "HR / Talent Acquisition",
-      "Department Manager"
-    ],
-    "contact_path": "Find HR/Talent Acquisition or the hiring manager through the employer's official site or public professional profile. Do not guess an email address.",
-    "outreach_angle": "Lead with the specific hard-to-fill role and offer a focused candidate-sourcing conversation rather than a generic staffing pitch.",
-    "evidence": [
-      "Child Care Teacher \u2014 La Crosse [Job Center of Wisconsin]",
-      "Assistant Child Care Teacher Lacrosse \u2014 La Crosse [Job Center of Wisconsin]",
-      "Child Care Teacher \u2014 La Crosse [Job Center of Wisconsin]"
-    ],
-    "momentum_7d": {
-      "days": 7,
-      "change": 0,
-      "pct": 0,
-      "direction": "flat",
-      "points": [
-        {
-          "captured_at": "2026-08-24T22:18:07.204524+00:00",
-          "opening_count": 3
-        },
-        {
-          "captured_at": "2026-08-24T22:19:41.611533+00:00",
-          "opening_count": 3
-        },
-        {
-          "captured_at": "2026-08-24T23:03:06.494647+00:00",
-          "opening_count": 3
-        },
-        {
-          "captured_at": "2026-08-24T23:57:39.200612+00:00",
-          "opening_count": 3
-        }
-      ]
-    },
-    "momentum_30d": {
-      "days": 30,
-      "change": 0,
-      "pct": 0,
-      "direction": "flat",
-      "points": [
-        {
-          "captured_at": "2026-08-24T22:18:07.204524+00:00",
-          "opening_count": 3
-        },
-        {
-          "captured_at": "2026-08-24T22:19:41.611533+00:00",
-          "opening_count": 3
-        },
-        {
-          "captured_at": "2026-08-24T23:03:06.494647+00:00",
-          "opening_count": 3
-        },
-        {
-          "captured_at": "2026-08-24T23:57:39.200612+00:00",
-          "opening_count": 3
-        }
-      ]
-    },
-    "score_breakdown": [
-      {
-        "label": "Base opportunity",
-        "points": 40,
-        "reason": "Underlying employer/opportunity fit"
-      }
-    ],
-    "score_policy_version": 1,
-    "score_policy_capped": false,
-    "jobs": [
-      {
-        "title": "Child Care Teacher",
-        "location": "La Crosse",
-        "posted_at": "2026-08-21T00:00:00+00:00",
-        "source_url": "https://jobcenterofwisconsin.com/Presentation/JobSeekers/EnhancedJobs-det.aspx?OrderNumber=004044742"
-      },
-      {
-        "title": "Assistant Child Care Teacher Lacrosse",
-        "location": "La Crosse",
-        "posted_at": "2026-08-19T00:00:00+00:00",
-        "source_url": "https://jobcenterofwisconsin.com/Presentation/JobSeekers/EnhancedJobs-det.aspx?OrderNumber=004043726"
-      },
-      {
-        "title": "Child Care Teacher",
-        "location": "La Crosse",
-        "posted_at": "2026-08-18T00:00:00+00:00",
-        "source_url": "https://jobcenterofwisconsin.com/Presentation/JobSeekers/EnhancedJobs-det.aspx?OrderNumber=004043163"
-      }
-    ]
-  },
-  {
-    "employer": "KELLY SERVICES",
-    "slug": "kelly services",
-    "score": 40,
-    "priority": "Monitor",
-    "opening_count": 3,
-    "verified_opening_count": 3,
-    "locations": [
-      "Holmen",
-      "West Salem"
-    ],
-    "industries": [
-      "operations",
-      "skilled trades"
-    ],
-    "hiring_summary": "KELLY SERVICES has 3 observed opening(s) across 2 local location(s).",
-    "reasons": [
-      "3 observed openings indicate active hiring",
-      "Hiring activity spans multiple local locations",
-      "3 opening(s) are source-verified",
-      "Hiring overlaps Driftless Workforce target industries"
-    ],
-    "target_roles": [
-      "general operations",
-      "skilled trades / maintenance"
-    ],
-    "industries_detected": [
-      "operations",
-      "skilled trades"
-    ],
-    "decision_maker_roles": [
-      "HR / Talent Acquisition",
-      "Department Manager"
-    ],
-    "contact_path": "Find HR/Talent Acquisition or the hiring manager through the employer's official site or public professional profile. Do not guess an email address.",
-    "outreach_angle": "Lead with the specific hard-to-fill role and offer a focused candidate-sourcing conversation rather than a generic staffing pitch.",
-    "evidence": [
-      "Holmen- Long Term Special Ed Substitute Teacher \u2014 Holmen [Job Center of Wisconsin]",
-      "Holmen-Substitute Teacher/Paraprofessional \u2014 Holmen [Job Center of Wisconsin]",
-      "Field Service Technician/Mechanic Why is this a Hot Job? \u2014 West Salem [Job Center of Wisconsin]"
-    ],
-    "momentum_7d": {
-      "days": 7,
-      "change": 0,
-      "pct": 0,
-      "direction": "flat",
-      "points": [
-        {
-          "captured_at": "2026-08-24T22:18:07.204524+00:00",
-          "opening_count": 3
-        },
-        {
-          "captured_at": "2026-08-24T22:19:41.611533+00:00",
-          "opening_count": 3
-        },
-        {
-          "captured_at": "2026-08-24T23:03:06.494647+00:00",
-          "opening_count": 3
-        },
-        {
-          "captured_at": "2026-08-24T23:57:39.200612+00:00",
-          "opening_count": 3
-        }
-      ]
-    },
-    "momentum_30d": {
-      "days": 30,
-      "change": 0,
-      "pct": 0,
-      "direction": "flat",
-      "points": [
-        {
-          "captured_at": "2026-08-24T22:18:07.204524+00:00",
-          "opening_count": 3
-        },
-        {
-          "captured_at": "2026-08-24T22:19:41.611533+00:00",
-          "opening_count": 3
-        },
-        {
-          "captured_at": "2026-08-24T23:03:06.494647+00:00",
-          "opening_count": 3
-        },
-        {
-          "captured_at": "2026-08-24T23:57:39.200612+00:00",
-          "opening_count": 3
-        }
-      ]
-    },
-    "score_breakdown": [
-      {
-        "label": "Base opportunity",
-        "points": 40,
-        "reason": "Underlying employer/opportunity fit"
-      }
-    ],
-    "score_policy_version": 1,
-    "score_policy_capped": false,
-    "jobs": [
-      {
-        "title": "Holmen- Long Term Special Ed Substitute Teacher",
-        "location": "Holmen",
-        "posted_at": "2026-08-22T00:00:00+00:00",
-        "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dHolmen%26dist%3d%26edu%3d%26kwords%3d%26loc%3dHolmen%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d"
-      },
-      {
-        "title": "Holmen-Substitute Teacher/Paraprofessional",
-        "location": "Holmen",
-        "posted_at": "2026-08-21T00:00:00+00:00",
-        "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dHolmen%26dist%3d%26edu%3d%26kwords%3d%26loc%3dHolmen%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d"
-      },
-      {
-        "title": "Field Service Technician/Mechanic Why is this a Hot Job?",
-        "location": "West Salem",
-        "posted_at": "2026-08-17T00:00:00+00:00",
-        "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dWest%2bSalem%26dist%3d%26edu%3d%26kwords%3d%26loc%3dWest%2bSalem%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d"
       }
     ]
   },
@@ -1070,6 +750,10 @@
         {
           "captured_at": "2026-08-24T23:57:39.200612+00:00",
           "opening_count": 3
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
+          "opening_count": 3
         }
       ]
     },
@@ -1093,6 +777,10 @@
         },
         {
           "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 3
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
           "opening_count": 3
         }
       ]
@@ -1183,6 +871,10 @@
         {
           "captured_at": "2026-08-24T23:57:39.200612+00:00",
           "opening_count": 2
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
+          "opening_count": 2
         }
       ]
     },
@@ -1206,6 +898,10 @@
         },
         {
           "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 2
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
           "opening_count": 2
         }
       ]
@@ -1292,6 +988,10 @@
         {
           "captured_at": "2026-08-24T23:57:39.200612+00:00",
           "opening_count": 2
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
+          "opening_count": 2
         }
       ]
     },
@@ -1315,6 +1015,10 @@
         },
         {
           "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 2
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
           "opening_count": 2
         }
       ]
@@ -1406,6 +1110,10 @@
         {
           "captured_at": "2026-08-24T23:57:39.200612+00:00",
           "opening_count": 2
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
+          "opening_count": 2
         }
       ]
     },
@@ -1429,6 +1137,10 @@
         },
         {
           "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 2
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
           "opening_count": 2
         }
       ]
@@ -1516,6 +1228,10 @@
         {
           "captured_at": "2026-08-24T23:57:39.200612+00:00",
           "opening_count": 2
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
+          "opening_count": 2
         }
       ]
     },
@@ -1540,6 +1256,10 @@
         {
           "captured_at": "2026-08-24T23:57:39.200612+00:00",
           "opening_count": 2
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
+          "opening_count": 2
         }
       ]
     },
@@ -1563,6 +1283,248 @@
         "title": "Parts Inspector",
         "location": "West Salem",
         "posted_at": "2026-08-04T00:00:00+00:00",
+        "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dWest%2bSalem%26dist%3d%26edu%3d%26kwords%3d%26loc%3dWest%2bSalem%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d"
+      }
+    ]
+  },
+  {
+    "employer": "WALMART",
+    "slug": "walmart",
+    "score": 35,
+    "priority": "Low",
+    "opening_count": 2,
+    "verified_opening_count": 2,
+    "locations": [
+      "Onalaska"
+    ],
+    "industries": [
+      "leadership",
+      "skilled trades"
+    ],
+    "hiring_summary": "WALMART has 2 observed opening(s) across 1 local location(s).",
+    "reasons": [
+      "2 observed openings indicate active hiring",
+      "2 opening(s) are source-verified",
+      "Hiring overlaps Driftless Workforce target industries",
+      "Leadership hiring signal: (USA) Merchandising Lead"
+    ],
+    "target_roles": [
+      "leadership",
+      "skilled trades / maintenance"
+    ],
+    "industries_detected": [
+      "leadership",
+      "skilled trades"
+    ],
+    "decision_maker_roles": [
+      "HR / Talent Acquisition",
+      "Hiring Manager",
+      "Operations Leader"
+    ],
+    "contact_path": "Find HR/Talent Acquisition or the hiring manager through the employer's official site or public professional profile. Do not guess an email address.",
+    "outreach_angle": "Lead with leadership recruiting: reference the visible management hiring signal and offer help building a qualified local leadership pipeline.",
+    "evidence": [
+      "(USA) Merchandising Lead \u2014 Onalaska [Job Center of Wisconsin]",
+      "(USA) Tire & Battery Technician - Automotive \u2014 Onalaska [Job Center of Wisconsin]"
+    ],
+    "momentum_7d": {
+      "days": 7,
+      "change": -1,
+      "pct": -25,
+      "direction": "down",
+      "points": [
+        {
+          "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
+          "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-24T23:03:06.494647+00:00",
+          "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
+          "opening_count": 3
+        }
+      ]
+    },
+    "momentum_30d": {
+      "days": 30,
+      "change": -1,
+      "pct": -25,
+      "direction": "down",
+      "points": [
+        {
+          "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
+          "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-24T23:03:06.494647+00:00",
+          "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
+          "opening_count": 3
+        }
+      ]
+    },
+    "score_breakdown": [
+      {
+        "label": "Base opportunity",
+        "points": 35,
+        "reason": "Underlying employer/opportunity fit"
+      },
+      {
+        "label": "Volume Decrease",
+        "points": 2,
+        "reason": "Openings decreased from 3 to 2"
+      },
+      {
+        "label": "Hiring momentum",
+        "points": -2,
+        "reason": "Down -25% over 7 days"
+      }
+    ],
+    "score_policy_version": 1,
+    "score_policy_capped": false,
+    "jobs": [
+      {
+        "title": "(USA) Merchandising Lead",
+        "location": "Onalaska",
+        "posted_at": "2026-08-22T00:00:00+00:00",
+        "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dOnalaska%26dist%3d%26edu%3d%26kwords%3d%26loc%3dOnalaska%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d"
+      },
+      {
+        "title": "(USA) Tire & Battery Technician - Automotive",
+        "location": "Onalaska",
+        "posted_at": "2026-08-18T00:00:00+00:00",
+        "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dOnalaska%26dist%3d%26edu%3d%26kwords%3d%26loc%3dOnalaska%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d"
+      }
+    ]
+  },
+  {
+    "employer": "KELLY SERVICES",
+    "slug": "kelly services",
+    "score": 32,
+    "priority": "Low",
+    "opening_count": 1,
+    "verified_opening_count": 1,
+    "locations": [
+      "West Salem"
+    ],
+    "industries": [
+      "skilled trades"
+    ],
+    "hiring_summary": "KELLY SERVICES has 1 observed opening(s) across 1 local location(s).",
+    "reasons": [
+      "1 opening(s) are source-verified",
+      "Hiring overlaps Driftless Workforce target industries"
+    ],
+    "target_roles": [
+      "skilled trades / maintenance"
+    ],
+    "industries_detected": [
+      "skilled trades"
+    ],
+    "decision_maker_roles": [
+      "HR / Talent Acquisition",
+      "Department Manager"
+    ],
+    "contact_path": "Find HR/Talent Acquisition or the hiring manager through the employer's official site or public professional profile. Do not guess an email address.",
+    "outreach_angle": "Lead with the specific hard-to-fill role and offer a focused candidate-sourcing conversation rather than a generic staffing pitch.",
+    "evidence": [
+      "Field Service Technician/Mechanic Why is this a Hot Job? \u2014 West Salem [Job Center of Wisconsin]"
+    ],
+    "momentum_7d": {
+      "days": 7,
+      "change": 0,
+      "pct": 0,
+      "direction": "flat",
+      "points": [
+        {
+          "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 3
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
+          "opening_count": 3
+        },
+        {
+          "captured_at": "2026-08-24T23:03:06.494647+00:00",
+          "opening_count": 3
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 3
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
+          "opening_count": 3
+        }
+      ]
+    },
+    "momentum_30d": {
+      "days": 30,
+      "change": 0,
+      "pct": 0,
+      "direction": "flat",
+      "points": [
+        {
+          "captured_at": "2026-08-24T22:18:07.204524+00:00",
+          "opening_count": 3
+        },
+        {
+          "captured_at": "2026-08-24T22:19:41.611533+00:00",
+          "opening_count": 3
+        },
+        {
+          "captured_at": "2026-08-24T23:03:06.494647+00:00",
+          "opening_count": 3
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 3
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
+          "opening_count": 3
+        }
+      ]
+    },
+    "score_breakdown": [
+      {
+        "label": "Base opportunity",
+        "points": 30,
+        "reason": "Underlying employer/opportunity fit"
+      },
+      {
+        "label": "Volume Decrease",
+        "points": 2,
+        "reason": "Openings decreased from 3 to 1"
+      }
+    ],
+    "score_policy_version": 1,
+    "score_policy_capped": false,
+    "jobs": [
+      {
+        "title": "Field Service Technician/Mechanic Why is this a Hot Job?",
+        "location": "West Salem",
+        "posted_at": "2026-08-17T00:00:00+00:00",
         "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dWest%2bSalem%26dist%3d%26edu%3d%26kwords%3d%26loc%3dWest%2bSalem%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d"
       }
     ]
@@ -1621,6 +1583,10 @@
         {
           "captured_at": "2026-08-24T23:57:39.200612+00:00",
           "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
+          "opening_count": 1
         }
       ]
     },
@@ -1644,6 +1610,10 @@
         },
         {
           "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
           "opening_count": 1
         }
       ]
@@ -1720,6 +1690,10 @@
         {
           "captured_at": "2026-08-24T23:57:39.200612+00:00",
           "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
+          "opening_count": 1
         }
       ]
     },
@@ -1743,6 +1717,10 @@
         },
         {
           "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
           "opening_count": 1
         }
       ]
@@ -1821,6 +1799,10 @@
         {
           "captured_at": "2026-08-24T23:57:39.200612+00:00",
           "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
+          "opening_count": 1
         }
       ]
     },
@@ -1844,6 +1826,10 @@
         },
         {
           "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
           "opening_count": 1
         }
       ]
@@ -1922,6 +1908,10 @@
         {
           "captured_at": "2026-08-24T23:57:39.200612+00:00",
           "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
+          "opening_count": 1
         }
       ]
     },
@@ -1945,6 +1935,10 @@
         },
         {
           "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
           "opening_count": 1
         }
       ]
@@ -2023,6 +2017,10 @@
         {
           "captured_at": "2026-08-24T23:57:39.200612+00:00",
           "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
+          "opening_count": 1
         }
       ]
     },
@@ -2046,6 +2044,10 @@
         },
         {
           "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
           "opening_count": 1
         }
       ]
@@ -2122,6 +2124,10 @@
         {
           "captured_at": "2026-08-24T23:57:39.200612+00:00",
           "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
+          "opening_count": 1
         }
       ]
     },
@@ -2145,6 +2151,10 @@
         },
         {
           "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
           "opening_count": 1
         }
       ]
@@ -2221,6 +2231,10 @@
         {
           "captured_at": "2026-08-24T23:57:39.200612+00:00",
           "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
+          "opening_count": 1
         }
       ]
     },
@@ -2244,6 +2258,10 @@
         },
         {
           "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
           "opening_count": 1
         }
       ]
@@ -2320,6 +2338,10 @@
         {
           "captured_at": "2026-08-24T23:57:39.200612+00:00",
           "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
+          "opening_count": 1
         }
       ]
     },
@@ -2343,6 +2365,10 @@
         },
         {
           "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
           "opening_count": 1
         }
       ]
@@ -2419,6 +2445,10 @@
         {
           "captured_at": "2026-08-24T23:57:39.200612+00:00",
           "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
+          "opening_count": 1
         }
       ]
     },
@@ -2442,6 +2472,10 @@
         },
         {
           "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
           "opening_count": 1
         }
       ]
@@ -2518,6 +2552,10 @@
         {
           "captured_at": "2026-08-24T23:57:39.200612+00:00",
           "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
+          "opening_count": 1
         }
       ]
     },
@@ -2541,6 +2579,10 @@
         },
         {
           "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
           "opening_count": 1
         }
       ]
@@ -2617,6 +2659,10 @@
         {
           "captured_at": "2026-08-24T23:57:39.200612+00:00",
           "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
+          "opening_count": 1
         }
       ]
     },
@@ -2640,6 +2686,10 @@
         },
         {
           "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
           "opening_count": 1
         }
       ]
@@ -2718,6 +2768,10 @@
         {
           "captured_at": "2026-08-24T23:57:39.200612+00:00",
           "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
+          "opening_count": 1
         }
       ]
     },
@@ -2741,6 +2795,10 @@
         },
         {
           "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
           "opening_count": 1
         }
       ]
@@ -2817,6 +2875,10 @@
         {
           "captured_at": "2026-08-24T23:57:39.200612+00:00",
           "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
+          "opening_count": 1
         }
       ]
     },
@@ -2840,6 +2902,10 @@
         },
         {
           "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
           "opening_count": 1
         }
       ]
@@ -2916,6 +2982,10 @@
         {
           "captured_at": "2026-08-24T23:57:39.200612+00:00",
           "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
+          "opening_count": 1
         }
       ]
     },
@@ -2939,6 +3009,10 @@
         },
         {
           "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
           "opening_count": 1
         }
       ]
@@ -3015,6 +3089,10 @@
         {
           "captured_at": "2026-08-24T23:57:39.200612+00:00",
           "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
+          "opening_count": 1
         }
       ]
     },
@@ -3038,6 +3116,10 @@
         },
         {
           "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T03:28:06.458548+00:00",
           "opening_count": 1
         }
       ]

@@ -1,7 +1,7 @@
 [
   {
     "employer": "SEVITA",
-    "score": 61,
+    "score": 58,
     "priority": "Monitor",
     "targets": [
       {
@@ -195,123 +195,6 @@
     ]
   },
   {
-    "employer": "WALMART",
-    "score": 42,
-    "priority": "Monitor",
-    "targets": [
-      {
-        "employer": "WALMART",
-        "role": "HR / Talent Acquisition leader",
-        "priority": 100,
-        "reason": "Leadership hiring creates a direct recruiting signal.",
-        "search_queries": [
-          "\"WALMART\" \"HR / Talent Acquisition leader\"",
-          "\"WALMART\" HR recruiting",
-          "\"WALMART\" careers contact"
-        ],
-        "public_contact_paths": [
-          "Employer website / careers page",
-          "Employer LinkedIn company page",
-          "Search engine query: WALMART"
-        ]
-      },
-      {
-        "employer": "WALMART",
-        "role": "Maintenance / Engineering leader",
-        "priority": 86,
-        "reason": "Skilled-trades hiring often routes through maintenance or engineering leadership.",
-        "search_queries": [
-          "\"WALMART\" \"Maintenance / Engineering leader\"",
-          "\"WALMART\" HR recruiting",
-          "\"WALMART\" careers contact"
-        ],
-        "public_contact_paths": [
-          "Employer website / careers page",
-          "Employer LinkedIn company page",
-          "Search engine query: WALMART"
-        ]
-      },
-      {
-        "employer": "WALMART",
-        "role": "HR / Recruiting contact",
-        "priority": 80,
-        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
-        "search_queries": [
-          "\"WALMART\" \"HR / Recruiting contact\"",
-          "\"WALMART\" HR recruiting",
-          "\"WALMART\" careers contact"
-        ],
-        "public_contact_paths": [
-          "Employer website / careers page",
-          "Employer LinkedIn company page",
-          "Search engine query: WALMART"
-        ]
-      }
-    ]
-  },
-  {
-    "employer": "BRIGHT HORIZONS CHILDREN'S CENTERS",
-    "score": 40,
-    "priority": "Monitor",
-    "targets": [
-      {
-        "employer": "BRIGHT HORIZONS CHILDREN'S CENTERS",
-        "role": "HR / Recruiting contact",
-        "priority": 80,
-        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
-        "search_queries": [
-          "\"BRIGHT HORIZONS CHILDREN'S CENTERS\" \"HR / Recruiting contact\"",
-          "\"BRIGHT HORIZONS CHILDREN'S CENTERS\" HR recruiting",
-          "\"BRIGHT HORIZONS CHILDREN'S CENTERS\" careers contact"
-        ],
-        "public_contact_paths": [
-          "Employer website / careers page",
-          "Employer LinkedIn company page",
-          "Search engine query: BRIGHT+HORIZONS+CHILDREN%27S+CENTERS"
-        ]
-      }
-    ]
-  },
-  {
-    "employer": "KELLY SERVICES",
-    "score": 40,
-    "priority": "Monitor",
-    "targets": [
-      {
-        "employer": "KELLY SERVICES",
-        "role": "Maintenance / Engineering leader",
-        "priority": 86,
-        "reason": "Skilled-trades hiring often routes through maintenance or engineering leadership.",
-        "search_queries": [
-          "\"KELLY SERVICES\" \"Maintenance / Engineering leader\"",
-          "\"KELLY SERVICES\" HR recruiting",
-          "\"KELLY SERVICES\" careers contact"
-        ],
-        "public_contact_paths": [
-          "Employer website / careers page",
-          "Employer LinkedIn company page",
-          "Search engine query: KELLY+SERVICES"
-        ]
-      },
-      {
-        "employer": "KELLY SERVICES",
-        "role": "HR / Recruiting contact",
-        "priority": 80,
-        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
-        "search_queries": [
-          "\"KELLY SERVICES\" \"HR / Recruiting contact\"",
-          "\"KELLY SERVICES\" HR recruiting",
-          "\"KELLY SERVICES\" careers contact"
-        ],
-        "public_contact_paths": [
-          "Employer website / careers page",
-          "Employer LinkedIn company page",
-          "Search engine query: KELLY+SERVICES"
-        ]
-      }
-    ]
-  },
-  {
     "employer": "MICHAELS",
     "score": 40,
     "priority": "Monitor",
@@ -470,6 +353,100 @@
           "Employer website / careers page",
           "Employer LinkedIn company page",
           "Search engine query: PEOPLEREADY"
+        ]
+      }
+    ]
+  },
+  {
+    "employer": "WALMART",
+    "score": 35,
+    "priority": "Low",
+    "targets": [
+      {
+        "employer": "WALMART",
+        "role": "HR / Talent Acquisition leader",
+        "priority": 100,
+        "reason": "Leadership hiring creates a direct recruiting signal.",
+        "search_queries": [
+          "\"WALMART\" \"HR / Talent Acquisition leader\"",
+          "\"WALMART\" HR recruiting",
+          "\"WALMART\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: WALMART"
+        ]
+      },
+      {
+        "employer": "WALMART",
+        "role": "Maintenance / Engineering leader",
+        "priority": 86,
+        "reason": "Skilled-trades hiring often routes through maintenance or engineering leadership.",
+        "search_queries": [
+          "\"WALMART\" \"Maintenance / Engineering leader\"",
+          "\"WALMART\" HR recruiting",
+          "\"WALMART\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: WALMART"
+        ]
+      },
+      {
+        "employer": "WALMART",
+        "role": "HR / Recruiting contact",
+        "priority": 80,
+        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
+        "search_queries": [
+          "\"WALMART\" \"HR / Recruiting contact\"",
+          "\"WALMART\" HR recruiting",
+          "\"WALMART\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: WALMART"
+        ]
+      }
+    ]
+  },
+  {
+    "employer": "KELLY SERVICES",
+    "score": 32,
+    "priority": "Low",
+    "targets": [
+      {
+        "employer": "KELLY SERVICES",
+        "role": "Maintenance / Engineering leader",
+        "priority": 86,
+        "reason": "Skilled-trades hiring often routes through maintenance or engineering leadership.",
+        "search_queries": [
+          "\"KELLY SERVICES\" \"Maintenance / Engineering leader\"",
+          "\"KELLY SERVICES\" HR recruiting",
+          "\"KELLY SERVICES\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: KELLY+SERVICES"
+        ]
+      },
+      {
+        "employer": "KELLY SERVICES",
+        "role": "HR / Recruiting contact",
+        "priority": 80,
+        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
+        "search_queries": [
+          "\"KELLY SERVICES\" \"HR / Recruiting contact\"",
+          "\"KELLY SERVICES\" HR recruiting",
+          "\"KELLY SERVICES\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: KELLY+SERVICES"
         ]
       }
     ]
