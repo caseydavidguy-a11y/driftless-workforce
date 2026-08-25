@@ -1,0 +1,29 @@
+{
+  "focused_industries": [
+    "manufacturing",
+    "warehouse",
+    "operations",
+    "skilled trades",
+    "hospitality",
+    "leadership"
+  ],
+  "policy": "hard_exclusion",
+  "excluded_role_examples": [
+    "teacher",
+    "teaching",
+    "educator",
+    "professor",
+    "cashier",
+    "retail associate",
+    "sales associate",
+    "store associate",
+    "crew member",
+    "barista",
+    "server",
+    "waiter",
+    "waitress",
+    "nurse",
+    "registered nurse",
+    "phlebotomist"
+  ]
+}
