@@ -1,43 +1,6 @@
 {
-  "captured_at": "2026-08-25T19:17:13.210197+00:00",
+  "captured_at": "2026-08-25T20:51:52.348783+00:00",
   "employers": [
-    {
-      "name": "AEROTEK",
-      "slug": "aerotek",
-      "opening_count": 2,
-      "verified_opening_count": 2,
-      "industries": [
-        "hospitality",
-        "manufacturing"
-      ],
-      "locations": [
-        "La Crosse"
-      ],
-      "observations": [
-        {
-          "employer": "AEROTEK",
-          "title": "Food Production",
-          "location": "La Crosse",
-          "industry": "hospitality",
-          "posted_at": "2026-08-22T00:00:00+00:00",
-          "source": "Job Center of Wisconsin",
-          "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dLa%2bCrosse%26dist%3d%26edu%3d%26kwords%3d%26loc%3dLa%2bCrosse%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d",
-          "external_id": "jcw:la crosse:food production:08/22/2026:aerotek",
-          "verified": true
-        },
-        {
-          "employer": "AEROTEK",
-          "title": "Machine Operator - Assembler",
-          "location": "La Crosse",
-          "industry": "manufacturing",
-          "posted_at": "2026-08-22T00:00:00+00:00",
-          "source": "Job Center of Wisconsin",
-          "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dLa%2bCrosse%26dist%3d%26edu%3d%26kwords%3d%26loc%3dLa%2bCrosse%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d",
-          "external_id": "jcw:la crosse:machine operator - assembler:08/22/2026:aerotek",
-          "verified": true
-        }
-      ]
-    },
     {
       "name": "SHERWIN WILLIAMS CO",
       "slug": "sherwin williams",

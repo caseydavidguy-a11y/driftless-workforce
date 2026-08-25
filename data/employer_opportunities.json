@@ -1,239 +1,5 @@
 [
   {
-    "employer": "AEROTEK",
-    "slug": "aerotek",
-    "score": 45,
-    "priority": "Monitor",
-    "opening_count": 2,
-    "verified_opening_count": 2,
-    "locations": [
-      "La Crosse"
-    ],
-    "industries": [
-      "hospitality",
-      "manufacturing"
-    ],
-    "hiring_summary": "AEROTEK has 2 observed opening(s) across 1 local location(s).",
-    "reasons": [
-      "2 observed openings indicate active hiring",
-      "2 opening(s) are source-verified",
-      "Hiring overlaps Driftless Workforce target industries"
-    ],
-    "target_roles": [
-      "manufacturing / production"
-    ],
-    "industries_detected": [
-      "hospitality",
-      "manufacturing"
-    ],
-    "decision_maker_roles": [
-      "HR / Talent Acquisition",
-      "Department Manager"
-    ],
-    "contact_path": "Find HR/Talent Acquisition or the hiring manager through the employer's official site or public professional profile. Do not guess an email address.",
-    "outreach_angle": "Lead with the specific hard-to-fill role and offer a focused candidate-sourcing conversation rather than a generic staffing pitch.",
-    "evidence": [
-      "Food Production \u2014 La Crosse [Job Center of Wisconsin]",
-      "Machine Operator - Assembler \u2014 La Crosse [Job Center of Wisconsin]"
-    ],
-    "momentum_7d": {
-      "days": 7,
-      "change": 1,
-      "pct": 100,
-      "direction": "up",
-      "points": [
-        {
-          "captured_at": "2026-08-24T22:18:07.204524+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-24T22:19:41.611533+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-24T23:03:06.494647+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-24T23:57:39.200612+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-25T03:28:06.458548+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-25T04:33:57.863405+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-25T04:36:51.609952+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-25T04:42:08.408482+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-25T04:43:34.201901+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-25T04:44:54.679245+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-25T04:46:42.209580+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-25T05:53:13.270118+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-25T06:27:26.731633+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-25T06:30:21.180190+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-25T06:33:50.276979+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-25T08:23:56.367180+00:00",
-          "opening_count": 2
-        },
-        {
-          "captured_at": "2026-08-25T10:59:17.700709+00:00",
-          "opening_count": 2
-        },
-        {
-          "captured_at": "2026-08-25T14:09:58.220261+00:00",
-          "opening_count": 2
-        },
-        {
-          "captured_at": "2026-08-25T16:18:55.045942+00:00",
-          "opening_count": 2
-        }
-      ]
-    },
-    "momentum_30d": {
-      "days": 30,
-      "change": 1,
-      "pct": 100,
-      "direction": "up",
-      "points": [
-        {
-          "captured_at": "2026-08-24T22:18:07.204524+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-24T22:19:41.611533+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-24T23:03:06.494647+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-24T23:57:39.200612+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-25T03:28:06.458548+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-25T04:33:57.863405+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-25T04:36:51.609952+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-25T04:42:08.408482+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-25T04:43:34.201901+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-25T04:44:54.679245+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-25T04:46:42.209580+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-25T05:53:13.270118+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-25T06:27:26.731633+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-25T06:30:21.180190+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-25T06:33:50.276979+00:00",
-          "opening_count": 1
-        },
-        {
-          "captured_at": "2026-08-25T08:23:56.367180+00:00",
-          "opening_count": 2
-        },
-        {
-          "captured_at": "2026-08-25T10:59:17.700709+00:00",
-          "opening_count": 2
-        },
-        {
-          "captured_at": "2026-08-25T14:09:58.220261+00:00",
-          "opening_count": 2
-        },
-        {
-          "captured_at": "2026-08-25T16:18:55.045942+00:00",
-          "opening_count": 2
-        }
-      ]
-    },
-    "score_breakdown": [
-      {
-        "label": "Base opportunity",
-        "points": 35,
-        "reason": "Underlying employer/opportunity fit"
-      },
-      {
-        "label": "Hiring momentum",
-        "points": 10,
-        "reason": "Up +100% over 7 days"
-      }
-    ],
-    "score_policy_version": 1,
-    "score_policy_capped": false,
-    "jobs": [
-      {
-        "title": "Food Production",
-        "location": "La Crosse",
-        "posted_at": "2026-08-22T00:00:00+00:00",
-        "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dLa%2bCrosse%26dist%3d%26edu%3d%26kwords%3d%26loc%3dLa%2bCrosse%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d"
-      },
-      {
-        "title": "Machine Operator - Assembler",
-        "location": "La Crosse",
-        "posted_at": "2026-08-22T00:00:00+00:00",
-        "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dLa%2bCrosse%26dist%3d%26edu%3d%26kwords%3d%26loc%3dLa%2bCrosse%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d"
-      }
-    ]
-  },
-  {
     "employer": "SHERWIN WILLIAMS CO",
     "slug": "sherwin williams",
     "score": 45,
@@ -351,6 +117,10 @@
         {
           "captured_at": "2026-08-25T16:18:55.045942+00:00",
           "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-25T19:17:13.210197+00:00",
+          "opening_count": 4
         }
       ]
     },
@@ -434,6 +204,10 @@
         },
         {
           "captured_at": "2026-08-25T16:18:55.045942+00:00",
+          "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-25T19:17:13.210197+00:00",
           "opening_count": 4
         }
       ]
@@ -590,6 +364,10 @@
         {
           "captured_at": "2026-08-25T16:18:55.045942+00:00",
           "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T19:17:13.210197+00:00",
+          "opening_count": 1
         }
       ]
     },
@@ -673,6 +451,10 @@
         },
         {
           "captured_at": "2026-08-25T16:18:55.045942+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T19:17:13.210197+00:00",
           "opening_count": 1
         }
       ]
@@ -811,6 +593,10 @@
         {
           "captured_at": "2026-08-25T16:18:55.045942+00:00",
           "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T19:17:13.210197+00:00",
+          "opening_count": 1
         }
       ]
     },
@@ -895,6 +681,10 @@
         {
           "captured_at": "2026-08-25T16:18:55.045942+00:00",
           "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T19:17:13.210197+00:00",
+          "opening_count": 1
         }
       ]
     },
@@ -962,6 +752,10 @@
         {
           "captured_at": "2026-08-25T16:18:55.045942+00:00",
           "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T19:17:13.210197+00:00",
+          "opening_count": 1
         }
       ]
     },
@@ -977,6 +771,10 @@
         },
         {
           "captured_at": "2026-08-25T16:18:55.045942+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T19:17:13.210197+00:00",
           "opening_count": 1
         }
       ]
@@ -1119,6 +917,10 @@
         {
           "captured_at": "2026-08-25T16:18:55.045942+00:00",
           "opening_count": 2
+        },
+        {
+          "captured_at": "2026-08-25T19:17:13.210197+00:00",
+          "opening_count": 2
         }
       ]
     },
@@ -1202,6 +1004,10 @@
         },
         {
           "captured_at": "2026-08-25T16:18:55.045942+00:00",
+          "opening_count": 2
+        },
+        {
+          "captured_at": "2026-08-25T19:17:13.210197+00:00",
           "opening_count": 2
         }
       ]
@@ -1351,6 +1157,10 @@
         {
           "captured_at": "2026-08-25T16:18:55.045942+00:00",
           "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T19:17:13.210197+00:00",
+          "opening_count": 1
         }
       ]
     },
@@ -1434,6 +1244,10 @@
         },
         {
           "captured_at": "2026-08-25T16:18:55.045942+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T19:17:13.210197+00:00",
           "opening_count": 1
         }
       ]
@@ -1570,6 +1384,10 @@
         {
           "captured_at": "2026-08-25T16:18:55.045942+00:00",
           "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T19:17:13.210197+00:00",
+          "opening_count": 1
         }
       ]
     },
@@ -1653,6 +1471,10 @@
         },
         {
           "captured_at": "2026-08-25T16:18:55.045942+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T19:17:13.210197+00:00",
           "opening_count": 1
         }
       ]
@@ -1791,6 +1613,10 @@
         {
           "captured_at": "2026-08-25T16:18:55.045942+00:00",
           "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T19:17:13.210197+00:00",
+          "opening_count": 1
         }
       ]
     },
@@ -1874,6 +1700,10 @@
         },
         {
           "captured_at": "2026-08-25T16:18:55.045942+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T19:17:13.210197+00:00",
           "opening_count": 1
         }
       ]
@@ -2015,6 +1845,10 @@
         {
           "captured_at": "2026-08-25T16:18:55.045942+00:00",
           "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T19:17:13.210197+00:00",
+          "opening_count": 1
         }
       ]
     },
@@ -2098,6 +1932,10 @@
         },
         {
           "captured_at": "2026-08-25T16:18:55.045942+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T19:17:13.210197+00:00",
           "opening_count": 1
         }
       ]
@@ -2239,6 +2077,10 @@
         {
           "captured_at": "2026-08-25T16:18:55.045942+00:00",
           "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T19:17:13.210197+00:00",
+          "opening_count": 1
         }
       ]
     },
@@ -2322,6 +2164,10 @@
         },
         {
           "captured_at": "2026-08-25T16:18:55.045942+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T19:17:13.210197+00:00",
           "opening_count": 1
         }
       ]
@@ -2465,6 +2311,10 @@
         {
           "captured_at": "2026-08-25T16:18:55.045942+00:00",
           "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T19:17:13.210197+00:00",
+          "opening_count": 1
         }
       ]
     },
@@ -2548,6 +2398,10 @@
         },
         {
           "captured_at": "2026-08-25T16:18:55.045942+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T19:17:13.210197+00:00",
           "opening_count": 1
         }
       ]
@@ -2689,6 +2543,10 @@
         {
           "captured_at": "2026-08-25T16:18:55.045942+00:00",
           "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T19:17:13.210197+00:00",
+          "opening_count": 1
         }
       ]
     },
@@ -2772,6 +2630,10 @@
         },
         {
           "captured_at": "2026-08-25T16:18:55.045942+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T19:17:13.210197+00:00",
           "opening_count": 1
         }
       ]
@@ -2915,6 +2777,10 @@
         {
           "captured_at": "2026-08-25T16:18:55.045942+00:00",
           "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T19:17:13.210197+00:00",
+          "opening_count": 1
         }
       ]
     },
@@ -2998,6 +2864,10 @@
         },
         {
           "captured_at": "2026-08-25T16:18:55.045942+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-25T19:17:13.210197+00:00",
           "opening_count": 1
         }
       ]
