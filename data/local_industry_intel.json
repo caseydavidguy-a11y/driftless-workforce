@@ -1,0 +1,119 @@
+{
+  "updated": "2026-08-24",
+  "scope": ["manufacturing", "food_beverage_manufacturing", "warehouse_distribution", "packaging", "transportation", "industrial_maintenance", "engineering", "skilled_trades"],
+  "note": "Only include employers and postings that fit the focused-industry scope. Contacts are public business/HR-routing contacts; do not invent individual names or direct emails.",
+  "employers": [
+    {
+      "name": "Wis-Pak",
+      "industry": "Beverage Manufacturing",
+      "location": "La Crosse, WI",
+      "contact": {"type": "site/main line", "phone": "608-783-0610", "address": "3239 Airport Dr, La Crosse, WI 54603"},
+      "jobs": ["Forklift drivers", "Maintenance technicians", "Syrup batchers", "Machine operators", "Laboratory technicians", "Sanitation specialists"],
+      "source": "https://wis-pak.com/lacrosse-wi/"
+    },
+    {
+      "name": "Performance Foodservice La Crosse",
+      "industry": "Foodservice / Warehouse & Distribution / Transportation",
+      "location": "La Crosse, WI",
+      "contact": {"type": "site/corporate recruiting", "phone": null, "address": "La Crosse, WI"},
+      "jobs": ["Truck Driver, Entry Level National Hiring Event 09-02-26", "Truck Driver", "Warehouse Order Selector", "Fleet Maintenance Manager", "Forklift Operator Nights - Freezer Warehouse", "Forklift Operator, Formula - DAY Shift - Freezer Warehouse", "Truck Driver, Entry Level"],
+      "source": "https://jobs.performancefoodservice.com/job-search-results/location/WI/La-Crosse/"
+    },
+    {
+      "name": "Performance La Crosse Meat",
+      "industry": "Food Manufacturing / Production / Warehouse",
+      "location": "West Salem, WI",
+      "contact": {"type": "site/corporate recruiting", "phone": null, "address": "West Salem, WI"},
+      "jobs": ["Production Associate", "Experienced Meat Cutter", "Meat Cutter Apprentice - Warehouse", "Warehouse, Worker", "Driver, Non-CDL"],
+      "source": "https://jobs.performancefoodservice.com/job-search-results/location/WI/West-Salem/"
+    },
+    {
+      "name": "Inland Packaging",
+      "industry": "Packaging / Manufacturing",
+      "location": "La Crosse, WI",
+      "contact": {"type": "main line / recruiting routing", "phone": "608-788-5800", "address": "2009 West Avenue South, La Crosse, WI 54601"},
+      "jobs": ["Current La Crosse openings — verify live list on careers page"],
+      "source": "https://www.inlandpackaging.com/careers/"
+    },
+    {
+      "name": "Trane Technologies",
+      "industry": "Manufacturing / HVAC / Engineering",
+      "location": "La Crosse, WI",
+      "contact": {"type": "careers/recruiting routing", "phone": null, "address": "La Crosse, WI"},
+      "jobs": ["Controls Mechanical Designer", "Thermal Systems Engineer", "EHS Programs and Compliance Assurance Leader, Americas", "Senior Manufacturing Engineer-Welding", "Test Engineer (Quality & Regulatory)", "Manufacturing Project Manager - Technology", "Engineering Change Coordinator", "Welding Plant Engineer", "Electrical Designer III", "Electrical Designer II", "Lab Materials & Inventory Control Technician II"],
+      "source": "https://jobcenterofwisconsin.com/presentation/JobSeekers/JobOrderList.aspx?OCC=Engineers&ONET=17-2&STCode=&loc=063&tbsel=M"
+    },
+    {
+      "name": "Great Lakes Cheese",
+      "industry": "Food & Beverage Manufacturing",
+      "location": "La Crosse, WI",
+      "contact": {"type": "site/main line", "phone": "608-781-2800", "address": "2200 Enterprise Ave, La Crosse, WI 54603"},
+      "jobs": ["1st Shift Maintenance Inventory Specialist"],
+      "source": "https://jobcenterofwisconsin.com/presentation/JobSeekers/JobOrderList.aspx?OCC=Material+Recording%2C+Scheduling%2C+Dispatching%2C+and+Distributing+Workers&ONET=43-5&STCode=&loc=063&tbsel=M"
+    },
+    {
+      "name": "DuraTech Industries",
+      "industry": "Manufacturing / Printed Electronics / Industrial",
+      "location": "La Crosse, WI",
+      "contact": {"type": "main line / recruiting routing", "phone": "608-781-2570", "email": "dtwebinquiries@duratech.com", "address": "3216 Commerce St, La Crosse, WI 54603"},
+      "jobs": ["Manufacturing Engineer", "On-Line Inspector", "CAD Engineer", "Cost Estimator", "Printed Electronics Engineer", "Maintenance Technician II-2nd or 3rd Shift", "Customer Service Rep", "Accounts Payable"],
+      "source": "https://www.duratech.com/careers/"
+    },
+    {
+      "name": "City Brewing Company",
+      "industry": "Beverage Manufacturing / Packaging / Warehouse",
+      "location": "La Crosse, WI",
+      "contact": {"type": "site/main line", "phone": "608-785-4200", "address": "925 3rd St S, La Crosse, WI 54601"},
+      "jobs": ["Packaging Associate", "Forklift Operator", "Packaging Maintenance Technician", "Warehouse Supervisor- 2nd Shift", "Facilities Maintenance Supervisor", "Maintenance Planner/Scheduler", "Brewing Supervisor - 3rd shift", "Process Maintenance Technician", "Electrician", "Wastewater Treatment Plant Operator", "Maintenance Inventory Coordinator", "Building Services Technician", "Production Supervisor- 3rd Shift"],
+      "source": "https://www.linkedin.com/company/city-brewing-company/jobs"
+    },
+    {
+      "name": "Ace Hardware Distribution Center",
+      "industry": "Warehouse & Distribution",
+      "location": "La Crosse, WI",
+      "contact": {"type": "facility/main line", "phone": "608-783-7771", "address": "500 Fanta Reed Pl, La Crosse, WI 54603"},
+      "jobs": ["Warehouse Specialist", "Forklift Operator"],
+      "source": "https://www.acehardware.com/careers"
+    },
+    {
+      "name": "Kwik Trip Distribution Center",
+      "industry": "Warehouse & Distribution",
+      "location": "La Crosse, WI",
+      "contact": {"type": "facility/main line", "phone": "608-793-6267", "address": "2025 Kwik Trip Way, La Crosse, WI 54603"},
+      "jobs": ["Kitchens Warehouse Material Handler (2nd Shift)"],
+      "source": "https://jobs.kwiktrip.com/"
+    },
+    {
+      "name": "L.B. White Company",
+      "industry": "Manufacturing / Heating Equipment",
+      "location": "Onalaska, WI",
+      "contact": {"type": "main line / recruiting routing", "phone": "800-345-7200", "address": "411 Mason St, Onalaska, WI 54650"},
+      "jobs": ["Verify current manufacturing openings on company careers page"],
+      "source": "https://www.lbwhite.com/careers"
+    },
+    {
+      "name": "Venture Machine & Tool",
+      "industry": "Tool & Die / Metal Stamping / Manufacturing",
+      "location": "Onalaska, WI",
+      "contact": {"type": "facility/main line", "phone": "608-783-8114", "address": "1109 Venture Pl, Onalaska, WI 54650"},
+      "jobs": ["Verify current skilled manufacturing openings"],
+      "source": "https://www.venturemachine.com/"
+    },
+    {
+      "name": "American Warehousing & Distribution",
+      "industry": "Warehouse & Distribution",
+      "location": "La Crosse, WI",
+      "contact": {"type": "facility/main line", "phone": "608-781-7785", "address": "2820 Commerce St, La Crosse, WI 54603"},
+      "jobs": ["Verify current warehouse/distribution openings"],
+      "source": null
+    },
+    {
+      "name": "Select Custom Solutions – Airport Warehouse",
+      "industry": "Warehouse & Distribution",
+      "location": "La Crosse, WI",
+      "contact": {"type": "facility/main line", "phone": "800-359-2345", "address": "3089 Airport Rd, La Crosse, WI 54603"},
+      "jobs": ["Verify current warehouse/logistics openings"],
+      "source": null
+    }
+  ]
+}
