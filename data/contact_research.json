@@ -1,5 +1,44 @@
 [
   {
+    "employer": "AEROTEK",
+    "score": 45,
+    "priority": "Monitor",
+    "targets": [
+      {
+        "employer": "AEROTEK",
+        "role": "Plant / Operations leader",
+        "priority": 92,
+        "reason": "Manufacturing hiring is often owned or strongly influenced by operations leadership.",
+        "search_queries": [
+          "\"AEROTEK\" \"Plant / Operations leader\"",
+          "\"AEROTEK\" HR recruiting",
+          "\"AEROTEK\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: AEROTEK"
+        ]
+      },
+      {
+        "employer": "AEROTEK",
+        "role": "HR / Recruiting contact",
+        "priority": 80,
+        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
+        "search_queries": [
+          "\"AEROTEK\" \"HR / Recruiting contact\"",
+          "\"AEROTEK\" HR recruiting",
+          "\"AEROTEK\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: AEROTEK"
+        ]
+      }
+    ]
+  },
+  {
     "employer": "SHERWIN WILLIAMS CO",
     "score": 45,
     "priority": "Monitor",
@@ -89,45 +128,6 @@
           "Employer website / careers page",
           "Employer LinkedIn company page",
           "Search engine query: TRANE+TECHNOLOGIES"
-        ]
-      }
-    ]
-  },
-  {
-    "employer": "AEROTEK",
-    "score": 30,
-    "priority": "Low",
-    "targets": [
-      {
-        "employer": "AEROTEK",
-        "role": "Plant / Operations leader",
-        "priority": 92,
-        "reason": "Manufacturing hiring is often owned or strongly influenced by operations leadership.",
-        "search_queries": [
-          "\"AEROTEK\" \"Plant / Operations leader\"",
-          "\"AEROTEK\" HR recruiting",
-          "\"AEROTEK\" careers contact"
-        ],
-        "public_contact_paths": [
-          "Employer website / careers page",
-          "Employer LinkedIn company page",
-          "Search engine query: AEROTEK"
-        ]
-      },
-      {
-        "employer": "AEROTEK",
-        "role": "HR / Recruiting contact",
-        "priority": 80,
-        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
-        "search_queries": [
-          "\"AEROTEK\" \"HR / Recruiting contact\"",
-          "\"AEROTEK\" HR recruiting",
-          "\"AEROTEK\" careers contact"
-        ],
-        "public_contact_paths": [
-          "Employer website / careers page",
-          "Employer LinkedIn company page",
-          "Search engine query: AEROTEK"
         ]
       }
     ]

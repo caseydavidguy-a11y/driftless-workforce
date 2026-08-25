@@ -1,6 +1,19 @@
 {
-  "previous": "2026-08-25T06:30:21.180190+00:00",
-  "current": "2026-08-25T06:33:50.276979+00:00",
-  "changes": [],
+  "previous": "2026-08-25T06:33:50.276979+00:00",
+  "current": "2026-08-25T08:23:56.367180+00:00",
+  "changes": [
+    {
+      "employer": "AEROTEK",
+      "slug": "aerotek",
+      "signals": [
+        {
+          "kind": "volume_increase",
+          "severity": "high",
+          "message": "Openings increased from 1 to 2 (100% increase)",
+          "metric": "+1 / 100%"
+        }
+      ]
+    }
+  ],
   "removed_employers": []
 }
