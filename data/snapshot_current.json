@@ -1,20 +1,32 @@
 {
-  "captured_at": "2026-08-24T23:57:39.200612+00:00",
+  "captured_at": "2026-08-25T03:28:06.458548+00:00",
   "employers": [
     {
       "name": "SEVITA",
       "slug": "sevita",
-      "opening_count": 5,
-      "verified_opening_count": 5,
+      "opening_count": 6,
+      "verified_opening_count": 6,
       "industries": [
         "leadership",
         "operations"
       ],
       "locations": [
         "Holmen",
+        "Onalaska",
         "West Salem"
       ],
       "observations": [
+        {
+          "employer": "SEVITA",
+          "title": "Caregiver",
+          "location": "Onalaska",
+          "industry": "operations",
+          "posted_at": "2026-08-18T00:00:00+00:00",
+          "source": "Job Center of Wisconsin",
+          "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dOnalaska%26dist%3d%26edu%3d%26kwords%3d%26loc%3dOnalaska%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d",
+          "external_id": "jcw:onalaska:caregiver:08/18/2026:sevita",
+          "verified": true
+        },
         {
           "employer": "SEVITA",
           "title": "Caregiver",
@@ -312,8 +324,8 @@
     {
       "name": "WALMART",
       "slug": "walmart",
-      "opening_count": 4,
-      "verified_opening_count": 4,
+      "opening_count": 3,
+      "verified_opening_count": 3,
       "industries": [
         "leadership",
         "operations",
@@ -343,17 +355,6 @@
           "source": "Job Center of Wisconsin",
           "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dOnalaska%26dist%3d%26edu%3d%26kwords%3d%26loc%3dOnalaska%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d",
           "external_id": "jcw:onalaska:pharmacy sales associate:08/22/2026:walmart",
-          "verified": true
-        },
-        {
-          "employer": "WALMART",
-          "title": "(USA) Cake Decorator",
-          "location": "Onalaska",
-          "industry": "operations",
-          "posted_at": "2026-08-19T00:00:00+00:00",
-          "source": "Job Center of Wisconsin",
-          "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dOnalaska%26dist%3d%26edu%3d%26kwords%3d%26loc%3dOnalaska%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d",
-          "external_id": "jcw:onalaska:(usa) cake decorator:08/19/2026:walmart",
           "verified": true
         },
         {

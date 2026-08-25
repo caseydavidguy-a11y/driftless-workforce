@@ -2,23 +2,24 @@
   {
     "employer": "SEVITA",
     "slug": "sevita",
-    "score": 50,
+    "score": 61,
     "priority": "Monitor",
-    "opening_count": 5,
-    "verified_opening_count": 5,
+    "opening_count": 6,
+    "verified_opening_count": 6,
     "locations": [
       "Holmen",
+      "Onalaska",
       "West Salem"
     ],
     "industries": [
       "leadership",
       "operations"
     ],
-    "hiring_summary": "SEVITA has 5 observed opening(s) across 2 local location(s).",
+    "hiring_summary": "SEVITA has 6 observed opening(s) across 3 local location(s).",
     "reasons": [
-      "5 observed openings indicate meaningful hiring volume",
+      "6 observed openings indicate meaningful hiring volume",
       "Hiring activity spans multiple local locations",
-      "5 opening(s) are source-verified",
+      "6 opening(s) are source-verified",
       "Hiring overlaps Driftless Workforce target industries",
       "Leadership hiring signal: Program Supervisor"
     ],
@@ -38,6 +39,7 @@
     "contact_path": "Find HR/Talent Acquisition or the hiring manager through the employer's official site or public professional profile. Do not guess an email address.",
     "outreach_angle": "Lead with capacity: ask whether current hiring volume is creating bottlenecks and offer targeted recruiting support for roles already being advertised.",
     "evidence": [
+      "Caregiver \u2014 Onalaska [Job Center of Wisconsin]",
       "Caregiver \u2014 Holmen [Job Center of Wisconsin]",
       "Direct Care Staff \u2014 Holmen [Job Center of Wisconsin]",
       "Direct Support Caregiver \u2014 Holmen [Job Center of Wisconsin]",
@@ -61,6 +63,10 @@
         {
           "captured_at": "2026-08-24T23:03:06.494647+00:00",
           "opening_count": 5
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 5
         }
       ]
     },
@@ -81,19 +87,34 @@
         {
           "captured_at": "2026-08-24T23:03:06.494647+00:00",
           "opening_count": 5
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 5
         }
       ]
     },
     "score_breakdown": [
       {
         "label": "Base opportunity",
-        "points": 50,
+        "points": 55,
         "reason": "Underlying employer/opportunity fit"
+      },
+      {
+        "label": "Volume Increase",
+        "points": 6,
+        "reason": "Openings increased from 5 to 6 (20% increase)"
       }
     ],
     "score_policy_version": 1,
     "score_policy_capped": false,
     "jobs": [
+      {
+        "title": "Caregiver",
+        "location": "Onalaska",
+        "posted_at": "2026-08-18T00:00:00+00:00",
+        "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dOnalaska%26dist%3d%26edu%3d%26kwords%3d%26loc%3dOnalaska%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d"
+      },
       {
         "title": "Caregiver",
         "location": "Holmen",
@@ -180,6 +201,10 @@
         {
           "captured_at": "2026-08-24T23:03:06.494647+00:00",
           "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 4
         }
       ]
     },
@@ -199,6 +224,10 @@
         },
         {
           "captured_at": "2026-08-24T23:03:06.494647+00:00",
+          "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
           "opening_count": 4
         }
       ]
@@ -300,6 +329,10 @@
         {
           "captured_at": "2026-08-24T23:03:06.494647+00:00",
           "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 4
         }
       ]
     },
@@ -319,6 +352,10 @@
         },
         {
           "captured_at": "2026-08-24T23:03:06.494647+00:00",
+          "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
           "opening_count": 4
         }
       ]
@@ -413,6 +450,10 @@
         {
           "captured_at": "2026-08-24T23:03:06.494647+00:00",
           "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 4
         }
       ]
     },
@@ -432,6 +473,10 @@
         },
         {
           "captured_at": "2026-08-24T23:03:06.494647+00:00",
+          "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
           "opening_count": 4
         }
       ]
@@ -536,6 +581,10 @@
         {
           "captured_at": "2026-08-24T23:03:06.494647+00:00",
           "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 4
         }
       ]
     },
@@ -555,6 +604,10 @@
         },
         {
           "captured_at": "2026-08-24T23:03:06.494647+00:00",
+          "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
           "opening_count": 4
         }
       ]
@@ -598,10 +651,10 @@
   {
     "employer": "WALMART",
     "slug": "walmart",
-    "score": 45,
+    "score": 42,
     "priority": "Monitor",
-    "opening_count": 4,
-    "verified_opening_count": 4,
+    "opening_count": 3,
+    "verified_opening_count": 3,
     "locations": [
       "Onalaska"
     ],
@@ -610,10 +663,10 @@
       "operations",
       "skilled trades"
     ],
-    "hiring_summary": "WALMART has 4 observed opening(s) across 1 local location(s).",
+    "hiring_summary": "WALMART has 3 observed opening(s) across 1 local location(s).",
     "reasons": [
-      "4 observed openings indicate active hiring",
-      "4 opening(s) are source-verified",
+      "3 observed openings indicate active hiring",
+      "3 opening(s) are source-verified",
       "Hiring overlaps Driftless Workforce target industries",
       "Leadership hiring signal: (USA) Merchandising Lead"
     ],
@@ -637,7 +690,6 @@
     "evidence": [
       "(USA) Merchandising Lead \u2014 Onalaska [Job Center of Wisconsin]",
       "Pharmacy Sales Associate \u2014 Onalaska [Job Center of Wisconsin]",
-      "(USA) Cake Decorator \u2014 Onalaska [Job Center of Wisconsin]",
       "(USA) Tire & Battery Technician - Automotive \u2014 Onalaska [Job Center of Wisconsin]"
     ],
     "momentum_7d": {
@@ -656,6 +708,10 @@
         },
         {
           "captured_at": "2026-08-24T23:03:06.494647+00:00",
+          "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
           "opening_count": 4
         }
       ]
@@ -677,14 +733,23 @@
         {
           "captured_at": "2026-08-24T23:03:06.494647+00:00",
           "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 4
         }
       ]
     },
     "score_breakdown": [
       {
         "label": "Base opportunity",
-        "points": 45,
+        "points": 40,
         "reason": "Underlying employer/opportunity fit"
+      },
+      {
+        "label": "Volume Decrease",
+        "points": 2,
+        "reason": "Openings decreased from 4 to 3"
       }
     ],
     "score_policy_version": 1,
@@ -700,12 +765,6 @@
         "title": "Pharmacy Sales Associate",
         "location": "Onalaska",
         "posted_at": "2026-08-22T00:00:00+00:00",
-        "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dOnalaska%26dist%3d%26edu%3d%26kwords%3d%26loc%3dOnalaska%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d"
-      },
-      {
-        "title": "(USA) Cake Decorator",
-        "location": "Onalaska",
-        "posted_at": "2026-08-19T00:00:00+00:00",
         "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dOnalaska%26dist%3d%26edu%3d%26kwords%3d%26loc%3dOnalaska%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d"
       },
       {
@@ -769,6 +828,10 @@
         {
           "captured_at": "2026-08-24T23:03:06.494647+00:00",
           "opening_count": 3
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 3
         }
       ]
     },
@@ -788,6 +851,10 @@
         },
         {
           "captured_at": "2026-08-24T23:03:06.494647+00:00",
+          "opening_count": 3
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
           "opening_count": 3
         }
       ]
@@ -880,6 +947,10 @@
         {
           "captured_at": "2026-08-24T23:03:06.494647+00:00",
           "opening_count": 3
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 3
         }
       ]
     },
@@ -899,6 +970,10 @@
         },
         {
           "captured_at": "2026-08-24T23:03:06.494647+00:00",
+          "opening_count": 3
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
           "opening_count": 3
         }
       ]
@@ -991,6 +1066,10 @@
         {
           "captured_at": "2026-08-24T23:03:06.494647+00:00",
           "opening_count": 3
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 3
         }
       ]
     },
@@ -1010,6 +1089,10 @@
         },
         {
           "captured_at": "2026-08-24T23:03:06.494647+00:00",
+          "opening_count": 3
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
           "opening_count": 3
         }
       ]
@@ -1096,6 +1179,10 @@
         {
           "captured_at": "2026-08-24T23:03:06.494647+00:00",
           "opening_count": 2
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 2
         }
       ]
     },
@@ -1115,6 +1202,10 @@
         },
         {
           "captured_at": "2026-08-24T23:03:06.494647+00:00",
+          "opening_count": 2
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
           "opening_count": 2
         }
       ]
@@ -1197,6 +1288,10 @@
         {
           "captured_at": "2026-08-24T23:03:06.494647+00:00",
           "opening_count": 2
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 2
         }
       ]
     },
@@ -1216,6 +1311,10 @@
         },
         {
           "captured_at": "2026-08-24T23:03:06.494647+00:00",
+          "opening_count": 2
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
           "opening_count": 2
         }
       ]
@@ -1303,6 +1402,10 @@
         {
           "captured_at": "2026-08-24T23:03:06.494647+00:00",
           "opening_count": 2
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 2
         }
       ]
     },
@@ -1322,6 +1425,10 @@
         },
         {
           "captured_at": "2026-08-24T23:03:06.494647+00:00",
+          "opening_count": 2
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
           "opening_count": 2
         }
       ]
@@ -1405,6 +1512,10 @@
         {
           "captured_at": "2026-08-24T23:03:06.494647+00:00",
           "opening_count": 2
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 2
         }
       ]
     },
@@ -1424,6 +1535,10 @@
         },
         {
           "captured_at": "2026-08-24T23:03:06.494647+00:00",
+          "opening_count": 2
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
           "opening_count": 2
         }
       ]
@@ -1502,6 +1617,10 @@
         {
           "captured_at": "2026-08-24T23:03:06.494647+00:00",
           "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 1
         }
       ]
     },
@@ -1521,6 +1640,10 @@
         },
         {
           "captured_at": "2026-08-24T23:03:06.494647+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
           "opening_count": 1
         }
       ]
@@ -1593,6 +1716,10 @@
         {
           "captured_at": "2026-08-24T23:03:06.494647+00:00",
           "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 1
         }
       ]
     },
@@ -1612,6 +1739,10 @@
         },
         {
           "captured_at": "2026-08-24T23:03:06.494647+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
           "opening_count": 1
         }
       ]
@@ -1686,6 +1817,10 @@
         {
           "captured_at": "2026-08-24T23:03:06.494647+00:00",
           "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 1
         }
       ]
     },
@@ -1705,6 +1840,10 @@
         },
         {
           "captured_at": "2026-08-24T23:03:06.494647+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
           "opening_count": 1
         }
       ]
@@ -1779,6 +1918,10 @@
         {
           "captured_at": "2026-08-24T23:03:06.494647+00:00",
           "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 1
         }
       ]
     },
@@ -1798,6 +1941,10 @@
         },
         {
           "captured_at": "2026-08-24T23:03:06.494647+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
           "opening_count": 1
         }
       ]
@@ -1872,6 +2019,10 @@
         {
           "captured_at": "2026-08-24T23:03:06.494647+00:00",
           "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 1
         }
       ]
     },
@@ -1891,6 +2042,10 @@
         },
         {
           "captured_at": "2026-08-24T23:03:06.494647+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
           "opening_count": 1
         }
       ]
@@ -1963,6 +2118,10 @@
         {
           "captured_at": "2026-08-24T23:03:06.494647+00:00",
           "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 1
         }
       ]
     },
@@ -1982,6 +2141,10 @@
         },
         {
           "captured_at": "2026-08-24T23:03:06.494647+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
           "opening_count": 1
         }
       ]
@@ -2054,6 +2217,10 @@
         {
           "captured_at": "2026-08-24T23:03:06.494647+00:00",
           "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 1
         }
       ]
     },
@@ -2073,6 +2240,10 @@
         },
         {
           "captured_at": "2026-08-24T23:03:06.494647+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
           "opening_count": 1
         }
       ]
@@ -2145,6 +2316,10 @@
         {
           "captured_at": "2026-08-24T23:03:06.494647+00:00",
           "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 1
         }
       ]
     },
@@ -2164,6 +2339,10 @@
         },
         {
           "captured_at": "2026-08-24T23:03:06.494647+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
           "opening_count": 1
         }
       ]
@@ -2236,6 +2415,10 @@
         {
           "captured_at": "2026-08-24T23:03:06.494647+00:00",
           "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 1
         }
       ]
     },
@@ -2255,6 +2438,10 @@
         },
         {
           "captured_at": "2026-08-24T23:03:06.494647+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
           "opening_count": 1
         }
       ]
@@ -2327,6 +2514,10 @@
         {
           "captured_at": "2026-08-24T23:03:06.494647+00:00",
           "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 1
         }
       ]
     },
@@ -2346,6 +2537,10 @@
         },
         {
           "captured_at": "2026-08-24T23:03:06.494647+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
           "opening_count": 1
         }
       ]
@@ -2418,6 +2613,10 @@
         {
           "captured_at": "2026-08-24T23:03:06.494647+00:00",
           "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 1
         }
       ]
     },
@@ -2437,6 +2636,10 @@
         },
         {
           "captured_at": "2026-08-24T23:03:06.494647+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
           "opening_count": 1
         }
       ]
@@ -2511,6 +2714,10 @@
         {
           "captured_at": "2026-08-24T23:03:06.494647+00:00",
           "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 1
         }
       ]
     },
@@ -2530,6 +2737,10 @@
         },
         {
           "captured_at": "2026-08-24T23:03:06.494647+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
           "opening_count": 1
         }
       ]
@@ -2602,6 +2813,10 @@
         {
           "captured_at": "2026-08-24T23:03:06.494647+00:00",
           "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 1
         }
       ]
     },
@@ -2621,6 +2836,10 @@
         },
         {
           "captured_at": "2026-08-24T23:03:06.494647+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
           "opening_count": 1
         }
       ]
@@ -2693,6 +2912,10 @@
         {
           "captured_at": "2026-08-24T23:03:06.494647+00:00",
           "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 1
         }
       ]
     },
@@ -2712,6 +2935,10 @@
         },
         {
           "captured_at": "2026-08-24T23:03:06.494647+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
           "opening_count": 1
         }
       ]
@@ -2784,6 +3011,10 @@
         {
           "captured_at": "2026-08-24T23:03:06.494647+00:00",
           "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
+          "opening_count": 1
         }
       ]
     },
@@ -2803,6 +3034,10 @@
         },
         {
           "captured_at": "2026-08-24T23:03:06.494647+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-24T23:57:39.200612+00:00",
           "opening_count": 1
         }
       ]

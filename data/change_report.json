@@ -1,6 +1,31 @@
 {
-  "previous": "2026-08-24T23:03:06.494647+00:00",
-  "current": "2026-08-24T23:57:39.200612+00:00",
-  "changes": [],
+  "previous": "2026-08-24T23:57:39.200612+00:00",
+  "current": "2026-08-25T03:28:06.458548+00:00",
+  "changes": [
+    {
+      "employer": "SEVITA",
+      "slug": "sevita",
+      "signals": [
+        {
+          "kind": "volume_increase",
+          "severity": "medium",
+          "message": "Openings increased from 5 to 6 (20% increase)",
+          "metric": "+1 / 20%"
+        }
+      ]
+    },
+    {
+      "employer": "WALMART",
+      "slug": "walmart",
+      "signals": [
+        {
+          "kind": "volume_decrease",
+          "severity": "low",
+          "message": "Openings decreased from 4 to 3",
+          "metric": "-1"
+        }
+      ]
+    }
+  ],
   "removed_employers": []
 }
