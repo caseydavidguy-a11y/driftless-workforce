@@ -1,16 +1,303 @@
-<!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Driftless Workforce | Recruiting Command Center</title><link rel="stylesheet" href="styles.css"></head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Driftless Workforce | Recruiting Command Center</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.23.5/babel.min.js"></script>
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; }
+</style>
+</head>
 <body>
-<header class="topbar"><div><div class="eyebrow">DRIFTLESS WORKFORCE</div><h1>Recruiting Command Center</h1><p>Internal recruiting intelligence · jobs · employers · contacts · pipeline</p></div>
-<div class="signals"><a class="status" href="workspace.html">CRM →</a><a class="status" href="https://driftlessworkforcegroup.com" target="_blank">Public site ↗</a></div></header>
-<main>
-<div id="mode" class="mode"></div>
-<section class="metrics" id="metrics"></section>
-<nav class="workspace-nav main-nav"><button class="tab active" data-tab="overview">Overview</button><button class="tab" data-tab="jobs">Jobs</button><button class="tab" data-tab="employers">Employers</button><button class="tab" data-tab="contacts">Contacts</button><button class="tab" data-tab="signals">Signals</button></nav>
-<section id="overview" class="workspace-panel active"><div class="toolbar"><div><h2>Priority employers</h2><p>Employers with the strongest current recruiting opportunity.</p></div><div class="controls"><input id="search" type="search" placeholder="Search employers…"><select id="filter"><option value="ALL">All priorities</option><option value="Pursue">Pursue</option><option value="Monitor">Monitor</option><option value="Low">Low</option></select></div></div><section id="prospects" class="prospects"></section></section>
-<section id="jobs" class="workspace-panel"><div class="toolbar"><div><h2>Job postings</h2><p>Current openings collected from the intelligence source.</p></div><div class="controls"><input id="jobSearch" type="search" placeholder="Search jobs, employers…"></div></div><div id="jobList" class="workspace-table"></div></section>
-<section id="employers" class="workspace-panel"><div class="toolbar"><div><h2>Employer intelligence</h2><p>Hiring activity, opportunity score, industries and next action.</p></div></div><div id="employerList" class="workspace-table"></div></section>
-<section id="contacts" class="workspace-panel"><div class="toolbar"><div><h2>Contacts & decision-makers</h2><p>Publicly discoverable contact targets. No names or details are fabricated.</p></div></div><div id="contactList" class="workspace-table"></div></section>
-<section id="signals" class="workspace-panel"><div class="toolbar"><div><h2>Hiring signals</h2><p>Changes that should trigger research or outreach.</p></div></div><div id="signalList"></div></section>
-</main><footer>Driftless Workforce · Internal Recruiting Command Center</footer><script src="app.js?v=20260824-2"></script></body></html>
+<div id="root"></div>
+<script type="text/babel">
+const { useState, useMemo } = React;
+
+const FACTORS = [
+  { key: "volume", label: "Hiring volume", max: 20 },
+  { key: "persistence", label: "Hiring persistence", max: 15 },
+  { key: "difficulty", label: "Recruiting difficulty", max: 20 },
+  { key: "leadership", label: "Leadership need", max: 15 },
+  { key: "fit", label: "Driftless fit", max: 15 },
+  { key: "access", label: "Employer accessibility", max: 10 },
+  { key: "signal", label: "Opportunity signal", max: 5 },
+];
+
+function score(e) {
+  return FACTORS.reduce((sum, f) => sum + (e[f.key] || 0), 0);
+}
+
+function tier(s) {
+  if (s >= 85) return { label: "PURSUE NOW", color: "#B0472E" };
+  if (s >= 65) return { label: "MONITOR", color: "#8A6D2F" };
+  return { label: "LOW PRIORITY", color: "#5B6660" };
+}
+
+const SEED = [
+  {
+    id: 1, name: "Trane Technologies", industry: "Manufacturing / HVAC", shifts: "Multiple",
+    openings: ["Production Supervisor (x2)", "Maintenance Supervisor", "Manager – Material Planning", "Manufacturing Project Manager", "Materials Planning Analyst"],
+    volume: 18, persistence: 12, difficulty: 18, leadership: 15, fit: 14, access: 8, signal: 5,
+    contact: "Grace Wallace — HR Specialist", phone: "(608) 787-2139", address: "3600 Pammel Creek Rd, La Crosse, WI",
+    approach: "Skilled manufacturing + frontline leadership placements",
+    evidence: "Simultaneous demand across production, maintenance, planning, and engineering layers.",
+  },
+  {
+    id: 2, name: "Great Lakes Cheese", industry: "Food & Beverage Manufacturing", shifts: "2nd & 3rd Shift",
+    openings: ["2nd Shift Line/Utility", "3rd Shift Line/Utility", "3rd Shift Process Cheese Block Setup"],
+    volume: 17, persistence: 13, difficulty: 19, leadership: 6, fit: 15, access: 7, signal: 4,
+    contact: "Rachel Bisbee — VP of HR (corporate)", phone: "(608) 781-2800", address: "2200 Enterprise Ave, La Crosse, WI",
+    approach: "Production staffing — recurring shift gaps across 2nd/3rd shift",
+    evidence: "Three openings posted within the last two weeks across two shifts.",
+  },
+  {
+    id: 3, name: "Ace Hardware Distribution Center", industry: "Warehouse & Distribution", shifts: "Thu–Mon, 8hr shifts",
+    openings: ["Warehouse Specialist", "Forklift Operator"],
+    volume: 12, persistence: 8, difficulty: 12, leadership: 4, fit: 13, access: 8, signal: 3,
+    contact: "Tim McNeal — Facility Manager", phone: "(608) 783-7771", address: "500 Fanta Reed Pl, La Crosse, WI",
+    approach: "Warehouse/distribution vertical — named decision-maker, good access",
+    evidence: "Large local distribution operation with a confirmed on-site manager contact.",
+  },
+  {
+    id: 4, name: "Kwik Trip Distribution/Kitchens", industry: "Warehouse & Distribution", shifts: "2nd Shift",
+    openings: ["Kitchens Warehouse Material Handler (2nd Shift)"],
+    volume: 10, persistence: 9, difficulty: 11, leadership: 2, fit: 13, access: 6, signal: 3,
+    contact: "Site HR", phone: "(608) 793-6050", address: "2025 Kwik Trip Way, La Crosse, WI",
+    approach: "Standing prospect — large local employer, monitor hiring cadence",
+    evidence: "Confirmed current Kitchens warehouse opening, 2nd shift.",
+  },
+  {
+    id: 5, name: "Wis-Pak", industry: "Beverage Manufacturing", shifts: "Varies",
+    openings: ["Production/Line Worker"],
+    volume: 9, persistence: 7, difficulty: 12, leadership: 2, fit: 12, access: 6, signal: 2,
+    contact: "Site HR", phone: "(608) 783-0610", address: "3239 Airport Rd, La Crosse, WI",
+    approach: "Beverage production staffing",
+    evidence: "Active production listing at La Crosse facility.",
+  },
+  {
+    id: 6, name: "Compass Group (Canteen)", industry: "Food & Beverage / Logistics", shifts: "Sun–Thu, varies",
+    openings: ["Warehouse Order Builder (Part Time)"],
+    volume: 8, persistence: 6, difficulty: 9, leadership: 1, fit: 10, access: 6, signal: 2,
+    contact: "Site HR", phone: "(608) 785-8610", address: "515 15th St N, La Crosse, WI",
+    approach: "Part-time warehouse support — lower urgency, good fit for flexible candidates",
+    evidence: "Confirmed via Canteen division listing, order-builder role.",
+  },
+  {
+    id: 7, name: "Sonepar (Viking Electric)", industry: "Electrical Distribution", shifts: "Standard",
+    openings: ["Warehouse / Distribution Support"],
+    volume: 7, persistence: 5, difficulty: 9, leadership: 2, fit: 10, access: 6, signal: 2,
+    contact: "Branch HR", phone: "(608) 796-1761", address: "646 Breezy Point Rd, La Crosse, WI",
+    approach: "Standing prospect — electrical distribution branch",
+    evidence: "Local branch of Sonepar's Viking Electric Supply brand.",
+  },
+  {
+    id: 8, name: "Federal Express (FedEx Ground/Freight)", industry: "Warehouse & Transportation", shifts: "Full & Part Time",
+    openings: ["Warehouse / Package Handler"],
+    volume: 14, persistence: 10, difficulty: 13, leadership: 2, fit: 11, access: 5, signal: 3,
+    contact: "Site HR", phone: "Confirm facility before outreach", address: "La Crosse / Onalaska area — confirm exact facility",
+    approach: "High-volume warehouse/transportation staffing",
+    evidence: "Actively hiring, $17.20/hr starting, warehouse and transportation sector.",
+  },
+];
+
+function Kpi({ label, value, accent }) {
+  return React.createElement("div", { style: styles.kpi },
+    React.createElement("div", { style: styles.kpiLabel }, label),
+    React.createElement("div", { style: { ...styles.kpiValue, color: accent || "#EDE8DD" } }, value)
+  );
+}
+
+function Section({ title, children }) {
+  return React.createElement("div", { style: styles.section },
+    React.createElement("div", { style: styles.sectionTitle }, title),
+    children
+  );
+}
+
+function CommandCenter() {
+  const [employers, setEmployers] = useState(SEED);
+  const [selected, setSelected] = useState(SEED[0].id);
+  const [showAdd, setShowAdd] = useState(false);
+  const [draft, setDraft] = useState({
+    name: "", industry: "", shifts: "", contact: "", approach: "", evidence: "",
+    volume: 10, persistence: 8, difficulty: 10, leadership: 5, fit: 8, access: 5, signal: 2,
+    openings: [],
+  });
+
+  const scored = useMemo(
+    () => employers.map((e) => ({ ...e, score: score(e) })).sort((a, b) => b.score - a.score),
+    [employers]
+  );
+
+  const pursueCount = scored.filter((e) => e.score >= 85).length;
+  const monitorCount = scored.filter((e) => e.score >= 65 && e.score < 85).length;
+  const activeEmployer = scored.find((e) => e.id === selected) || scored[0];
+
+  function addEmployer() {
+    if (!draft.name.trim()) return;
+    const openings = typeof draft.openings === "string"
+      ? draft.openings.split(",").map((s) => s.trim()).filter(Boolean)
+      : draft.openings;
+    const next = { ...draft, openings, id: Date.now() };
+    setEmployers((prev) => [...prev, next]);
+    setSelected(next.id);
+    setShowAdd(false);
+    setDraft({
+      name: "", industry: "", shifts: "", contact: "", approach: "", evidence: "",
+      volume: 10, persistence: 8, difficulty: 10, leadership: 5, fit: 8, access: 5, signal: 2,
+      openings: [],
+    });
+  }
+
+  return React.createElement("div", { style: styles.page },
+    React.createElement("header", { style: styles.header },
+      React.createElement("div", { style: styles.eyebrow }, "DRIFTLESS WORKFORCE GROUP"),
+      React.createElement("h1", { style: styles.h1 }, "Recruiting Command Center"),
+      React.createElement("p", { style: styles.sub }, "Live employer opportunity scoring for the La Crosse & Driftless region"),
+      React.createElement("div", { style: styles.kpiRow },
+        React.createElement(Kpi, { label: "EMPLOYERS TRACKED", value: scored.length }),
+        React.createElement(Kpi, { label: "PURSUE NOW", value: pursueCount, accent: "#B0472E" }),
+        React.createElement(Kpi, { label: "MONITOR", value: monitorCount, accent: "#8A6D2F" }),
+        React.createElement(Kpi, { label: "TOP SCORE", value: scored[0]?.score ?? 0 })
+      )
+    ),
+    React.createElement("div", { style: styles.body },
+      React.createElement("div", { style: styles.listCol },
+        React.createElement("div", { style: styles.listHeader },
+          React.createElement("span", null, "EMPLOYER PIPELINE"),
+          React.createElement("button", { style: styles.addBtn, onClick: () => setShowAdd((s) => !s) }, showAdd ? "Cancel" : "+ Add employer")
+        ),
+        showAdd && React.createElement("div", { style: styles.addForm },
+          React.createElement("input", { style: styles.input, placeholder: "Company name", value: draft.name, onChange: (e) => setDraft({ ...draft, name: e.target.value }) }),
+          React.createElement("input", { style: styles.input, placeholder: "Industry", value: draft.industry, onChange: (e) => setDraft({ ...draft, industry: e.target.value }) }),
+          React.createElement("input", { style: styles.input, placeholder: "Shifts (e.g. 2nd & 3rd)", value: draft.shifts, onChange: (e) => setDraft({ ...draft, shifts: e.target.value }) }),
+          React.createElement("input", { style: styles.input, placeholder: "Open positions, comma separated", onChange: (e) => setDraft({ ...draft, openings: e.target.value }) }),
+          React.createElement("input", { style: styles.input, placeholder: "Best contact (e.g. HR / Operations)", value: draft.contact, onChange: (e) => setDraft({ ...draft, contact: e.target.value }) }),
+          React.createElement("input", { style: styles.input, placeholder: "Evidence (why this score)", value: draft.evidence, onChange: (e) => setDraft({ ...draft, evidence: e.target.value }) }),
+          React.createElement("div", { style: styles.sliders },
+            FACTORS.map((f) => React.createElement("div", { key: f.key, style: styles.sliderRow },
+              React.createElement("span", { style: styles.sliderLabel }, f.label, " ", React.createElement("b", null, draft[f.key]), "/", f.max),
+              React.createElement("input", { type: "range", min: 0, max: f.max, value: draft[f.key], onChange: (e) => setDraft({ ...draft, [f.key]: Number(e.target.value) }) })
+            ))
+          ),
+          React.createElement("div", { style: styles.previewScore }, "Live score preview: ", React.createElement("b", null, score(draft)), "/100"),
+          React.createElement("button", { style: styles.saveBtn, onClick: addEmployer }, "Add to pipeline")
+        ),
+        scored.map((e, i) => {
+          const t = tier(e.score);
+          const active = e.id === activeEmployer?.id;
+          return React.createElement("div", {
+            key: e.id, onClick: () => setSelected(e.id),
+            style: { ...styles.card, ...(active ? styles.cardActive : {}) }
+          },
+            React.createElement("div", { style: styles.cardTop },
+              React.createElement("span", { style: styles.rank }, i + 1),
+              React.createElement("div", { style: { flex: 1 } },
+                React.createElement("div", { style: styles.cardName }, e.name),
+                React.createElement("div", { style: styles.cardIndustry }, e.industry)
+              ),
+              React.createElement("div", { style: { textAlign: "right" } },
+                React.createElement("div", { style: styles.cardScore }, e.score),
+                React.createElement("div", { style: { ...styles.tierPill, background: t.color } }, t.label)
+              )
+            )
+          );
+        })
+      ),
+      React.createElement("div", { style: styles.detailCol },
+        activeEmployer && React.createElement(React.Fragment, null,
+          React.createElement("div", { style: styles.detailHeader },
+            React.createElement("div", null,
+              React.createElement("div", { style: styles.detailEyebrow }, activeEmployer.industry),
+              React.createElement("h2", { style: styles.detailName }, activeEmployer.name)
+            ),
+            React.createElement("div", { style: { ...styles.tierBadge, background: tier(activeEmployer.score).color } },
+              activeEmployer.score, "/100 — ", tier(activeEmployer.score).label)
+          ),
+          React.createElement(Section, { title: "Open positions" },
+            React.createElement("ul", { style: styles.list },
+              activeEmployer.openings.map((o, idx) => React.createElement("li", { key: idx, style: styles.listItem }, o))
+            )
+          ),
+          React.createElement(Section, { title: "Score breakdown" },
+            FACTORS.map((f) => React.createElement("div", { key: f.key, style: styles.barRow },
+              React.createElement("span", { style: styles.barLabel }, f.label),
+              React.createElement("div", { style: styles.barTrack },
+                React.createElement("div", { style: { ...styles.barFill, width: `${(activeEmployer[f.key] / f.max) * 100}%` } })
+              ),
+              React.createElement("span", { style: styles.barValue }, activeEmployer[f.key], "/", f.max)
+            ))
+          ),
+          React.createElement(Section, { title: "Recommended approach" },
+            React.createElement("p", { style: styles.para }, activeEmployer.approach)
+          ),
+          React.createElement(Section, { title: "Evidence" },
+            React.createElement("p", { style: styles.paraMuted }, activeEmployer.evidence)
+          ),
+          React.createElement(Section, { title: "Best contact" },
+            React.createElement("p", { style: styles.para }, activeEmployer.contact),
+            activeEmployer.phone && React.createElement("p", { style: styles.paraMuted }, activeEmployer.phone),
+            activeEmployer.address && React.createElement("p", { style: styles.paraMuted }, activeEmployer.address)
+          )
+        )
+      )
+    )
+  );
+}
+
+const styles = {
+  page: { fontFamily: "'Inter', -apple-system, sans-serif", background: "#F4F2ED", minHeight: "100vh", color: "#232019" },
+  header: { background: "#161A15", color: "#EDE8DD", padding: "40px 32px 28px" },
+  eyebrow: { fontSize: 12, letterSpacing: 2, fontWeight: 700, color: "#9AA89A", marginBottom: 10 },
+  h1: { fontSize: 34, fontWeight: 800, margin: "0 0 8px", letterSpacing: -0.5 },
+  sub: { fontSize: 15, color: "#B7BDB2", margin: "0 0 28px" },
+  kpiRow: { display: "flex", gap: 14, flexWrap: "wrap" },
+  kpi: { background: "#1F241D", borderRadius: 12, padding: "14px 18px", minWidth: 120 },
+  kpiLabel: { fontSize: 11, letterSpacing: 1, color: "#8B958A", fontWeight: 700, marginBottom: 6 },
+  kpiValue: { fontSize: 30, fontWeight: 800 },
+  body: { display: "flex", gap: 24, padding: "28px 32px 60px", maxWidth: 1200, margin: "0 auto", alignItems: "flex-start", flexWrap: "wrap" },
+  listCol: { flex: "1 1 380px", minWidth: 320 },
+  listHeader: { display: "flex", justifyContent: "space-between", alignItems: "center", fontSize: 12, fontWeight: 700, letterSpacing: 1.5, color: "#6B6355", marginBottom: 12 },
+  addBtn: { background: "#232019", color: "#F4F2ED", border: "none", borderRadius: 8, padding: "6px 12px", fontSize: 12, fontWeight: 700, cursor: "pointer" },
+  card: { background: "#FFFFFF", border: "1px solid #E4DFD3", borderRadius: 12, padding: 16, marginBottom: 10, cursor: "pointer", transition: "border-color 0.15s" },
+  cardActive: { borderColor: "#232019", boxShadow: "0 2px 10px rgba(0,0,0,0.06)" },
+  cardTop: { display: "flex", alignItems: "flex-start", gap: 12 },
+  rank: { fontSize: 13, fontWeight: 800, color: "#B7AF9C", width: 18 },
+  cardName: { fontSize: 16, fontWeight: 700 },
+  cardIndustry: { fontSize: 12.5, color: "#847C6C", marginTop: 2 },
+  cardScore: { fontSize: 22, fontWeight: 800 },
+  tierPill: { fontSize: 10, fontWeight: 700, color: "#fff", padding: "3px 8px", borderRadius: 6, marginTop: 4, letterSpacing: 0.4 },
+  detailCol: { flex: "1 1 420px", minWidth: 320, background: "#FFFFFF", border: "1px solid #E4DFD3", borderRadius: 16, padding: 28 },
+  detailHeader: { display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: 20, gap: 12, flexWrap: "wrap" },
+  detailEyebrow: { fontSize: 12, fontWeight: 700, color: "#847C6C", letterSpacing: 0.5 },
+  detailName: { fontSize: 26, fontWeight: 800, margin: "4px 0 0" },
+  tierBadge: { color: "#fff", fontSize: 12, fontWeight: 700, padding: "8px 14px", borderRadius: 10, whiteSpace: "nowrap" },
+  section: { marginBottom: 22 },
+  sectionTitle: { fontSize: 11, fontWeight: 700, letterSpacing: 1.2, color: "#9A927E", marginBottom: 10, textTransform: "uppercase" },
+  list: { margin: 0, paddingLeft: 18 },
+  listItem: { fontSize: 14.5, marginBottom: 6, color: "#3A362D" },
+  para: { fontSize: 14.5, lineHeight: 1.55, margin: 0, color: "#3A362D" },
+  paraMuted: { fontSize: 13.5, lineHeight: 1.55, margin: 0, color: "#7A7364", fontStyle: "italic" },
+  barRow: { display: "flex", alignItems: "center", gap: 10, marginBottom: 8 },
+  barLabel: { fontSize: 12.5, width: 140, color: "#5C564A", flexShrink: 0 },
+  barTrack: { flex: 1, height: 8, background: "#EEEAE0", borderRadius: 5, overflow: "hidden" },
+  barFill: { height: "100%", background: "#232019", borderRadius: 5 },
+  barValue: { fontSize: 12, width: 40, textAlign: "right", color: "#8B8474" },
+  addForm: { background: "#FFFFFF", border: "1px solid #E4DFD3", borderRadius: 12, padding: 16, marginBottom: 14, display: "flex", flexDirection: "column", gap: 8 },
+  input: { border: "1px solid #DEDACD", borderRadius: 8, padding: "9px 11px", fontSize: 13.5, fontFamily: "inherit" },
+  sliders: { display: "flex", flexDirection: "column", gap: 6, marginTop: 6 },
+  sliderRow: { display: "flex", flexDirection: "column", gap: 2 },
+  sliderLabel: { fontSize: 11.5, color: "#6B6355" },
+  previewScore: { fontSize: 13.5, marginTop: 4, color: "#3A362D" },
+  saveBtn: { background: "#232019", color: "#F4F2ED", border: "none", borderRadius: 8, padding: "10px", fontSize: 13.5, fontWeight: 700, cursor: "pointer", marginTop: 4 },
+};
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(React.createElement(CommandCenter));
+</script>
+</body>
+</html>
