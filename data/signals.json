@@ -1,16 +1,1 @@
-[
-  {
-    "employer": "CONSOLIDATED ENERGY COMPANY",
-    "kind": "new_employer",
-    "severity": "high",
-    "message": "New employer detected in the hiring feed",
-    "metric": "new"
-  },
-  {
-    "employer": "TRANE TECHNOLOGIES",
-    "kind": "volume_decrease",
-    "severity": "low",
-    "message": "Openings decreased from 3 to 1",
-    "metric": "-2"
-  }
-]
+[]

@@ -78,45 +78,6 @@
     ]
   },
   {
-    "employer": "CONSOLIDATED ENERGY COMPANY",
-    "score": 40,
-    "priority": "Monitor",
-    "targets": [
-      {
-        "employer": "CONSOLIDATED ENERGY COMPANY",
-        "role": "Maintenance / Engineering leader",
-        "priority": 86,
-        "reason": "Skilled-trades hiring often routes through maintenance or engineering leadership.",
-        "search_queries": [
-          "\"CONSOLIDATED ENERGY COMPANY\" \"Maintenance / Engineering leader\"",
-          "\"CONSOLIDATED ENERGY COMPANY\" HR recruiting",
-          "\"CONSOLIDATED ENERGY COMPANY\" careers contact"
-        ],
-        "public_contact_paths": [
-          "Employer website / careers page",
-          "Employer LinkedIn company page",
-          "Search engine query: CONSOLIDATED+ENERGY+COMPANY"
-        ]
-      },
-      {
-        "employer": "CONSOLIDATED ENERGY COMPANY",
-        "role": "HR / Recruiting contact",
-        "priority": 80,
-        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
-        "search_queries": [
-          "\"CONSOLIDATED ENERGY COMPANY\" \"HR / Recruiting contact\"",
-          "\"CONSOLIDATED ENERGY COMPANY\" HR recruiting",
-          "\"CONSOLIDATED ENERGY COMPANY\" careers contact"
-        ],
-        "public_contact_paths": [
-          "Employer website / careers page",
-          "Employer LinkedIn company page",
-          "Search engine query: CONSOLIDATED+ENERGY+COMPANY"
-        ]
-      }
-    ]
-  },
-  {
     "employer": "ANYTIME FITNESS",
     "score": 30,
     "priority": "Low",
@@ -195,6 +156,45 @@
     ]
   },
   {
+    "employer": "CONSOLIDATED ENERGY COMPANY",
+    "score": 30,
+    "priority": "Low",
+    "targets": [
+      {
+        "employer": "CONSOLIDATED ENERGY COMPANY",
+        "role": "Maintenance / Engineering leader",
+        "priority": 86,
+        "reason": "Skilled-trades hiring often routes through maintenance or engineering leadership.",
+        "search_queries": [
+          "\"CONSOLIDATED ENERGY COMPANY\" \"Maintenance / Engineering leader\"",
+          "\"CONSOLIDATED ENERGY COMPANY\" HR recruiting",
+          "\"CONSOLIDATED ENERGY COMPANY\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: CONSOLIDATED+ENERGY+COMPANY"
+        ]
+      },
+      {
+        "employer": "CONSOLIDATED ENERGY COMPANY",
+        "role": "HR / Recruiting contact",
+        "priority": 80,
+        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
+        "search_queries": [
+          "\"CONSOLIDATED ENERGY COMPANY\" \"HR / Recruiting contact\"",
+          "\"CONSOLIDATED ENERGY COMPANY\" HR recruiting",
+          "\"CONSOLIDATED ENERGY COMPANY\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: CONSOLIDATED+ENERGY+COMPANY"
+        ]
+      }
+    ]
+  },
+  {
     "employer": "COUNTY MATERIALS CORPORATION",
     "score": 30,
     "priority": "Low",
@@ -268,45 +268,6 @@
           "Employer website / careers page",
           "Employer LinkedIn company page",
           "Search engine query: J+F+AHERN"
-        ]
-      }
-    ]
-  },
-  {
-    "employer": "TRANE TECHNOLOGIES",
-    "score": 30,
-    "priority": "Low",
-    "targets": [
-      {
-        "employer": "TRANE TECHNOLOGIES",
-        "role": "Maintenance / Engineering leader",
-        "priority": 86,
-        "reason": "Skilled-trades hiring often routes through maintenance or engineering leadership.",
-        "search_queries": [
-          "\"TRANE TECHNOLOGIES\" \"Maintenance / Engineering leader\"",
-          "\"TRANE TECHNOLOGIES\" HR recruiting",
-          "\"TRANE TECHNOLOGIES\" careers contact"
-        ],
-        "public_contact_paths": [
-          "Employer website / careers page",
-          "Employer LinkedIn company page",
-          "Search engine query: TRANE+TECHNOLOGIES"
-        ]
-      },
-      {
-        "employer": "TRANE TECHNOLOGIES",
-        "role": "HR / Recruiting contact",
-        "priority": 80,
-        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
-        "search_queries": [
-          "\"TRANE TECHNOLOGIES\" \"HR / Recruiting contact\"",
-          "\"TRANE TECHNOLOGIES\" HR recruiting",
-          "\"TRANE TECHNOLOGIES\" careers contact"
-        ],
-        "public_contact_paths": [
-          "Employer website / careers page",
-          "Employer LinkedIn company page",
-          "Search engine query: TRANE+TECHNOLOGIES"
         ]
       }
     ]
@@ -502,6 +463,45 @@
           "Employer website / careers page",
           "Employer LinkedIn company page",
           "Search engine query: MICHAELS"
+        ]
+      }
+    ]
+  },
+  {
+    "employer": "TRANE TECHNOLOGIES",
+    "score": 23,
+    "priority": "Low",
+    "targets": [
+      {
+        "employer": "TRANE TECHNOLOGIES",
+        "role": "Maintenance / Engineering leader",
+        "priority": 86,
+        "reason": "Skilled-trades hiring often routes through maintenance or engineering leadership.",
+        "search_queries": [
+          "\"TRANE TECHNOLOGIES\" \"Maintenance / Engineering leader\"",
+          "\"TRANE TECHNOLOGIES\" HR recruiting",
+          "\"TRANE TECHNOLOGIES\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: TRANE+TECHNOLOGIES"
+        ]
+      },
+      {
+        "employer": "TRANE TECHNOLOGIES",
+        "role": "HR / Recruiting contact",
+        "priority": 80,
+        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
+        "search_queries": [
+          "\"TRANE TECHNOLOGIES\" \"HR / Recruiting contact\"",
+          "\"TRANE TECHNOLOGIES\" HR recruiting",
+          "\"TRANE TECHNOLOGIES\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: TRANE+TECHNOLOGIES"
         ]
       }
     ]
