@@ -1,9 +1,1 @@
-[
-  {
-    "employer": "AEROTEK",
-    "kind": "volume_increase",
-    "severity": "high",
-    "message": "Openings increased from 1 to 2 (100% increase)",
-    "metric": "+1 / 100%"
-  }
-]
+[]
