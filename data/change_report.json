@@ -1,19 +1,6 @@
 {
-  "previous": "2026-08-25T23:35:40.454499+00:00",
-  "current": "2026-08-26T03:39:26.859645+00:00",
-  "changes": [
-    {
-      "employer": "BIMBO BAKERIES USA INC",
-      "slug": "bimbo bakeries usa",
-      "signals": [
-        {
-          "kind": "new_employer",
-          "severity": "high",
-          "message": "New employer detected in the hiring feed",
-          "metric": "new"
-        }
-      ]
-    }
-  ],
+  "previous": "2026-08-26T03:39:26.859645+00:00",
+  "current": "2026-08-26T05:45:16.167701+00:00",
+  "changes": [],
   "removed_employers": []
 }

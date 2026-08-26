@@ -39,45 +39,6 @@
     ]
   },
   {
-    "employer": "BIMBO BAKERIES USA INC",
-    "score": 40,
-    "priority": "Monitor",
-    "targets": [
-      {
-        "employer": "BIMBO BAKERIES USA INC",
-        "role": "Plant / Operations leader",
-        "priority": 92,
-        "reason": "Manufacturing hiring is often owned or strongly influenced by operations leadership.",
-        "search_queries": [
-          "\"BIMBO BAKERIES USA INC\" \"Plant / Operations leader\"",
-          "\"BIMBO BAKERIES USA INC\" HR recruiting",
-          "\"BIMBO BAKERIES USA INC\" careers contact"
-        ],
-        "public_contact_paths": [
-          "Employer website / careers page",
-          "Employer LinkedIn company page",
-          "Search engine query: BIMBO+BAKERIES+USA+INC"
-        ]
-      },
-      {
-        "employer": "BIMBO BAKERIES USA INC",
-        "role": "HR / Recruiting contact",
-        "priority": 80,
-        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
-        "search_queries": [
-          "\"BIMBO BAKERIES USA INC\" \"HR / Recruiting contact\"",
-          "\"BIMBO BAKERIES USA INC\" HR recruiting",
-          "\"BIMBO BAKERIES USA INC\" careers contact"
-        ],
-        "public_contact_paths": [
-          "Employer website / careers page",
-          "Employer LinkedIn company page",
-          "Search engine query: BIMBO+BAKERIES+USA+INC"
-        ]
-      }
-    ]
-  },
-  {
     "employer": "ANYTIME FITNESS",
     "score": 30,
     "priority": "Low",
@@ -112,6 +73,45 @@
           "Employer website / careers page",
           "Employer LinkedIn company page",
           "Search engine query: ANYTIME+FITNESS"
+        ]
+      }
+    ]
+  },
+  {
+    "employer": "BIMBO BAKERIES USA INC",
+    "score": 30,
+    "priority": "Low",
+    "targets": [
+      {
+        "employer": "BIMBO BAKERIES USA INC",
+        "role": "Plant / Operations leader",
+        "priority": 92,
+        "reason": "Manufacturing hiring is often owned or strongly influenced by operations leadership.",
+        "search_queries": [
+          "\"BIMBO BAKERIES USA INC\" \"Plant / Operations leader\"",
+          "\"BIMBO BAKERIES USA INC\" HR recruiting",
+          "\"BIMBO BAKERIES USA INC\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: BIMBO+BAKERIES+USA+INC"
+        ]
+      },
+      {
+        "employer": "BIMBO BAKERIES USA INC",
+        "role": "HR / Recruiting contact",
+        "priority": 80,
+        "reason": "General recruiting contact is the safest fallback when an exact hiring owner is unknown.",
+        "search_queries": [
+          "\"BIMBO BAKERIES USA INC\" \"HR / Recruiting contact\"",
+          "\"BIMBO BAKERIES USA INC\" HR recruiting",
+          "\"BIMBO BAKERIES USA INC\" careers contact"
+        ],
+        "public_contact_paths": [
+          "Employer website / careers page",
+          "Employer LinkedIn company page",
+          "Search engine query: BIMBO+BAKERIES+USA+INC"
         ]
       }
     ]

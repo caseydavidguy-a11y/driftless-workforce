@@ -133,6 +133,10 @@
         {
           "captured_at": "2026-08-25T23:35:40.454499+00:00",
           "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-26T03:39:26.859645+00:00",
+          "opening_count": 4
         }
       ]
     },
@@ -233,6 +237,10 @@
         {
           "captured_at": "2026-08-25T23:35:40.454499+00:00",
           "opening_count": 4
+        },
+        {
+          "captured_at": "2026-08-26T03:39:26.859645+00:00",
+          "opening_count": 4
         }
       ]
     },
@@ -269,76 +277,6 @@
         "location": "Holmen",
         "posted_at": "2026-07-02T00:00:00+00:00",
         "source_url": "https://jobcenterofwisconsin.com/Presentation/JobSeekers/EnhancedJobs-det.aspx?OrderNumber=004021930"
-      }
-    ]
-  },
-  {
-    "employer": "BIMBO BAKERIES USA INC",
-    "slug": "bimbo bakeries usa",
-    "score": 40,
-    "priority": "Monitor",
-    "opening_count": 1,
-    "verified_opening_count": 1,
-    "locations": [
-      "La Crosse"
-    ],
-    "industries": [
-      "manufacturing"
-    ],
-    "hiring_summary": "BIMBO BAKERIES USA INC has 1 observed opening(s) across 1 local location(s).",
-    "reasons": [
-      "1 opening(s) are source-verified",
-      "Hiring overlaps Driftless Workforce target industries"
-    ],
-    "target_roles": [
-      "manufacturing / production"
-    ],
-    "industries_detected": [
-      "manufacturing"
-    ],
-    "decision_maker_roles": [
-      "HR / Talent Acquisition",
-      "Department Manager"
-    ],
-    "contact_path": "Find HR/Talent Acquisition or the hiring manager through the employer's official site or public professional profile. Do not guess an email address.",
-    "outreach_angle": "Lead with the specific hard-to-fill role and offer a focused candidate-sourcing conversation rather than a generic staffing pitch.",
-    "evidence": [
-      "Production Associate \u2014 La Crosse [Job Center of Wisconsin]"
-    ],
-    "momentum_7d": {
-      "days": 7,
-      "change": 0,
-      "pct": 0,
-      "direction": "baseline",
-      "points": []
-    },
-    "momentum_30d": {
-      "days": 30,
-      "change": 0,
-      "pct": 0,
-      "direction": "baseline",
-      "points": []
-    },
-    "score_breakdown": [
-      {
-        "label": "Base opportunity",
-        "points": 30,
-        "reason": "Underlying employer/opportunity fit"
-      },
-      {
-        "label": "New Employer",
-        "points": 10,
-        "reason": "New employer observed with 1 opening(s)"
-      }
-    ],
-    "score_policy_version": 1,
-    "score_policy_capped": false,
-    "jobs": [
-      {
-        "title": "Production Associate",
-        "location": "La Crosse",
-        "posted_at": "2026-08-24T00:00:00+00:00",
-        "source_url": "https://jobcenterofwisconsin.com/Presentation/JobSeekers/EnhancedJobs-det.aspx?OrderNumber=004046205"
       }
     ]
   },
@@ -474,6 +412,10 @@
         {
           "captured_at": "2026-08-25T23:35:40.454499+00:00",
           "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-26T03:39:26.859645+00:00",
+          "opening_count": 1
         }
       ]
     },
@@ -574,6 +516,10 @@
         {
           "captured_at": "2026-08-25T23:35:40.454499+00:00",
           "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-26T03:39:26.859645+00:00",
+          "opening_count": 1
         }
       ]
     },
@@ -592,6 +538,81 @@
         "location": "West Salem",
         "posted_at": "2026-06-04T00:00:00+00:00",
         "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dWest%2bSalem%26dist%3d%26edu%3d%26kwords%3d%26loc%3dWest%2bSalem%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d"
+      }
+    ]
+  },
+  {
+    "employer": "BIMBO BAKERIES USA INC",
+    "slug": "bimbo bakeries usa",
+    "score": 30,
+    "priority": "Low",
+    "opening_count": 1,
+    "verified_opening_count": 1,
+    "locations": [
+      "La Crosse"
+    ],
+    "industries": [
+      "manufacturing"
+    ],
+    "hiring_summary": "BIMBO BAKERIES USA INC has 1 observed opening(s) across 1 local location(s).",
+    "reasons": [
+      "1 opening(s) are source-verified",
+      "Hiring overlaps Driftless Workforce target industries"
+    ],
+    "target_roles": [
+      "manufacturing / production"
+    ],
+    "industries_detected": [
+      "manufacturing"
+    ],
+    "decision_maker_roles": [
+      "HR / Talent Acquisition",
+      "Department Manager"
+    ],
+    "contact_path": "Find HR/Talent Acquisition or the hiring manager through the employer's official site or public professional profile. Do not guess an email address.",
+    "outreach_angle": "Lead with the specific hard-to-fill role and offer a focused candidate-sourcing conversation rather than a generic staffing pitch.",
+    "evidence": [
+      "Production Associate \u2014 La Crosse [Job Center of Wisconsin]"
+    ],
+    "momentum_7d": {
+      "days": 7,
+      "change": 0,
+      "pct": 0,
+      "direction": "baseline",
+      "points": [
+        {
+          "captured_at": "2026-08-26T03:39:26.859645+00:00",
+          "opening_count": 1
+        }
+      ]
+    },
+    "momentum_30d": {
+      "days": 30,
+      "change": 0,
+      "pct": 0,
+      "direction": "baseline",
+      "points": [
+        {
+          "captured_at": "2026-08-26T03:39:26.859645+00:00",
+          "opening_count": 1
+        }
+      ]
+    },
+    "score_breakdown": [
+      {
+        "label": "Base opportunity",
+        "points": 30,
+        "reason": "Underlying employer/opportunity fit"
+      }
+    ],
+    "score_policy_version": 1,
+    "score_policy_capped": false,
+    "jobs": [
+      {
+        "title": "Production Associate",
+        "location": "La Crosse",
+        "posted_at": "2026-08-24T00:00:00+00:00",
+        "source_url": "https://jobcenterofwisconsin.com/Presentation/JobSeekers/EnhancedJobs-det.aspx?OrderNumber=004046205"
       }
     ]
   },
@@ -727,6 +748,10 @@
         {
           "captured_at": "2026-08-25T23:35:40.454499+00:00",
           "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-26T03:39:26.859645+00:00",
+          "opening_count": 1
         }
       ]
     },
@@ -827,6 +852,10 @@
         {
           "captured_at": "2026-08-25T23:35:40.454499+00:00",
           "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-26T03:39:26.859645+00:00",
+          "opening_count": 1
         }
       ]
     },
@@ -910,6 +939,10 @@
         {
           "captured_at": "2026-08-25T23:35:40.454499+00:00",
           "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-26T03:39:26.859645+00:00",
+          "opening_count": 1
         }
       ]
     },
@@ -941,6 +974,10 @@
         },
         {
           "captured_at": "2026-08-25T23:35:40.454499+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-26T03:39:26.859645+00:00",
           "opening_count": 1
         }
       ]
@@ -1099,6 +1136,10 @@
         {
           "captured_at": "2026-08-25T23:35:40.454499+00:00",
           "opening_count": 2
+        },
+        {
+          "captured_at": "2026-08-26T03:39:26.859645+00:00",
+          "opening_count": 2
         }
       ]
     },
@@ -1198,6 +1239,10 @@
         },
         {
           "captured_at": "2026-08-25T23:35:40.454499+00:00",
+          "opening_count": 2
+        },
+        {
+          "captured_at": "2026-08-26T03:39:26.859645+00:00",
           "opening_count": 2
         }
       ]
@@ -1363,6 +1408,10 @@
         {
           "captured_at": "2026-08-25T23:35:40.454499+00:00",
           "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-26T03:39:26.859645+00:00",
+          "opening_count": 1
         }
       ]
     },
@@ -1462,6 +1511,10 @@
         },
         {
           "captured_at": "2026-08-25T23:35:40.454499+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-26T03:39:26.859645+00:00",
           "opening_count": 1
         }
       ]
@@ -1614,6 +1667,10 @@
         {
           "captured_at": "2026-08-25T23:35:40.454499+00:00",
           "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-26T03:39:26.859645+00:00",
+          "opening_count": 1
         }
       ]
     },
@@ -1713,6 +1770,10 @@
         },
         {
           "captured_at": "2026-08-25T23:35:40.454499+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-26T03:39:26.859645+00:00",
           "opening_count": 1
         }
       ]
@@ -1867,6 +1928,10 @@
         {
           "captured_at": "2026-08-25T23:35:40.454499+00:00",
           "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-26T03:39:26.859645+00:00",
+          "opening_count": 1
         }
       ]
     },
@@ -1966,6 +2031,10 @@
         },
         {
           "captured_at": "2026-08-25T23:35:40.454499+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-26T03:39:26.859645+00:00",
           "opening_count": 1
         }
       ]
@@ -2123,6 +2192,10 @@
         {
           "captured_at": "2026-08-25T23:35:40.454499+00:00",
           "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-26T03:39:26.859645+00:00",
+          "opening_count": 1
         }
       ]
     },
@@ -2222,6 +2295,10 @@
         },
         {
           "captured_at": "2026-08-25T23:35:40.454499+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-26T03:39:26.859645+00:00",
           "opening_count": 1
         }
       ]
@@ -2379,6 +2456,10 @@
         {
           "captured_at": "2026-08-25T23:35:40.454499+00:00",
           "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-26T03:39:26.859645+00:00",
+          "opening_count": 1
         }
       ]
     },
@@ -2478,6 +2559,10 @@
         },
         {
           "captured_at": "2026-08-25T23:35:40.454499+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-26T03:39:26.859645+00:00",
           "opening_count": 1
         }
       ]
@@ -2637,6 +2722,10 @@
         {
           "captured_at": "2026-08-25T23:35:40.454499+00:00",
           "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-26T03:39:26.859645+00:00",
+          "opening_count": 1
         }
       ]
     },
@@ -2736,6 +2825,10 @@
         },
         {
           "captured_at": "2026-08-25T23:35:40.454499+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-26T03:39:26.859645+00:00",
           "opening_count": 1
         }
       ]
@@ -2893,6 +2986,10 @@
         {
           "captured_at": "2026-08-25T23:35:40.454499+00:00",
           "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-26T03:39:26.859645+00:00",
+          "opening_count": 1
         }
       ]
     },
@@ -2992,6 +3089,10 @@
         },
         {
           "captured_at": "2026-08-25T23:35:40.454499+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-26T03:39:26.859645+00:00",
           "opening_count": 1
         }
       ]
@@ -3151,6 +3252,10 @@
         {
           "captured_at": "2026-08-25T23:35:40.454499+00:00",
           "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-26T03:39:26.859645+00:00",
+          "opening_count": 1
         }
       ]
     },
@@ -3250,6 +3355,10 @@
         },
         {
           "captured_at": "2026-08-25T23:35:40.454499+00:00",
+          "opening_count": 1
+        },
+        {
+          "captured_at": "2026-08-26T03:39:26.859645+00:00",
           "opening_count": 1
         }
       ]

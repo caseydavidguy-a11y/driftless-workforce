@@ -1,9 +1,1 @@
-[
-  {
-    "employer": "BIMBO BAKERIES USA INC",
-    "kind": "new_employer",
-    "severity": "high",
-    "message": "New employer detected in the hiring feed",
-    "metric": "new"
-  }
-]
+[]
