@@ -14,10 +14,17 @@
       if(!r.ok) throw new Error('Command Center source returned '+r.status);
       return r.text();
     });
+    const refresh = await fetch('../data/command_center_refresh.js', {cache:'no-store'}).then(r=>{
+      if(!r.ok) throw new Error('Refresh data returned '+r.status);
+      return r.text();
+    });
+    const refreshScript=document.createElement('script');
+    refreshScript.textContent=refresh;
+    document.head.appendChild(refreshScript);
     const doc = new DOMParser().parseFromString(source,'text/html');
     document.title = doc.title || document.title;
     document.head.insertAdjacentHTML('beforeend', Array.from(doc.head.querySelectorAll('style')).map(s=>s.outerHTML).join('\n'));
-    document.body.innerHTML = doc.body.innerHTML.replace(/<script[\\s\\S]*?<\\/script>/gi,'') || '<div id="root"></div>';
+    document.body.innerHTML = doc.body.innerHTML.replace(/<script[\s\S]*?<\/script>/gi,'') || '<div id="root"></div>';
     if(!document.getElementById('root')) document.body.insertAdjacentHTML('beforeend','<div id="root"></div>');
     function load(src){return new Promise((resolve,reject)=>{const s=document.createElement('script');s.src=src;s.onload=resolve;s.onerror=()=>reject(new Error('Failed to load '+src));document.head.appendChild(s);});}
     await load('https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js');
@@ -25,7 +32,9 @@
     await load('https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.23.5/babel.min.js');
     const babelScript = Array.from(doc.querySelectorAll('script')).find(s => s.type === 'text/babel');
     if(!babelScript) throw new Error('Command Center application script not found');
-    const transformed = Babel.transform(babelScript.textContent,{presets:['react']}).code;
+    let appSource=babelScript.textContent;
+    appSource=appSource.replace('const SEED=[','const SEED=[...(window.DRIFTLESS_REFRESH||[]),');
+    const transformed = Babel.transform(appSource,{presets:['react']}).code;
     new Function('React','ReactDOM',transformed)(window.React,window.ReactDOM);
   } catch(err) {
     document.body.innerHTML='<div style="font-family:system-ui;padding:24px"><h2>Command Center could not load</h2><p>'+String(err.message||err)+'</p></div>';
