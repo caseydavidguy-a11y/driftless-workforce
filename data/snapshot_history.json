@@ -14057,6 +14057,406 @@
           ]
         }
       ]
+    },
+    {
+      "captured_at": "2026-08-26T05:59:57.902452+00:00",
+      "employers": [
+        {
+          "name": "SHERWIN WILLIAMS CO",
+          "slug": "sherwin williams",
+          "opening_count": 4,
+          "verified_opening_count": 4,
+          "industries": [
+            "skilled trades"
+          ],
+          "locations": [
+            "Holmen"
+          ],
+          "observations": [
+            {
+              "employer": "SHERWIN WILLIAMS CO",
+              "title": "Spray Equipment Repair Technician Why is this a Hot Job?",
+              "location": "Holmen",
+              "industry": "skilled trades",
+              "posted_at": "2026-08-21T00:00:00+00:00",
+              "source": "Job Center of Wisconsin",
+              "source_url": "https://jobcenterofwisconsin.com/Presentation/JobSeekers/EnhancedJobs-det.aspx?OrderNumber=004044690",
+              "external_id": "jcw:holmen:spray equipment repair technician why is this a hot job?:08/21/2026:sherwin williams co",
+              "verified": true
+            },
+            {
+              "employer": "SHERWIN-WILLIAMS",
+              "title": "Spray Equipment Repair Technician Why is this a Hot Job?",
+              "location": "Holmen",
+              "industry": "skilled trades",
+              "posted_at": "2026-08-20T00:00:00+00:00",
+              "source": "Job Center of Wisconsin",
+              "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dHolmen%26dist%3d%26edu%3d%26kwords%3d%26loc%3dHolmen%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d",
+              "external_id": "jcw:holmen:spray equipment repair technician why is this a hot job?:08/20/2026:sherwin-williams",
+              "verified": true
+            },
+            {
+              "employer": "SHERWIN WILLIAMS CO",
+              "title": "Spray Equipment Repair Technician Why is this a Hot Job?",
+              "location": "Holmen",
+              "industry": "skilled trades",
+              "posted_at": "2026-07-22T00:00:00+00:00",
+              "source": "Job Center of Wisconsin",
+              "source_url": "https://jobcenterofwisconsin.com/Presentation/JobSeekers/EnhancedJobs-det.aspx?OrderNumber=004030573",
+              "external_id": "jcw:holmen:spray equipment repair technician why is this a hot job?:07/22/2026:sherwin williams co",
+              "verified": true
+            },
+            {
+              "employer": "SHERWIN WILLIAMS CO",
+              "title": "Spray Equipment Repair Technician Why is this a Hot Job?",
+              "location": "Holmen",
+              "industry": "skilled trades",
+              "posted_at": "2026-07-02T00:00:00+00:00",
+              "source": "Job Center of Wisconsin",
+              "source_url": "https://jobcenterofwisconsin.com/Presentation/JobSeekers/EnhancedJobs-det.aspx?OrderNumber=004021930",
+              "external_id": "jcw:holmen:spray equipment repair technician why is this a hot job?:07/02/2026:sherwin williams co",
+              "verified": true
+            }
+          ]
+        },
+        {
+          "name": "ANYTIME FITNESS",
+          "slug": "anytime fitness",
+          "opening_count": 1,
+          "verified_opening_count": 1,
+          "industries": [
+            "leadership"
+          ],
+          "locations": [
+            "West Salem"
+          ],
+          "observations": [
+            {
+              "employer": "ANYTIME FITNESS",
+              "title": "Assistant Gym Manager",
+              "location": "West Salem",
+              "industry": "leadership",
+              "posted_at": "2026-06-04T00:00:00+00:00",
+              "source": "Job Center of Wisconsin",
+              "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dWest%2bSalem%26dist%3d%26edu%3d%26kwords%3d%26loc%3dWest%2bSalem%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d",
+              "external_id": "jcw:west salem:assistant gym manager:06/04/2026:anytime fitness",
+              "verified": true
+            }
+          ]
+        },
+        {
+          "name": "BIMBO BAKERIES USA INC",
+          "slug": "bimbo bakeries usa",
+          "opening_count": 1,
+          "verified_opening_count": 1,
+          "industries": [
+            "manufacturing"
+          ],
+          "locations": [
+            "La Crosse"
+          ],
+          "observations": [
+            {
+              "employer": "BIMBO BAKERIES USA INC",
+              "title": "Production Associate",
+              "location": "La Crosse",
+              "industry": "manufacturing",
+              "posted_at": "2026-08-24T00:00:00+00:00",
+              "source": "Job Center of Wisconsin",
+              "source_url": "https://jobcenterofwisconsin.com/Presentation/JobSeekers/EnhancedJobs-det.aspx?OrderNumber=004046205",
+              "external_id": "jcw:la crosse:production associate:08/24/2026:bimbo bakeries usa inc",
+              "verified": true
+            }
+          ]
+        },
+        {
+          "name": "BRIDGESTONE AMERICAS",
+          "slug": "bridgestone americas",
+          "opening_count": 1,
+          "verified_opening_count": 1,
+          "industries": [
+            "leadership"
+          ],
+          "locations": [
+            "Onalaska"
+          ],
+          "observations": [
+            {
+              "employer": "BRIDGESTONE AMERICAS",
+              "title": "Service Manager",
+              "location": "Onalaska",
+              "industry": "leadership",
+              "posted_at": "2026-08-22T00:00:00+00:00",
+              "source": "Job Center of Wisconsin",
+              "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dOnalaska%26dist%3d%26edu%3d%26kwords%3d%26loc%3dOnalaska%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d",
+              "external_id": "jcw:onalaska:service manager:08/22/2026:bridgestone americas",
+              "verified": true
+            }
+          ]
+        },
+        {
+          "name": "CONSOLIDATED ENERGY COMPANY",
+          "slug": "consolidated energy",
+          "opening_count": 1,
+          "verified_opening_count": 1,
+          "industries": [
+            "skilled trades"
+          ],
+          "locations": [
+            "Westby"
+          ],
+          "observations": [
+            {
+              "employer": "CONSOLIDATED ENERGY COMPANY",
+              "title": "Service Technician/Truck Driver Why is this a Hot Job?",
+              "location": "Westby",
+              "industry": "skilled trades",
+              "posted_at": "2026-08-24T00:00:00+00:00",
+              "source": "Job Center of Wisconsin",
+              "source_url": "https://jobcenterofwisconsin.com/Presentation/JobSeekers/EnhancedJobs-det.aspx?OrderNumber=004045887",
+              "external_id": "jcw:la crosse:service technician/truck driver why is this a hot job?:08/24/2026:consolidated energy company",
+              "verified": true
+            }
+          ]
+        },
+        {
+          "name": "COUNTY MATERIALS CORPORATION",
+          "slug": "county materials",
+          "opening_count": 2,
+          "verified_opening_count": 2,
+          "industries": [
+            "leadership",
+            "manufacturing"
+          ],
+          "locations": [
+            "Holmen"
+          ],
+          "observations": [
+            {
+              "employer": "COUNTY MATERIALS CORPORATION",
+              "title": "Production Supervisor",
+              "location": "Holmen",
+              "industry": "manufacturing",
+              "posted_at": "2026-08-19T00:00:00+00:00",
+              "source": "Job Center of Wisconsin",
+              "source_url": "https://jobcenterofwisconsin.com/Presentation/JobSeekers/EnhancedJobs-det.aspx?OrderNumber=004043866",
+              "external_id": "jcw:holmen:production supervisor:08/19/2026:county materials corporation",
+              "verified": true
+            },
+            {
+              "employer": "COUNTY MATERIALS CORPORATION",
+              "title": "Operations Plant Operations Manager",
+              "location": "Holmen",
+              "industry": "leadership",
+              "posted_at": "2026-08-16T00:00:00+00:00",
+              "source": "Job Center of Wisconsin",
+              "source_url": "https://jobcenterofwisconsin.com/Presentation/JobSeekers/EnhancedJobs-det.aspx?OrderNumber=004041994",
+              "external_id": "jcw:holmen:operations plant operations manager:08/16/2026:county materials corporation",
+              "verified": true
+            }
+          ]
+        },
+        {
+          "name": "J F AHERN",
+          "slug": "j f ahern",
+          "opening_count": 1,
+          "verified_opening_count": 1,
+          "industries": [
+            "leadership"
+          ],
+          "locations": [
+            "La Crosse"
+          ],
+          "observations": [
+            {
+              "employer": "J F AHERN",
+              "title": "Mechanical Construction Project Manager",
+              "location": "La Crosse",
+              "industry": "leadership",
+              "posted_at": "2026-06-30T00:00:00+00:00",
+              "source": "Job Center of Wisconsin",
+              "source_url": "https://jobcenterofwisconsin.com/Presentation/JobSeekers/EnhancedJobs-det.aspx?OrderNumber=004015382",
+              "external_id": "jcw:holmen:mechanical construction project manager:06/30/2026:j f ahern",
+              "verified": true
+            }
+          ]
+        },
+        {
+          "name": "WOLTER, INC.",
+          "slug": "wolter",
+          "opening_count": 1,
+          "verified_opening_count": 1,
+          "industries": [
+            "skilled trades"
+          ],
+          "locations": [
+            "Location Not Specified"
+          ],
+          "observations": [
+            {
+              "employer": "WOLTER, INC.",
+              "title": "Field Service Mechanic Why is this a Hot Job?",
+              "location": "Location Not Specified",
+              "industry": "skilled trades",
+              "posted_at": "2026-08-03T00:00:00+00:00",
+              "source": "Job Center of Wisconsin",
+              "source_url": "https://jobcenterofwisconsin.com/Presentation/JobSeekers/EnhancedJobs-det.aspx?OrderNumber=004035812",
+              "external_id": "jcw:west salem:field service mechanic why is this a hot job?:08/03/2026:wolter, inc.",
+              "verified": true
+            }
+          ]
+        },
+        {
+          "name": "MONDELEZ INTERNATIONAL",
+          "slug": "mondelez international",
+          "opening_count": 1,
+          "verified_opening_count": 1,
+          "industries": [
+            "leadership"
+          ],
+          "locations": [
+            "Holmen"
+          ],
+          "observations": [
+            {
+              "employer": "MONDELEZ INTERNATIONAL",
+              "title": "Retail Territory Manager Why is this a Hot Job?",
+              "location": "Holmen",
+              "industry": "leadership",
+              "posted_at": "2026-07-04T00:00:00+00:00",
+              "source": "Job Center of Wisconsin",
+              "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dHolmen%26dist%3d%26edu%3d%26kwords%3d%26loc%3dHolmen%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d",
+              "external_id": "jcw:holmen:retail territory manager why is this a hot job?:07/04/2026:mondelez international",
+              "verified": true
+            }
+          ]
+        },
+        {
+          "name": "PEOPLEREADY",
+          "slug": "peopleready",
+          "opening_count": 1,
+          "verified_opening_count": 1,
+          "industries": [
+            "manufacturing"
+          ],
+          "locations": [
+            "West Salem"
+          ],
+          "observations": [
+            {
+              "employer": "PEOPLEREADY",
+              "title": "Quality Inspector",
+              "location": "West Salem",
+              "industry": "manufacturing",
+              "posted_at": "2026-08-14T00:00:00+00:00",
+              "source": "Job Center of Wisconsin",
+              "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dWest%2bSalem%26dist%3d%26edu%3d%26kwords%3d%26loc%3dWest%2bSalem%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d",
+              "external_id": "jcw:west salem:quality inspector:08/14/2026:peopleready",
+              "verified": true
+            }
+          ]
+        },
+        {
+          "name": "KELLY SERVICES",
+          "slug": "kelly services",
+          "opening_count": 1,
+          "verified_opening_count": 1,
+          "industries": [
+            "skilled trades"
+          ],
+          "locations": [
+            "West Salem"
+          ],
+          "observations": [
+            {
+              "employer": "KELLY SERVICES",
+              "title": "Field Service Technician/Mechanic Why is this a Hot Job?",
+              "location": "West Salem",
+              "industry": "skilled trades",
+              "posted_at": "2026-08-17T00:00:00+00:00",
+              "source": "Job Center of Wisconsin",
+              "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dWest%2bSalem%26dist%3d%26edu%3d%26kwords%3d%26loc%3dWest%2bSalem%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d",
+              "external_id": "jcw:west salem:field service technician/mechanic why is this a hot job?:08/17/2026:kelly services",
+              "verified": true
+            }
+          ]
+        },
+        {
+          "name": "MICHAELS",
+          "slug": "michaels",
+          "opening_count": 1,
+          "verified_opening_count": 1,
+          "industries": [
+            "leadership"
+          ],
+          "locations": [
+            "La Crosse"
+          ],
+          "observations": [
+            {
+              "employer": "MICHAELS",
+              "title": "Retail Manager - Sales Full Time",
+              "location": "La Crosse",
+              "industry": "leadership",
+              "posted_at": "2026-08-23T00:00:00+00:00",
+              "source": "Job Center of Wisconsin",
+              "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dLa%2bCrosse%26dist%3d%26edu%3d%26kwords%3d%26loc%3dLa%2bCrosse%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d",
+              "external_id": "jcw:la crosse:retail manager - sales full time:08/23/2026:michaels",
+              "verified": true
+            }
+          ]
+        },
+        {
+          "name": "WALMART",
+          "slug": "walmart",
+          "opening_count": 1,
+          "verified_opening_count": 1,
+          "industries": [
+            "skilled trades"
+          ],
+          "locations": [
+            "Onalaska"
+          ],
+          "observations": [
+            {
+              "employer": "WALMART",
+              "title": "(USA) Tire & Battery Technician - Automotive",
+              "location": "Onalaska",
+              "industry": "skilled trades",
+              "posted_at": "2026-08-18T00:00:00+00:00",
+              "source": "Job Center of Wisconsin",
+              "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dOnalaska%26dist%3d%26edu%3d%26kwords%3d%26loc%3dOnalaska%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d",
+              "external_id": "jcw:onalaska:(usa) tire & battery technician - automotive:08/18/2026:walmart",
+              "verified": true
+            }
+          ]
+        },
+        {
+          "name": "SEVITA",
+          "slug": "sevita",
+          "opening_count": 1,
+          "verified_opening_count": 1,
+          "industries": [
+            "leadership"
+          ],
+          "locations": [
+            "West Salem"
+          ],
+          "observations": [
+            {
+              "employer": "SEVITA",
+              "title": "Program Supervisor",
+              "location": "West Salem",
+              "industry": "leadership",
+              "posted_at": "2026-07-01T00:00:00+00:00",
+              "source": "Job Center of Wisconsin",
+              "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dWest%2bSalem%26dist%3d%26edu%3d%26kwords%3d%26loc%3dWest%2bSalem%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d",
+              "external_id": "jcw:west salem:program supervisor:07/01/2026:sevita",
+              "verified": true
+            }
+          ]
+        }
+      ]
     }
   ]
 }
