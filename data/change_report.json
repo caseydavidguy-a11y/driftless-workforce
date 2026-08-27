@@ -1,6 +1,35 @@
 {
-  "previous": "2026-08-26T08:24:59.063144+00:00",
-  "current": "2026-08-26T11:04:17.123188+00:00",
-  "changes": [],
-  "removed_employers": []
+  "previous": "2026-08-26T11:04:17.123188+00:00",
+  "current": "2026-08-27T05:33:16.179475+00:00",
+  "changes": [
+    {
+      "employer": "GEOLOGICAL SURVEY",
+      "slug": "geological survey",
+      "signals": [
+        {
+          "kind": "new_employer",
+          "severity": "high",
+          "message": "New employer detected in the hiring feed",
+          "metric": "new"
+        }
+      ]
+    },
+    {
+      "employer": "GREAT LAKES CHEESE",
+      "slug": "great lakes cheese",
+      "signals": [
+        {
+          "kind": "new_employer",
+          "severity": "high",
+          "message": "New employer detected in the hiring feed",
+          "metric": "new"
+        }
+      ]
+    }
+  ],
+  "removed_employers": [
+    "bimbo bakeries usa",
+    "consolidated energy",
+    "michaels"
+  ]
 }

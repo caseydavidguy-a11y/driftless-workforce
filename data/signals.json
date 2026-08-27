@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "employer": "GEOLOGICAL SURVEY",
+    "kind": "new_employer",
+    "severity": "high",
+    "message": "New employer detected in the hiring feed",
+    "metric": "new"
+  },
+  {
+    "employer": "GREAT LAKES CHEESE",
+    "kind": "new_employer",
+    "severity": "high",
+    "message": "New employer detected in the hiring feed",
+    "metric": "new"
+  }
+]

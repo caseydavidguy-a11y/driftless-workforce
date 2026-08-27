@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-08-26T11:04:17.123188+00:00",
+  "captured_at": "2026-08-27T05:33:16.179475+00:00",
   "employers": [
     {
       "name": "SHERWIN WILLIAMS CO",
@@ -60,6 +60,56 @@
       ]
     },
     {
+      "name": "GEOLOGICAL SURVEY",
+      "slug": "geological survey",
+      "opening_count": 1,
+      "verified_opening_count": 1,
+      "industries": [
+        "skilled trades"
+      ],
+      "locations": [
+        "La Crosse"
+      ],
+      "observations": [
+        {
+          "employer": "GEOLOGICAL SURVEY",
+          "title": "Maintenance Worker Why is this a Hot Job?",
+          "location": "La Crosse",
+          "industry": "skilled trades",
+          "posted_at": "2026-08-25T00:00:00+00:00",
+          "source": "Job Center of Wisconsin",
+          "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dLa%2bCrosse%26dist%3d%26edu%3d%26kwords%3d%26loc%3dLa%2bCrosse%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d",
+          "external_id": "jcw:la crosse:maintenance worker why is this a hot job?:08/25/2026:geological survey",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "name": "GREAT LAKES CHEESE",
+      "slug": "great lakes cheese",
+      "opening_count": 1,
+      "verified_opening_count": 1,
+      "industries": [
+        "skilled trades"
+      ],
+      "locations": [
+        "La Crosse"
+      ],
+      "observations": [
+        {
+          "employer": "GREAT LAKES CHEESE",
+          "title": "Maintenance Clerk Job Details | Great Lakes Cheese Why is this a Hot Job?",
+          "location": "La Crosse",
+          "industry": "skilled trades",
+          "posted_at": "2026-08-26T00:00:00+00:00",
+          "source": "Job Center of Wisconsin",
+          "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dLa%2bCrosse%26dist%3d%26edu%3d%26kwords%3d%26loc%3dLa%2bCrosse%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d",
+          "external_id": "jcw:la crosse:maintenance clerk job details | great lakes cheese why is this a hot job?:08/26/2026:great lakes cheese",
+          "verified": true
+        }
+      ]
+    },
+    {
       "name": "ANYTIME FITNESS",
       "slug": "anytime fitness",
       "opening_count": 1,
@@ -85,31 +135,6 @@
       ]
     },
     {
-      "name": "BIMBO BAKERIES USA INC",
-      "slug": "bimbo bakeries usa",
-      "opening_count": 1,
-      "verified_opening_count": 1,
-      "industries": [
-        "manufacturing"
-      ],
-      "locations": [
-        "La Crosse"
-      ],
-      "observations": [
-        {
-          "employer": "BIMBO BAKERIES USA INC",
-          "title": "Production Associate",
-          "location": "La Crosse",
-          "industry": "manufacturing",
-          "posted_at": "2026-08-24T00:00:00+00:00",
-          "source": "Job Center of Wisconsin",
-          "source_url": "https://jobcenterofwisconsin.com/Presentation/JobSeekers/EnhancedJobs-det.aspx?OrderNumber=004046205",
-          "external_id": "jcw:la crosse:production associate:08/24/2026:bimbo bakeries usa inc",
-          "verified": true
-        }
-      ]
-    },
-    {
       "name": "BRIDGESTONE AMERICAS",
       "slug": "bridgestone americas",
       "opening_count": 1,
@@ -130,31 +155,6 @@
           "source": "Job Center of Wisconsin",
           "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dOnalaska%26dist%3d%26edu%3d%26kwords%3d%26loc%3dOnalaska%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d",
           "external_id": "jcw:onalaska:service manager:08/22/2026:bridgestone americas",
-          "verified": true
-        }
-      ]
-    },
-    {
-      "name": "CONSOLIDATED ENERGY COMPANY",
-      "slug": "consolidated energy",
-      "opening_count": 1,
-      "verified_opening_count": 1,
-      "industries": [
-        "skilled trades"
-      ],
-      "locations": [
-        "Westby"
-      ],
-      "observations": [
-        {
-          "employer": "CONSOLIDATED ENERGY COMPANY",
-          "title": "Service Technician/Truck Driver Why is this a Hot Job?",
-          "location": "Westby",
-          "industry": "skilled trades",
-          "posted_at": "2026-08-24T00:00:00+00:00",
-          "source": "Job Center of Wisconsin",
-          "source_url": "https://jobcenterofwisconsin.com/Presentation/JobSeekers/EnhancedJobs-det.aspx?OrderNumber=004045887",
-          "external_id": "jcw:la crosse:service technician/truck driver why is this a hot job?:08/24/2026:consolidated energy company",
           "verified": true
         }
       ]
@@ -317,31 +317,6 @@
           "source": "Job Center of Wisconsin",
           "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dWest%2bSalem%26dist%3d%26edu%3d%26kwords%3d%26loc%3dWest%2bSalem%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d",
           "external_id": "jcw:west salem:field service technician/mechanic why is this a hot job?:08/17/2026:kelly services",
-          "verified": true
-        }
-      ]
-    },
-    {
-      "name": "MICHAELS",
-      "slug": "michaels",
-      "opening_count": 1,
-      "verified_opening_count": 1,
-      "industries": [
-        "leadership"
-      ],
-      "locations": [
-        "La Crosse"
-      ],
-      "observations": [
-        {
-          "employer": "MICHAELS",
-          "title": "Retail Manager - Sales Full Time",
-          "location": "La Crosse",
-          "industry": "leadership",
-          "posted_at": "2026-08-23T00:00:00+00:00",
-          "source": "Job Center of Wisconsin",
-          "source_url": "https://jobcenterofwisconsin.com/Login.aspx?ReturnUrl=/Presentation/JobSeekers/JobOrderList.aspx%3fAppr%3dFalse%26MOSCode%3d%26STCode%3d%26city%3dLa%2bCrosse%26dist%3d%26edu%3d%26kwords%3d%26loc%3dLa%2bCrosse%26loctyp%3dCity%26onet%3d%26shft%3d%26src%3dJCW%252cPARTNERS%26tbsel%3dN%26wd%3d%26ww%3d",
-          "external_id": "jcw:la crosse:retail manager - sales full time:08/23/2026:michaels",
           "verified": true
         }
       ]
