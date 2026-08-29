@@ -1,0 +1,92 @@
+name: Complete Research Refresh
+
+# Server-side research backend for the Command Center.
+# GitHub Pages remains the front end; this workflow performs the refresh on GitHub-hosted runners.
+on:
+  workflow_dispatch:
+    inputs:
+      scope:
+        description: 'Research scope'
+        required: false
+        default: 'all-focused-industries'
+        type: choice
+        options:
+          - all-focused-industries
+          - jobs-only
+          - employers-only
+      initiated_by:
+        description: 'Initiator label shown in refresh status'
+        required: false
+        default: 'Command Center'
+        type: string
+  schedule:
+    - cron: '11 7 * * *'
+
+concurrency:
+  group: driftless-complete-refresh
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+
+      - name: Record refresh start
+        shell: bash
+        run: |
+          mkdir -p data
+          cat > data/refresh_status.json <<EOF
+          {
+            "status": "researching",
+            "started_at": "${{ github.event.repository.updated_at || '' }}",
+            "run_id": "${{ github.run_id }}",
+            "scope": "${{ inputs.scope || 'all-focused-industries' }}",
+            "initiated_by": "${{ inputs.initiated_by || 'scheduled refresh' }}"
+          }
+          EOF
+
+      - name: Collect current Job Center openings
+        if: ${{ inputs.scope != 'employers-only' }}
+        run: python scripts/collect_jobcenter.py
+
+      - name: Validate intelligence outputs
+        run: python scripts/validate_outputs.py
+
+      - name: Update refresh status
+        shell: bash
+        run: |
+          cat > data/refresh_status.json <<EOF
+          {
+            "status": "complete",
+            "completed_at": "$(date -u +%Y-%m-%dT%H:%M:%SZ)",
+            "run_id": "${{ github.run_id }}",
+            "scope": "${{ inputs.scope || 'all-focused-industries' }}",
+            "initiated_by": "${{ inputs.initiated_by || 'scheduled refresh' }}"
+          }
+          EOF
+
+      - name: Commit refreshed intelligence
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'Driftless Workforce Bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/
+          git diff --cached --quiet || git commit -m 'Complete research refresh'
+          git pull --rebase origin main
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then exit 0; fi
+            git pull --rebase origin main
+            sleep 2
+          done
+          exit 1
