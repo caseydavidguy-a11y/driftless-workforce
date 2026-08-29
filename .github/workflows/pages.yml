@@ -1,7 +1,6 @@
 name: Deploy Driftless Workforce Command Center
 
 # Deploy the internal recruiting command center from the repository.
-# Pages visibility is enabled; this run verifies the live deploy path.
 on:
   push:
     branches: [main]
@@ -35,12 +34,11 @@ jobs:
           rm -rf site
           mkdir -p site/data
           cp -R frontend/. site/
-          for file in employer_opportunities.json snapshot_history.json change_report.json signals.json contact_research.json current_jobs.csv; do
-            test -f "data/$file"
-            cp "data/$file" "site/data/$file"
-          done
+          # Publish every data layer used by the live Command Center.
+          cp -R data/. site/data/
           test -f site/index.html
-          test -f site/styles.css
+          test -f site/command-center-live.html
+          test -f site/command-center.html
           touch site/.nojekyll
           echo "Publish tree:"
           find site -maxdepth 2 -type f | sort
