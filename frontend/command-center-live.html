@@ -11,10 +11,10 @@
 (async function(){
   try {
     const source = await fetch('command-center.html', {cache:'no-store'}).then(r=>{ if(!r.ok) throw new Error('Command Center source returned '+r.status); return r.text(); });
-    const refresh = await fetch('../data/command_center_refresh.js', {cache:'no-store'}).then(r=>{ if(!r.ok) throw new Error('Refresh data returned '+r.status); return r.text(); });
-    const refresh2 = await fetch('../data/command_center_refresh_2026-08-27.js', {cache:'no-store'}).then(r=>{ if(!r.ok) throw new Error('Additional refresh data returned '+r.status); return r.text(); });
-    const refreshScript=document.createElement('script'); refreshScript.textContent=refresh; document.head.appendChild(refreshScript);
-    const refreshScript2=document.createElement('script'); refreshScript2.textContent=refresh2; document.head.appendChild(refreshScript2);
+    const refresh = await fetch('../data/command_center_refresh.js', {cache:'no-store'}).then(r=>{if(!r.ok) throw new Error('Refresh data returned '+r.status); return r.text();});
+    const refresh2 = await fetch('../data/command_center_refresh_2026-08-27.js', {cache:'no-store'}).then(r=>{if(!r.ok) throw new Error('Refresh 08/27 data returned '+r.status); return r.text();});
+    const refresh3 = await fetch('../data/command_center_refresh_2026-08-29.js', {cache:'no-store'}).then(r=>{if(!r.ok) throw new Error('Refresh 08/29 data returned '+r.status); return r.text();});
+    for(const code of [refresh,refresh2,refresh3]){const s=document.createElement('script');s.textContent=code;document.head.appendChild(s);}
     const doc = new DOMParser().parseFromString(source,'text/html');
     document.title = doc.title || document.title;
     document.head.insertAdjacentHTML('beforeend', Array.from(doc.head.querySelectorAll('style')).map(s=>s.outerHTML).join('\n'));
@@ -27,7 +27,7 @@
     const babelScript = Array.from(doc.querySelectorAll('script')).find(s => s.type === 'text/babel');
     if(!babelScript) throw new Error('Command Center application script not found');
     let appSource=babelScript.textContent;
-    appSource=appSource.replace('const SEED=[','const SEED=[...(window.DRIFTLESS_REFRESH||[]),...(window.DRIFTLESS_REFRESH_0827||[]),');
+    appSource=appSource.replace('const SEED=[','const SEED=[...(window.DRIFTLESS_REFRESH||[]),...(window.DRIFTLESS_REFRESH_0827||[]),...(window.DRIFTLESS_REFRESH_0829||[]),');
     const transformed = Babel.transform(appSource,{presets:['react']}).code;
     new Function('React','ReactDOM',transformed)(window.React,window.ReactDOM);
   } catch(err) {
