@@ -1,0 +1,9 @@
+{
+  "status":"complete",
+  "completed_at":"2026-08-30T23:59:00-05:00",
+  "scope":"all-focused-industries",
+  "last_verified":"2026-08-30",
+  "employers_added":3,
+  "current_postings_added":4,
+  "out_of_scope_excluded":["teaching","cashier","generic retail","medical"]
+}
