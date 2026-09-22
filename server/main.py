@@ -1,5 +1,7 @@
 from __future__ import annotations
 import os
+import json
+from pathlib import Path
 from datetime import datetime, timedelta, timezone
 from typing import Optional
 import jwt
@@ -48,6 +50,22 @@ def token(form:OAuth2PasswordRequestForm=Depends(),s:Session=Depends(db)):
     u=s.scalar(select(User).where(User.email==form.username.lower()))
     if not u or not hasher.verify(form.password,u.password_hash):raise HTTPException(status_code=401,detail='Incorrect email or password')
     exp=datetime.now(timezone.utc)+timedelta(hours=8);return {'access_token':jwt.encode({'sub':str(u.id),'exp':exp},JWT_SECRET,algorithm='HS256'),'token_type':'bearer'}
+@app.get('/prospects')
+def prospects(minimum_score:int=0, priority:str='', limit:int=100, _:User=Depends(current_user)):
+    """Return the current Scout queue from generated employer intelligence."""
+    path=Path(__file__).resolve().parents[1]/'data'/'employer_opportunities.json'
+    if not path.exists(): raise HTTPException(503,'Employer intelligence dataset is not available')
+    try: records=json.loads(path.read_text(encoding='utf-8'))
+    except (OSError,ValueError) as exc: raise HTTPException(500,'Employer intelligence dataset could not be read') from exc
+    queue=[]
+    for item in records:
+        score=int(item.get('score',0))
+        if score < max(0,minimum_score): continue
+        if priority and str(item.get('priority','')).lower()!=priority.lower(): continue
+        queue.append({'employer':item.get('employer',''),'slug':item.get('slug',''),'score':score,'priority':item.get('priority','Low'),'opening_count':int(item.get('opening_count',0)),'verified_opening_count':int(item.get('verified_opening_count',0)),'locations':item.get('locations',[]),'industries':item.get('industries',[]),'target_roles':item.get('target_roles',[]),'decision_maker_roles':item.get('decision_maker_roles',[]),'contact_path':item.get('contact_path',''),'outreach_angle':item.get('outreach_angle',''),'evidence':item.get('evidence',[]),'jobs':item.get('jobs',[]),'status':'new','contact':None,'outreach':{'state':'not_started','next_action':None}})
+    queue.sort(key=lambda x:(-x['score'],-x['verified_opening_count'],-x['opening_count'],x['slug']))
+    return queue[:max(1,min(limit,500))]
+
 @app.get('/employers')
 def employers(_:User=Depends(current_user),s:Session=Depends(db)):return s.scalars(select(Employer).order_by(Employer.name)).all()
 @app.post('/employers')
