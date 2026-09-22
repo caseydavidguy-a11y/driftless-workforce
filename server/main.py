@@ -25,6 +25,8 @@ class Candidate(Base):
     __tablename__='candidates'; id:Mapped[int]=mapped_column(Integer,primary_key=True); name:Mapped[str]=mapped_column(String(255)); skills:Mapped[str]=mapped_column(Text,default=''); location:Mapped[str]=mapped_column(String(255),default=''); available:Mapped[bool]=mapped_column(Boolean,default=True); notes:Mapped[str]=mapped_column(Text,default='')
 class Search(Base):
     __tablename__='searches'; id:Mapped[int]=mapped_column(Integer,primary_key=True); title:Mapped[str]=mapped_column(String(255)); employer_id:Mapped[int]=mapped_column(Integer,index=True); requirements:Mapped[str]=mapped_column(Text,default=''); location:Mapped[str]=mapped_column(String(255),default=''); status:Mapped[str]=mapped_column(String(40),default='Open'); created_at:Mapped[datetime]=mapped_column(DateTime,default=lambda:datetime.now(timezone.utc))
+class Contact(Base):
+    __tablename__='contacts'; id:Mapped[int]=mapped_column(Integer,primary_key=True); employer_slug:Mapped[str]=mapped_column(String(255),index=True); name:Mapped[str]=mapped_column(String(255)); title:Mapped[str]=mapped_column(String(255)); source_url:Mapped[str]=mapped_column(String(1000)); verified_at:Mapped[str]=mapped_column(String(40)); email:Mapped[str|None]=mapped_column(String(255),nullable=True); phone:Mapped[str|None]=mapped_column(String(80),nullable=True); status:Mapped[str]=mapped_column(String(40),default='verified'); notes:Mapped[str]=mapped_column(Text,default='')
 Base.metadata.create_all(engine)
 app=FastAPI(title='Driftless Workforce API',version='1.0.0')
 oauth=OAuth2PasswordBearer(tokenUrl='/auth/token'); hasher=PasswordHash.recommended()
@@ -65,6 +67,23 @@ def prospects(minimum_score:int=0, priority:str='', limit:int=100, _:User=Depend
         queue.append({'employer':item.get('employer',''),'slug':item.get('slug',''),'score':score,'priority':item.get('priority','Low'),'opening_count':int(item.get('opening_count',0)),'verified_opening_count':int(item.get('verified_opening_count',0)),'locations':item.get('locations',[]),'industries':item.get('industries',[]),'target_roles':item.get('target_roles',[]),'decision_maker_roles':item.get('decision_maker_roles',[]),'contact_path':item.get('contact_path',''),'outreach_angle':item.get('outreach_angle',''),'evidence':item.get('evidence',[]),'jobs':item.get('jobs',[]),'status':'new','contact':None,'outreach':{'state':'not_started','next_action':None}})
     queue.sort(key=lambda x:(-x['score'],-x['verified_opening_count'],-x['opening_count'],x['slug']))
     return queue[:max(1,min(limit,500))]
+
+@app.get('/prospects/{slug}/contacts')
+def prospect_contacts(slug:str,_:User=Depends(current_user),s:Session=Depends(db)):
+    return s.scalars(select(Contact).where(Contact.employer_slug==slug).order_by(Contact.verified_at.desc(),Contact.name)).all()
+
+@app.post('/prospects/{slug}/contacts')
+def add_prospect_contact(slug:str,name:str,title:str,source_url:str,verified_at:str,email:Optional[str]=None,phone:Optional[str]=None,notes:str='',_:User=Depends(current_user),s:Session=Depends(db)):
+    if not name.strip() or not title.strip() or not source_url.strip() or not verified_at.strip():
+        raise HTTPException(400,'name, title, source_url, and verified_at are required')
+    c=Contact(employer_slug=slug,name=name.strip(),title=title.strip(),source_url=source_url.strip(),verified_at=verified_at.strip(),email=email.strip() if email else None,phone=phone.strip() if phone else None,notes=notes.strip())
+    s.add(c);s.commit();s.refresh(c);return c
+
+@app.delete('/prospects/{slug}/contacts/{contact_id}')
+def delete_prospect_contact(slug:str,contact_id:int,_:User=Depends(current_user),s:Session=Depends(db)):
+    c=s.get(Contact,contact_id)
+    if not c or c.employer_slug!=slug: raise HTTPException(404,'Contact not found')
+    s.delete(c);s.commit();return {'deleted':True,'contact_id':contact_id}
 
 @app.get('/employers')
 def employers(_:User=Depends(current_user),s:Session=Depends(db)):return s.scalars(select(Employer).order_by(Employer.name)).all()
