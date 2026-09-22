@@ -31,3 +31,26 @@ class OutreachRecord:
             self.next_action = "Qualify recruiting need"
         elif status == "CLIENT":
             self.next_action = "Deliver and expand account"
+
+from app.outreach import build_outreach_draft
+
+
+def build_outreach_draft(prospect: dict, contact: dict, sender_name: str = "Casey") -> dict:
+    """Create a personalized draft from verified evidence; never send it."""
+    if not contact or not contact.get("name") or not contact.get("source_url"):
+        raise ValueError("A verified contact with a source URL is required before drafting outreach")
+    employer = prospect.get("employer") or "your company"
+    openings = int(prospect.get("opening_count", 0) or 0)
+    roles = prospect.get("target_roles") or []
+    role_text = ", ".join(str(r) for r in roles[:3]) if roles else "the roles you are hiring for"
+    opening_text = f"{openings} current opening{'s' if openings != 1 else ''}" if openings else "current hiring activity"
+    angle = (prospect.get("outreach_angle") or "supporting local hiring needs").rstrip(".")
+    first_name = str(contact["name"]).split()[0]
+    body = (f"Hi {first_name},\\n\\nI’m reaching out because I noticed {employer} has {opening_text}, "
+            f"including activity around {role_text}. {angle}.\\n\\n"
+            f"Driftless Workforce Group helps employers with recruiting for operations, manufacturing, warehouse, "
+            f"skilled trades, hospitality, and leadership roles. If hiring support is useful, I’d be glad to "
+            f"compare notes and see where we could help.\\n\\nBest,\\n{sender_name}")
+    return {"channel":"email","state":"draft","recipient_name":contact["name"],"recipient_title":contact.get("title", ""),
+            "recipient_source_url":contact["source_url"],"subject":f"Recruiting support for {employer}","body":body,
+            "approval_required":True,"auto_send":False}
