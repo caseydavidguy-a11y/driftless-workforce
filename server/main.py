@@ -10,6 +10,7 @@ from fastapi.security import OAuth2PasswordBearer, OAuth2PasswordRequestForm
 from pwdlib import PasswordHash
 from sqlalchemy import Boolean, DateTime, Integer, String, Text, create_engine, select
 from sqlalchemy.orm import DeclarativeBase, Mapped, Session, mapped_column, sessionmaker
+from app.outreach import build_outreach_draft
 
 DATABASE_URL=os.getenv('DATABASE_URL','sqlite:///./driftless.db')
 JWT_SECRET=os.getenv('DRIFTLESS_JWT_SECRET')
@@ -84,6 +85,20 @@ def delete_prospect_contact(slug:str,contact_id:int,_:User=Depends(current_user)
     c=s.get(Contact,contact_id)
     if not c or c.employer_slug!=slug: raise HTTPException(404,'Contact not found')
     s.delete(c);s.commit();return {'deleted':True,'contact_id':contact_id}
+
+@app.post('/prospects/{slug}/outreach/draft')
+def draft_prospect_outreach(slug:str,contact_id:int,sender_name:str='Casey',_:User=Depends(current_user),s:Session=Depends(db)):
+    path=Path(__file__).resolve().parents[1]/'data'/'employer_opportunities.json'
+    if not path.exists(): raise HTTPException(503,'Employer intelligence dataset is not available')
+    try: records=json.loads(path.read_text(encoding='utf-8'))
+    except (OSError,ValueError) as exc: raise HTTPException(500,'Employer intelligence dataset could not be read') from exc
+    prospect=next((item for item in records if item.get('slug')==slug),None)
+    if not prospect: raise HTTPException(404,'Prospect not found')
+    contact=s.get(Contact,contact_id)
+    if not contact or contact.employer_slug!=slug: raise HTTPException(404,'Verified contact not found')
+    try:
+        return build_outreach_draft(prospect,{'name':contact.name,'title':contact.title,'source_url':contact.source_url},sender_name)
+    except ValueError as exc: raise HTTPException(400,str(exc)) from exc
 
 @app.get('/employers')
 def employers(_:User=Depends(current_user),s:Session=Depends(db)):return s.scalars(select(Employer).order_by(Employer.name)).all()
