@@ -32,8 +32,6 @@ class OutreachRecord:
         elif status == "CLIENT":
             self.next_action = "Deliver and expand account"
 
-from app.outreach import build_outreach_draft
-
 
 def build_outreach_draft(prospect: dict, contact: dict, sender_name: str = "Casey") -> dict:
     """Create a personalized draft from verified evidence; never send it."""
