@@ -11,7 +11,7 @@ from fastapi.security import OAuth2PasswordBearer, OAuth2PasswordRequestForm
 from pwdlib import PasswordHash
 from sqlalchemy import Boolean, DateTime, Integer, String, Text, create_engine, select
 from sqlalchemy.orm import DeclarativeBase, Mapped, Session, mapped_column, sessionmaker
-from app.outreach import build_outreach_draft
+from app.outreach import OutreachRecord, STATUSES, build_outreach_draft
 
 DATABASE_URL=os.getenv('DATABASE_URL','sqlite:///./driftless.db')
 JWT_SECRET=os.getenv('DRIFTLESS_JWT_SECRET')
@@ -29,6 +29,8 @@ class Search(Base):
     __tablename__='searches'; id:Mapped[int]=mapped_column(Integer,primary_key=True); title:Mapped[str]=mapped_column(String(255)); employer_id:Mapped[int]=mapped_column(Integer,index=True); requirements:Mapped[str]=mapped_column(Text,default=''); location:Mapped[str]=mapped_column(String(255),default=''); status:Mapped[str]=mapped_column(String(40),default='Open'); created_at:Mapped[datetime]=mapped_column(DateTime,default=lambda:datetime.now(timezone.utc))
 class Contact(Base):
     __tablename__='contacts'; id:Mapped[int]=mapped_column(Integer,primary_key=True); employer_slug:Mapped[str]=mapped_column(String(255),index=True); name:Mapped[str]=mapped_column(String(255)); title:Mapped[str]=mapped_column(String(255)); source_url:Mapped[str]=mapped_column(String(1000)); verified_at:Mapped[str]=mapped_column(String(40)); email:Mapped[str|None]=mapped_column(String(255),nullable=True); phone:Mapped[str|None]=mapped_column(String(80),nullable=True); status:Mapped[str]=mapped_column(String(40),default='verified'); notes:Mapped[str]=mapped_column(Text,default='')
+class Outreach(Base):
+    __tablename__='outreach'; id:Mapped[int]=mapped_column(Integer,primary_key=True); employer_slug:Mapped[str]=mapped_column(String(255),index=True); contact_id:Mapped[int]=mapped_column(Integer,index=True); status:Mapped[str]=mapped_column(String(40),default='NEW'); draft_subject:Mapped[str]=mapped_column(String(500),default=''); draft_body:Mapped[str]=mapped_column(Text,default=''); approval_required:Mapped[bool]=mapped_column(Boolean,default=True); auto_send:Mapped[bool]=mapped_column(Boolean,default=False); suppressed:Mapped[bool]=mapped_column(Boolean,default=False); suppression_reason:Mapped[str]=mapped_column(String(255),default=''); next_action:Mapped[str]=mapped_column(String(255),default='Research decision-maker'); last_contacted_at:Mapped[str]=mapped_column(String(40),default=''); updated_at:Mapped[datetime]=mapped_column(DateTime,default=lambda:datetime.now(timezone.utc),onupdate=lambda:datetime.now(timezone.utc))
 Base.metadata.create_all(engine)
 app=FastAPI(title='Driftless Workforce API',version='1.0.0')
 allowed_origins=[x.strip() for x in os.getenv('DRIFTLESS_CORS_ORIGINS','http://localhost:3000,http://localhost:8000,https://caseydavidguy-a11y.github.io').split(',') if x.strip()]
@@ -102,6 +104,47 @@ def draft_prospect_outreach(slug:str,contact_id:int,sender_name:str='Casey',_:Us
     try:
         return build_outreach_draft(prospect,{'name':contact.name,'title':contact.title,'source_url':contact.source_url},sender_name)
     except ValueError as exc: raise HTTPException(400,str(exc)) from exc
+
+
+@app.get('/prospects/{slug}/outreach')
+def get_prospect_outreach(slug:str,_:User=Depends(current_user),s:Session=Depends(db)):
+    return s.scalars(select(Outreach).where(Outreach.employer_slug==slug).order_by(Outreach.updated_at.desc())).all()
+
+@app.post('/prospects/{slug}/outreach')
+def create_prospect_outreach(slug:str,contact_id:int,_:User=Depends(current_user),s:Session=Depends(db)):
+    contact=s.get(Contact,contact_id)
+    if not contact or contact.employer_slug!=slug: raise HTTPException(404,'Verified contact not found')
+    existing=s.scalar(select(Outreach).where(Outreach.employer_slug==slug,Outreach.contact_id==contact_id,Outreach.suppressed==False))
+    if existing:return existing
+    row=Outreach(employer_slug=slug,contact_id=contact_id,status='CONTACT IDENTIFIED',next_action='Review outreach draft')
+    s.add(row);s.commit();s.refresh(row);return row
+
+@app.patch('/prospects/{slug}/outreach/{outreach_id}')
+def update_prospect_outreach(slug:str,outreach_id:int,status_value:str,suppressed:bool=False,suppression_reason:str='',next_action:str='',_:User=Depends(current_user),s:Session=Depends(db)):
+    row=s.get(Outreach,outreach_id)
+    if not row or row.employer_slug!=slug: raise HTTPException(404,'Outreach record not found')
+    if status_value not in STATUSES: raise HTTPException(400,'Unknown outreach status')
+    if suppressed and not suppression_reason.strip(): raise HTTPException(400,'Suppression reason is required')
+    contact=s.get(Contact,row.contact_id)
+    if status_value in {'CONTACT IDENTIFIED','CONTACTED','ENGAGED','CLIENT'} and (not contact or not contact.name): raise HTTPException(400,'A named verified contact is required')
+    row.status=status_value;row.suppressed=suppressed;row.suppression_reason=suppression_reason.strip() if suppressed else ''
+    if status_value=='CONTACTED': row.last_contacted_at=datetime.now(timezone.utc).isoformat()
+    row.next_action=next_action.strip() or {'CONTACT IDENTIFIED':'Review outreach draft','CONTACTED':'Follow up','ENGAGED':'Qualify recruiting need','CLIENT':'Deliver and expand account'}.get(status_value,'Research decision-maker')
+    s.commit();s.refresh(row);return row
+
+@app.post('/prospects/{slug}/outreach/{outreach_id}/draft')
+def save_prospect_outreach_draft(slug:str,outreach_id:int,sender_name:str='Casey',_:User=Depends(current_user),s:Session=Depends(db)):
+    row=s.get(Outreach,outreach_id)
+    if not row or row.employer_slug!=slug: raise HTTPException(404,'Outreach record not found')
+    contact=s.get(Contact,row.contact_id)
+    if not contact: raise HTTPException(404,'Verified contact not found')
+    path=Path(__file__).resolve().parents[1]/'data'/'employer_opportunities.json'
+    records=json.loads(path.read_text(encoding='utf-8'))
+    prospect=next((item for item in records if item.get('slug')==slug),None)
+    if not prospect: raise HTTPException(404,'Prospect not found')
+    try:draft=build_outreach_draft(prospect,{'name':contact.name,'title':contact.title,'source_url':contact.source_url},sender_name)
+    except ValueError as exc:raise HTTPException(400,str(exc)) from exc
+    row.draft_subject=draft['subject'];row.draft_body=draft['body'];row.approval_required=True;row.auto_send=False;row.next_action='Review draft';s.commit();s.refresh(row);return row
 
 @app.get('/employers')
 def employers(_:User=Depends(current_user),s:Session=Depends(db)):return s.scalars(select(Employer).order_by(Employer.name)).all()
