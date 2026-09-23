@@ -6,6 +6,7 @@ from datetime import datetime, timedelta, timezone
 from typing import Optional
 import jwt
 from fastapi import Depends, FastAPI, HTTPException, status
+from fastapi.middleware.cors import CORSMiddleware
 from fastapi.security import OAuth2PasswordBearer, OAuth2PasswordRequestForm
 from pwdlib import PasswordHash
 from sqlalchemy import Boolean, DateTime, Integer, String, Text, create_engine, select
@@ -30,6 +31,8 @@ class Contact(Base):
     __tablename__='contacts'; id:Mapped[int]=mapped_column(Integer,primary_key=True); employer_slug:Mapped[str]=mapped_column(String(255),index=True); name:Mapped[str]=mapped_column(String(255)); title:Mapped[str]=mapped_column(String(255)); source_url:Mapped[str]=mapped_column(String(1000)); verified_at:Mapped[str]=mapped_column(String(40)); email:Mapped[str|None]=mapped_column(String(255),nullable=True); phone:Mapped[str|None]=mapped_column(String(80),nullable=True); status:Mapped[str]=mapped_column(String(40),default='verified'); notes:Mapped[str]=mapped_column(Text,default='')
 Base.metadata.create_all(engine)
 app=FastAPI(title='Driftless Workforce API',version='1.0.0')
+allowed_origins=[x.strip() for x in os.getenv('DRIFTLESS_CORS_ORIGINS','http://localhost:3000,http://localhost:8000,https://caseydavidguy-a11y.github.io').split(',') if x.strip()]
+app.add_middleware(CORSMiddleware,allow_origins=allowed_origins,allow_credentials=True,allow_methods=['*'],allow_headers=['*'])
 oauth=OAuth2PasswordBearer(tokenUrl='/auth/token'); hasher=PasswordHash.recommended()
 def db():
     s=SessionLocal()
