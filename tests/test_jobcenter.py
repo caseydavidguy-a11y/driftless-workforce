@@ -7,8 +7,8 @@ FIXTURE = """
 <table>
 <tr><th>Title</th><th>Location</th><th>Date Posted</th></tr>
 <tr><td>Production Supervisor TRANE TECHNOLOGIES Source: USNLX</td><td>La Crosse</td><td>07/31/2026</td></tr>
-<tr><td>2nd Shift Line/Utility Job Details GREAT LAKES CHEESE Source: USNLX</td><td>La Crosse</td><td>08/18/2026</td></tr>
-<tr><td>Police Officer CITY OF LA CROSSE Pay: $69,160.00 Per Year to $83,116.00 Per Year On Busline Source: Job Center of Wisconsin</td><td>La Crosse</td><td>07/30/2026</td></tr>
+<tr><td>Production Operator GREAT LAKES CHEESE Source: USNLX</td><td>La Crosse</td><td>08/18/2026</td></tr>
+<tr><td>Maintenance Technician CITY OF LA CROSSE Pay: $69,160.00 Per Year to $83,116.00 Per Year On Busline Source: Job Center of Wisconsin</td><td>La Crosse</td><td>07/30/2026</td></tr>
 </table>
 """
 
