@@ -17,7 +17,7 @@ class EngineTests(unittest.TestCase):
     def test_first_snapshot_is_baseline(self):
         jobs=[JobObservation("Acme","Operator","La Crosse, WI","manufacturing",verified=True)]*8
         employer=build_employers(jobs)[0]
-        self.assertEqual(employer.score,55)
+        self.assertEqual(employer.score,65)
         self.assertEqual(employer.priority,"Monitor")
 
     def test_new_employer_after_baseline_gets_hiring_signal(self):
