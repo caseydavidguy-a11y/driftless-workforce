@@ -19,10 +19,6 @@ class OutreachTests(unittest.TestCase):
         self.assertEqual(record.contact_name, "Jane Doe")
         self.assertEqual(record.status, "CONTACT IDENTIFIED")
 
-if __name__ == "__main__":
-    unittest.main()
-
-
     def test_draft_requires_verified_contact(self):
         with self.assertRaises(ValueError):
             build_outreach_draft({"employer":"Acme"}, {})
@@ -33,3 +29,7 @@ if __name__ == "__main__":
         self.assertTrue(draft["approval_required"])
         self.assertFalse(draft["auto_send"])
         self.assertIn("Maintenance",draft["body"])
+
+
+if __name__ == "__main__":
+    unittest.main()
