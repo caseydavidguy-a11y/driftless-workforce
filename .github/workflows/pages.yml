@@ -6,6 +6,8 @@ on:
     branches: [main]
   workflow_dispatch:
 
+# Redeploy when the published frontend changes; this marker also makes deployment recovery auditable.
+
 permissions:
   contents: read
   actions: read
