@@ -44,11 +44,11 @@ def build_outreach_draft(prospect: dict, contact: dict, sender_name: str = "Case
     opening_text = f"{openings} current opening{'s' if openings != 1 else ''}" if openings else "current hiring activity"
     angle = (prospect.get("outreach_angle") or "supporting local hiring needs").rstrip(".")
     first_name = str(contact["name"]).split()[0]
-    body = (f"Hi {first_name},\\n\\nI’m reaching out because I noticed {employer} has {opening_text}, "
-            f"including activity around {role_text}. {angle}.\\n\\n"
+    body = (f"Hi {first_name},\n\nI’m reaching out because I noticed {employer} has {opening_text}, "
+            f"including activity around {role_text}. {angle}.\n\n"
             f"Driftless Workforce Group helps employers with recruiting for operations, manufacturing, warehouse, "
             f"skilled trades, hospitality, and leadership roles. If hiring support is useful, I’d be glad to "
-            f"compare notes and see where we could help.\\n\\nBest,\\n{sender_name}")
+            f"compare notes and see where we could help.\n\nBest,\n{sender_name}")
     return {"channel":"email","state":"draft","recipient_name":contact["name"],"recipient_title":contact.get("title", ""),
             "recipient_source_url":contact["source_url"],"subject":f"Recruiting support for {employer}","body":body,
             "approval_required":True,"auto_send":False}

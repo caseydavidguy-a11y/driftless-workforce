@@ -29,6 +29,9 @@ concurrency:
 permissions:
   contents: write
 
+env:
+  PYTHONPATH: .
+
 jobs:
   research:
     runs-on: ubuntu-latest
