@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Driftless Inbox</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+:root{color-scheme:light;--paper:#f7f2e7;--paper-2:#efe7d4;--card:#fffdf8;--ink:#2b2218;--ink-2:#5c5040;--line:#d9cdb2;--field:#9c8e70;--river:#1f5f6b;--river-2:#174a54;--river-tint:#e2edef;--brick:#9e3f2a;--lamp:#d99a1e;--new:#9e3f2a;--new-tint:#f6e3dc;--ok:#2f5a17;--ok-tint:#e3edd5;--warn:#6b4a05;--warn-tint:#f5e2b0;--f-d:'Fraunces',Georgia,serif;--f-b:'IBM Plex Sans',system-ui,-apple-system,'Segoe UI',Arial,sans-serif}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 15px/1.5 var(--f-b)}
+a{color:var(--river)}
+:focus-visible{outline:3px solid var(--lamp);outline-offset:2px;border-radius:4px}
+[hidden]{display:none!important}
+.top{background:#241c13;color:#efe6d2;padding:14px 20px;display:flex;flex-wrap:wrap;align-items:center;gap:12px 20px}
+.top .brand{display:flex;align-items:center;gap:10px;margin-right:auto}
+.top .brand svg{width:34px;height:34px}
+.top h1{font:700 1.25rem/1.1 var(--f-d);margin:0;color:#fff}
+.top h1 span{display:block;font:600 .68rem/1.4 var(--f-b);letter-spacing:.18em;text-transform:uppercase;color:#c4b89f}
+.top a,.top button{color:#efe6d2;background:transparent;border:1px solid #5a4b37;border-radius:999px;padding:7px 14px;font:500 .9rem var(--f-b);text-decoration:none;cursor:pointer;min-height:38px;display:inline-flex;align-items:center}
+.top a:hover,.top button:hover{background:#3a2e21;color:#fff}
+.banner{background:var(--warn-tint);color:var(--warn);border-bottom:1px solid #e5cf8f;padding:10px 20px;font-size:.92rem}
+.wrap{padding:20px;max-width:1180px;margin:0 auto}
+.tabs{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px}
+.tab{display:flex;align-items:center;gap:8px;border:1.5px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;padding:8px 14px;font:600 .95rem var(--f-b);cursor:pointer;min-height:40px}
+.tab[aria-selected="true"]{border-color:var(--river);background:var(--river);color:#fff}
+.count{font:600 .75rem var(--f-b);padding:2px 8px;border-radius:999px;background:var(--paper-2);color:var(--ink-2)}
+.tab[aria-selected="true"] .count{background:rgba(255,255,255,.2);color:#fff}
+.count.has-new{background:var(--new);color:#fff}
+.tools{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:16px}
+.tools label{font-weight:600;font-size:.9rem}
+.tools select,.tools input{font:400 .95rem var(--f-b);border:1.5px solid var(--field);border-radius:8px;padding:8px 10px;background:#fff;min-height:40px;color:var(--ink)}
+.tools input{flex:1;min-width:180px;max-width:360px}
+.tools .meta{margin-left:auto;color:var(--ink-2);font-size:.88rem}
+.list{display:grid;gap:12px}
+.item{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px;display:grid;grid-template-columns:minmax(0,1fr) 260px;gap:16px}
+.item.is-new{border-left:4px solid var(--new)}
+.item h2{font:600 1.1rem/1.3 var(--f-d);margin:0 0 2px}
+.item .sub{color:var(--ink-2);font-size:.92rem;margin-bottom:10px;overflow-wrap:anywhere}
+.item dl{display:grid;grid-template-columns:max-content minmax(0,1fr);gap:4px 14px;margin:0;font-size:.93rem}
+.item dt{color:var(--ink-2)}
+.item dd{margin:0;overflow-wrap:anywhere;white-space:pre-wrap}
+.side{display:flex;flex-direction:column;gap:8px;min-width:0}
+.side label{font-size:.82rem;font-weight:600;color:var(--ink-2)}
+.side select,.side textarea{width:100%;font:400 .93rem var(--f-b);border:1.5px solid var(--field);border-radius:8px;padding:7px 9px;background:#fff;color:var(--ink)}
+.side textarea{min-height:70px;resize:vertical}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.btn{border:2px solid var(--river);background:var(--river);color:#fff;border-radius:999px;padding:6px 14px;font:600 .88rem var(--f-b);cursor:pointer;min-height:36px;text-decoration:none;display:inline-flex;align-items:center}
+.btn.ghost{background:transparent;color:var(--river)}
+.btn:hover{background:var(--river-2);border-color:var(--river-2);color:#fff}
+.pill{font:600 .75rem var(--f-b);padding:2px 9px;border-radius:999px;background:var(--paper-2);color:var(--ink-2)}
+.pill.New{background:var(--new-tint);color:var(--new)}
+.pill.Closed{background:var(--ok-tint);color:var(--ok)}
+.saved{font-size:.82rem;color:var(--ok)}
+.empty{background:var(--card);border:1px dashed var(--field);border-radius:12px;padding:36px;text-align:center;color:var(--ink-2)}
+.sample{font:600 .7rem var(--f-b);letter-spacing:.08em;text-transform:uppercase;background:var(--warn-tint);color:var(--warn);padding:2px 8px;border-radius:999px;margin-left:8px;vertical-align:middle}
+@media (max-width:760px){.item{grid-template-columns:1fr}.tools .meta{margin-left:0;width:100%}}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="brand"><svg viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" rx="10" fill="#1f5f6b"/><path d="M5 28 L12.5 17.5 L17 22 L23.5 12 L35 28 Z" fill="#f7f2e7"/><path d="M5 31.5 C12 28.5 19 34 26 31 C29 29.8 32 29.6 35 30.4" fill="none" stroke="#d99a1e" stroke-width="2.6" stroke-linecap="round"/></svg>
+  <h1>Inbox<span>Driftless website</span></h1></div>
+  <button type="button" id="refresh">Refresh</button>
+  <a id="sheet-link" href="#" target="_blank" rel="noopener">Open the sheet</a>
+  <a id="cc-link" href="#" target="_blank" rel="noopener">Command center</a>
+</header>
+<div class="banner" id="preview-banner" hidden>Design preview with made-up sample entries. Your real inbox opens from your Google account once the forms are connected, and shows only what people actually send.</div>
+<main class="wrap">
+  <div class="tabs" role="tablist" id="tabs" aria-label="Submission lists"></div>
+  <div class="tools">
+    <label for="status-filter">Show</label>
+    <select id="status-filter"><option value="">All</option></select>
+    <input id="q" type="search" placeholder="Search names, companies, roles" aria-label="Search this list">
+    <span class="meta" id="meta" aria-live="polite"></span>
+  </div>
+  <div class="list" id="list" role="tabpanel" aria-labelledby=""></div>
+</main>
+<script>
+(function () {
+  'use strict';
+  var PREVIEW_SCHEMA = /*SCHEMA*/{};
+  var live = typeof google !== 'undefined' && google.script && google.script.run;
+  var state = { data: null, tab: 'employer', status: '', q: '' };
+  var ORDER = ['employer', 'candidate', 'question', 'report'];
+  var TITLE_FIELDS = { employer: ['company', 'name'], candidate: ['name', 'zip'], question: ['name', 'who'], report: ['company', 'name'] };
+
+  function el(tag, attrs, kids) {
+    var n = document.createElement(tag);
+    if (attrs) Object.keys(attrs).forEach(function (k) { if (k === 'text') n.textContent = attrs[k]; else n.setAttribute(k, attrs[k]); });
+    (kids || []).forEach(function (c) { if (c) n.appendChild(c); });
+    return n;
+  }
+
+  function sample() {
+    var now = new Date();
+    function ago(h) { var d = new Date(now - h * 3600e3); return d.toLocaleString('en-US', { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' }); }
+    return {
+      schema: PREVIEW_SCHEMA, status: ['New', 'Contacted', 'In progress', 'Closed'], sheetUrl: '#', commandCenter: 'https://claude.ai/artifact/DGjq93BQewwZxf4Vq69xQR',
+      items: {
+        employer: [
+          { ID: 'sample1', Received: ago(3), Status: 'New', Notes: '', Company: 'Sample Plastics Co. (sample)', 'Your name': 'Sample Contact', 'Work email': 'hr@example.com', Phone: '(608) 555-0100', 'Your job title': 'HR Manager', 'Where is the job?': 'Sample town', 'What do you need to hire?': 'Maintenance technician', 'How many openings?': '2', 'When do you need them?': 'As soon as possible', Shifts: '2nd shift, 3rd shift', 'Pay range': '$28 to $34 an hour', 'What kind of help?': 'A priority search for a hard-to-fill role', 'Anything else we should know?': 'Sample text: PLC experience preferred.', Page: 'employers.html' },
+          { ID: 'sample2', Received: ago(50), Status: 'Contacted', Notes: 'Sample note: call booked.', Company: 'Sample Foods (sample)', 'Your name': 'Sample Contact', 'Work email': 'ops@example.com', Phone: '(608) 555-0101', 'Your job title': '', 'Where is the job?': 'Sample town', 'What do you need to hire?': 'Warehouse or forklift', 'How many openings?': '6', 'When do you need them?': 'Within 30 days', Shifts: '1st shift', 'Pay range': '', 'What kind of help?': 'Ongoing recruiting (monthly retainer)', 'Anything else we should know?': '', Page: 'employers.html' }
+        ],
+        candidate: [
+          { ID: 'sample3', Received: ago(6), Status: 'New', Notes: '', 'Full name': 'Sample Candidate', Phone: '(608) 555-0102', Email: 'candidate@example.com', 'ZIP code': '54601', 'What kind of work do you want?': 'CNC machinist or machine operator', 'Experience in this kind of work': '3 to 10 years', 'When can you start?': 'Within 2 weeks', 'Shifts you can work': '2nd shift', "Driver's license": "Valid driver's license", 'Pay you are looking for': '$27 an hour', 'Certifications or training': 'Sample: CNC certificate', 'Anything else?': '', 'Agreed to contact': 'Yes', Resume: '', Page: 'job-seekers.html' }
+        ],
+        question: [
+          { ID: 'sample4', Received: ago(20), Status: 'New', Notes: '', 'Your name': 'Sample Person', Email: 'person@example.com', Phone: '', 'I am': 'An employer', 'Your question': 'Sample question: do you recruit for second-shift supervisors?', Page: 'contact.html' }
+        ],
+        report: [
+          { ID: 'sample5', Received: ago(30), Status: 'New', Notes: '', 'Your name': 'Sample Reader', 'Work email': 'reader@example.com', Company: 'Sample Manufacturing (sample)', 'Your job title': 'Plant Manager', 'Agreed to contact': 'Yes', Page: 'report.html' }
+        ]
+      }
+    };
+  }
+
+  function load() {
+    document.getElementById('meta').textContent = 'Loading…';
+    if (!live) { document.getElementById('preview-banner').hidden = false; got(sample()); return; }
+    google.script.run.withSuccessHandler(got).withFailureHandler(function (e) {
+      document.getElementById('list').innerHTML = '';
+      document.getElementById('list').appendChild(el('div', { 'class': 'empty', text: 'Could not load the inbox: ' + (e && e.message ? e.message : e) }));
+      document.getElementById('meta').textContent = '';
+    }).getInbox();
+  }
+
+  function got(data) {
+    state.data = data;
+    document.getElementById('sheet-link').href = data.sheetUrl || '#';
+    document.getElementById('cc-link').href = data.commandCenter || '#';
+    var sf = document.getElementById('status-filter');
+    if (sf.options.length === 1) data.status.forEach(function (s) { sf.appendChild(el('option', { value: s, text: s })); });
+    renderTabs(); renderList();
+  }
+
+  function labelOf(key, name) {
+    var f = (state.data.schema[key].fields || []).filter(function (p) { return p[0] === name; })[0];
+    return f ? f[1] : name;
+  }
+
+  function renderTabs() {
+    var box = document.getElementById('tabs'); box.innerHTML = '';
+    ORDER.forEach(function (key) {
+      var s = state.data.schema[key]; if (!s) return;
+      var items = state.data.items[key] || [];
+      var nNew = items.filter(function (r) { return r.Status === 'New'; }).length;
+      var b = el('button', { type: 'button', role: 'tab', id: 'tab-' + key, 'aria-selected': String(state.tab === key), 'class': 'tab' },
+        [document.createTextNode(s.tab), el('span', { 'class': 'count' + (nNew ? ' has-new' : ''), text: nNew ? nNew + ' new' : String(items.length) })]);
+      b.addEventListener('click', function () { state.tab = key; renderTabs(); renderList(); });
+      box.appendChild(b);
+    });
+    document.getElementById('list').setAttribute('aria-labelledby', 'tab-' + state.tab);
+  }
+
+  function renderList() {
+    var key = state.tab, list = document.getElementById('list'); list.innerHTML = '';
+    var s = state.data.schema[key];
+    var rows = (state.data.items[key] || []).filter(function (r) {
+      if (state.status && r.Status !== state.status) return false;
+      if (state.q) { var hay = Object.keys(r).map(function (k) { return r[k]; }).join(' ').toLowerCase(); if (hay.indexOf(state.q) < 0) return false; }
+      return true;
+    });
+    document.getElementById('meta').textContent = rows.length + ' shown';
+    if (!rows.length) { list.appendChild(el('div', { 'class': 'empty', text: state.q || state.status ? 'Nothing matches that filter.' : 'Nothing here yet. New submissions show up here and in your email.' })); return; }
+    rows.forEach(function (r) { list.appendChild(card(key, s, r)); });
+  }
+
+  function card(key, s, r) {
+    var tf = TITLE_FIELDS[key] || [];
+    var title = r[labelOf(key, tf[0])] || '(no name)';
+    var second = r[labelOf(key, tf[1])] || '';
+    var email = r[labelOf(key, 'email')] || '';
+    var phone = r[labelOf(key, 'phone')] || '';
+    var h = el('h2', { text: title });
+    if (String(r.ID).indexOf('sample') === 0) h.appendChild(el('span', { 'class': 'sample', text: 'Sample' }));
+    var sub = el('div', { 'class': 'sub', text: [second, email, phone, r.Received].filter(Boolean).join('  ·  ') });
+    var dl = el('dl');
+    s.fields.forEach(function (p) {
+      if (tf.indexOf(p[0]) >= 0 || p[0] === 'email' || p[0] === 'phone') return;
+      var v = r[p[1]]; if (!v) return;
+      dl.appendChild(el('dt', { text: p[1] })); dl.appendChild(el('dd', { text: v }));
+    });
+    if (r.Resume) {
+      dl.appendChild(el('dt', { text: 'Resume' }));
+      var dd = el('dd');
+      if (/^https?:/.test(r.Resume)) dd.appendChild(el('a', { href: r.Resume, target: '_blank', rel: 'noopener', text: 'Open resume' })); else dd.textContent = r.Resume;
+      dl.appendChild(dd);
+    }
+    var main = el('div', null, [h, sub, dl]);
+
+    var sel = el('select', { id: 'st-' + r.ID });
+    state.data.status.forEach(function (x) { var o = el('option', { value: x, text: x }); if (x === r.Status) o.selected = true; sel.appendChild(o); });
+    var notes = el('textarea', { id: 'nt-' + r.ID });
+    notes.value = r.Notes || '';
+    var saved = el('span', { 'class': 'saved', 'aria-live': 'polite' });
+    var save = el('button', { type: 'button', 'class': 'btn', text: 'Save' });
+    save.addEventListener('click', function () {
+      var patch = { status: sel.value, notes: notes.value };
+      function ok() { r.Status = patch.status; r.Notes = patch.notes; saved.textContent = 'Saved'; renderTabs(); setTimeout(function () { saved.textContent = ''; }, 2500); itemBox.classList.toggle('is-new', r.Status === 'New'); }
+      if (!live) { ok(); return; }
+      save.disabled = true;
+      google.script.run.withSuccessHandler(function () { save.disabled = false; ok(); })
+        .withFailureHandler(function (e) { save.disabled = false; saved.textContent = 'Not saved: ' + (e && e.message ? e.message : e); })
+        .updateItem(key, r.ID, patch);
+    });
+    var actions = el('div', { 'class': 'row' }, [save, saved]);
+    if (email) actions.appendChild(el('a', { 'class': 'btn ghost', href: 'mailto:' + email, text: 'Email' }));
+    var side = el('div', { 'class': 'side' }, [
+      el('label', { 'for': 'st-' + r.ID, text: 'Status' }), sel,
+      el('label', { 'for': 'nt-' + r.ID, text: 'Notes' }), notes, actions
+    ]);
+    var itemBox = el('article', { 'class': 'item' + (r.Status === 'New' ? ' is-new' : '') }, [main, side]);
+    return itemBox;
+  }
+
+  document.getElementById('status-filter').addEventListener('change', function (e) { state.status = e.target.value; renderList(); });
+  document.getElementById('q').addEventListener('input', function (e) { state.q = e.target.value.trim().toLowerCase(); renderList(); });
+  document.getElementById('refresh').addEventListener('click', load);
+  load();
+})();
+</script>
+</body>
+</html>

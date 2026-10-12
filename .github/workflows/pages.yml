@@ -1,6 +1,6 @@
-name: Deploy Driftless Workforce Command Center
+name: Deploy Driftless Workforce website
 
-# Deploy the internal recruiting command center from the repository.
+# Publishes the public website (website/out). The internal command center now lives in Claude and is no longer published here.
 on:
   push:
     branches: [main]
@@ -29,25 +29,19 @@ jobs:
         uses: actions/checkout@v6
       - name: Configure Pages
         uses: actions/configure-pages@v6
-      - name: Build publishable site
+      - name: Build the public website
         shell: bash
         run: |
           set -euo pipefail
-          rm -rf site
-          mkdir -p site/data
-          cp -R frontend/. site/
-          # Publish every data layer used by the live Command Center.
-          cp -R data/. site/data/
-          test -f site/index.html
-          test -f site/command-center-live.html
-          test -f site/command-center.html
-          touch site/.nojekyll
+          python3 website/build.py
+          test -f website/out/index.html
+          test -f website/out/retainer.html
           echo "Publish tree:"
-          find site -maxdepth 2 -type f | sort
+          find website/out -maxdepth 2 -type f | sort
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v5
         with:
-          path: site
+          path: website/out
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
