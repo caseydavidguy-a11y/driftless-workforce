@@ -289,3 +289,34 @@ fieldset.field > legend { margin-bottom: 6px; }
 
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; scroll-behavior: auto !important; } }
 @media print { .site-header, .site-footer, .form-section { display: none; } body { background: #fff; } }
+
+/* Home: two doors (employers / job seekers), role chips, report strip, insights band */
+.hero.split .wrap { display: block; }
+.hero-copy { max-width: 780px; }
+.hero-copy .lede { margin-bottom: 0; }
+.doors { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; margin-top: 36px; }
+.door { background: var(--card); border: 1px solid var(--line); border-top: 5px solid var(--river); border-radius: 16px; padding: 28px; display: flex; flex-direction: column; gap: 10px; min-width: 0; box-shadow: var(--shadow); }
+.door.seek { border-top-color: var(--brick); }
+.door h2 { font-size: clamp(1.5rem, 2.6vw, 1.9rem); margin: 0; }
+.door p { margin: 0; color: var(--ink-2); }
+.door .btn-row { margin-top: auto; padding-top: 12px; }
+.door .eyebrow { margin-bottom: 0; }
+.door.seek .eyebrow { color: var(--brick); }
+.door:not(.seek) .eyebrow { color: var(--river); }
+@media (max-width: 720px) { .doors { grid-template-columns: minmax(0, 1fr); } }
+.chips-label { font-size: .8rem; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-2); margin: 32px 0 10px; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; list-style: none; padding: 0; margin: 0; }
+.chips li { padding: 7px 14px; border: 1px solid var(--line); border-radius: 999px; background: var(--card); font-size: .93rem; }
+.report-strip { display: grid; grid-template-columns: 1.1fr .9fr; gap: clamp(24px, 5vw, 56px); align-items: center; }
+.report-strip > * { min-width: 0; }
+.report-strip .lede { margin-bottom: 24px; }
+.stats.stack { grid-template-columns: minmax(0, 1fr); }
+.stats.stack .stat + .stat { border-left: 0; border-top: 1px solid var(--line); }
+@media (max-width: 860px) { .report-strip { grid-template-columns: minmax(0, 1fr); } }
+.band.insights .wrap { display: block; }
+.band.insights .card { background: #2f2519; border-color: #4a3d2c; display: flex; flex-direction: column; gap: 6px; }
+.band.insights .card h3 { color: #fff; }
+.band.insights .card p { color: var(--night-ink-2); }
+.band.insights .card a { color: var(--lamp); font-weight: 600; margin-top: auto; }
+.band.insights .card a:hover { color: #f2c46b; }
+.brand-name b { font-size: 1.45rem; }

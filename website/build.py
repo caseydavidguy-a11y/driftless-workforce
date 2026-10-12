@@ -9,7 +9,7 @@ Edit SITE below when the phone, email, web address or forms endpoint are known, 
 """
 import html, json, os, shutil, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from art import LOGO, FAVICON, I, HERO, REPORT_ART
+from art import FAVICON, I
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 
@@ -219,7 +219,7 @@ def header(current):
     links = ''.join(f'<a href="{href}"{" aria-current=" + chr(34) + "page" + chr(34) if href == current else ""}>{E(label)}</a>' for href, label in NAV)
     return (f'<a class="skip" href="#main">Skip to content</a>'
             f'<header class="site-header"><div class="wrap">'
-            f'<a class="brand" href="./" aria-label="Driftless Workforce Group, home">{LOGO}<span class="brand-name"><b>Driftless</b><span>Workforce Group</span></span></a>'
+            f'<a class="brand" href="./" aria-label="Driftless Workforce Group, home"><span class="brand-name"><b>Driftless</b><span>Workforce Group</span></span></a>'
             f'<button class="menu-btn" type="button" aria-expanded="false" aria-controls="site-nav">{MENU_ICON}Menu</button>'
             f'<nav id="site-nav" class="nav" aria-label="Main" data-open="true">{links}'
             f'<a class="btn small" href="employers.html#request">Request talent</a></nav>'
@@ -234,7 +234,7 @@ def footer(preview):
     staff = SITE['inbox_url'] or ('inbox.html' if preview else '')
     staff_link = f' · <a href="{E(staff)}" rel="nofollow">Staff sign-in</a>' if staff else ''
     return (f'<footer class="site-footer"><div class="wrap"><div class="foot-grid">'
-            f'<div><div class="foot-brand">{LOGO}<b>Driftless Workforce Group</b></div>'
+            f'<div><div class="foot-brand"><b>Driftless Workforce Group</b></div>'
             f'<p>Direct-hire recruiting for manufacturing, warehousing, maintenance and janitorial roles across the Coulee Region and the Driftless.</p></div>'
             f'<div><h2>Employers</h2><ul><li><a href="employers.html">How we work</a></li><li><a href="retainer.html">Recruiting retainer</a></li><li><a href="employers.html#request">Request talent</a></li>'
             f'<li><a href="report.html">Hiring report</a></li></ul></div>'
@@ -282,31 +282,39 @@ def steps_employer():
 
 
 def home():
+    roles = ['Maintenance technicians', 'CNC machinists', 'Welders and fabricators', 'Production and assembly', 'Forklift and warehouse',
+             'Production supervisors', 'Facilities technicians', 'Janitorial and sanitation']
+    chips = ''.join(f'<li>{E(r)}</li>' for r in roles)
     return f'''
-<section class="hero"><div class="wrap">
-  <div class="copy">
+<section class="hero split"><div class="wrap">
+  <div class="hero-copy">
     <span class="eyebrow">Recruiting for the Coulee Region</span>
     <h1>Skilled plant and warehouse hires, found close to home.</h1>
-    <p class="lede">Driftless Workforce Group recruits maintenance technicians, machinists, production, warehouse and janitorial staff for employers from La Crosse to Sparta, Viroqua and across the Driftless.</p>
-    <div class="btn-row"><a class="btn" href="employers.html#request">Request talent</a><a class="btn secondary" href="job-seekers.html">I'm looking for work</a></div>
-    <ul class="trust">
-      <li>{I["check"]}Direct hire, on your payroll</li>
-      <li>{I["check"]}Free for job seekers</li>
-      <li>{I["check"]}Based in La Crosse</li>
-    </ul>
+    <p class="lede">Driftless Workforce Group recruits for plants, warehouses and facilities from La Crosse to Sparta, Viroqua and across the Driftless.</p>
   </div>
-  <div class="hero-art">{HERO}</div>
+  <div class="doors">
+    <article class="door"><span class="eyebrow">Employers</span><h2>I need to hire</h2>
+      <p>Maintenance, machining, production, warehouse and janitorial roles. Direct hire, on your payroll.</p>
+      <div class="btn-row"><a class="btn" href="employers.html#request">Request talent</a><a class="btn secondary" href="retainer.html">See the retainer</a></div></article>
+    <article class="door seek"><span class="eyebrow">Job seekers</span><h2>I'm looking for work</h2>
+      <p>Send your information once and we'll call when a job fits. It never costs you anything.</p>
+      <div class="btn-row"><a class="btn" href="job-seekers.html#apply">Send my information</a><a class="btn secondary" href="job-seekers.html">How it works</a></div></article>
+  </div>
+  <p class="chips-label">Roles we recruit for</p>
+  <ul class="chips">{chips}</ul>
 </div></section>
 
 <section class="section tint" aria-labelledby="market-h"><div class="wrap">
-  <div class="section-head"><span class="eyebrow">The market right now</span><h2 id="market-h">Skilled roles are sitting open for months.</h2>
-  <p class="lede">From our October 2026 hiring report, built from public job postings and federal wage data.</p></div>
-  <div class="stats">
-    <div class="stat"><b>500+</b><span>open postings on the state job bank within 25 miles of La Crosse</span></div>
-    <div class="stat"><b>3.0%</b><span>unemployment in the La Crosse&#8211;Onalaska metro, August 2026 (preliminary)</span></div>
-    <div class="stat"><b>196 days</b><span>the longest-open maintenance technician posting we found</span></div>
+  <div class="report-strip">
+    <div><span class="eyebrow">New &middot; October 2026</span><h2 id="market-h">Coulee Region Industrial Hiring Report</h2>
+    <p class="lede">Who is hiring, which roles stay open, and what they pay within 25 miles of La Crosse. Free to employers every quarter.</p>
+    <div class="btn-row"><a class="btn" href="report.html">Read the report</a><a class="btn secondary" href="report.html#subscribe">Get it by email</a></div></div>
+    <div class="stats stack">
+      <div class="stat"><b>500+</b><span>open postings on the state job bank within 25 miles of La Crosse</span></div>
+      <div class="stat"><b>3.0%</b><span>metro unemployment, August 2026 (preliminary)</span></div>
+      <div class="stat"><b>196 days</b><span>the longest-open maintenance technician posting we found</span></div>
+    </div>
   </div>
-  <p class="stats-note">Sources: Job Center of Wisconsin, October 12, 2026; U.S. Bureau of Labor Statistics. <a href="report.html">Read the report</a></p>
 </div></section>
 
 <section class="section" aria-labelledby="roles-h"><div class="wrap">
@@ -318,19 +326,10 @@ def home():
 <section class="section tint" aria-labelledby="how-h"><div class="wrap">
   <div class="section-head"><span class="eyebrow">For employers</span><h2 id="how-h">How a search works</h2></div>
   {steps_employer()}
-  <p style="margin-top:24px"><a class="btn secondary" href="employers.html">See services for employers</a></p>
+  <div class="btn-row" style="margin-top:24px"><a class="btn" href="employers.html#request">Request talent</a><a class="btn secondary" href="employers.html">Services for employers</a></div>
 </div></section>
 
-<section class="section" aria-labelledby="why-h"><div class="wrap">
-  <div class="section-head"><span class="eyebrow">Why Driftless</span><h2 id="why-h">A local recruiter who knows the floor.</h2></div>
-  <div class="grid three">
-    <article class="card"><div class="icon">{I["pin"]}</div><h3>We are from here</h3><p>We know the towns, the drive times, the shifts and the plants people talk about. That matters when you are asking someone to change jobs.</p></article>
-    <article class="card"><div class="icon">{I["chart"]}</div><h3>Straight answers on pay</h3><p>We tell you what the market pays, using public data, and where your offer lands. Our quarterly report is free to every employer in the region.</p></article>
-    <article class="card"><div class="icon">{I["shield"]}</div><h3>Built on direct hire</h3><p>The people we place work for you from day one. No temp markup on every hour, and every placement carries a replacement guarantee.</p></article>
-  </div>
-</div></section>
-
-<section class="section tint" aria-labelledby="ret-h"><div class="wrap">
+<section class="section" aria-labelledby="ret-h"><div class="wrap">
   <div class="grid two" style="align-items:center">
     <div><span class="eyebrow">For plants that hire every month</span><h2 id="ret-h">Your recruiting team, on retainer.</h2>
     <p class="lede">One flat monthly fee puts a recruiter on your openings every week: production, maintenance, warehouse and janitorial. Everyone we place works for you from day one.</p>
@@ -345,11 +344,22 @@ def home():
   </div>
 </div></section>
 
-<section class="band section" aria-labelledby="report-h"><div class="wrap">
-  <div><span class="eyebrow" style="color:var(--lamp)">Free every quarter</span><h2 id="report-h">The Coulee Region Industrial Hiring Report</h2>
-  <p>Who is hiring, which roles stay open, and what they pay, within 25 miles of La Crosse. Written for plant, operations and HR managers.</p>
-  <a class="btn on-dark" href="report.html">Read the October report</a></div>
-  <div class="art">{REPORT_ART}</div>
+<section class="section tint" aria-labelledby="why-h"><div class="wrap">
+  <div class="section-head"><span class="eyebrow">Why Driftless</span><h2 id="why-h">A local recruiter who knows the floor.</h2></div>
+  <div class="grid three">
+    <article class="card"><div class="icon">{I["pin"]}</div><h3>We are from here</h3><p>We know the towns, the drive times, the shifts and the plants people talk about. That matters when you are asking someone to change jobs.</p></article>
+    <article class="card"><div class="icon">{I["chart"]}</div><h3>Straight answers on pay</h3><p>We tell you what the market pays, using public data, and where your offer lands. Our quarterly report is free to every employer in the region.</p></article>
+    <article class="card"><div class="icon">{I["shield"]}</div><h3>Built on direct hire</h3><p>The people we place work for you from day one. Terms are in writing before we send anyone, and every placement carries a replacement guarantee.</p></article>
+  </div>
+</div></section>
+
+<section class="band insights section" aria-labelledby="ins-h"><div class="wrap">
+  <div class="section-head"><span class="eyebrow" style="color:var(--lamp)">From the hiring report</span><h2 id="ins-h">What the numbers say this quarter</h2></div>
+  <div class="grid three">
+    <article class="card"><h3>Skilled roles stay open longest</h3><p>The six oldest plant postings near La Crosse had been open 172 to 196 days: maintenance, CNC machining, welding and material handling.</p><a href="report.html#open-h">The longest-open roles</a></article>
+    <article class="card"><h3>Trade pay here is close to national pay</h3><p>Maintenance and repair workers average $30.27 an hour in the La Crosse metro, against $30.44 nationally.</p><a href="report.html#pay-h">What these roles pay</a></article>
+    <article class="card"><h3>The hard shifts are the open ones</h3><p>Open postings name 2nd shift, 3rd shift, weekend nights and rotating 12-hour shifts.</p><a href="report.html#find-h">All four findings</a></article>
+  </div>
 </div></section>
 
 <section class="section" aria-labelledby="start-h"><div class="wrap">

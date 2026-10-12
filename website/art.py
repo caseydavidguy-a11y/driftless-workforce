@@ -7,9 +7,8 @@ LOGO = ('<svg viewBox="0 0 40 40" aria-hidden="true" focusable="false">'
         '</svg>')
 
 FAVICON = ("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E"
-           "%3Crect width='40' height='40' rx='10' fill='%231f5f6b'/%3E"
-           "%3Cpath d='M5 28 L12.5 17.5 L17 22 L23.5 12 L35 28 Z' fill='%23f7f2e7'/%3E"
-           "%3Cpath d='M5 31.5 C12 28.5 19 34 26 31 C29 29.8 32 29.6 35 30.4' fill='none' stroke='%23d99a1e' stroke-width='2.6' stroke-linecap='round'/%3E"
+           "%3Crect width='40' height='40' rx='9' fill='%231f5f6b'/%3E"
+           "%3Ctext x='20' y='29' text-anchor='middle' font-family='Georgia,serif' font-size='26' font-weight='700' fill='%23f7f2e7'%3ED%3C/text%3E"
            "%3C/svg%3E")
 
 def icon(paths):
