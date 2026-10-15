@@ -327,3 +327,4 @@ fieldset.field > legend { margin-bottom: 6px; }
 .quote { margin: 0 auto; max-width: 900px; text-align: center; }
 .quote p { font-family: var(--f-display); font-weight: 600; font-size: clamp(1.6rem, 3.2vw, 2.4rem); line-height: 1.25; color: var(--ink); text-wrap: balance; margin-bottom: 16px; }
 .quote footer { color: var(--ink-2); font-size: 1rem; }
+.notice a[href^="tel:"] { white-space: nowrap; }

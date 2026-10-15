@@ -20,7 +20,7 @@ SITE = {
     'email': 'info@driftlessworkforcegroup.com',
     'base_url': 'https://driftlessworkforcegroup.com/',
     'endpoint': '',       # Google Apps Script "Forms" web app address; blank = forms run in preview mode
-    'inbox_url': 'https://app.netlify.com/',  # the back door: Netlify > your site > Forms
+    'inbox_url': 'https://app.netlify.com/projects/driftless-workforce-group/forms',  # the back door
     'year': '2026',
 }
 
@@ -83,7 +83,7 @@ FORMS = {
     ]),
   'report': dict(tab='Report sign-ups', id='report-form', submit='Send me the report',
     intro='Free, once a quarter, by email. All fields are required unless marked optional.',
-    done_title="You're on the list", done_text='The full October report is on its way, and you will get each new edition when it comes out.',
+    done_title="You're on the list", done_text='Thank you. Casey will email you the full October report, and each new edition when it comes out.',
     fields=[
       ('text', 'name', 'Your name', dict(auto='name', half=True, msg='Enter your name.')),
       ('email', 'email', 'Work email', dict(auto='email', half=True, msg='Enter your work email.')),
@@ -364,7 +364,7 @@ def home():
   <div class="section-head"><span class="eyebrow" style="color:var(--lamp)">From the hiring report</span><h2 id="ins-h">What the numbers say this quarter</h2></div>
   <div class="grid three">
     <article class="card"><h3>Skilled roles stay open longest</h3><p>The six oldest plant postings near La Crosse had been open 172 to 196 days: maintenance, CNC machining, welding and material handling.</p><a href="report.html#open-h">The longest-open roles</a></article>
-    <article class="card"><h3>Trade pay here is close to national pay</h3><p>Maintenance and repair workers average $30.27 an hour in the La Crosse metro, against $30.44 nationally.</p><a href="report.html#pay-h">What these roles pay</a></article>
+    <article class="card"><h3>Trade pay here is close to national pay</h3><p>Installation, maintenance and repair jobs average $30.27 an hour in the La Crosse metro, against $30.44 nationally.</p><a href="report.html#pay-h">What these roles pay</a></article>
     <article class="card"><h3>The hard shifts are the open ones</h3><p>Open postings name 2nd shift, 3rd shift, weekend nights and rotating 12-hour shifts.</p><a href="report.html#find-h">All four findings</a></article>
   </div>
 </div></section>
@@ -385,9 +385,9 @@ def home():
 
 def employers():
     services = [
-        ('Most common', 'A single search', 'One role, filled. We search, screen and send you finalists. You pay our fee only when your new hire starts.',
+        ('Pay on hire', 'A single search', 'One role, filled. We search, screen and send you finalists. You pay our fee only when your new hire starts.',
          'Best for: a maintenance tech, a shift lead, a warehouse supervisor.', False),
-        ('Hard-to-fill roles', 'A priority search', 'For the role that has been open for months. A small commitment up front puts the search at the top of our list, and it is credited against the final fee.',
+        ('Hard-to-fill roles', 'A priority search', 'For the role that has been open for months. An up-front commitment puts the search at the top of our list, and it is credited against the final fee.',
          'Best for: CNC machinists, industrial maintenance, plant leadership.', True),
         ('Year-round hiring', 'A recruiting retainer', 'We act as your recruiting team for one flat monthly fee: sourcing, screening, scheduling and reporting, across as many roles as you need.',
          'Best for: plants that hire every month, or a new line or expansion. <a href="retainer.html">How the retainer works</a>', False),
@@ -399,7 +399,7 @@ def employers():
         ('Who pays the fee?', 'The employer. Our service is always free for job seekers.'),
         ('Is there a written agreement?', 'Yes. Fees, the replacement guarantee and payment terms are set in writing before we send you any candidates.'),
         ('What does the replacement guarantee cover?', 'If a placement doesn\'t work out within the guarantee period, we make it right: we search for a replacement at no additional fee. The exact period is set in your agreement before the search starts.'),
-        ('What areas do you cover?', 'La Crosse, Onalaska, Holmen, West Salem, Sparta, Tomah, Viroqua, Westby, Coon Valley and the rest of the Coulee Region and the Driftless, on both sides of the river.'),
+        ('What areas do you cover?', 'La Crosse, Onalaska, Holmen, West Salem, Sparta, Tomah, Viroqua, Westby, Coon Valley and the rest of the Coulee Region and the Driftless.'),
         ('How is a retainer different from a single search?', 'A single search fills one role and is paid on hire. A retainer is a flat monthly fee for ongoing recruiting across many roles, so you have a recruiter working on your openings every week.'),
     ]
     fq = ''.join(f'<details><summary>{E(q)}</summary><p>{E(a)}</p></details>' for q, a in faqs)
@@ -412,7 +412,7 @@ def employers():
 
 <section class="section" aria-labelledby="svc-h"><div class="wrap">
   <div class="section-head"><span class="eyebrow">Services</span><h2 id="svc-h">Three ways to work with us</h2>
-  <p class="lede">Every option is direct hire: your employee, on your payroll. We quote fees per role after a short call.</p></div>
+  <p class="lede">Every option is direct hire: your employee, on your payroll. We quote every fee after a short call and put it in writing before we start.</p></div>
   <div class="grid three">{sv}</div>
 </div></section>
 
@@ -455,7 +455,7 @@ def employers():
   <div><span class="eyebrow">Request talent</span><h2 id="req-h">Tell us who you need.</h2>
     <p class="lede">A few details now saves time on the call.</p>
     <div class="aside-list">
-      <div class="aside-item"><div class="icon">{I["clock"]}</div><div><h3>Quick to fill out</h3><p>About three minutes. Leave out anything you are not sure of.</p></div></div>
+      <div class="aside-item"><div class="icon">{I["clock"]}</div><div><h3>Quick to fill out</h3><p>About three minutes. Only the basics are required; skip anything marked optional.</p></div></div>
       <div class="aside-item"><div class="icon">{I["calendar"]}</div><div><h3>Next step: a short call</h3><p>We talk through the role, the shift and the pay before we start.</p></div></div>
       <div class="aside-item"><div class="icon">{I["lock"]}</div><div><h3>Kept private</h3><p>Your request is seen only by Driftless Workforce Group.</p></div></div>
     </div>
@@ -531,7 +531,7 @@ def job_seekers():
     return f'''
 <section class="page-hero"><div class="wrap"><span class="eyebrow">For job seekers</span>
   <h1>Better plant jobs, close to home. Free to you.</h1>
-  <p class="lede">We work with employers across the Coulee Region who need maintenance, machining, production, warehouse and janitorial staff. Send your information once, and we will reach out when a job fits.</p>
+  <p class="lede">We recruit for plants, warehouses and facilities across the Coulee Region that need maintenance, machining, production, warehouse and janitorial staff. Send your information once, and we will reach out when a job fits.</p>
   <div class="btn-row" style="margin-top:24px"><a class="btn" href="#apply">Send my information</a></div>
 </div></section>
 
@@ -549,7 +549,7 @@ def job_seekers():
   <div class="grid three">
     <article class="card"><div class="icon">{I["dollar"]}</div><h3 id="why-js-h">Never a cost to you</h3><p>Employers pay our fee. You never pay to work with us.</p></article>
     <article class="card"><div class="icon">{I["route"]}</div><h3>Jobs near home</h3><p>We focus on La Crosse, Onalaska, Holmen, Sparta, Tomah, Viroqua and the towns in between.</p></article>
-    <article class="card"><div class="icon">{I["list"]}</div><h3>Room to grow</h3><p>Many employers here now hire people who are ready to learn. Tell us if you are new to the trade.</p></article>
+    <article class="card"><div class="icon">{I["list"]}</div><h3>Room to grow</h3><p>Some employers here now hire people who are ready to learn. Tell us if you are new to the trade.</p></article>
   </div>
 </div></section>
 
@@ -588,7 +588,7 @@ def report():
   <div class="section-head"><h2 id="find-h">Four findings</h2></div>
   <div class="grid two findings">
     <div class="finding"><h3>Skilled roles stay open longest</h3><p>Of 135 postings we read, 10 had been listed more than 90 days. The six oldest were maintenance, CNC machining, welding and material handling jobs.</p></div>
-    <div class="finding"><h3>Trade pay here is close to national pay</h3><p>The metro's average wage for all jobs is 10% below the U.S. average, but maintenance and repair pay is at par: $30.27 an hour here against $30.44 nationally.</p></div>
+    <div class="finding"><h3>Trade pay here is close to national pay</h3><p>The metro's average wage for all jobs is 10% below the U.S. average, but installation, maintenance and repair jobs pay at par: $30.27 an hour here against $30.44 nationally.</p></div>
     <div class="finding"><h3>Employers are opening skilled roles to trainees</h3><p>At least six machining postings now say &#8220;entry level or experienced.&#8221;</p></div>
     <div class="finding"><h3>The hard shifts are the open ones</h3><p>Open postings name 2nd shift, 3rd shift, weekend nights and rotating 12-hour shifts.</p></div>
   </div>
@@ -635,7 +635,7 @@ def report():
 
 
 def contact():
-    phone = f'<div class="aside-item"><div class="icon">{I["clock"]}</div><div><h3>Phone</h3><p>{E(SITE["phone"])}</p></div></div>' if SITE['phone'] else ''
+    phone = f'<div class="aside-item"><div class="icon">{I["phone"]}</div><div><h3>Call or text</h3><p>{E(SITE["phone"])}</p></div></div>' if SITE['phone'] else ''
     email = f'<div class="aside-item"><div class="icon">{I["mail"]}</div><div><h3>Email</h3><p>{E(SITE["email"])}</p></div></div>' if SITE['email'] else ''
     return f'''
 <section class="page-hero"><div class="wrap"><span class="eyebrow">Contact</span>
@@ -645,7 +645,7 @@ def contact():
 <section class="section form-section" aria-labelledby="c-h"><div class="wrap form-layout">
   <div><h2 id="c-h">Send a message</h2>
     <div class="aside-list">
-      <div class="aside-item"><div class="icon">{I["pin"]}</div><div><h3>Where we are</h3><p>{E(SITE["city"])}, serving the Coulee Region and the Driftless on both sides of the river.</p></div></div>
+      <div class="aside-item"><div class="icon">{I["pin"]}</div><div><h3>Where we are</h3><p>{E(SITE["city"])}, serving the Coulee Region and the Driftless.</p></div></div>
       {phone}{email}
       <div class="aside-item"><div class="icon">{I["factory"]}</div><div><h3>Hiring?</h3><p>The <a href="employers.html#request">talent request form</a> gets your role started fastest.</p></div></div>
       <div class="aside-item"><div class="icon">{I["clipboard"]}</div><div><h3>Looking for work?</h3><p><a href="job-seekers.html#apply">Send your information</a> and we will reach out when a job fits.</p></div></div>
@@ -693,7 +693,7 @@ def privacy():
 <h2>Who sees it</h2>
 <p>Driftless Workforce Group LLC only. We never sell your information. We send a job seeker's resume or personal details to an employer only after that person agrees.</p>
 <h2>Where it is kept</h2>
-<p>Form submissions and resumes are stored in a private account that only Driftless Workforce Group LLC can open.</p>
+<p>Form submissions and resumes are stored in a private account that only Driftless Workforce Group LLC can open. Our website host keeps them for us and does not use them for anything else.</p>
 <h2>Fair treatment</h2>
 <p>We recruit and screen every candidate the same way, without regard to race, color, religion, sex, national origin, age, disability, veteran status or any other status protected by law.</p>
 <h2>Your choices</h2>

@@ -35,6 +35,7 @@ I = {
     'lock': icon('<rect x="5" y="10.5" width="14" height="10" rx="2"/><path d="M8 10.5V8a4 4 0 0 1 8 0v2.5"/>'),
     'route': icon('<circle cx="6" cy="18" r="2.2"/><circle cx="18" cy="6" r="2.2"/><path d="M8 18h6.5a3.5 3.5 0 0 0 0-7h-5a3.5 3.5 0 0 1 0-7H16"/>'),
     'calendar': icon('<rect x="4" y="5.5" width="16" height="15" rx="2"/><path d="M4 10h16M8.5 3.5v4M15.5 3.5v4"/>'),
+    'phone': icon('<path d="M6.6 3.5h2.8l1.4 4-2 1.3a11.5 11.5 0 0 0 6.4 6.4l1.3-2 4 1.4v2.8a2 2 0 0 1-2.1 2A16.6 16.6 0 0 1 4.6 5.6a2 2 0 0 1 2-2.1z"/>'),
     'menu': icon('<path d="M4 7h16M4 12h16M4 17h16"/>'),
     'arrow': icon('<path d="M5 12h14M13 6l6 6-6 6"/>'),
 }
