@@ -246,6 +246,10 @@ def footer(preview):
             f'<span><a href="privacy.html">Privacy</a>{staff_link}</span></div></div></footer>')
 
 
+# The GitHub Pages copy forwards visitors to the real domain.
+GH_REDIRECT = ('<script>if(/github\\.io$/.test(location.hostname)){location.replace("https://driftlessworkforcegroup.com/"'
+               '+(location.pathname.split("/").pop()||"")+location.hash)}</script>')
+
 FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
          '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600&display=swap">')
 
@@ -261,7 +265,7 @@ def page(slug, title, desc, main, current, preview=False, bare=False, preview_ti
     endpoint = '' if preview else SITE['endpoint']
     mode = '<meta name="driftless-mode" content="preview">' if preview else ''
     return (f'<!doctype html><html lang="en" data-endpoint="{E(endpoint)}" data-phone="{E(SITE["phone"])}"><head><meta charset="utf-8">{mode}'
-            f'<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>{E(title)}</title>{meta}{FONTS}'
+            f'<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>{E(title)}</title>{meta}{GH_REDIRECT if not preview else ""}{FONTS}'
             f'<link rel="stylesheet" href="assets/site.css"></head><body>{body}</body></html>')
 
 # ---------------------------------------------------------------- page bodies
