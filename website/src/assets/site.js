@@ -6,6 +6,8 @@
   var ENDPOINT = (document.documentElement.getAttribute('data-endpoint') || '').trim();
   var PREVIEW = !!document.querySelector('meta[name="driftless-mode"][content="preview"]');
   var PHONE = (document.documentElement.getAttribute('data-phone') || '').trim();
+  // On the Netlify host (the real domain), forms go to Netlify Forms. Elsewhere they need ENDPOINT.
+  var NETLIFY = /(^|\.)driftlessworkforcegroup\.com$|\.netlify\.app$/.test(location.hostname);
   var MAX_FILE = 5 * 1024 * 1024;
   var FILE_TYPES = ['pdf', 'doc', 'docx', 'rtf', 'txt', 'odt'];
 
@@ -17,7 +19,7 @@
       menuBtn.setAttribute('aria-expanded', String(open));
       nav.setAttribute('data-open', String(open));
     };
-    var mq = window.matchMedia('(max-width: 1040px)');
+    var mq = window.matchMedia('(max-width: 1150px)');
     var sync = function () { if (mq.matches) setOpen(false); else nav.setAttribute('data-open', 'true'); };
     sync();
     if (mq.addEventListener) mq.addEventListener('change', sync);
@@ -34,7 +36,7 @@
   function initForm(form) {
     var started = Date.now();
     form.setAttribute('novalidate', '');
-    if (!ENDPOINT && !PREVIEW) closedNotice(form, false);
+    if (!ENDPOINT && !NETLIFY && !PREVIEW) closedNotice(form, false);
     // Clear a field's error as soon as it is fixed.
     form.addEventListener('input', function (e) { var f = e.target.closest('.field'); if (f && f.classList.contains('has-error')) validateField(f); });
     form.addEventListener('change', function (e) { var f = e.target.closest('.field'); if (f && f.classList.contains('has-error')) validateField(f); });
@@ -56,6 +58,7 @@
       clearFail(form);
 
       collect(form, started).then(function (payload) {
+        if (!ENDPOINT && NETLIFY) return sendNetlify(form, payload);
         if (!ENDPOINT) return PREVIEW ? { preview: true } : { closed: true };
         return fetch(ENDPOINT, {
           method: 'POST',
@@ -172,7 +175,7 @@
     var data = {};
     var file = null;
     Array.prototype.forEach.call(form.elements, function (el) {
-      if (!el.name || el.disabled) return;
+      if (!el.name || el.disabled || el.name === 'form-name') return;
       if (el.type === 'file') { if (el.files && el.files[0]) file = el.files[0]; return; }
       if (el.type === 'checkbox') {
         if (el.getAttribute('data-single') === 'true') { data[el.name] = el.checked ? 'Yes' : 'No'; return; }
@@ -190,7 +193,7 @@
       elapsed: Math.round((Date.now() - started) / 1000),
       fields: data
     };
-    if (!file) return Promise.resolve(payload);
+    if (!file || !ENDPOINT) return Promise.resolve(payload);
     return new Promise(function (resolve, reject) {
       var r = new FileReader();
       r.onload = function () {
@@ -224,6 +227,30 @@
     var actions = form.querySelector('.form-actions');
     form.insertBefore(box, actions);
   }
+  // Netlify Forms: one POST to the site root with the form's name; Netlify keeps the submission and emails it.
+  function sendNetlify(form, payload) {
+    var name = form.getAttribute('name') || payload.form;
+    var fileInput = form.querySelector('input[type="file"]');
+    var file = fileInput && fileInput.files && fileInput.files[0];
+    var body, headers = {};
+    if (file) {
+      body = new FormData();
+      body.append('form-name', name);
+      Object.keys(payload.fields).forEach(function (k) { body.append(k, payload.fields[k]); });
+      body.append(fileInput.name, file);
+    } else {
+      var params = new URLSearchParams();
+      params.append('form-name', name);
+      Object.keys(payload.fields).forEach(function (k) { params.append(k, payload.fields[k]); });
+      body = params.toString();
+      headers['Content-Type'] = 'application/x-www-form-urlencoded';
+    }
+    return fetch('/', { method: 'POST', headers: headers, body: body }).then(function (r) {
+      if (!r.ok) throw new Error('status ' + r.status);
+      return { ok: true };
+    });
+  }
+
   // Until the forms backend is connected, the live site says so plainly and points to the phone.
   function closedNotice(form, focus) {
     var box = form.querySelector('.notice.closed');

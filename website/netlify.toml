@@ -1,0 +1,5 @@
+# Netlify settings for the Driftless Workforce Group site.
+# In Netlify, set the base directory to "website"; this file then builds and publishes the site.
+[build]
+  command = "python3 build.py"
+  publish = "out"

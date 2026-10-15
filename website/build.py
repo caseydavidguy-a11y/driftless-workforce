@@ -17,16 +17,16 @@ SITE = {
     'name': 'Driftless Workforce Group',
     'city': 'La Crosse, Wisconsin',
     'phone': '608-397-1754',
-    'email': '',          # e.g. 'casey@yourdomain.com'
-    'base_url': 'https://caseydavidguy-a11y.github.io/driftless-workforce/',  # swap for a custom domain later
+    'email': 'info@driftlessworkforcegroup.com',
+    'base_url': 'https://driftlessworkforcegroup.com/',
     'endpoint': '',       # Google Apps Script "Forms" web app address; blank = forms run in preview mode
-    'inbox_url': '',      # Google Apps Script "Inbox" web app address (the private back door)
+    'inbox_url': 'https://app.netlify.com/',  # the back door: Netlify > your site > Forms
     'year': '2026',
 }
 
 E = html.escape
-NAV = [('employers.html', 'For employers'), ('retainer.html', 'Retainer'), ('job-seekers.html', 'For job seekers'),
-       ('report.html', 'Hiring report'), ('contact.html', 'Contact')]
+NAV = [('employers.html', 'Employers'), ('retainer.html', 'Retainer'), ('job-seekers.html', 'Job seekers'),
+       ('report.html', 'Hiring report'), ('about.html', 'About'), ('contact.html', 'Contact')]
 
 # ---------------------------------------------------------------- forms (one definition feeds the page AND the backend)
 ROLES = ['Maintenance technician', 'CNC machinist or machine operator', 'Production or assembly', 'Welder or fabricator',
@@ -144,7 +144,9 @@ def form_html(key):
     fid = F['id']
     fallback = f' data-fallback="Or email {E(SITE["email"])}."' if SITE['email'] else ''
     rows = ''.join(field_html(fid, f) for f in F['fields'])
-    return (f'<form id="{fid}" class="form-card" data-form="{key}" data-done="{fid}-done"{fallback} aria-label="{E(F["submit"])}">'
+    enc = ' enctype="multipart/form-data"' if any(f[0] == 'file' for f in F['fields']) else ''
+    return (f'<form id="{fid}" name="{key}" method="POST" data-netlify="true" netlify-honeypot="website_url"{enc} class="form-card" data-form="{key}" data-done="{fid}-done"{fallback} aria-label="{E(F["submit"])}">'
+            f'<input type="hidden" name="form-name" value="{key}">'
             f'<p class="form-intro">{E(F["intro"])}</p>'
             f'<div class="fields">{rows}</div>'
             f'<div class="hp" aria-hidden="true"><label for="{fid}-website">Leave this field empty</label>'
@@ -288,9 +290,9 @@ def home():
     return f'''
 <section class="hero split"><div class="wrap">
   <div class="hero-copy">
-    <span class="eyebrow">Recruiting for the Coulee Region</span>
-    <h1>Skilled plant and warehouse hires, found close to home.</h1>
-    <p class="lede">Driftless Workforce Group recruits for plants, warehouses and facilities from La Crosse to Sparta, Viroqua and across the Driftless.</p>
+    <span class="eyebrow">Direct-hire recruiting &middot; La Crosse region</span>
+    <h1>Hiring talent that stays. Right here in the Driftless.</h1>
+    <p class="lede">We connect plants, warehouses and facilities from La Crosse to Sparta, Viroqua and across the Driftless with job-ready people from our own community. Employer-paid, and free for job seekers. Always.</p>
   </div>
   <div class="doors">
     <article class="door"><span class="eyebrow">Employers</span><h2>I need to hire</h2>
@@ -318,13 +320,13 @@ def home():
 </div></section>
 
 <section class="section" aria-labelledby="roles-h"><div class="wrap">
-  <div class="section-head"><span class="eyebrow">What we recruit for</span><h2 id="roles-h">Four kinds of work, done well.</h2>
+  <div class="section-head"><span class="eyebrow">What we recruit for</span><h2 id="roles-h">The roles that keep this region running.</h2>
   <p class="lede">We stay in our lane: the people who build, move, maintain and clean the plants and warehouses of the region.</p></div>
   <div class="grid four">{role_cards()}</div>
 </div></section>
 
 <section class="section tint" aria-labelledby="how-h"><div class="wrap">
-  <div class="section-head"><span class="eyebrow">For employers</span><h2 id="how-h">How a search works</h2></div>
+  <div class="section-head"><span class="eyebrow">How it works</span><h2 id="how-h">Simple, and built around your team.</h2></div>
   {steps_employer()}
   <div class="btn-row" style="margin-top:24px"><a class="btn" href="employers.html#request">Request talent</a><a class="btn secondary" href="employers.html">Services for employers</a></div>
 </div></section>
@@ -345,7 +347,8 @@ def home():
 </div></section>
 
 <section class="section tint" aria-labelledby="why-h"><div class="wrap">
-  <div class="section-head"><span class="eyebrow">Why Driftless</span><h2 id="why-h">A local recruiter who knows the floor.</h2></div>
+  <div class="section-head"><span class="eyebrow">Why Driftless</span><h2 id="why-h">We know the work because we've done it.</h2>
+  <p class="lede">National agencies place names off a screen. We place neighbors.</p></div>
   <div class="grid three">
     <article class="card"><div class="icon">{I["pin"]}</div><h3>We are from here</h3><p>We know the towns, the drive times, the shifts and the plants people talk about. That matters when you are asking someone to change jobs.</p></article>
     <article class="card"><div class="icon">{I["chart"]}</div><h3>Straight answers on pay</h3><p>We tell you what the market pays, using public data, and where your offer lands. Our quarterly report is free to every employer in the region.</p></article>
@@ -362,8 +365,13 @@ def home():
   </div>
 </div></section>
 
-<section class="section" aria-labelledby="start-h"><div class="wrap">
-  <div class="section-head"><h2 id="start-h">Where would you like to start?</h2></div>
+<section class="section quote-band" aria-label="Our promise"><div class="wrap">
+  <blockquote class="quote"><p>&#8220;When we send you a candidate, it's someone we'd vouch for in our own community.&#8221;</p>
+  <footer>We are likely to see the people we place around town. That is the point of recruiting locally.</footer></blockquote>
+</div></section>
+
+<section class="section tint" aria-labelledby="start-h"><div class="wrap">
+  <div class="section-head"><h2 id="start-h">If you're hiring, or looking to be hired, we'd like to help.</h2></div>
   <div class="choose">
     <article class="card"><span class="eyebrow">Employers</span><h3>I need to hire</h3><p>Tell us about the role and we will call you to talk it through.</p><a class="btn" href="employers.html#request">Request talent</a></article>
     <article class="card"><span class="eyebrow">Job seekers</span><h3>I'm looking for work</h3><p>Send your information once. We will reach out when a job fits, and it never costs you anything.</p><a class="btn" href="job-seekers.html#apply">Send my information</a></article>
@@ -386,14 +394,14 @@ def employers():
         ('Do you provide temporary workers?', 'No. We recruit for direct hire. The people we place work for you, on your payroll, from their first day. That means no hourly markup and no temp-to-hire conversion fee.'),
         ('Who pays the fee?', 'The employer. Our service is always free for job seekers.'),
         ('Is there a written agreement?', 'Yes. Fees, the replacement guarantee and payment terms are set in writing before we send you any candidates.'),
-        ('What does the replacement guarantee cover?', 'If a placed employee leaves within the guarantee period, we search for a replacement at no additional fee. The exact period is set in your agreement before the search starts.'),
+        ('What does the replacement guarantee cover?', 'If a placement doesn\'t work out within the guarantee period, we make it right: we search for a replacement at no additional fee. The exact period is set in your agreement before the search starts.'),
         ('What areas do you cover?', 'La Crosse, Onalaska, Holmen, West Salem, Sparta, Tomah, Viroqua, Westby, Coon Valley and the rest of the Coulee Region and the Driftless, on both sides of the river.'),
         ('How is a retainer different from a single search?', 'A single search fills one role and is paid on hire. A retainer is a flat monthly fee for ongoing recruiting across many roles, so you have a recruiter working on your openings every week.'),
     ]
     fq = ''.join(f'<details><summary>{E(q)}</summary><p>{E(a)}</p></details>' for q, a in faqs)
     return f'''
 <section class="page-hero"><div class="wrap"><span class="eyebrow">For employers</span>
-  <h1>Hire for the roles that won't fill.</h1>
+  <h1>Recruiting that understands your floor, not just your job posting.</h1>
   <p class="lede">Maintenance technicians, machinists, welders, production and warehouse staff, and janitorial crews, recruited locally and screened before you ever see a resume.</p>
   <div class="btn-row" style="margin-top:24px"><a class="btn" href="#request">Request talent</a><a class="btn secondary" href="report.html">See what the market pays</a></div>
 </div></section>
@@ -628,7 +636,7 @@ def contact():
     return f'''
 <section class="page-hero"><div class="wrap"><span class="eyebrow">Contact</span>
   <h1>Talk with Driftless.</h1>
-  <p class="lede">Questions about hiring, a job, or the report. We are glad to help.</p>
+  <p class="lede">We're local, we're responsive, and there's no cost to start a conversation.</p>
 </div></section>
 <section class="section form-section" aria-labelledby="c-h"><div class="wrap form-layout">
   <div><h2 id="c-h">Send a message</h2>
@@ -640,6 +648,31 @@ def contact():
     </div>
   </div>
   <div>{form_html("question")}</div>
+</div></section>'''
+
+
+def about():
+    return f'''
+<section class="page-hero"><div class="wrap"><span class="eyebrow">About</span>
+  <h1>Built here. For here.</h1>
+  <p class="lede">Driftless Workforce Group started from a simple observation: most of the recruiters serving this region aren't from it. They work from databases and job boards. We work from here.</p>
+</div></section>
+<section class="section"><div class="wrap">
+  <div class="grid three">
+    <article class="card"><div class="icon">{I["wrench"]}</div><h3>Our approach</h3><p>We came to recruiting from the worker's side, after years in floor, line and kitchen jobs. We know the work because we've done it, so we can judge who will show up, fit in and stay.</p></article>
+    <article class="card"><div class="icon">{I["pin"]}</div><h3>The regional advantage</h3><p>The La Crosse area and the Driftless are home, not a market. National agencies place names off a screen. We place neighbors.</p></article>
+    <article class="card"><div class="icon">{I["shield"]}</div><h3>Our commitment</h3><p>Employer-paid, and job seekers never pay a fee. Every placement is backed by a guarantee, and we are in it for long-term relationships, not one-off fills.</p></article>
+  </div>
+</div></section>
+<section class="section tint"><div class="wrap">
+  <div class="grid two" style="align-items:center">
+    <div><span class="eyebrow">Founder</span><h2>Casey Guy</h2><p class="lede">Founder of Driftless Workforce Group LLC, based in La Crosse, Wisconsin.</p>
+    <p>Call or text {E(SITE["phone"])}{(" or email " + E(SITE["email"])) if SITE["email"] else ""}.</p></div>
+    <div class="choose">
+      <article class="card"><span class="eyebrow">Employers</span><h3>I need to hire</h3><a class="btn" href="employers.html#request">Request talent</a></article>
+      <article class="card"><span class="eyebrow">Job seekers</span><h3>I'm looking for work</h3><a class="btn" href="job-seekers.html#apply">Send my information</a></article>
+    </div>
+  </div>
 </div></section>'''
 
 
@@ -682,6 +715,7 @@ PAGES = [
     ('report.html', 'Coulee Region Industrial Hiring Report, October 2026 | Driftless Workforce Group',
      'Who is hiring, which roles stay open and what they pay, within 25 miles of La Crosse. Free every quarter.', report, 'report.html'),
     ('contact.html', 'Contact | Driftless Workforce Group', 'Questions about hiring, a job, or the hiring report.', contact, 'contact.html'),
+    ('about.html', 'About | Driftless Workforce Group', 'Built here. For here. A La Crosse recruiting firm that came to the work from the worker\'s side.', about, 'about.html'),
     ('privacy.html', 'Privacy | Driftless Workforce Group', 'How Driftless Workforce Group handles your information.', privacy, ''),
     ('404.html', 'Page not found | Driftless Workforce Group', 'Page not found.', not_found, ''),
 ]
@@ -714,6 +748,8 @@ def main():
         else:
             write(os.path.join(prev, slug), page(slug, title, desc, main_html, cur, preview=True))
     write(os.path.join(out, '.nojekyll'), '')
+    # Netlify: keep the old short addresses (/employers, /about ...) working
+    write(os.path.join(out, '_redirects'), ''.join(f'/{s[:-5]}  /{s}  200\n' for s, *_ in PAGES if s not in ('index.html', '404.html')))
     # Backend
     tpl = open(os.path.join(ROOT, 'apps-script', 'Code.template.gs'), encoding='utf-8').read()
     write(os.path.join(ROOT, 'apps-script', 'Code.gs'), tpl.replace('/*SCHEMA*/{}', json.dumps(backend_schema(), indent=2)))
