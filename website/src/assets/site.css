@@ -328,3 +328,14 @@ fieldset.field > legend { margin-bottom: 6px; }
 .quote p { font-family: var(--f-display); font-weight: 600; font-size: clamp(1.6rem, 3.2vw, 2.4rem); line-height: 1.25; color: var(--ink); text-wrap: balance; margin-bottom: 16px; }
 .quote footer { color: var(--ink-2); font-size: 1rem; }
 .notice a[href^="tel:"] { white-space: nowrap; }
+
+.fig-title { margin: 0 0 12px; font-size: 1.05rem; }
+.sources { margin: 0; padding-left: 1.2em; display: grid; gap: 10px; max-width: 75ch; }
+.foot-links { display: flex; flex-wrap: wrap; gap: 8px 24px; }
+.contact-lines { display: grid; gap: 4px; margin: 16px 0 0; color: var(--ink-2); }
+.contact-lines a[href^="tel:"] { white-space: nowrap; }
+.choose.stack { grid-template-columns: 1fr; }
+.choose.stack .card { flex-direction: row; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 16px; }
+.choose.stack .card .eyebrow { flex-basis: 100%; }
+.choose.stack .card h3 { margin: 0; }
+.choose.stack .card .btn { margin-top: 0; align-self: center; }

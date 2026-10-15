@@ -16,7 +16,7 @@ const SCHEMA = {
       ],
       [
         "name",
-        "Your name"
+        "Contact name"
       ],
       [
         "email",
@@ -28,23 +28,23 @@ const SCHEMA = {
       ],
       [
         "title",
-        "Your job title"
+        "Job title"
       ],
       [
         "location",
-        "Where is the job?"
+        "Job location"
       ],
       [
         "roles",
-        "What do you need to hire?"
+        "Positions needed"
       ],
       [
         "openings",
-        "How many openings?"
+        "Number of openings"
       ],
       [
         "timing",
-        "When do you need them?"
+        "Target start date"
       ],
       [
         "shifts",
@@ -56,11 +56,11 @@ const SCHEMA = {
       ],
       [
         "service",
-        "What kind of help?"
+        "Service of interest"
       ],
       [
         "notes",
-        "Anything else we should know?"
+        "Additional details"
       ]
     ],
     "file": false
@@ -86,19 +86,19 @@ const SCHEMA = {
       ],
       [
         "work",
-        "What kind of work do you want?"
+        "Positions of interest"
       ],
       [
         "experience",
-        "Experience in this kind of work"
+        "Experience"
       ],
       [
         "start",
-        "When can you start?"
+        "Availability"
       ],
       [
         "shifts",
-        "Shifts you can work"
+        "Shifts available"
       ],
       [
         "license",
@@ -106,15 +106,15 @@ const SCHEMA = {
       ],
       [
         "pay",
-        "Pay you are looking for"
+        "Desired pay"
       ],
       [
         "certs",
-        "Certifications or training"
+        "Certifications"
       ],
       [
         "notes",
-        "Anything else?"
+        "Additional information"
       ],
       [
         "consent",
@@ -128,7 +128,7 @@ const SCHEMA = {
     "fields": [
       [
         "name",
-        "Your name"
+        "Name"
       ],
       [
         "email",
@@ -140,11 +140,11 @@ const SCHEMA = {
       ],
       [
         "who",
-        "I am"
+        "I am a"
       ],
       [
         "message",
-        "Your question"
+        "Message"
       ]
     ],
     "file": false
@@ -154,7 +154,7 @@ const SCHEMA = {
     "fields": [
       [
         "name",
-        "Your name"
+        "Name"
       ],
       [
         "email",
@@ -166,7 +166,7 @@ const SCHEMA = {
       ],
       [
         "title",
-        "Your job title"
+        "Job title"
       ],
       [
         "consent",

@@ -89,29 +89,29 @@
     var name = field.getAttribute('data-label') || 'this';
     if (kind === 'checks') {
       var any = field.querySelector('input[type="checkbox"]:checked');
-      if (!any && !optional) msg = field.getAttribute('data-msg') || ('Choose at least one option for ' + name.toLowerCase() + '.');
+      if (!any && !optional) msg = field.getAttribute('data-msg') || ('At least one selection is required.');
     } else if (kind === 'consent') {
       var box = field.querySelector('input[type="checkbox"]');
-      if (box && !box.checked) msg = field.getAttribute('data-msg') || 'Tick this box to continue.';
+      if (box && !box.checked) msg = field.getAttribute('data-msg') || 'This box must be checked to continue.';
     } else if (kind === 'file') {
       var inp = field.querySelector('input[type="file"]');
       var file = inp && inp.files && inp.files[0];
-      if (!file && !optional) msg = 'Attach a file.';
+      if (!file && !optional) msg = 'A file is required.';
       if (file) {
         var ext = (file.name.split('.').pop() || '').toLowerCase();
-        if (FILE_TYPES.indexOf(ext) < 0) msg = 'Attach a PDF or Word file.';
-        else if (file.size > MAX_FILE) msg = 'That file is over 5 MB. Attach a smaller file.';
+        if (FILE_TYPES.indexOf(ext) < 0) msg = 'The file must be a PDF or Word document.';
+        else if (file.size > MAX_FILE) msg = 'The file must be 5 MB or smaller.';
       }
     } else {
       var c = field.querySelector('input, select, textarea');
       var v = c ? c.value.trim() : '';
-      if (!v && !optional) msg = field.getAttribute('data-msg') || ('Enter ' + name.toLowerCase() + '.');
-      else if (v && c.type === 'email' && !/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v)) msg = 'Enter an email address like name@company.com.';
-      else if (v && c.type === 'tel' && v.replace(/\D/g, '').length < 10) msg = 'Enter a 10-digit phone number.';
-      else if (v && c.getAttribute('pattern') && !new RegExp('^(?:' + c.getAttribute('pattern') + ')$').test(v)) msg = field.getAttribute('data-pattern-msg') || 'Check the format.';
+      if (!v && !optional) msg = field.getAttribute('data-msg') || (name + ' is required.');
+      else if (v && c.type === 'email' && !/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v)) msg = 'Email address is not valid.';
+      else if (v && c.type === 'tel' && v.replace(/\D/g, '').length < 10) msg = 'Phone number must be 10 digits.';
+      else if (v && c.getAttribute('pattern') && !new RegExp('^(?:' + c.getAttribute('pattern') + ')$').test(v)) msg = field.getAttribute('data-pattern-msg') || 'The format is not valid.';
       else if (v && c.type === 'number') {
         var n = Number(v), mn = c.min !== '' ? Number(c.min) : null, mx = c.max !== '' ? Number(c.max) : null;
-        if (!isFinite(n) || (mn !== null && n < mn) || (mx !== null && n > mx)) msg = 'Enter a number from ' + c.min + ' to ' + c.max + '.';
+        if (!isFinite(n) || (mn !== null && n < mn) || (mx !== null && n > mx)) msg = 'Value must be between ' + c.min + ' and ' + c.max + '.';
       }
     }
     setError(field, msg);
@@ -154,7 +154,7 @@
     box.setAttribute('role', 'alert');
     box.setAttribute('tabindex', '-1');
     var h = document.createElement('h3');
-    h.textContent = problems.length === 1 ? 'One thing to fix before sending' : problems.length + ' things to fix before sending';
+    h.textContent = 'Please correct the following:';
     box.appendChild(h);
     var ul = document.createElement('ul');
     problems.forEach(function (p) {
@@ -223,7 +223,7 @@
     box.className = 'notice fail';
     box.setAttribute('role', 'alert');
     var alt = form.getAttribute('data-fallback');
-    box.textContent = 'Something went wrong and your message was not sent. Please try again in a minute.' + (alt ? ' ' + alt : '');
+    box.textContent = 'There was a problem sending your submission. Please try again.' + (alt ? ' ' + alt : '');
     var actions = form.querySelector('.form-actions');
     form.insertBefore(box, actions);
   }
@@ -251,7 +251,7 @@
     });
   }
 
-  // Until the forms backend is connected, the live site says so plainly and points to the phone.
+  // Hosts without a forms backend show a notice with the phone number.
   function closedNotice(form, focus) {
     var box = form.querySelector('.notice.closed');
     if (!box) {
@@ -259,7 +259,7 @@
       box.className = 'notice closed';
       box.setAttribute('role', 'status');
       box.setAttribute('tabindex', '-1');
-      box.appendChild(document.createTextNode('Online requests open soon. Until then, please call or text Casey' + (PHONE ? ' at ' : '.')));
+      box.appendChild(document.createTextNode('Online submissions are temporarily unavailable. Please call or text' + (PHONE ? ' ' : ' us.')));
       if (PHONE) {
         var a = document.createElement('a');
         a.href = 'tel:+1' + PHONE.replace(/\D/g, '');
@@ -273,7 +273,7 @@
   }
   function clearFail(form) { var b = form.querySelector('.notice.fail'); if (b) b.remove(); }
 
-  // "Send another" buttons
+  // "New submission" buttons
   Array.prototype.forEach.call(document.querySelectorAll('[data-reset]'), function (b) {
     b.addEventListener('click', function () {
       var form = document.getElementById(b.getAttribute('data-reset'));
