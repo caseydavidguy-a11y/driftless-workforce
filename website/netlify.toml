@@ -1,5 +1,7 @@
 # Netlify settings for the Driftless Workforce Group site.
-# In Netlify, set the base directory to "website"; this file then builds and publishes the site.
+# In Netlify, the base directory is "website"; this file then builds and publishes the site.
 [build]
   command = "python3 build.py"
   publish = "out"
+  # Only rebuild when something in website/ changed (other repo commits are skipped).
+  ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF -- ."
